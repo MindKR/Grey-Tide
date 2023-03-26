@@ -149,8 +149,8 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = rgb { 215 185 50 }
-	color_ui = rgb { 215 185 50 }
+	color = rgb { 12 47 171 }
+	color_ui = rgb { 12 47 171 }
 }
 CHL = {
 	color = rgb { 155 101 107 }
@@ -437,8 +437,8 @@ PAK = {
 	color_ui = rgb { 21 38 66 }
 }
 KOR = {
-	color = rgb { 0 71 160 }
-	color_ui = rgb { 0 71 160 }	
+	color = rgb { 0 85 165 }
+	color_ui = rgb { 0 85 165 }	
 }
 ISR = {
 	color = rgb { 152  130  191 }
@@ -487,18 +487,6 @@ KUM = {
 GDC = {
 	color = rgb { 72 118 125 }
 	color_ui = rgb { 72 118 125 }
-}
-ROC = {
-	color = rgb { 8 41 157 }
-	color_ui = rgb { 8 41 157 }
-}
-ZJC = {
-	color = rgb { 46 90 163 }
-	color_ui = rgb { 46 90 163 }
-}
-LHC = {
-	color = rgb { 34 83 143 }
-	color_ui = rgb { 34 83 143 }
 }
 ETR = {
 	color = rgb { 0 133 255 }

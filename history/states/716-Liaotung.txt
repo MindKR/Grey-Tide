@@ -7,9 +7,8 @@ state={
 	}
 
 	history={
-		owner = MAN
+		owner = CHI
 		add_core_of = CHI
-		add_core_of = MAN
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
@@ -24,8 +23,6 @@ state={
 		victory_points = {
 			11771 3 
 		}
-
-		set_demilitarized_zone = yes
 	}
 
 	provinces={

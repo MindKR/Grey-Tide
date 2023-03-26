@@ -1,4 +1,4 @@
-NDefines.NGame.START_DATE = "1950.1.1.1"
+NDefines.NGame.START_DATE = "1949.1.1.1"
 NDefines.NGame.END_DATE = "1980.1.1.1"
 
 NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 0.05			-- Each province owned by the target country contributes this amount of volunteers to the limit.

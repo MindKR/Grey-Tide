@@ -68,12 +68,10 @@ save_global_event_target_as = WTT_current_china_leader
 
 ### DIPLOMACY ###
 
-create_faction = Beiyang_Government
-add_to_faction = TIB
+create_faction = National_Government
 add_to_faction = TUG
 add_to_faction = XSM
 
-set_autonomy = { target = TIB autonomous_state = SN_military_government }
 set_autonomy = { target = TUG autonomous_state = SN_military_government }
 set_autonomy = { target = XSM autonomous_state = SN_warlord }
 
