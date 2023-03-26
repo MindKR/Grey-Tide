@@ -1,0 +1,33 @@
+scripted_gui = {
+	Literary_toggle = {
+		context_type = player_context
+		parent_window_token = top_bar
+		dirty = global.literary_frame
+		window_name = "literary_event_checkbox_window"
+
+		visible = { always = yes }
+
+		effects = {
+			popup_literary_events_checkbox_click = {
+				if = {
+					limit = { NOT = { has_country_flag = literary_flavor } }
+					set_country_flag = literary_flavor
+					set_variable = { global.literary_frame = 2 }
+					log = "asfd"
+				}
+				else_if = {
+					limit = { has_country_flag = literary_flavor }
+					clr_country_flag = literary_flavor
+					set_variable = { global.literary_frame = 1 }
+				}
+			}
+		}
+
+		properties = {
+			popup_literary_events_checkbox = {
+				frame = global.literary_frame
+			}
+		}
+	}
+}
+

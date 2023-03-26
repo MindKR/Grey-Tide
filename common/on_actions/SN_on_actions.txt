@@ -1,0 +1,10 @@
+on_actions = {
+	on_startup  = {
+		effect = {
+			if = {
+				limit = { check_variable = { global.players^num > 1 } }
+				set_global_flag = is_mp
+			}
+		}
+	}
+}

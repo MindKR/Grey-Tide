@@ -1,0 +1,26 @@
+characters={
+	KUW_Ahmad_Al-Jabe_Al-Sabah={
+		portraits={
+			civilian={
+				large="gfx/leaders/KUW/Portrait_KUW_Ahmad_Al-Jabe_Al-Sabah.png"
+				small="gfx/interface/ideas/KUW/KUW_Ahmad_Al-Jabe_Al-Sabah.png"
+			}
+		}
+		country_leader={
+			ideology=despot_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		advisor={
+			slot = second_banana
+			idea_token = KUW_Ahmad_Al-Jabe_Al-Sabah
+			available = {
+				has_country_leader = { character = KUW_Ahmad_Al-Jabe_Al-Sabah }
+			}
+			allowed = { original_tag = KUW }
+			traits = { head_of_gov despot }
+			removal_cost = -1
+			cost = -1
+		}
+	}
+}

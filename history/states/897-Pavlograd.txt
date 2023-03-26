@@ -1,0 +1,23 @@
+state={
+	id=897
+	name="STATE_897"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = SOV
+		add_core_of = UKR
+
+	}
+
+	provinces={
+		453 472 486 9463 9479 11452 
+	}
+	manpower=1138978
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

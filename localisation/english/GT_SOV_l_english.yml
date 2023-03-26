@@ -1,0 +1,34 @@
+﻿l_english:
+ #COUNTRY NAME
+ SOV_social_democrat:0 "러시아"
+ SOV_social_democrat_DEF:0 "러시아"
+ SOV_liberal:0 "러시아"
+ SOV_liberal_DEF:0 "러시아"
+ SOV_conservative:0 "러시아"
+ SOV_conservative_DEF:0 "러시아"
+ SOV_libertarian_socialist:0 "소비에트 사회주의 공화국 연방"
+ SOV_libertarian_socialist_DEF:0 "소비에트 사회주의 공화국 연방"
+ SOV_authoritarian_socialist:0 "소비에트 사회주의 공화국 연방"
+ SOV_authoritarian_socialist_DEF:0 "소비에트 사회주의 공화국 연방"
+ SOV_despot:0 "러시아 제국"
+ SOV_despot_DEF:0 "러시아 제국"
+ SOV_national_populist:0 "러시아 제국"
+ SOV_national_populist_DEF:0 "러시아 제국"
+ SOV:0 "소련"
+ SOV_DEF:0 "소련"
+ SOV_ADJ:0 "소련"
+
+ #PARTY
+ SOV_social_democrat_party:0 "사회민주노동당"
+ SOV_liberal_party:0 "입헌민주당"
+ SOV_conservative_party:0 "10월당"
+ SOV_libertarian_socialist_party:0 "사회혁명당"
+ SOV_authoritarian_socialist_party:0 "볼셰비키"
+ SOV_despot_party:0 "로마노프가"
+ SOV_national_populist_party:0 "러시아 군사 정부"
+ SOV_anarchist_party:0 "러시아 아나르코생디칼리스트 총연맹"
+
+ #CHARACTER
+ SOV_Pyotr_Wrangel:0 "표트르 브란겔"
+ SOV_Pyotr_Wrangel_desc:0 "표트르 브란겔은 러시아 구국군정의 최고사령관으로서 1919년 러시아 쿠데타를 주도했습니다. 
+ SOV_Nicholas_II:0 "니콜라이 2세"

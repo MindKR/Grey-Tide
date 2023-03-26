@@ -1,0 +1,43 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_SN_federation_of_colonies"
+		textureFile = "gfx/interface/autonomy/autonomy_colony_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SN_colony_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_colony_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SN_veiled_protectorate_icon"
+		textureFile = "gfx/interface/autonomy/SN_veiled_protectorate.png"
+	}
+
+	spriteType = {
+		name = "GFX_SN_protectorate_icon"
+		textureFile = "gfx/interface/autonomy/SN_protectorate.dds"
+	}
+
+	spriteType = {
+		name = "GFX_KUK_cisleithanien_icon"
+		textureFile = "gfx/interface/autonomy/KUK_cisleithanien.png"
+	}
+
+	spriteType = {
+		name = "GFX_KUK_transleithanien_icon"
+		textureFile = "gfx/interface/autonomy/KUK_transleithanien.png"
+	}
+
+	spriteType = {
+		name = "GFX_KUK_kondominium_icon"
+		textureFile = "gfx/interface/autonomy/KUK_kondominium.png"
+	}
+
+	spriteType = {
+		name = "GFX_SN_personal_union_icon"
+		textureFile = "gfx/interface/autonomy/SN_personal_union.dds"
+	}
+	
+}

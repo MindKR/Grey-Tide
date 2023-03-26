@@ -1,0 +1,28 @@
+
+state={
+	id=903
+	name="STATE_903"
+
+	history={
+		owner = GER
+		victory_points = {
+			3473 1 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = GER
+
+	}
+
+	provinces={
+		537 3473 3572 6236 9387 
+	}
+	manpower=702366
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

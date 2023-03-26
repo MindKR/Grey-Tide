@@ -1,0 +1,22 @@
+state={
+	id=874
+	name="STATE_874"
+
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = YUG
+		add_core_of = CRO
+	}
+
+	provinces={
+		9608 
+	}
+	manpower=30000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

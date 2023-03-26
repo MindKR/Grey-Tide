@@ -1,0 +1,563 @@
+apply_german_endonyms = {
+
+	if = { #Ermland-Masuren
+		limit = { state = 5 }
+		5 = {
+			set_state_name = GER_Ermland-Masuren
+		}
+		set_province_name = {
+			id = 6375
+			name = GER_Allenstein
+		}
+	}
+	
+	if = { #Čechy
+		limit = { state = 9 }
+		9 = {
+			set_state_name = GER_Bohmen
+		}
+		set_province_name = {
+			id = 6418
+			name = GER_Pilsen
+		}
+		set_province_name = {
+			id = 11542
+			name = GER_Prag
+		}
+	}
+
+	if = { #Champagne
+		limit = { state = 18 }
+		set_province_name = {
+			id = 3546
+			name = GER_Wirten
+		}
+	}
+
+	if = { #Alsace-Lorraine
+		limit = { state = 28 }
+		28 = {
+			set_state_name = GER_Elsass-Lothringen
+		}
+		set_province_name = {
+			id = 678
+			name = GER_Mulhausen
+		}
+		set_province_name = {
+			id = 9503
+			name = GER_Strassburg
+		}
+		set_province_name = {
+			id = 9559
+			name = GER_Metz
+		}
+	}
+
+	if = { #Südtirol
+		limit = { state = 39 }
+		39 = {
+			set_state_name = GER_Sudtirol
+		}
+		set_province_name = {
+			id = 11598
+			name = GER_Bozen
+		}
+	}
+
+	if = { #Hinterpommern
+		limit = { state = 63 }
+		63 = {
+			set_state_name = GER_Hinterpommern
+		}
+		set_province_name = {
+			id = 6282
+			name = GER_Stettin
+		}
+		set_province_name = {
+			id = 11372
+			name = GER_Koslin
+		}
+	}
+
+	if = { #Sachsen
+		limit = { state = 65 }
+		65 = {
+			set_state_name = GER_Sachsen
+		}
+		set_province_name = {
+			id = 514
+			name = GER_Dresden
+		}
+		set_province_name = {
+			id = 3535
+			name = GER_Leipzig
+		}
+	}
+
+	if = { #Niederschlesien
+		limit = { state = 66 }
+		66 = {
+			set_state_name = GER_Niederschlesien
+		}
+		set_province_name = {
+			id = 9570
+			name = GER_Breslau
+		}
+	}
+
+	if = { #Oberschlesien
+		limit = { state = 67 }
+		67 = {
+			set_state_name = GER_Oberschlesien
+		}
+		set_province_name = {
+			id = 6464
+			name = GER_Kattowitz
+		}
+		set_province_name = {
+			id = 9511
+			name = GER_Oppeln
+		}
+		set_province_name = {
+			id = 11467
+			name = GER_Gleiwitz
+		}
+	}
+
+	if = { #Sudety
+		limit = { state = 69 }
+		69 = {
+			set_state_name = GER_Sudetenland
+		}
+		set_province_name = {
+			id = 3585
+			name = GER_Karlsbad
+		}
+		set_province_name = {
+			id = 11401
+			name = GER_Reichenberg
+		}
+	}
+
+	if = { #Teschen
+		limit = { state = 72 }
+		72 = {
+			set_state_name = GER_Teschen
+		}
+		set_province_name = {
+			id = 9551
+			name = GER_Teschen
+		}
+	}
+	
+	if = { #Czech Silesia
+		limit = { state = 74 }
+		74 = {
+			set_state_name = GER_Tschechisch-Schlesien
+		}
+		set_province_name = {
+			id = 3583
+			name = GER_Troppau
+		}
+	}
+
+	if = { #Morava
+		limit = { state = 75 }
+		75 = {
+			set_state_name = GER_Mahren
+		}
+		set_province_name = {
+			id = 3569
+			name = GER_Brunn
+		}
+		set_province_name = {
+			id = 6562
+			name = GER_Olmutz
+		}
+		set_province_name = {
+			id = 9567
+			name = GER_Ostrau
+		}
+	}
+
+	if = { #Bessarabia
+		limit = { state = 78 }
+		set_province_name = {
+			id = 3707
+			name = GER_Kischinau
+		}
+	}
+
+	if = { #Bukowina
+		limit = { state = 80 }
+		80 = {
+			set_state_name = GER_Czernowitz
+		}
+		set_province_name = {
+			id = 577
+			name = GER_Czernowitz
+		}
+	}
+
+	if = { #Posen
+		limit = { state = 86 }
+		86 = {
+			set_state_name = GER_Posen
+		}
+		set_province_name = {
+			id = 279
+			name = GER_Bromberg
+		}
+		set_province_name = {
+			id = 6558
+			name = GER_Posen
+		}
+	}
+
+	if = { #Krakau
+		limit = { state = 88 }
+		88 = {
+			set_state_name = GER_Krakau
+		}
+		set_province_name = {
+			id = 442
+			name = GER_Tarnau
+		}
+		set_province_name = {
+			id = 9427
+			name = GER_Krakau
+		}
+	}
+
+	if = { #Stanislau
+		limit = { state = 89 }
+		89 = {
+			set_state_name = GER_Stanislau
+		}
+		set_province_name = {
+			id = 11411
+			name = GER_Stanislau
+		}
+	}
+
+	if = { #Lemberg
+		limit = { state = 91 }
+		91 = {
+			set_state_name = GER_Lemberg
+		}
+		set_province_name = {
+			id = 11479
+			name = GER_Lemberg
+		}
+	}
+
+	if = { #Volhynia
+		limit = { state = 93 }
+		93 = {
+			set_state_name = GER_Wolhynien
+		}
+		set_province_name = {
+			id = 422
+			name = GER_Kowel
+		}
+		set_province_name = {
+			id = 6557
+			name = GER_Riwne
+		}
+	}
+
+	if = { #Dalmatia
+		limit = { state = 103 }
+		103 = {
+			set_state_name = GER_Dalmatien
+		}
+		set_province_name = {
+			id = 3868
+			name = GER_Ragus
+		}
+		set_province_name = {
+			id = 3924
+			name = GER_Splitt
+		}
+	}
+
+	if = { #Bosnia
+		limit = { state = 104 }
+		104 = {
+			set_state_name = GER_Bosnien
+		}
+		set_province_name = {
+			id = 6983
+			name = GER_Weina_Luka
+		}
+		set_province_name = {
+			id = 11899
+			name = GER_Sarajewo
+		}
+	}
+
+	if = { #Zareb
+		limit = { state = 109 }
+		109 = {
+			set_state_name = GER_Agram
+		}
+		set_province_name = {
+			id = 11581
+			name = GER_Agram
+		}
+	}
+
+	if = { #Lombardy
+		limit = { state = 159 }
+		159 = {
+			set_state_name = Lombardei
+		}
+		set_province_name = {
+			id = 3780
+			name = Mailand
+		}
+	}
+
+	if = { #Trient
+		limit = { state = 163 }
+		163 = {
+			set_state_name = Trient
+		}
+		set_province_name = {
+			id = 9598
+			name = Trient
+		}
+	}
+
+	if = { #Memel
+		limit = { state = 188 }
+		188 = {
+			set_state_name = Memel
+		}
+		set_province_name = {
+			id = 3288
+			name = Memel
+		}
+	}
+
+	if = { #Saint Petersburg
+		limit = { state = 195 }
+		195 = {
+			set_state_name = StPetersburg
+		}
+		set_province_name = {
+			id = 3151
+			name = StPetersburg
+		}
+	}
+
+	if = { #Königsberg
+		limit = { state = 763 }
+		763 = {
+			set_state_name = Konigsberg
+		}
+		set_province_name = {
+			id = 6332
+			name = Konigsberg
+		}
+	}
+
+	if = { #Vilna
+		limit = { state = 784 }
+		784 = {
+			set_state_name = Wilna
+		}
+		set_province_name = {
+			id = 3320
+			name = Wilna
+		}
+	}
+
+	if = { #Herzegovina
+		limit = { state = 804 }
+		804 = {
+			set_state_name = GER_Herzegowina
+		}
+		set_province_name = {
+			id = 9894
+			name = GER_Mostar
+		}
+	}
+
+	if = { #Westpreußen
+		limit = { state = 807 }
+		807 = {
+			set_state_name = Westpreussen
+		}
+		set_province_name = {
+			id = 3295
+			name = Thorn
+		}
+		set_province_name = {
+			id = 9263
+			name = Gdingen
+		}
+	}
+
+	if = { #Grodno
+		limit = { state = 834 }
+		834 = {
+			set_state_name = GER_Garten
+		}
+		set_province_name = {
+			id = 3393
+			name = GER_Garten
+		}
+	}
+
+	if = { #Berlin
+		limit = { state = 835 }
+		set_province_name = {
+			id = 6521
+			name = Berlin_GER
+		}
+	}
+
+	if = { #Triest
+		limit = { state = 837 }
+		837 = {
+			set_state_name = Triest
+		}
+		set_province_name = {
+			id = 6626
+			name = Triest
+		}
+	}
+
+	if = { #Lika
+		limit = { state = 846 }
+		set_province_name = {
+			id = 11564
+			name = GER_Sankt_Veit_am_Flaum
+		}
+	}
+
+	if = { #Nordschleswig
+		limit = { state = 848 }
+		848 = {
+			set_state_name = Nordschleswig
+		}
+	}
+
+	if = { #Nancy
+		limit = { state = 869 }
+		869 = {
+			set_state_name = Nanzig
+		}
+		set_province_name = {
+			id = 11516
+			name = Nanzig
+		}
+	}
+
+	if = { #Sedan
+		limit = { state = 870 }
+		870 = {
+			set_state_name = Sedan_GER
+		}
+		set_province_name = {
+			id = 3560
+			name = Sedan_GER
+		}
+	}
+
+	if = { #Srijem
+		limit = { state = 873 }
+		873 = {
+			set_state_name = Syrmien
+		}
+		set_province_name = {
+			id = 11577
+			name = Mitrovica
+		}
+	}
+
+	if = { #Southern Baranya
+		limit = { state = 874 }
+		874 = {
+			set_state_name = Southern_Branau
+		}
+	}
+
+	if = { #Muravidek
+		limit = { state = 877 }
+		877 = {
+			set_state_name = Ubermurgebiet
+		}
+		set_province_name = {
+			id = 5035
+			name = Olsnitz
+		}
+	}
+
+	if = { #Slovene Carinthia
+		limit = { state = 878 }
+		878 = {
+			set_state_name = Niederkarnten
+		}
+	}
+
+	if = { #Szekelyfold
+		limit = { state = 879 }
+		879 = {
+			set_state_name = Szeklerland
+		}
+		set_province_name = {
+			id = 9670
+			name = Neumarkt_am_Mieresch
+		}
+	}
+
+	if = { #Murakoz megye
+		limit = { state = 880 }
+		880 = {
+			set_state_name = Murinsel
+		}
+		set_province_name = {
+			id = 6672
+			name = Tschakathurn
+		}
+	}
+
+	if = { #Znaim
+		limit = { state = 883 }
+		883 = {
+			set_state_name = GER_Znaim
+		}
+		set_province_name = {
+			id = 3718
+			name = GER_Znaim
+		}
+	}
+
+	if = { #Frankenstadt
+		limit = { state = 884 }
+		884 = {
+			set_state_name = GER_Frankenstadt
+		}
+		set_province_name = {
+			id = 6670
+			name = GER_Frankenstadt
+		}
+	}
+
+	if = { #Ostmark
+		limit = { state = 903 }
+		set_province_name = {
+			id = 3473
+			name = GER_Kustrin
+		}
+	}
+
+	if = { #Suczawa
+		limit = { state = 904 }
+		904 = {
+			set_state_name = GER_Suczawa
+		}
+	}
+}

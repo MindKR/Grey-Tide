@@ -1,0 +1,66 @@
+﻿capital = 553
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+
+create_country_leader = {
+	name = "Hashim al-Atassi"
+	desc = ""
+	picture = GFX_portrait_Hashim_al_Atassi
+	ideology = liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pierre Gemayel"
+	desc = ""
+	picture = GFX_portrait_Pierre_Gemayel
+	ideology = fascist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Melick Yarad"
+	desc = ""
+	picture = GFX_portrait_Melick_Yarad
+	ideology = despot_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rami Sarraff"
+	desc = ""
+	picture = GFX_portrait_Rami_Sarraff
+	ideology = authoritarian_socialist_subtype
+	traits = {
+		#
+	}
+}

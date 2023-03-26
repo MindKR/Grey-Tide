@@ -1,0 +1,66 @@
+﻿capital = 554
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+
+create_country_leader = {
+	name = "Hashim al-Atassi"
+	desc = ""
+	picture = GFX_portrait_Hashim_al_Atassi
+	ideology = liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Antun Saadeh"
+	desc = ""
+	picture = GFX_portrait_Antun_Saadeh
+	ideology = fascist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ghazi bin Faisal"
+	desc = ""
+	picture = GFX_portrait_Ghazi_bin_Faisal
+	ideology = despot_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Khalid Bakdash"
+	desc = ""
+	picture = GFX_portrait_Khalid_Bakdash
+	ideology = authoritarian_socialist_subtype
+	traits = {
+		#
+	}
+}

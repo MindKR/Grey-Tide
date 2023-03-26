@@ -1,0 +1,500 @@
+defined_text = {
+	name = GetReichstagButtonName
+	text = {
+		trigger = {
+			check_variable = { d = 1 }
+		}
+		localization_key = "Reichstag_Government_button"
+	}
+	text = {
+		trigger = {
+			check_variable = { d = 2 }
+		}
+		localization_key = "Reichstag_Election_Map_button"
+	}
+	text = {
+		trigger = {
+			check_variable = { d = 3 }
+		}
+		localization_key = "Reichstag_Laws_button"
+	}
+}
+
+defined_text = {
+	name = GetReichstagPartyName
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			has_country_flag = Reichstag_SPDL
+		}
+		localization_key = Reichstag_SPDL
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			has_country_flag = Reichstag_KPD
+		}
+		localization_key = Reichstag_KPD
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+			has_country_flag = Reichstag_SPD
+		}
+		localization_key = Reichstag_SPD
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = Reichstag_PP
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+		}
+		localization_key = Reichstag_DP
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 5 }
+		}
+		localization_key = Reichstag_DHP
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 6 }
+		}
+		localization_key = Reichstag_ELP
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 7 }
+		}
+		localization_key = Reichstag_BDL
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 8 }
+		}
+		localization_key = Reichstag_BB
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 9 }	
+			has_country_flag = Reichstag_FVP
+		}
+		localization_key = Reichstag_FVP
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 9 }	
+			has_country_flag = Reichstag_DDP
+		}
+		localization_key = Reichstag_DDP
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 10 }
+			has_country_flag = Reichstag_DZP
+		}
+		localization_key = Reichstag_DZP
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 11 }
+			has_country_flag = Reichstag_NLP
+		}
+		localization_key = Reichstag_NLP
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 12 }
+		}
+		localization_key = Reichstag_DRP
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 13 }
+			has_country_flag = Reichstag_DkP
+		}
+		localization_key = Reichstag_DkP
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 14 }
+			has_country_flag = Reichstag_NP
+		}
+		localization_key = Reichstag_NP
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 15 }
+		}
+		localization_key = Reichstag_MP
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 16 }
+		}
+		localization_key = Reichstag_VC
+	}
+	text = {
+		localization_key = Reichstag_Error
+	}
+}
+
+defined_text = {
+	name = GetReichstagPartyTooltip
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			has_country_flag = Reichstag_SPDL
+		}
+		localization_key = Reichstag_SPDL_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			has_country_flag = Reichstag_KPD
+		}
+		localization_key = Reichstag_KPD_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+			has_country_flag = Reichstag_SPD
+		}
+		localization_key = Reichstag_SPD_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = Reichstag_PP_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+		}
+		localization_key = Reichstag_DP_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 5 }
+		}
+		localization_key = Reichstag_DHP_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 6 }
+		}
+		localization_key = Reichstag_ELP_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 7 }
+		}
+		localization_key = Reichstag_BDL_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 8 }
+		}
+		localization_key = Reichstag_BB_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 9 }	
+			has_country_flag = Reichstag_FVP
+		}
+		localization_key = Reichstag_FVP_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 9 }	
+			has_country_flag = Reichstag_DDP
+		}
+		localization_key = Reichstag_DDP_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 10 }
+			has_country_flag = Reichstag_DZP
+		}
+		localization_key = Reichstag_DZP_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 11 }
+			has_country_flag = Reichstag_NLP
+		}
+		localization_key = Reichstag_NLP_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 12 }
+		}
+		localization_key = Reichstag_DRP_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 13 }
+			has_country_flag = Reichstag_DkP
+		}
+		localization_key = Reichstag_DkP_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 14 }
+			has_country_flag = Reichstag_NP
+		}
+		localization_key = Reichstag_NP_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 15 }
+		}
+		localization_key = Reichstag_MP_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 16 }
+		}
+		localization_key = Reichstag_VC_tt
+	}
+	text = {
+		localization_key = Reichstag_Error_tt
+	}
+}
+
+defined_text = {
+	name = GetReichstagPartyDesc
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			has_country_flag = Reichstag_SPDL
+		}
+		localization_key = Reichstag_SPDL_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			has_country_flag = Reichstag_KPD
+		}
+		localization_key = Reichstag_KPD_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+			has_country_flag = Reichstag_SPD
+		}
+		localization_key = Reichstag_SPD_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = Reichstag_PP_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+		}
+		localization_key = Reichstag_DP_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 5 }
+		}
+		localization_key = Reichstag_DHP_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 6 }
+		}
+		localization_key = Reichstag_ELP_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 7 }
+		}
+		localization_key = Reichstag_BDL_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 8 }
+		}
+		localization_key = Reichstag_BB_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 9 }	
+			has_country_flag = Reichstag_FVP
+		}
+		localization_key = Reichstag_FVP_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 9 }	
+			has_country_flag = Reichstag_DDP
+		}
+		localization_key = Reichstag_DDP_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 10 }
+			has_country_flag = Reichstag_DZP
+		}
+		localization_key = Reichstag_DZP_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 11 }
+			has_country_flag = Reichstag_NLP
+		}
+		localization_key = Reichstag_NLP_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 12 }
+		}
+		localization_key = Reichstag_DRP_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 13 }
+			has_country_flag = Reichstag_DkP
+		}
+		localization_key = Reichstag_DkP_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 14 }
+			has_country_flag = Reichstag_NP
+		}
+		localization_key = Reichstag_NP_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 15 }
+		}
+		localization_key = Reichstag_MP_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 16 }
+		}
+		localization_key = Reichstag_VC_desc
+	}
+	text = {
+		localization_key = Reichstag_Error_desc
+	}
+}
+
+defined_text = {
+	name = GetReichstagSeatModifiers
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+		}
+		localization_key = Reichstag_socialist_seat_modifiers
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+		}
+		localization_key = Reichstag_social_democrat_seat_modifiers
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = Reichstag_0
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+		}
+		localization_key = Reichstag_0
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 5 }
+		}
+		localization_key = Reichstag_liberal_seat_modifiers
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 6 }
+		}
+		localization_key = Reichstag_conservative_seat_modifiers
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 7 }
+		}
+		localization_key = Reichstag_despot_seat_modifiers
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 8 }
+		}
+		localization_key = Reichstag_MP_seat_modifiers
+	}
+	text = {
+		localization_key = Error
+	}
+}
+
+defined_text = {
+	name = GetReichstagRulingPartyName
+	text = {
+		trigger = {
+			has_government = social_democrat
+		}
+		localization_key = SPD_text
+	}
+	text = {
+		trigger = {
+			has_government = social_liberal
+			has_country_flag = Reichstag_FVP
+		}
+		localization_key = Reichstag_FVP
+	}
+	text = {
+		trigger = {
+			has_government = social_liberal
+			has_country_flag = Reichstag_DDP
+		}
+		localization_key = Reichstag_DDP
+	}
+	text = {
+		trigger = {
+			has_government = conservative
+		}
+		localization_key = Reichstag_DZP
+	}
+	text = {
+		trigger = {
+			has_government = despot
+		}
+		localization_key = Reichstag_DkP
+	}
+	text = {
+		localization_key = Reichstag_Error_RP
+	}
+}
+
+# Since index starts as 0, i can get the current seat number by jut adding it by one and then displaying it.
+defined_text = {
+	name = GetReichstagSeatName
+	text = {
+		trigger = {
+			set_temp_variable = { temp_seat = reichstag_main_index }
+			add_to_temp_variable = { temp_seat = 1 }
+			check_variable = { temp_seat > 0 }
+		}
+		localization_key = reichstag_seat_text
+	}
+}

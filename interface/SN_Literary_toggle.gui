@@ -1,0 +1,28 @@
+guiTypes = {
+	#Grouped text and checkbox for easier positioning
+	containerWindowType = {
+		name = "literary_event_checkbox_window"
+		position = {x=-475 y=15}
+		Orientation = upper_right
+
+		buttonType = {
+			name = "popup_literary_events_checkbox"
+			position = { x = -11 y = -7 }
+			quadTextureSprite = "GFX_generic_checkbox3"
+			clicksound = decisions_ui_button
+			pdx_tooltip = "LITERARY_EVENT_POPUP_CHECKBOX_TOOLTIP"
+		}
+
+		instantTextboxType = {
+			name = "literary_events_popup_text"
+			position = { x = 23 y = -4 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = { x = 0 y = 0 }
+			text = "POPUP_LITERARY_EVENTS"
+			maxWidth = 110
+			maxHeight = 10
+			format = left
+		}
+	}
+}

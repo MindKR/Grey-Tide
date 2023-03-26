@@ -1,0 +1,25 @@
+state={
+	id=893
+	name="STATE_893"
+
+	history={
+		victory_points = {
+			9566 1 
+		}
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SOV
+		add_core_of = UKR
+
+	}
+
+	provinces={
+		3225 9566 11553 
+	}
+	manpower=321302
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

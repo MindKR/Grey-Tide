@@ -1,0 +1,15 @@
+characters={
+	CRO_stjepan_radic={
+		name = "CRO_stjepan_radic"
+		portraits={
+			civilian={
+				large="gfx/leaders/CRO/Portrait_CRO_Stjepan_Radic.png"
+			}
+		}
+		country_leader={
+			ideology=liberal_subtype
+			expire = "1965.1.1"
+			id=-1
+		}
+	}
+}

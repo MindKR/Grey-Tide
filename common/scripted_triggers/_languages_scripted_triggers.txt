@@ -1,0 +1,124 @@
+is_arabic_speaking_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_arabic_speaking_country_tt
+		OR = {
+			original_tag = EGY
+			original_tag = SAU
+			original_tag = ZBS
+			original_tag = YEM
+			original_tag = IRQ
+			original_tag = YOR
+			original_tag = PAL
+			original_tag = OMA
+			original_tag = TUN
+			original_tag = LBA
+			original_tag = LEB
+			original_tag = ALG
+			original_tag = MOR
+			original_tag = SUD
+			original_tag = RWA
+			original_tag = TZN
+		}
+	}
+}
+
+is_german_speaking_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_german_speaking_country_tt
+		OR = {
+			original_tag = GER
+			original_tag = AUS
+			has_autonomy_state = KUK_cisleithanien
+			has_autonomy_state = KUK_transleithanien
+			has_autonomy_state = KUK_kondominium
+		}
+	}
+}
+
+is_polish_speaking_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_polish_speaking_country_tt
+		OR = {
+			original_tag = POL
+			original_tag = GAL
+		}
+	}
+}
+
+is_turkish_speaking_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_turkish_speaking_country_tt
+		OR = {
+			original_tag = TUR
+			original_tag = OTT
+		}
+	}
+}
+
+is_croatian_speaking_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_croatian_speaking_country_tt
+		OR = {
+			original_tag = CRO
+			original_tag = YUG
+		}
+	}
+}
+
+is_slovene_speaking_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_slovene_speaking_country_tt
+		OR = {
+			original_tag = SLV
+			original_tag = YUG
+		}
+	}
+}
+
+is_spanish_speaking_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_spanish_speaking_country_tt
+		OR = {
+			original_tag = SPR
+			original_tag = FAL
+			original_tag = ALF
+		}
+	}
+}
+
+is_romanian_speaking_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_romanian_speaking_country_tt
+		OR = {
+			original_tag = ROM
+			original_tag = MOL
+			original_tag = BKO
+		}
+	}
+}
+
+is_serbo-croatian_speaking_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_serbo-croatian_speaking_country_tt
+		OR = {
+			original_tag = SER
+			original_tag = CRO
+			original_tag = BOS
+			original_tag = MON
+			original_tag = YUG
+		}
+	}
+}
+
+is_chinese_speaking_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_chinese_speaking_country_tt
+		OR = {
+			original_tag = CHI
+			AND = {
+				original_tag = MAN
+				NOT = { is_subject_of = RUS }
+			}
+		}
+	}
+}

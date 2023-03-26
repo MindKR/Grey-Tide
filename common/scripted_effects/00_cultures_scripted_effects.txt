@@ -1,0 +1,290 @@
+SN_startup_cultures = {
+	#North German
+	set_variable = { 28.nationality = 1 }
+	set_variable = { 42.nationality = 1 }
+	set_variable = { 51.nationality = 1 }
+	set_variable = { 55.nationality = 1 }
+	set_variable = { 56.nationality = 1 }
+	set_variable = { 57.nationality = 1 }
+	set_variable = { 58.nationality = 1 }
+	set_variable = { 59.nationality = 1 }
+	set_variable = { 60.nationality = 1 }
+	set_variable = { 61.nationality = 1 }
+	set_variable = { 62.nationality = 1 }
+	set_variable = { 63.nationality = 1 }
+	set_variable = { 64.nationality = 1 }
+	set_variable = { 65.nationality = 1 }
+	set_variable = { 66.nationality = 1 }
+	set_variable = { 67.nationality = 1 }
+	set_variable = { 85.nationality = 1 }
+	set_variable = { 188.nationality = 1 }
+	set_variable = { 233.nationality = 1 }
+	set_variable = { 496.nationality = 1 }
+	set_variable = { 541.nationality = 1 }
+	set_variable = { 546.nationality = 1 }
+	set_variable = { 633.nationality = 1 }
+	set_variable = { 646.nationality = 1 }
+	set_variable = { 647.nationality = 1 }
+	set_variable = { 684.nationality = 1 }
+	set_variable = { 725.nationality = 1 }
+	set_variable = { 737.nationality = 1 }
+	set_variable = { 763.nationality = 1 }
+	set_variable = { 768.nationality = 1 }
+	set_variable = { 769.nationality = 1 }
+	set_variable = { 773.nationality = 1 }
+	set_variable = { 777.nationality = 1 }
+	set_variable = { 835.nationality = 1 }
+	set_variable = { 848.nationality = 1 }
+	set_variable = { 850.nationality = 1 }
+	set_variable = { 851.nationality = 1 }
+	set_variable = { 852.nationality = 1 }
+	set_variable = { 867.nationality = 1 }
+	set_variable = { 868.nationality = 1 }
+	set_variable = { 903.nationality = 1 }
+
+	#Southern Germany
+	set_variable = { 50.nationality = 1.1 }
+	set_variable = { 52.nationality = 1.1 }
+	set_variable = { 53.nationality = 1.1 }
+	set_variable = { 54.nationality = 1.1 }
+	set_variable = { 151.nationality = 1.1 }
+	set_variable = { 882.nationality = 1.1 }
+
+	#German-Polish Culture
+	set_variable = { 5.nationality = 1.2 }
+	set_variable = { 807.nationality = 1.2 }
+
+	#Bohemia (Czecho)
+	set_variable = { 9.nationality = 1.3 }
+	set_variable = { 75.nationality = 1.3 }
+
+	#Krain (Slovenia)
+	set_variable = { 68.nationality = 1.4 }
+	set_variable = { 102.nationality = 1.4 }
+	set_variable = { 736.nationality = 1.4 }
+	set_variable = { 876.nationality = 1.4 }
+	set_variable = { 877.nationality = 1.4 }
+	set_variable = { 878.nationality = 1.4 }
+
+	#Austria
+	set_variable = { 4.nationality = 1.5 }
+	set_variable = { 39.nationality = 1.5 }
+	set_variable = { 152.nationality = 1.5 }
+	set_variable = { 153.nationality = 1.5 }
+	set_variable = { 838.nationality = 1.5 }
+	set_variable = { 839.nationality = 1.5 }
+	set_variable = { 847.nationality = 1.5 }
+	set_variable = { 849.nationality = 1.5 }
+	set_variable = { 855.nationality = 1.5 }
+	set_variable = { 883.nationality = 1.5 }
+
+	#Sudetenland
+	set_variable = { 69.nationality = 1.6 }
+	set_variable = { 74.nationality = 1.6 }
+	set_variable = { 881.nationality = 1.6 }
+
+
+	#France
+	set_variable = { 14.nationality = 2 }
+	set_variable = { 15.nationality = 2 }
+	set_variable = { 16.nationality = 2 }
+	set_variable = { 17.nationality = 2 }
+	set_variable = { 18.nationality = 2 }
+	set_variable = { 23.nationality = 2 }
+	set_variable = { 24.nationality = 2 }
+	set_variable = { 27.nationality = 2 }
+	set_variable = { 29.nationality = 2 }
+	set_variable = { 30.nationality = 2 }
+	set_variable = { 34.nationality = 2 }
+	set_variable = { 785.nationality = 2 }
+	set_variable = { 836.nationality = 2 }
+	set_variable = { 869.nationality = 2 }
+	set_variable = { 870.nationality = 2 }
+
+	#Occitània
+	set_variable = { 19.nationality = 2.1 }
+	set_variable = { 20.nationality = 2.1 }
+	set_variable = { 21.nationality = 2.1 }
+	set_variable = { 22.nationality = 2.1 }
+	set_variable = { 25.nationality = 2.1 }
+	set_variable = { 26.nationality = 2.1 }
+	set_variable = { 31.nationality = 2.1 }
+	set_variable = { 33.nationality = 2.1 }
+	set_variable = { 762.nationality = 2.1 }
+
+	#Provence
+	set_variable = { 3.nationality = 2.2 }
+	set_variable = { 20.nationality = 2.2 }
+	set_variable = { 32.nationality = 2.2 }
+	set_variable = { 735.nationality = 2.2 }
+
+	#Bretagne
+	set_variable = { 14.nationality = 2.3 }
+
+	#Corsica
+	set_variable = { 1.nationality = 2.4 }
+
+
+
+	#North Italy
+	set_variable = { 2.nationality = 3 }
+	set_variable = { 158.nationality = 3 }
+	set_variable = { 159.nationality = 3 }
+	set_variable = { 160.nationality = 3 }
+	set_variable = { 161.nationality = 3 }
+	set_variable = { 162.nationality = 3 }
+	set_variable = { 163.nationality = 3 }
+	set_variable = { 837.nationality = 3 }
+
+	#South Italy
+	set_variable = { 115.nationality = 3.1 }
+	set_variable = { 117.nationality = 3.1 }
+	set_variable = { 156.nationality = 3.1 }
+	set_variable = { 157.nationality = 3.1 }
+
+
+	### 4: Yugoslavia ###
+
+	#Croatia
+	set_variable = { 103.nationality = 4.1 }
+	set_variable = { 109.nationality = 4.1 }
+	set_variable = { 846.nationality = 4.1 }
+	set_variable = { 874.nationality = 4.1 }
+	set_variable = { 880.nationality = 4.1 }
+
+	#Bosnia
+	set_variable = { 104.nationality = 4.2 }
+	set_variable = { 804.nationality = 4.2 }
+
+	#Serbia
+	set_variable = { 45.nationality = 4.3 }
+	set_variable = { 107.nationality = 4.3 }
+	set_variable = { 108.nationality = 4.3 }
+	set_variable = { 764.nationality = 4.3 }
+	set_variable = { 802.nationality = 4.3 }
+	set_variable = { 803.nationality = 4.3 }
+
+	#Montenegro
+	set_variable = { 105.nationality = 4.4 }
+
+	#Macedonia
+	set_variable = { 106.nationality = 4.5 }
+
+	#Serbo-Croat Culture
+	set_variable = { 45.nationality = 4.6 }
+	set_variable = { 764.nationality = 4.6 }
+	set_variable = { 873.nationality = 4.6 }
+
+	#Albania
+	set_variable = { 44.nationality = 5 }
+	set_variable = { 802.nationality = 5 }
+	set_variable = { 866.nationality = 5 }
+
+	#Greece
+	set_variable = { 47.nationality = 6 }
+	set_variable = { 185.nationality = 6 }
+	set_variable = { 186.nationality = 6 }
+	set_variable = { 731.nationality = 6 }
+	set_variable = { 805.nationality = 6 }
+
+	#Bulgaria 
+	set_variable = { 48.nationality = 7 }
+	set_variable = { 77.nationality = 7 }
+	set_variable = { 211.nationality = 7 }
+	set_variable = { 212.nationality = 7 }
+	set_variable = { 801.nationality = 7 }
+	set_variable = { 856.nationality = 7 }
+	set_variable = { 857.nationality = 7 }
+	set_variable = { 858.nationality = 7 }
+
+	#Thrace (Greek-Bulgarian culture)
+	set_variable = { 184.nationality = 7.1 }
+
+	#Romania
+	set_variable = { 46.nationality = 8 }
+	set_variable = { 78.nationality = 8 }
+	set_variable = { 79.nationality = 8 }
+	set_variable = { 81.nationality = 8 }
+	set_variable = { 872.nationality = 8 }
+	set_variable = { 904.nationality = 8 }
+
+	set_variable = { 76.nationality = 8.1 }
+	set_variable = { 82.nationality = 8.1 }
+	set_variable = { 83.nationality = 8.1 }
+	set_variable = { 84.nationality = 8.1 }
+
+	#Poland (Mainland)
+	set_variable = { 10.nationality = 10 }
+	set_variable = { 72.nationality = 10 }
+	set_variable = { 87.nationality = 10 }
+	set_variable = { 88.nationality = 10 }
+	set_variable = { 90.nationality = 10 }
+	set_variable = { 92.nationality = 10 }
+	set_variable = { 97.nationality = 10 }
+	set_variable = { 98.nationality = 10 }
+	set_variable = { 898.nationality = 10 }
+	set_variable = { 899.nationality = 10 }
+
+	#Poland (POL M, GER m)
+	set_variable = { 86.nationality = 10.1 }
+
+	#Polish-Ukrainian Culture
+	set_variable = { 91.nationality = 10.2 }
+	set_variable = { 890.nationality = 10.2 }
+
+	#Ukraine
+	set_variable = { 192.nationality = 11 }
+	set_variable = { 193.nationality = 11 }
+	set_variable = { 197.nationality = 11 }
+	set_variable = { 198.nationality = 11 }
+	set_variable = { 199.nationality = 11 }
+	set_variable = { 201.nationality = 11 }
+	set_variable = { 202.nationality = 11 }
+	set_variable = { 203.nationality = 11 }
+	set_variable = { 221.nationality = 11 }
+	set_variable = { 225.nationality = 11 }
+	set_variable = { 226.nationality = 11 }
+	set_variable = { 227.nationality = 11 }
+	set_variable = { 228.nationality = 11 }
+	set_variable = { 259.nationality = 11 }
+	set_variable = { 756.nationality = 11 }
+	set_variable = { 891.nationality = 11 }
+	set_variable = { 892.nationality = 11 }
+	set_variable = { 893.nationality = 11 }
+	set_variable = { 895.nationality = 11 }
+	set_variable = { 896.nationality = 11 }
+	set_variable = { 897.nationality = 11 }
+	set_variable = { 900.nationality = 11 }
+
+	#Ukraine (UKR M, POL m)
+	set_variable = { 80.nationality = 11.1 }
+	set_variable = { 89.nationality = 11.1 }
+	set_variable = { 93.nationality = 11.1 }
+
+	#Carpathian Ruthenia (Rusyns)
+	set_variable = { 73.nationality = 11.2 }
+	set_variable = { 905.nationality = 11.2 }
+	set_variable = { 906.nationality = 11.2 }
+
+	#Slovakia
+	set_variable = { 70.nationality = 13 }
+	set_variable = { 71.nationality = 13 }
+
+	#Hungary
+	set_variable = { 43.nationality = 14 }
+	set_variable = { 154.nationality = 14 }
+	set_variable = { 155.nationality = 14 }
+	set_variable = { 664.nationality = 14 }
+	set_variable = { 884.nationality = 14 }
+
+	#Szeklerland
+	set_variable = { 879.nationality = 14.1 }
+
+	#North Dutch
+	set_variable = { 7.nationality = 15 }
+	set_variable = { 36.nationality = 15 }
+
+	#South Dutch
+	set_variable = { 6.nationality = 15.1 }
+	set_variable = { 35.nationality = 15.1 }
+}

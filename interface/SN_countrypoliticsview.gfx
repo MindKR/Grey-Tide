@@ -1,0 +1,31 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_slot_SIC"
+		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_cabinet"
+		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_pol_piechart_overlay_84x84"
+		textureFile = "gfx/interface/pol_piechart_overlay_84x84.dds"
+	}
+
+	pieChartType = {
+		name = "GFX_political_chart_big"
+		size = 30
+	}
+	
+	pieChartType = {
+		name = "GFX_political_chart1"
+		size = 35
+	}
+	
+	pieChartType = {
+		name = "GFX_political_chart_small"
+		size = 26
+	}
+}

@@ -1,0 +1,9 @@
+scripted_gui = {
+
+	SN_GER_Berlinprojekt = {
+		context_type = decision_category
+		window_name = "GER_berlinprojekt"
+	}
+	
+}
+

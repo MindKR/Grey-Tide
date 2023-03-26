@@ -1,0 +1,79 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = GER_reichskriegsflagge
+						option = ALWAYS
+					}
+				}
+				GER = { set_cosmetic_tag = GER_german_empire }
+			}	
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = GER_reichskriegsflagge
+						option = WAR
+					}
+					GER = {
+						has_war = no
+						has_cosmetic_tag = GER_german_empire
+					}
+				}
+				GER = { drop_cosmetic_tag = yes }
+			}
+			GER = {
+				Reichstag_update = yes
+				reichstag_gui_initial = yes
+			}
+		}
+	}
+
+	on_daily = {
+		effect = {
+			GER = { Reichstag_update = yes }
+		}
+	}
+
+	on_war = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = GER_reichskriegsflagge
+						option = WAR
+					}
+					GER = {
+						OR = {
+							has_idea = wilhelm_ii
+							has_idea = wilhelm_iii
+							has_country_leader = { character = GER_Wilhelm_II }
+							has_country_leader = { character = GER_Wilhelm_III }
+						}
+					}
+				}
+				GER = { set_cosmetic_tag = GER_german_empire }
+			}
+		}
+	}
+
+	on_peace = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = GER_reichskriegsflagge
+						option = WAR
+					}
+					original_tag = GER
+					OR = {
+						has_cosmetic_tag = GER_german_empire
+						has_socialist_government = yes
+					}
+				}
+				drop_cosmetic_tag = yes
+			}
+		}
+	}
+}

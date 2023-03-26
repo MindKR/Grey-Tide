@@ -1,0 +1,76 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_romanovs_in_exile"
+		texturefile = "gfx/interface/ideas/national_spirits/romanovs_in_exile.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_coat_of_arms_of_russian_empire"
+		texturefile = "gfx/interface/ideas/national_spirits/coat_of_arms_of_russian_empire.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_wilhelm_ii"
+		texturefile = "gfx/interface/ideas/national_spirits/GER/Wilhelm_II.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_wilhelm_iii"
+		texturefile = "gfx/interface/ideas/national_spirits/GER/Wilhelm_III.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_unified_german_pride"
+		texturefile = "gfx/interface/ideas/national_spirits/GER/GER_unified_german_pride.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_conservative_military"
+		texturefile = "gfx/interface/ideas/national_spirits/GER/GER_conservative_military.png"	
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRA_lagacy_of_revolution"
+		texturefile = "gfx/interface/ideas/national_spirits/FRA/FRA_lagacy_of_revolution.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_FRA_resting_place_for_socialists"
+		texturefile = "gfx/interface/ideas/national_spirits/FRA/FRA_resting_place_for_socialists.dds"	
+	}
+
+	spriteType = {
+		name = "GFX_idea_AUS_habsburg-lothringen"
+		texturefile = "gfx/interface/ideas/national_spirits/AUS/AUS_habsburg-lothringen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_golden_austria-hungary"
+		texturefile = "gfx/interface/ideas/national_spirits/AUS/AUS_golden_austria-hungary.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Flag_of_Austria-Hungary"
+		texturefile = "gfx/interface/ideas/national_spirits/AUS/flag_of_austria-hungary.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_incompatible_irredentism"
+		texturefile = "gfx/interface/ideas/national_spirits/AUS/AUS_incompatible_irredentism.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ITA_risorgimento"
+		texturefile = "gfx/interface/ideas/national_spirits/ITA/ITA_risorgimento.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_risorgimento2"
+		texturefile = "gfx/interface/ideas/national_spirits/ITA/ITA_risorgimento2.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_risorgimento3"
+		texturefile = "gfx/interface/ideas/national_spirits/ITA/ITA_risorgimento3.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_risorgimento4"
+		texturefile = "gfx/interface/ideas/national_spirits/ITA/ITA_risorgimento4.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RUS_romanovs_in_exile"
+		texturefile = "gfx/interface/ideas/national_spirits/RUS/RUS_romanovs_in_exile.png"
+	}
+}

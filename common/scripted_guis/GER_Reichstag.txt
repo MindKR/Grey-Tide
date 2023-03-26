@@ -1,0 +1,130 @@
+scripted_gui = {
+	Reichstag_open = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "Reichstag_open"
+
+		visible = {
+			tag = GER
+		}
+
+		effects = {
+			GER_Reichstag_button_click = {
+				if = {
+					limit = { NOT = { has_variable = GER_Reichstag } }
+					set_variable = { GER_Reichstag = 1 }
+					set_variable = { GER_Reichstag_tab = 1 }
+				}
+				else_if = {
+					limit = { has_variable = GER_Reichstag }
+					clear_variable = GER_Reichstag
+				}
+			}
+		}
+	}
+	
+	Reichstag_main = {
+		context_type = player_context
+		window_name = "Reichstag_main"
+		visible = { has_variable = GER_Reichstag }
+		dynamic_lists = {
+			Reichstag_buttons_gridbox = {
+				array = Reichstag_buttons_array
+				entry_container = "Reichstag_buttons_entry"
+				value = d
+			}
+			reichstag_main_grid = {
+				array = reichstag_main_array
+				index = reichstag_main_index
+				change_scope = no
+				entry_container = reichstag_main_entry
+			}
+			reichstag_semicircle_main_grid = {
+				array = reichstag_main_array
+				index = reichstag_main_index
+				change_scope = no
+				entry_container = reichstag_semicircle_main_entry
+			}
+			reichstag_member_grid = {
+				array = reichstag_member_array
+				index = reichstag_member_index
+				change_scope = no
+				entry_container = reichstag_member_entry
+			}
+		}
+		
+		### 버튼	
+		effects = { tab_button_click = { set_variable = { GER_Reichstag_tab = d } } }
+		
+		## 버튼 1/2
+		triggers = {
+			tab_button_visible = {
+				if = {
+					limit = {
+						check_variable = { GER_Reichstag_tab = d }
+					}
+					set_temp_variable = { tab_frame = 1 }
+					set_temp_variable = { tab_icon_y = 10 }
+				}
+				else = {
+					set_temp_variable = { tab_frame = 2 }
+					set_temp_variable = { tab_icon_y = 15 }
+				}
+			}
+		}
+		
+		## Gridboxes end ###
+		
+		effects = {
+			close_button_click = {
+				clear_variable = GER_Reichstag
+			}
+		}
+		
+		triggers = {
+			### Fist Page - Government (Gridbox) ###
+			reichstag_semicircle_main_bg_visible = { check_variable = { GER_Reichstag_tab = 1 } }
+			reichstag_seats_rule_visible = { check_variable = { GER_Reichstag_tab = 1 } }
+			reichstag_main_icon_visible = { check_variable = { GER_Reichstag_tab = 1 } }
+			reichstag_desc_visible = { check_variable = { GER_Reichstag_tab = 1 } }
+			reichstag_ruling_party_visible = { check_variable = { GER_Reichstag_tab = 1 } }
+			reichstag_personal_color_visible = { check_variable = { GER_Reichstag_tab = 1 } }
+			reichstag_party_visible = { check_variable = { GER_Reichstag_tab = 1 } }
+			reichstag_seats_visible = { check_variable = { GER_Reichstag_tab = 1 } }
+			reichstag_semicircle_main_icon_visible = { check_variable = { GER_Reichstag_tab = 1 } }
+			reichstag_member_icon_visible = { check_variable = { GER_Reichstag_tab = 1 } }
+			reichstag_member_text_visible = { check_variable = { GER_Reichstag_tab = 1 } }
+			Reichstag_member_seat_text_visible = { check_variable = { GER_Reichstag_tab = 1 } }
+		}
+		
+		properties = {
+			flag = { image = "[GER.GetFlag]" }
+			
+			# 버튼
+			tab_button = {
+				frame = tab_frame
+			}
+			tab_icon = {
+				image = "GFX_CountryInfo_top_tabs_icon_[?d]"
+				y = tab_icon_y
+				frame = tab_frame
+			}
+			tab_text=  {
+				y = tab_icon_y
+			}
+
+			# 라이히스탁
+			reichstag_main_icon = {
+				frame = v
+			}
+			reichstag_semicircle_main_icon = {
+				frame = v
+				x = reichstag_x_array^reichstag_main_index
+				y = reichstag_y_array^reichstag_main_index
+			}
+			reichstag_member_icon = {
+				frame = v
+			}
+		}
+	}
+}

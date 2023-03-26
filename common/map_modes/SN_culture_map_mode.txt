@@ -1,0 +1,486 @@
+scripted_map_modes = {
+	SN_culture_map_mode = {
+		top = { type = none }
+		bottom = {
+			type = state
+			color = {
+				# 번호 분류 기준
+				# 1. 주요 문화 (예: 독일계, 독일인 다수 등)
+				# 2. 민족 근연 문화 (예: 크로아티아계 & 세르비아계 등)
+				# 3. 종주국 근연 문화 (예: 크라인계, 보헤미아계 등)
+				# 4. 하이브리드 문화 (예: 독일-폴란드계, 폴란드-우크라이나계 등)
+
+				set_temp_variable = { alpha_temp = 1 }
+
+				# 1: Germany
+				if = { #Northern Germany
+					limit = {
+						FROM = {
+							check_variable = { nationality = 1 }
+						}
+					}
+					set_temp_variable = { red = 0.275 }
+					set_temp_variable = { green = 0.275 }
+					set_temp_variable = { blue = 0.3 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Southern Germany
+					limit = {
+						FROM = {
+							check_variable = { nationality = 1.1 }
+						}
+					}
+					set_temp_variable = { red = 0.35 }
+					set_temp_variable = { green = 0.35 }
+					set_temp_variable = { blue = 0.375 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #German-Polish Culture
+					limit = {
+						FROM = {
+							check_variable = { nationality = 1.2 }
+						}
+					}
+					set_temp_variable = { red = 0.465 }
+					set_temp_variable = { green = 0.275 }
+					set_temp_variable = { blue = 0.275 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Bohemia
+					limit = {
+						FROM = {
+							check_variable = { nationality = 1.3 }
+						}
+					}
+					set_temp_variable = { red = 0.5 }
+					set_temp_variable = { green = 0.425 }
+					set_temp_variable = { blue = 0.1 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Krain
+					limit = {
+						FROM = {
+							check_variable = { nationality = 1.4 }
+						}
+					}
+					set_temp_variable = { red = 0.375 }
+					set_temp_variable = { green = 0.375 }
+					set_temp_variable = { blue = 0.465 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Austria
+					limit = {
+						FROM = {
+							check_variable = { nationality = 1.5 }
+						}
+					}
+					set_temp_variable = { red = 0.4 }
+					set_temp_variable = { green = 0.4 }
+					set_temp_variable = { blue = 0.4 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Sudetenland
+					limit = {
+						FROM = {
+							check_variable = { nationality = 1.6 }
+						}
+					}
+					set_temp_variable = { red = 0.365 }
+					set_temp_variable = { green = 0.325 }
+					set_temp_variable = { blue = 0.325 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+
+
+				# 2: France
+				else_if = { #France (langues d'oïl)
+					limit = {
+						FROM = {
+							check_variable = { nationality = 2 }
+						}
+					}
+					set_temp_variable = { red = 0.05 }
+					set_temp_variable = { green = 0.325 }
+					set_temp_variable = { blue = 0.55 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Occitània
+					limit = {
+						FROM = {
+							check_variable = { nationality = 2.1 }
+						}
+					}
+					set_temp_variable = { red = 0.05 }
+					set_temp_variable = { green = 0.375 }
+					set_temp_variable = { blue = 0.525 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Provence
+					limit = {
+						FROM = {
+							check_variable = { nationality = 2.2 }
+						}
+					}
+					set_temp_variable = { red = 0.05 }
+					set_temp_variable = { green = 0.45 }
+					set_temp_variable = { blue = 0.6 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Bretagne
+					limit = {
+						FROM = {
+							check_variable = { nationality = 2.3 }
+						}
+					}
+					set_temp_variable = { red = 0.25 }
+					set_temp_variable = { green = 0.45 }
+					set_temp_variable = { blue = 0.55 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Corsica
+					limit = {
+						FROM = {
+							check_variable = { nationality = 2.4 }
+						}
+					}
+					set_temp_variable = { red = 0.65 }
+					set_temp_variable = { green = 0.5 }
+					set_temp_variable = { blue = 0.2 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+
+
+				# 3: Italy
+				else_if = { #North
+					limit = {
+						FROM = {
+							check_variable = { nationality = 3 }
+						}
+					}
+					set_temp_variable = { red = 0.2 }
+					set_temp_variable = { green = 0.45 }
+					set_temp_variable = { blue = 0.225 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #South
+					limit = {
+						FROM = {
+							check_variable = { nationality = 3.1 }
+						}
+					}
+					set_temp_variable = { red = 0.125 }
+					set_temp_variable = { green = 0.375 }
+					set_temp_variable = { blue = 0.15 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+
+				# 4~9: Balkans
+				## 4: Yugoslavia
+				else_if = { #Slovenia
+					limit = {
+						FROM = {
+							check_variable = { nationality = 4 }
+						}
+					}
+					set_temp_variable = { red = 0.3 }
+					set_temp_variable = { green = 0.3 }
+					set_temp_variable = { blue = 0.525 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Croatia
+					limit = {
+						FROM = {
+							check_variable = { nationality = 4.1 }
+						}
+					}
+					set_temp_variable = { green = 0.1 }
+					set_temp_variable = { blue = 0.4 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Bosnia
+					limit = {
+						FROM = {
+							check_variable = { nationality = 4.2 }
+						}
+					}
+					set_temp_variable = { red = 0.2 }
+					set_temp_variable = { green = 0.3 }
+					set_temp_variable = { blue = 0.465 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Serbia
+					limit = {
+						FROM = {
+							check_variable = { nationality = 4.3 }
+						}
+					}
+					set_temp_variable = { red = 0.15 }
+					set_temp_variable = { green = 0.15 }
+					set_temp_variable = { blue = 0.3 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Montenegro
+					limit = {
+						FROM = {
+							check_variable = { nationality = 4.4 }
+						}
+					}
+					set_temp_variable = { red = 0.3 }
+					set_temp_variable = { green = 0.125 }
+					set_temp_variable = { blue = 0.35 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Macedonia
+					limit = {
+						FROM = {
+							check_variable = { nationality = 4.5 }
+						}
+					}
+					set_temp_variable = { red = 0.35 }
+					set_temp_variable = { green = 0.3 }
+					set_temp_variable = { blue = 0.15 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Serbo-Croat Culture
+					limit = {
+						FROM = {
+							check_variable = { nationality = 4.6 }
+						}
+					}
+					set_temp_variable = { green = 0.325 }
+					set_temp_variable = { blue = 0.35 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+
+				## 5: Albania
+				else_if = { #Albania
+					limit = {
+						FROM = {
+							check_variable = { nationality = 5 }
+						}
+					}
+					set_temp_variable = { red = 0.475 }
+					set_temp_variable = { green = 0.05 }
+					set_temp_variable = { blue = 0.15 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+
+				## 6: Greece
+				else_if = { #Greece
+					limit = {
+						FROM = {
+							check_variable = { nationality = 6 }
+						}
+					}
+					set_temp_variable = { green = 0.5 }
+					set_temp_variable = { blue = 0.625 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+
+				## 7: Bulgaria
+				else_if = { #Bulgaria
+					limit = {
+						FROM = {
+							check_variable = { nationality = 7 }
+						}
+					}
+					set_temp_variable = { red = 0.1 }
+					set_temp_variable = { green = 0.425 }
+					set_temp_variable = { blue = 0.1 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Greek-Bulgarian culture
+					limit = {
+						FROM = {
+							check_variable = { nationality = 7.1 }
+						}
+					}
+					set_temp_variable = { red = 0.1 }
+					set_temp_variable = { green = 0.55 }
+					set_temp_variable = { blue = 0.475 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+
+				## 8: Romania
+				else_if = { #Romania
+					limit = {
+						FROM = {
+							check_variable = { nationality = 8 }
+						}
+					}
+					set_temp_variable = { red = 0.555 }
+					set_temp_variable = { green = 0.555 }
+					set_temp_variable = { blue = 0.275 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Transylvania
+					limit = {
+						FROM = {
+							check_variable = { nationality = 8.1 }
+						}
+					}
+					set_temp_variable = { red = 0.65 }
+					set_temp_variable = { green = 0.525 }
+					set_temp_variable = { blue = 0.325 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+
+				## 9: Ottoman
+
+				# 10: Poland
+				else_if = { #Poland (Mainland)
+					limit = {
+						FROM = {
+							check_variable = { nationality = 10 }
+						}
+					}
+					set_temp_variable = { red = 0.725 }
+					set_temp_variable = { green = 0.375 }
+					set_temp_variable = { blue = 0.4 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Poland (POL M, GER m)
+					limit = {
+						FROM = {
+							check_variable = { nationality = 10.1 }
+						}
+					}
+					set_temp_variable = { red = 0.65 }
+					set_temp_variable = { green = 0.325 }
+					set_temp_variable = { blue = 0.375 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Polish-Ukrainian Culture
+					limit = {
+						FROM = {
+							check_variable = { nationality = 10.2 }
+						}
+					}
+					set_temp_variable = { red = 0.585 }
+					set_temp_variable = { green = 0.425 }
+					set_temp_variable = { blue = 0.55 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+
+				# 11: Ukraine
+				else_if = { #Ukraine (Mainland)
+					limit = {
+						FROM = {
+							check_variable = { nationality = 11 }
+						}
+					}
+					set_temp_variable = { red = 0.3 }
+					set_temp_variable = { green = 0.375 }
+					set_temp_variable = { blue = 0.625 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Ukraine (UKR M, POL m)
+					limit = {
+						FROM = {
+							check_variable = { nationality = 11.1 }
+						}
+					}
+					set_temp_variable = { red = 0.465 }
+					set_temp_variable = { green = 0.4 }
+					set_temp_variable = { blue = 0.625 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Carpathian Ruthenia (Rusyns)
+					limit = {
+						FROM = {
+							check_variable = { nationality = 11.2 }
+						}
+					}
+					set_temp_variable = { red = 0.475 }
+					set_temp_variable = { green = 0.475 }
+					set_temp_variable = { blue = 0.675 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+
+				# 12: Czecho
+				else_if = { #Czech
+					limit = {
+						FROM = {
+							check_variable = { nationality = 12 }
+						}
+					}
+					set_temp_variable = { red = 0.3 }
+					set_temp_variable = { green = 0.375 }
+					set_temp_variable = { blue = 0.625 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+
+				# 13: Slovakia
+				else_if = { #Slovakia
+					limit = {
+						FROM = {
+							check_variable = { nationality = 13 }
+						}
+					}
+					set_temp_variable = { red = 0.535 }
+					set_temp_variable = { green = 0.535 }
+					set_temp_variable = { blue = 0.575 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+
+				# 14: Hungary
+				else_if = { #Hungary
+					limit = {
+						FROM = {
+							check_variable = { nationality = 14 }
+						}
+					}
+					set_temp_variable = { red = 0.325 }
+					set_temp_variable = { green = 0.425 }
+					set_temp_variable = { blue = 0.225 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #Szeklerland
+					limit = {
+						FROM = {
+							check_variable = { nationality = 14.1 }
+						}
+					}
+					set_temp_variable = { red = 0.425 }
+					set_temp_variable = { green = 0.425 }
+					set_temp_variable = { blue = 0.2 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+
+				# 15: The Netherlands
+				else_if = { #North Dutch
+					limit = {
+						FROM = {
+							check_variable = { nationality = 15 }
+						}
+					}
+					set_temp_variable = { red = 0.625 }
+					set_temp_variable = { green = 0.45 }
+					set_temp_variable = { blue = 0.275 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { #South Dutch
+					limit = {
+						FROM = {
+							check_variable = { nationality = 15.1 }
+						}
+					}
+					set_temp_variable = { red = 0.6 }
+					set_temp_variable = { green = 0.575 }
+					set_temp_variable = { blue = 0.3 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else = {
+					set_temp_variable = { red = 0.001 }
+					set_temp_variable = { green = 0.001 }
+					set_temp_variable = { blue = 0.001 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+			}
+		}
+		far_text = none
+		near_text = state
+		update_daily = yes
+	}
+}

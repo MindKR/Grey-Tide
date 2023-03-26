@@ -1,0 +1,21 @@
+history_category = {
+
+	country_history = {
+
+		icon = generic
+
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			has_country_flag = close_history
+		}
+
+		cost = 0
+
+		complete_effect = {
+			ROOT = { clr_country_flag = close_history }
+		}
+	}
+}

@@ -1,0 +1,95 @@
+characters={
+	KOR_seo_jaepil={
+		name = "KOR_seo_jaepil"
+		portraits={
+			civilian={
+				large="gfx/leaders/KOR/Portrait_KOR_seo_jae-pil.png"
+				small="gfx/interface/ideas/KOR/Seo_Jae-pil.png"
+			}
+		}
+		allowed_civil_war = {
+			always = no
+		}
+		country_leader={
+			ideology=conservative_subtype
+			desc = "KOR_seo_jaepil_desc"
+			expire = "1965.1.1"
+			id=-1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = KOR_seo_jaepil
+			removal_cost = -1
+			allowed = {
+				original_tag = KOR
+			}
+			available = {
+				NOT = { is_country_leader = yes }
+			}
+			traits = {
+				KOR_prime_minister_empire
+				KOR_reformist_faction
+			}
+		}
+	}
+
+	KOR_syngman_rhee={
+		name = "KOR_syngman_rhee"
+		portraits={
+			civilian={
+				large="gfx/leaders/KOR/Portrait_KOR_Syngman_Rhee.png"
+			}
+		}
+	}
+
+	KOR_kim_gu={
+		name = "KOR_kim_gu"
+		portraits={
+			civilian={
+				large="Portrait_KOR_Kim_Gu.png"
+			}
+		}
+	}
+
+	KOR_yi_kang={
+		name = "KOR_yi_kang"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=despot_subtype
+			expire = "1965.1.1"
+			id=-1
+		}
+	}
+
+	KOR_kim_ilsung={
+		name = "KOR_kim_ilsung"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_socialist_subtype
+			expire = "1965.1.1"
+			id=-1
+		}
+	}
+
+	KOR_yi_un={
+		name = "KOR_yi_un"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=despot_subtype
+			expire = "1953.3.1"
+			id=-1
+		}
+	}
+}

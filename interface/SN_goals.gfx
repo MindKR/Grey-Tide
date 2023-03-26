@@ -1,0 +1,45 @@
+spriteTypes = {
+	
+	### AUS
+
+	SpriteType = {
+		name = "GFX_Ferdinand_II"
+		texturefile = "gfx/interface/goals/AUS/AUS_Ferdinand_II.png"	
+	}
+
+	SpriteType = {
+		name = "GFX_AUS_cooperate_with_hungary"
+		texturefile = "gfx/interface/goals/AUS/AUS_cooperate_with_hungary.png"	
+	}
+
+	SpriteType = {
+		name = "GFX_AUS_demanding_decision_from_hungary"
+		texturefile = "gfx/interface/goals/AUS/AUS_demanding_decision_from_hungary.png"	
+	}
+	
+	SpriteType = {
+		name = "GFX_standstill"
+		texturefile = "gfx/interface/goals/standstill.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_befriend_serbia"
+		texturefile = "gfx/interface/goals/focus_generic_befriend_serbia.png"	
+	}
+
+	### GER
+	SpriteType = {
+		name = "GFX_GER_thorny_rose"
+		texturefile = "gfx/interface/goals/GER/GER_thorny_rose.png"	
+	}
+
+	SpriteType = {
+		name = "GFX_GER_berlinprojekt"
+		texturefile = "gfx/interface/goals/GER/GER_berlinprojekt.png"	
+	}
+
+	SpriteType = {
+		name = "GFX_GER_steal_the_sunset"
+		texturefile = "gfx/interface/goals/GER/GER_steal_the_sunset.png"	
+	}
+}

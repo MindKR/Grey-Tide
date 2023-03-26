@@ -1,0 +1,123 @@
+apply_lithuanian_endonyms = {
+
+	if = { #Volhynia
+		limit = { state = 93 }
+		93 = {
+			set_state_name = LIT_Voluine
+		}
+		set_province_name = {
+			id = 422
+			name = LIT_Kovelis
+		}
+		set_province_name = {
+			id = 6557
+			name = LIT_Rovnas
+		}
+	}
+
+	if = { #Novogrudok
+		limit = { state = 95 }
+		95 = {
+			set_state_name = Naugardukas
+		}
+		set_province_name = {
+			id = 9304
+			name = Baranoviciai
+		}
+	}
+
+	if = { #Viliejka (Vileyka)
+		limit = { state = 96 }
+		96 = {
+			set_state_name = Vileika
+		}
+		set_province_name = {
+			id = 406
+			name = Maladecina
+		}
+	}
+
+	if = { #Belostok
+		limit = { state = 97 }
+		97 = {
+			set_state_name = Baltstoge
+		}
+		set_province_name = {
+			id = 11301
+			name = Baltstoge
+		}
+	}
+
+	if = { #Memel
+		limit = { state = 188 }
+		188 = {
+			set_state_name = Klaipeda
+		}
+		set_province_name = {
+			id = 3288
+			name = Klaipeda
+		}
+	}
+
+	if = { #Vilna
+		limit = { state = 784 }
+		784 = {
+			set_state_name = Vilnius
+		}
+		set_province_name = {
+			id = 3320
+			name = Vilnius
+		}
+	}
+
+	if = { #Mariampol
+		limit = { state = 814 }
+		814 = {
+			set_state_name = LIT_Marijampole
+		}
+		set_province_name = {
+			id = 11312
+			name = LIT_Marijampole
+		}
+	}
+
+	if = { #Grodno
+		limit = { state = 834 }
+		834 = {
+			set_state_name = LIT_Gardinas
+		}
+		set_province_name = {
+			id = 3393
+			name = LIT_Gardinas
+		}
+	}
+
+	if = { #Brest-Litovsk
+		limit = { state = 891 }
+		891 = {
+			set_state_name = LIT_Lietuvos_Brasta
+		}
+		set_province_name = {
+			id = 3392
+			name = LIT_Lietuvos_Brasta
+		}
+	}
+
+	if = { #Suwalki
+		limit = { state = 899 }
+		899 = {
+			set_state_name = LIT_Suvalkai
+		}
+		set_province_name = {
+			id = 3254
+			name = LIT_Suvalkai
+		}
+	}
+
+	if = { #Kamenets
+		limit = { state = 900 }
+		900 = {
+			set_state_name = LIT_Kamianecas
+		}
+	}
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=153
+	name="STATE_153"
+	manpower = 310000
+	
+	state_category = town
+
+	history={
+		owner = GER
+		victory_points = {
+			673 5 
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 3
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		671 673 6678 9633 9636 11618 11634 
+	}
+
+	local_supplies=12.0 
+}

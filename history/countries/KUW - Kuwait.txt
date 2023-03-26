@@ -1,0 +1,24 @@
+﻿capital = 656
+
+oob = "KUW"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+recruit_character = KUW_Ahmad_Al-Jabe_Al-Sabah
+
+add_idea = KUW_Ahmad_Al-Jabe_Al-Sabah
+
+set_politics = {
+	ruling_party = despot
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	despot = 100
+}

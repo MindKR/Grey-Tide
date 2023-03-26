@@ -1,0 +1,54 @@
+﻿capital = 295
+
+oob = "COG"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+# A colony of Italy in 1939.  However, if independent it would have the same as its 1936 politics
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	
+	name = "François Tolenga"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = despot_subtype
+	traits = {
+		compassionate_gentleman
+	}
+}
+create_country_leader = {
+	
+	name = "Lumumba Lomendja"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_socialist_subtype
+	traits = {
+		silent_workhorse
+	}
+}
+
+create_country_leader = {
+	
+	name = "David Manera"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = fascist_subtype
+	traits = {
+		
+	}
+}

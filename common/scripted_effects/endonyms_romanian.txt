@@ -1,0 +1,50 @@
+apply_romanian_endonyms = {
+
+	if = { #Bessarabia
+		limit = { state = 78 }
+		78 = {
+			set_state_name = ROM_Basarabia
+		}
+		set_province_name = {
+			id = 3707
+			name = ROM_Chisinau
+		}
+	}
+
+	if = { #Bukowina
+		limit = { state = 80 }
+		80 = {
+			set_state_name = ROM_Cernauti
+		}
+		set_province_name = {
+			id = 577
+			name = ROM_Cernauti
+		}
+	}
+
+	if = { #Southern Bessarabia
+		limit = { state = 766 }
+		set_province_name = {
+			id = 6727
+			name = Cetatea_Alba
+		}
+	}
+
+	if = { #Szekelyfold
+		limit = { state = 879 }
+		879 = {
+			set_state_name = Tinutul_Secuiesc
+		}
+		set_province_name = {
+			id = 9670
+			name = Targu_Mures
+		}
+	}
+
+	if = { #Suczawa
+		limit = { state = 904 }
+		904 = {
+			set_state_name = ROM_Suceava
+		}
+	}
+}

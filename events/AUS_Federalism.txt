@@ -1,0 +1,79 @@
+﻿###########################
+# Austrian Events
+###########################
+
+add_namespace = AUS_Federalism
+
+country_event = {
+	id = AUS_Federalism.1
+	title = AUS_Federalism.1.t
+	desc = AUS_Federalism.1.d
+	picture = GFX_report_event_aus_ferdinand_arrive
+
+	is_triggered_only = yes
+	
+	trigger = { original_tag = AUS }
+
+	option = {
+		name = AUS_Federalism.1.a
+	}
+}
+
+country_event = { #AUS_reform_the_moi
+	id = AUS_Federalism.2
+	title = AUS_Federalism.2.t
+	desc = AUS_Federalism.2.d
+
+	is_triggered_only = yes
+	
+	trigger = { original_tag = AUS }
+
+	option = {
+		name = AUS_Federalism.2.a
+	}
+}
+
+country_event = {
+	id = AUS_Federalism.3
+	title = AUS_Federalism.3.t
+	desc = AUS_Federalism.3.d
+	picture = GFX_report_event_aus_ferdinand_arrive
+
+	is_triggered_only = yes
+	
+	trigger = { original_tag = AUS }
+
+	option = {
+		name = AUS_Federalism.3.a
+	}
+}
+
+country_event = { #AUS_reconcile_with_serbia
+	id = AUS_Federalism.4
+	title = AUS_Federalism.4.t
+	desc = AUS_Federalism.4.d
+	picture = GFX_report_event_aus_ferdinand_arrive
+
+	is_triggered_only = yes
+	
+	trigger = { original_tag = AUS }
+
+	option = {
+		name = AUS_Federalism.4.a
+	}
+}
+
+country_event = { #엔딩
+	id = AUS_Federalism.999
+	title = AUS_Federalism.999.t
+	desc = AUS_Federalism.999.d
+	picture = GFX_report_event_aus_ferdinand
+
+	is_triggered_only = yes
+	
+	trigger = { original_tag = AUS }
+
+	option = {
+		name = AUS_Federalism.999.a
+	}
+}

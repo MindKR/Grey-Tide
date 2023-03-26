@@ -1,0 +1,26 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Reichstag_button"
+		texturefile = "gfx/interface/GER_Reichstag/Reichstag_button.png"
+	}
+
+	spriteType = {
+		name = "GFX_parliament_party_icon"
+		texturefile = "gfx/interface/GER_Reichstag/parliament_parties.png"
+		noOfFrames = 16 # number of parties you have in the gfx file
+	}
+	spriteType = {
+		name = "GFX_parliament_empty_button"
+		texturefile = "gfx/interface/GER_Reichstag/parliament_empty_button.dds"
+	}
+	spriteType = {
+		name = "GFX_Reichstag"
+		texturefile = "gfx/interface/GER_Reichstag/Reichstag.png"
+	}
+
+	spriteType = {
+		name = "GFX_parliament_party_icona"
+		texturefile = "gfx/interface/GER_Reichstag/asdf.png"
+		noOfFrames = 16 # number of parties you have in the gfx file
+	}
+}

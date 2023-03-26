@@ -1,0 +1,22 @@
+state={
+	id=890
+	name="STATE_890"
+
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = POL
+
+	}
+
+
+	provinces={
+		6580 9452 11399 11466 
+	}
+	manpower=1319566
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

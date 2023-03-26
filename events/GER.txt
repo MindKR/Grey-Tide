@@ -1,0 +1,81 @@
+﻿###########################
+# German Events
+###########################
+
+add_namespace = GER
+add_namespace = GER_death
+
+############
+### EVENT ###
+############
+
+# Wilhelm II dies
+country_event = {
+	id = GER_death.1
+	title = GER_death.1.t
+	desc = GER_death.1.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			has_idea = wilhelm_ii
+			has_country_leader = { character = GER_wilhelm_ii }
+		}
+	}
+
+	option = {
+		name = GER_death.a
+		Wilhelm_II_dies = yes
+	}
+}
+
+country_event = {
+	id = GER.1
+	title = GER.1.t
+	picture = GFX_SPDL
+	desc = {
+		text = GER.1.d
+		trigger = { literary_flavor = no }
+	}
+	desc = {
+		text = GER.1.d.literary
+		trigger = { literary_flavor = yes }
+	}
+	
+	is_triggered_only = yes
+
+	option = {
+		name = GER.1.a
+	}
+}
+
+country_event = {
+	id = GER.3
+	title = GER.3.t
+	desc = GER.3.d
+	picture = GFX_Frederick_III
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GER.3.a
+		Reichstag_hold_federal_election = yes
+	}
+}
+
+country_event = {
+	id = GER.4
+	title = GER.4.t
+	desc = GER.4.d
+	picture = GFX_Hitler
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GER.4.a
+	}
+}

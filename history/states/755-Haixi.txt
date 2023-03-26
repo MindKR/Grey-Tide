@@ -1,0 +1,31 @@
+
+state={
+	id=755
+	name="STATE_755"
+
+	history={
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = CHI
+		victory_points = {
+			7940 10 
+		}
+		victory_points = {
+			12732 3 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		455 2053 2548 7940 10490 10750 10796 10834 10865 12846 12890 13146 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

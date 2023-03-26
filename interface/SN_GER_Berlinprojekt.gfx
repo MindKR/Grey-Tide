@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Berlin"
+		texturefile = "gfx/interface/GER_Berlinprojekt/Berlin.png"
+	}
+}

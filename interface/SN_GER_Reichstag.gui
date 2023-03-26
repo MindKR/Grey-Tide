@@ -1,0 +1,265 @@
+guiTypes = {
+	containerWindowType = {
+		name = "Reichstag_open"
+		size = { width = 220 height = 118 }
+		position = { x=210 y=573 }
+
+		buttonType ={
+			name ="GER_Reichstag_button"
+			spriteType = "GFX_Reichstag_button"
+			position = { x=238 y=41 }
+			pdx_tooltip = "GER_Reichstag_button_tt"
+		}
+	}
+	
+	containerwindowtype = {
+		name = "Reichstag_main"
+        	position = { x = -1270 y =-425 }
+		show_position = { x=-875 y=-425 }
+		size = { width = 1740 height = 888 }
+		orientation = center
+		moveable = yes
+		click_to_front = yes
+		clipping = no
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 400
+
+		background = {
+			name = "Background"
+			spriteType ="GFX_tiled_bg_topbar"
+		}
+
+		instantTextBoxType = {
+			name = "Reichstag_title"
+        		position = { x = 765 y = 8 }
+			font = "hoi_36header"
+			text = "reichstag_title"
+			format = center
+		}
+
+		containerWindowType = {
+			name = "reichstag"
+			position = { x = 13 y = 80 }
+			size = { width = 1715 height = 796 }
+
+			background = {
+				name = "bg"
+				spriteType = "GFX_tiled_paper_bg2_b15"
+				position = { x = 0 y = 0 }
+			}
+		}
+		
+		### Buttons ###
+		# Reichstag_buttons_entry
+		gridboxtype = {
+			name = "Reichstag_buttons_gridbox"
+			position = { x = 292 y = 50 }
+			slotsize = { width = 570 height = 145 }
+			add_horizontal = yes
+			max_slots_horizontal = 3
+		}
+		
+		### Flag ###
+		
+		iconType = {
+			name = "flag"
+			position = { x = 10 y = 13 }
+			spriteType = "GFX_flag_small"
+		}
+		
+		### First Page - Government ###
+		containerWindowType = {
+			name = "reichstag_semicircle_main_container"
+			position = { x = 1200 y = 75 }
+			size = { width = 530 height = 365 }
+
+			buttonType = {
+				name = "reichstag_semicircle_main_bg"
+				spriteType = "GFX_tiled_window_thin_border2"
+				position = { x = 0 y = 11 }
+				size = { width = 530 height = 375 }
+				pdx_tooltip = "reichstag_main_icon_tt"
+			}
+
+			instantTextBoxType = {
+				name = "reichstag_seats_rule"
+				position = { x = 160 y = 295 }
+				font = "hoi_18mbs"
+				text = reichstag_seats_rule
+				format = center
+			}
+
+			containerWindowType = {
+				name = "reichstag_main_entry"
+				position = { x = 211 y = 190 }
+				
+				iconType = {
+					name = "reichstag_main_icon"
+					spriteType = "GFX_Reichstag"
+					position = { x = 0 y = 0 }
+				}
+			}
+			
+			gridboxtype = {
+				name = "reichstag_semicircle_main_grid"
+				position = { x = 25 y = 10 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 100%% height = 0 }
+				max_slots_horizontal = 1
+				add_horizontal = no
+			}
+
+		}
+
+		gridboxtype = {
+			name = "reichstag_member_grid"
+			position = { x = -125 y = 497 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 280 height = 24 }
+			max_slots_vertical = 80
+			add_horizontal = no
+		}
+
+		instantTextBoxType = {
+			name = "reichstag_desc"
+			position = { x = 50 y = 415 }
+			font = "hoi_18mbs"
+			text = reichstag_mechanism
+			pdx_tooltip = reichstag_mechanism_desc
+			maxWidth = 400
+			maxHeight = 16
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "reichstag_ruling_party"
+			position = { x = 1275 y = 425 }
+			font = "hoi_16mbs"
+			text = "reichstag_ruling_party"
+			maxWidth = 400
+			maxHeight = 16
+			format = center
+		}
+
+		containerWindowType = {
+			name = "reichstag_member_title"
+			position = { x = 1170 y = 460 }
+
+			instantTextboxType = {
+				name = "reichstag_personal_color"
+				position = { x = 0 y = 0 }
+				font = "hoi_20bs"
+				format = centre
+				text = "reichstag_personal_color"
+			}
+			instantTextboxType = {
+				name = "reichstag_party"
+				position = { x = 175 y = 0 }
+				font = "hoi_20bs"
+				format = center
+				text = "reichstag_party"
+			}
+			instantTextboxType = {
+				name = "reichstag_seats"
+				position = { x = 350 y = 0 }
+				font = "hoi_20bs"
+				format = center
+				text = "reichstag_seats"
+			}
+		}
+		
+		### Close button ###
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -45 y = 9 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	
+	### GRIDBOX ENTRIES ###
+	
+	# Belonging to `top_tabs`
+	containerWindowType = {
+		name = "Reichstag_buttons_entry"
+		size = { width = 292 height = 40 }
+		buttonType = {
+			name = "tab_button"
+			spriteType = "GFX_tiled_tab_button"
+			clicksound = "click_close"
+		}
+		containerWindowType = {
+			name = "icon"
+			position = { x = 13 y = -5 }
+			size = { width = 100%% height = 41 }
+			clipping = yes
+			iconType = {
+				name = "tab_icon"
+				position = { x = 0 y = 5 }
+				alwaystransparent = yes
+			}
+		}
+		instantTextBoxType = {
+			name = "tab_text"
+			position = { x = 48 y = 0 }
+			text = [GetReichstagButtonName]
+			font = "hoi_20bs"
+			maxwidth = 140
+			maxheight = 25
+			vertical_alignment = center
+			alwaystransparent = yes
+		}
+	}
+
+
+	### Fist Page - Government (Gridbox) ###
+	containerWindowType = {
+		name = "reichstag_semicircle_main_entry"
+		position = { x = 0 y = 20 }
+
+		iconType = {
+			name = "reichstag_semicircle_main_icon"
+			spriteType = "GFX_parliament_party_icon"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "reichstag_main_icon_tt"
+		}
+	}
+
+	containerWindowType = {
+		name = "reichstag_member_entry"
+		position = { x = 645 y = -15 }
+		size = { width = 500 height = 960 }
+
+		iconType = {
+			name = "reichstag_member_icon"
+			spriteType = "GFX_parliament_party_icona"
+			position = { x = -50 y = 0 }
+		}
+		instantTextboxType = {
+			name = "reichstag_member_text"
+			position = { x = 60 y = 0 }
+			font = "hoi_20bs"
+			maxWidth = 250
+			maxHeight = 16
+			format = left
+			text = "reichstag_member_text"
+			pdx_tooltip = "reichstag_member_tt"
+			pdx_tooltip_delayed = "reichstag_member_desc"
+		}
+		instantTextboxType = {
+			name = "Reichstag_member_seat_text"
+			position = { x = 265 y = 0 }
+			font = "hoi_20bs"
+			maxWidth = 250
+			maxHeight = 8
+			format = left
+			text = "reichstag_member_seat_text"
+		}
+	}
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=799
+	name="STATE_799"
+
+	history={
+		owner = ENG
+		add_core_of = JOR
+		victory_points = {
+			12029 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4017 4115 4574 4591 7001 7151 7170 10089 11976 
+	}
+	manpower=234379
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

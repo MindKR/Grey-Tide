@@ -1,0 +1,64 @@
+characters={
+	EGY_Abbas_II={
+		portraits={
+			civilian={
+				large="gfx/leaders/EGY/Portrait_EGY_Abbas_II.png"
+				small="gfx/interface/ideas/EGY/EGY_Abbas_II.png"
+			}
+		}
+		country_leader={
+			ideology=despot_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		advisor={
+			slot = second_banana
+			idea_token = EGY_Abbas_II
+			available = {
+				has_country_leader = { character = EGY_Abbas_II }
+			}
+			allowed = { original_tag = EGY }
+			traits = { head_of_gov despot }
+			removal_cost = -1
+			cost = -1
+		}
+	}
+	EGY_Fuad_I={
+		portraits={
+			civilian={
+				large="gfx/leaders/EGY/Portrait_EGY_Fuad_I.png"
+				small="gfx/interface/ideas/EGY/EGY_Fuad_I.png"
+			}
+		}
+		advisor={
+			slot = second_banana
+			idea_token = EGY_Fuad_I
+			available = {
+				has_country_leader = { character = EGY_Fuad_I }
+			}
+			allowed = { original_tag = EGY }
+			traits = { head_of_gov despot }
+			removal_cost = -1
+			cost = -1
+		}
+	}
+	EGY_Farouk_I={
+		portraits={
+			civilian={
+				large="gfx/leaders/EGY/Portrait_EGY_Farouk_I.png"
+				small="gfx/interface/ideas/EGY/EEGY_Farouk_I.png"
+			}
+		}
+		advisor={
+			slot = second_banana
+			idea_token = EGY_Farouk_I
+			available = {
+				has_country_leader = { character = EGY_Farouk_I }
+			}
+			allowed = { original_tag = EGY }
+			traits = { head_of_gov despot }
+			removal_cost = -1
+			cost = -1
+		}
+	}
+}

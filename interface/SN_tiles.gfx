@@ -1,0 +1,35 @@
+spriteTypes = {	
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_bg_topbar"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiles/tiled_bg_topbar.png"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_paper_bg2_b10"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiles/tiled_paper_bg2_b10.png"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"	
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_paper_bg2_b15"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiles/tiled_paper_bg2_b15.png"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"	
+	}
+
+	spriteType = {
+		name = "GFX_tiled_tab_button"
+		textureFile = "gfx/interface/tiles/tiled_tab_button.png"
+		noofframes = 2
+	}
+}

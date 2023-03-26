@@ -1,0 +1,27 @@
+state={
+	id=862
+	name="STATE_862"
+
+	impassable = yes
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 0
+
+		}
+		victory_points = {
+			4191 3
+		}
+		add_core_of = LBA
+
+	}
+
+	provinces={
+		1057 1140 1994 4191 10104 10754 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

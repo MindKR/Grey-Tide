@@ -1,0 +1,18 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				country_event = startup.1
+				set_country_flag = literary_flavor
+				set_variable = { global.literary_frame = 2 }
+				SN_startup_cultures = yes
+			}
+		}
+	}
+
+	on_government_change = {
+		effect = {
+			country_event = startup.2
+		}
+	}
+}

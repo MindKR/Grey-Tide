@@ -1,0 +1,143 @@
+bookmarks = {
+	bookmark = {
+		name = "INEVITABILITY_NAME"
+		desc = "INEVITABILITY_DESC"
+		date = 1950.1.1.1
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+		default = yes
+		
+		USA={
+			history = "USA_INEVITABILITY_DESC"
+			ideology = liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		ENG={
+			history = "ENG_INEVITABILITY_DESC"
+			ideology = conservative
+			ideas = {
+				stiff_upper_lip
+				george_v
+			}
+			focuses = {
+			}
+		}
+		AUS={
+			history = "AUS_INEVITABILITY_DESC"
+			ideology = conservative
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		GER={
+			history = "GER_INEVITABILITY_DESC"
+			ideology = social_democrat
+			ideas = {
+				wilhelm_ii
+			}
+			focuses = {
+			}
+		}
+		FRA={
+			history = "FRA_INEVITABILITY_DESC"
+			ideology = libertarian_socialist
+			ideas = {
+				FRA_lagacy_of_revolution
+				FRA_resting_place_for_socialists
+			}
+			focuses = {
+			}
+		}
+		ITA={
+			history = "ITA_INEVITABILITY_DESC"
+			ideology = social_democrat
+			ideas = {
+				victor_emmanuel
+				ITA_risorgimento4
+			}	
+			focuses = {
+			}		
+		}
+		RUS={
+			history = "RUS_INEVITABILITY_DESC"
+			ideology = despot
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		JAP={
+			history = "JAP_INEVITABILITY_DESC"
+			ideology = fascist
+			ideas = {
+			}	
+			focuses = {
+			}			
+		}
+
+		# minors
+		"OTT"={
+			minor = yes
+			history = "OTT_INEVITABILITY_DESC"
+			ideology = despot
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"CHI"={
+			minor = yes
+			history = "CHI_INEVITABILITY_DESC"
+			ideology = conservative
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"HOL"={
+			minor = yes
+			history = "HOL_INEVITABILITY_DESC"
+			ideology = conservative
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SWE"={
+			minor = yes
+			history = "SWE_INEVITABILITY_DESC"
+			ideology = social_democrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"FIN"={
+			minor = yes
+			history = "FIN_INEVITABILITY_DESC"
+			ideology = conservative
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SPR"={
+			minor = yes
+			history = "SPR_INEVITABILITY_DESC"
+			ideology = social_democrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
