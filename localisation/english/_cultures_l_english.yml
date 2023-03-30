@@ -1,9 +1,9 @@
 ﻿l_english:
- MAPMODE_SN_CULTURE_MAP_MODE_NAME:0 "문화"
- MAPMODE_SN_CULTURE_MAP_MODE:0 "§H문화§! 지도"
- MAPMODE_SN_CULTURE_MAP_MODE_DESCRIPTION:0 "각 주별로 거주하는 인구의 주 문화를 보여줍니다."
- SN_culture_map_mode_tooltip:0 "§H[FROM.GetNationality]§!"
- SN_culture_map_mode_tooltip_delayed:0 "§F(§Y[FROM.Controller.GetNameWithFlag]§!): [FROM.GetName]은(는) 다수의 '§Y[FROM.GetNationality]§!'로 이루어져있습니다.§!"
+ MAPMODE_GT_CULTURE_MAP_MODE_NAME:0 "Culture"
+ MAPMODE_GT_CULTURE_MAP_MODE:0 "§HCulture§! Map"
+ MAPMODE_GT_CULTURE_MAP_MODE_DESCRIPTION:0 "Shows the state culture of the population residing in each state."
+ GT_culture_map_mode_tooltip:0 "§H[FROM.GetNationality]§!"
+ GT_culture_map_mode_tooltip_delayed:0 "§F(§Y[FROM.Controller.GetNameWithFlag]§!): [FROM.GetName] is made up of a number of '§Y[FROM.GetNationality]§!'§!"
 
  nationality.1:0 "북독일계"
  nationality.1-1:0 "남독일계"

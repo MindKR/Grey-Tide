@@ -1,0 +1,14 @@
+﻿l_english:
+ laws:0 "법률"
+ government:0 "정부"
+
+ SIC:0 "2인자"
+ cabinet:0 "관료"
+
+ head_of_gov:0 "정부수반"
+
+ #GER
+ vizekanzler:0 "부수상"
+
+ POLITICS_NEXT_ELECTION:0 "다음 선거:\n§Y$DATE$§!"
+ POLITICS_STATUS:0 "지위"

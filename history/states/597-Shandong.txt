@@ -4,8 +4,9 @@ state={
 	name="STATE_597"
 
 	history={
-		owner = CHI
+		owner = PRC
 		add_core_of = CHI
+		add_core_of = PRC
 		victory_points = {
 			1069 3 
 		}
@@ -21,7 +22,17 @@ state={
 			}
 
 		}
-
+		CHI = {
+			set_province_controller = 9956
+			set_province_controller = 12015
+			set_province_controller = 4037
+			set_province_controller = 1069
+			set_province_controller = 12045
+			set_province_controller = 10102
+			set_province_controller = 12074
+			set_province_controller = 1184
+			set_province_controller = 7089
+		}
 	}
 
 	provinces={

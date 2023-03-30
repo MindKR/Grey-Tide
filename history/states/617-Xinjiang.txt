@@ -4,9 +4,9 @@ state={
 	name="STATE_617"
 
 	history={
-		owner = ETR
-		add_core_of = ETR
+		owner = CHI
 		add_core_of = CHI
+		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
@@ -19,7 +19,7 @@ state={
 	}
 
 	provinces={
-		1703 4682 4709 4770 7702 7792 7850 10545 10614 12524 12526 12601 12656 
+		4709 4714 4770 4788 4849 7737 10545 10614 10674 10691 12524 12656 12671 
 	}
 	manpower=1080500
 	buildings_max_level_factor=1.000

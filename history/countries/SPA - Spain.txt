@@ -24,7 +24,7 @@ if = {
 }
 
 set_popularities = {
-	despot = 100
+	fascist = 100
 }
 
 recruit_character = SPA_niceto_alcala_zamora
@@ -186,7 +186,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = despot
+	ruling_party = fascist
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes

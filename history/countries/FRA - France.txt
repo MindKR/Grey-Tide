@@ -171,6 +171,7 @@ set_autonomy = { target = WAF autonomous_state = SN_federation_of_colonies }
 set_autonomy = { target = TUN autonomous_state = SN_colonial_protectorate }
 set_autonomy = { target = DJI autonomous_state = SN_colonial_protectorate }
 set_autonomy = { target = MAD autonomous_state = SN_colonial_protectorate }
+set_autonomy = { target = MOR autonomous_state = SN_colonial_protectorate }
 
 create_faction = French_Republic
 add_to_faction = WAF
@@ -178,6 +179,7 @@ add_to_faction = EAF
 add_to_faction = DJI
 add_to_faction = TUN
 add_to_faction = MAD
+add_to_faction = MOR
 
 "TUN" = {
 	set_politics = {

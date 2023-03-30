@@ -187,10 +187,9 @@ add_ideas = {
 
 
 # DIPLOMACY
-set_autonomy = {
-	target = PHI
-	autonomous_state =  autonomy_puppet
-}
+
+set_autonomy = { target = JAP autonomous_state = GT_military_government }
+set_autonomy = { target = PHI autonomous_state = autonomy_puppet }
 
 "PHI" = {
 	set_politics = {

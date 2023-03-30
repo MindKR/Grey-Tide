@@ -8,6 +8,7 @@ state={
 		owner = GXC
 		add_core_of = GXC
 		add_core_of = CHI
+		add_core_of = PRC
 
 		
 		victory_points = {
@@ -21,6 +22,9 @@ state={
 				naval_base = 2
 			}
 
+		}
+		PRC = {
+			set_province_controller = 11990
 		}
 	}
 

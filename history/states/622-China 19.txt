@@ -1,3 +1,4 @@
+
 state={
 	id=622
 	name="STATE_622"
@@ -7,38 +8,31 @@ state={
 	}
 
 	history={
-		owner = CHI
+		owner = PRC
 		add_core_of = CHI
+		add_core_of = PRC
 		victory_points = {
-			8049 3 
+			12356 3 
 		}
 		buildings = {
 			infrastructure = 1
 			arms_factory = 3
 			industrial_complex = 3
-			10733 = {
-				bunker = 2
-
-			}
-			12156 = {
-				bunker = 2
-
-			}
-			5007 = {
-				bunker = 2
-
-			}
-
 		}
-
+		CHI = {
+			set_province_controller = 8049
+			set_province_controller = 7208
+			set_province_controller = 5007
+			set_province_controller = 12156
+			set_province_controller = 10733
+		}
 	}
 
 	provinces={
-		517 1458 4939 5007 7208 7314 7659 8049 10733 10880 12156 12356 
+		1458 5007 7208 7314 7659 8049 10733 10880 12156 12356 
 	}
 	manpower=7006200
 	buildings_max_level_factor=1.000
 	state_category=city
-
-	local_supplies=0.0 
+	local_supplies=0.000
 }

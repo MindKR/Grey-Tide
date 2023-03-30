@@ -1,49 +1,28 @@
 ﻿l_english:
- asdfasdf:0 "한 편지와 함께 고향 땅을 밟은 남자가 있었다. 지난 몇 년 간 일족 들의 죽음을 봐왔던 그로서 짧고도 긴 망명의 끝은 달콤하면서 썼다. 참혹한 내전 뒤 재건의 중심지 중 하나인 빈의 쇤브룬 궁전에 다다르자 신정부의 외무장관 게오르크 데르팅거가 그를 맞이했다.
-
-형식적인 인사와 담소 후, 한 때 아버지의 국가였으나 지금은 독일이 된 이 도시를 바라보며 감화되기도 잠시, 데르팅거가 포문을 열었다.
-
-"이곳까지 찾아와 주셔서 감사합니다. 독일의 제안을 말씀드리려 합니다."
-
-"뭐, 오스트리아를 독립시키기라도 할겁니까? 다르다고 자부하는 그 신정부 마저도 권력욕에 빠진 군국주의 정당이 통치하는 사실상의 독재와 다름없지 않습니까? 당신이 2년 전 나치의 아우구스트와 다를 게 있을 지 의문이 드는군요."
-
-독일에서 벌어진 일련의 사건을 보며 독일에 대한 부정적인 시각을 키워왔던 오토 폰 합스부르크는 파괴된 건물과 고풍적인 풍채가 뒤섞인 빈을 보며 마음을 굳힌 듯 했다. 독일은 이미 그에게 불쾌한 존재가 되어있었다.
-
-그의 불평 섞인 발언을 예상했다는 듯, 데르팅거는 천천히 말을 다시 이어나갔다.
-
-"합스부르크법은 폐지되었습니다. 히틀러 정권이 앗아간 것들에 대한 보상을 드리고 싶습니다."
-
-물론 합스부르크가의 통치를 상징하는 이 궁에 그를 불러냈다는 것은 이것이 서론에 불과하다는 사실을 그에게도 짐작하게 했다.
-
-"저희는 1918년의 개혁법에 따라 새로운 독일을 조직할 계획입니다. 오스트리아 또한 예외는 아닐 것입니다. 독일국의 카이저 폐하의 명에 따라, 오스트리아 왕위에 오를 것을 간절히 요청드리는 바입니다. 오스트리아는 다시금 군주를 필요로 합니다."
-
-새 정부의 관리 앞에서 구 시대의 끝을 관찰한 남자는 잠시 망설였다.
-
-"그게 정말 가능하다면, 저 또한 요구할 게 있습니다."
-
-1940년의 어느 봄이었다."
- GER.3.a:0 "[$ELIGIBLE|^H$]"
+ GER.3.t:0 "The Request and Demand"
+ GER.3.d:0 "It was one spring in 1940. There was a man who set foot on his homeland with a letter in his hand. Having witnessed the deaths of his people for the past few years, the end of his brief but long exile felt both sweet and bitter. As he reached the Schonbrunn Palace in Vienna, one of the centers of reconstruction after the brutal civil war, he was greeted by the foreign minister of the provisional government, Georg Dertinger.\n\nAfter a formal greeting and chatter, Dertinger opened his mouth at last while looking at the city, which was once his father's empire but now Germany.\n\n"Thank you for coming all this way. I would like to propose something on behalf of Germany."\n\n"What, are you going to make Austria independent? Isn't the so-called provisional government ruled by a militaristic party with a thirst for power, not much different from the last dictatorship? I wonder if you are any different from August, the Nazi, who you were two years ago."\n\nOtto von Habsburg, who had grown negative about Germany after observing a series of events that had occurred there, seemed to harden his heart as he looked at the destroyed buildings and old-fashioned scenery of Vienna. Germany had already become a displeasing presence to him.\n\nAs if he knew he would make a complaining remarks, Dertinger slowly went on again.\n\n"The Habsburg law has been abolished. We would like to offer compensation for what the Hitler regime has taken away."\n\nOf course, calling him to the palace that symbolized Habsburg's rule was just a prelude, a fact that he himself had suspected.\n\n"We are planning to organize a new Germany. Austria will not be an exception. On His Majesty's command, we earnestly request you to accept the Austrian throne. Austria still needs a monarch."\n\nThe man who observed the end of an era from the request of the new government hesitated for a moment."
+ GER.3.a:0 ""If that is really possible, I have a demand as well.""
 
  #NAME
- GER_social_democrat:0 "독일 제국"
- GER_social_democrat_DEF:0 "독일 제국"
- GER_social_liberal:0 "독일 제국"
- GER_social_liberal_DEF:0 "독일 제국"
- GER_market_liberal:0 "독일 제국"
- GER_market_liberal_DEF:0 "독일 제국"
- GER_conservative:0 "독일 제국"
- GER_conservative_DEF:0 "독일 제국"
- GER_libertarian_socialist:0 "독일 사회주의 공화국"
- GER_libertarian_socialist_DEF:0 "독일 사회주의 공화국"
- GER_authoritarian_socialist:0 "독일 평의회 공화국"
- GER_authoritarian_socialist_DEF:0 "독일 평의회 공화국"
- GER_authoritarian_democrat:0 "독일 제국"
- GER_authoritarian_democrat_DEF:0 "독일 제국"
- GER_national_populist:0 "독일국"
- GER_national_populist_DEF:0 "독일국"
- GER:0 "독일"
- GER_DEF:0 "독일"
- GER_ADJ:0 "독일"
+ GER_social_democrat:0 "German Empire"
+ GER_social_democrat_DEF:0 "German Empire"
+ GER_social_liberal:0 "German Empire"
+ GER_social_liberal_DEF:0 "German Empire"
+ GER_market_liberal:0 "German Empire"
+ GER_market_liberal_DEF:0 "German Empire"
+ GER_conservative:0 "German Empire"
+ GER_conservative_DEF:0 "German Empire"
+ GER_libertarian_socialist:0 "Socialist Republic of Germany"
+ GER_libertarian_socialist_DEF:0 "Socialist Republic of Germany"
+ GER_authoritarian_socialist:0 "Socialist Republic of Germany"
+ GER_authoritarian_socialist_DEF:0 "Socialist Republic of Germany"
+ GER_authoritarian_democrat:0 "German Empire"
+ GER_authoritarian_democrat_DEF:0 "German Empire"
+ GER_national_populist:0 "German Reich"
+ GER_national_populist_DEF:0 "German Reich"
+ GER:0 "Germany"
+ GER_DEF:0 "Germany"
+ GER_ADJ:0 "Germany"
 
  #PARTY
  GER_social_democrat_party:0 "사회민주당"
@@ -70,14 +49,14 @@
  GER_exclusive_of_junkers:0 "융커의 독점"
  GER_exclusive_of_junkers_desc:0 "융커는 프로이센의 지배 계급으로, 보수적입니다. 독일은 입헌군주제를 도입한 후 정부에서 대대적으로 융커의 특권에 대해 제한을 두려 했지만 아직까지도 융커들은 여러 행정 기구와 토지를 점하고 있습니다. 이는 독일이 해결해야할 중대한 사회 문제로 대두되고 있습니다."
  GER_great_depression:0 "회복되어가는 공황"
- GER_great_depression_desc:0 "1930년, 런던 증권거래소에서 일어난 주가 대폭락은 전세계를 혼란의 도가니에 빠지게 했습니다. 이 사태의 가장 커다란 피해를 입은 국가가 독일이란 것을 이해하기 위해선 비스마르크 시기로 거슬러 올라갑니다.\n\n프리드리히 3세가 즉위하기 불과 4년 전인 1884년, 자유주의라는 이념의 성장은 비스마르크 정권에 거대한 위협이었습니다. 이 시기 독일 제국은 이전의 입장과는 달리 식민지 쟁탈전에 뛰어들었습니다. 의도한 것인지는 모르겠지만 제국주의의 시작은 자유주의 세력들에게 타격을 주었고, 프리드리히 3세는 이러한 상황에서 즉위하였습니다.\n\n빌헬름 1세의 선종인 1888년까지 독일이 확보한 식민지들은 애물단지에 불과했습니다. 식민지에서 일어나는 각종 봉기와 범죄는 감당 불가능한 수준이었으며 이 지역을 철수하기엔 열강으로써 식민제국이란 지위를 포기하는 것이었습니다. 따라서 자유주의자들은 식민지에 대해 유화책을 사용하며 신중하게 다가가야 했는데, 프랑스의 급진적 개혁만큼은 아니지만 괄목할만한 개혁의 과실을 얻을 수 있었습니다.\n\n하지만 이는 독일이 대공황에서 블록 경제를 작동시키는 데에 망설이게 했고 이미 때는 늦은 뒤였습니다. 진보인민당의 건함 경쟁은 완전히 실패해버린 정책이 되었으며 내각은 불신임 결의로 물러나게 되었고, 당은 큰 타격을 입었습니다. 이후 출범한 사회민주당의 벨스 내각이 기적적인 경제 회복을 보여주고 있지만, 이 회복세가 계속 될지는 의문입니다."
+ GER_great_depression_desc:0 "1930년, 런던 증권거래소에서 일어난 주가 대폭락은 전세계를 혼란의 도가니에 빠지게 했습니다. 이 사태의 가장 커다란 피해를 입은 국가가 독일이란 것을 이해하기 위해선 비스마르크 시기로 거슬러 올라갑니다.\n\n프리드리히 3세가 즉위하기 불과 4년 전인 1884년, 자유주의라는 이념의 성장은 비스마르크 정권에 거대한 위협이었습니다. 이 시기 German Empire은 이전의 입장과는 달리 식민지 쟁탈전에 뛰어들었습니다. 의도한 것인지는 모르겠지만 제국주의의 시작은 자유주의 세력들에게 타격을 주었고, 프리드리히 3세는 이러한 상황에서 즉위하였습니다.\n\n빌헬름 1세의 선종인 1888년까지 독일이 확보한 식민지들은 애물단지에 불과했습니다. 식민지에서 일어나는 각종 봉기와 범죄는 감당 불가능한 수준이었으며 이 지역을 철수하기엔 열강으로써 식민제국이란 지위를 포기하는 것이었습니다. 따라서 자유주의자들은 식민지에 대해 유화책을 사용하며 신중하게 다가가야 했는데, 프랑스의 급진적 개혁만큼은 아니지만 괄목할만한 개혁의 과실을 얻을 수 있었습니다.\n\n하지만 이는 독일이 대공황에서 블록 경제를 작동시키는 데에 망설이게 했고 이미 때는 늦은 뒤였습니다. 진보인민당의 건함 경쟁은 완전히 실패해버린 정책이 되었으며 내각은 불신임 결의로 물러나게 되었고, 당은 큰 타격을 입었습니다. 이후 출범한 사회민주당의 벨스 내각이 기적적인 경제 회복을 보여주고 있지만, 이 회복세가 계속 될지는 의문입니다."
  GER_aftermath_of_naval_arms_race:0 "건함경쟁의 여파"
  GER_aftermath_of_naval_arms_race_desc:0 "20세기에 들어 독일은 자연스럽게 패권도전국의 반열에 자리를 올리며 영국과 치열한 건함 경쟁을 벌여왔습니다. 그리고 과도한 군비확장은 두 국가 간의 관계를 악화시키는 동시에 경제 역시 파탄 상태로 몰아갔습니다.\n\n정부는 이를 해결하기 위해 갖은 노력을 기울였으나 비대하게 성장한 조선사업은 대공황을 기점으로 완전히 몰했으며, 천문학적인 액수의 손해와 실업자들을 양성했습니다.\n\n조선 사업 전반에 대한 구제와 방대한 실업 문제의 해결은 현실적으로 불가능에 가까우며, 현 시점에서 정부는 다방면에서 해결책을 강구하고 있습니다."
 
  #CHARACTER
  GER_Friedrich_Naumann:0 "프리드리히 나우만"
  GER_otto_wels:0 "오토 벨스"
- GER_otto_wels_desc:0 "§Y출생:§!\n1873년 9월 15일\n독일 제국, 베를린\n§W--------------§!\n오토 벨스는 베를린의 한 요식업자의 아들로 태어났습니다. 한 때 도배사로 일하였으며, 1895년부터 1897년까지의 군 복무 이후 그는 독일이 영국식 입헌군주제를 도입하던 시기 사회민주당에 입당하며 정계에 발을 들였습니다. 브란덴부르크 주의 당 서기로도 지냈으며, 사회민주당이 발행하는 신문인 포어베르츠에서도 일하였습니다. 1912년 선거에서 그는 라이히스탁 의원이 되었으며, 1919년부터는 사민당 당수가 되었습니다. 오토 벨스는 1930년 대공황 이후 진행된 조기총선인 1931년 라이히스탁 선거 이후 독일의 수상으로 취임했습니다."
+ GER_otto_wels_desc:0 "§Y출생:§!\n1873년 9월 15일\nGerman Empire, 베를린\n§W--------------§!\n오토 벨스는 베를린의 한 요식업자의 아들로 태어났습니다. 한 때 도배사로 일하였으며, 1895년부터 1897년까지의 군 복무 이후 그는 독일이 영국식 입헌군주제를 도입하던 시기 사회민주당에 입당하며 정계에 발을 들였습니다. 브란덴부르크 주의 당 서기로도 지냈으며, 사회민주당이 발행하는 신문인 포어베르츠에서도 일하였습니다. 1912년 선거에서 그는 라이히스탁 의원이 되었으며, 1919년부터는 사민당 당수가 되었습니다. 오토 벨스는 1930년 대공황 이후 진행된 조기총선인 1931년 라이히스탁 선거 이후 독일의 수상으로 취임했습니다."
  GER_arthur_crispien:0 "아르투어 크리스피엔"
  GER_franz_von_papen:0 "프란츠 폰 파펜"
  GER_wilhelm_ii:0 "빌헬름 2세"
@@ -88,7 +67,7 @@
 
  #FOCUS
  GER_thorny_rose:0 "가시 돋친 장미"
- GER_thorny_rose_desc:0 "장미는 겉으로 보기엔 아름다우나, 자세히 들여다보면 가시가 돋쳐있습니다. 독일 제국의 현주소는 바로 장미와도 같습니다. 한때 중앙유럽의 강력한 패권국가였던 독일 제국은, 오늘날 내부로부터 망가졌으며 과거의 영광만이 국가를 연명시키고 있습니다.\n\n대공황의 타격은 돌이킬 수 없을 정도로 컸으며, 극단주의와의 전쟁이 시작되었습니다. 정권을 잡은 사회민주당은 허상의 제국을 탈바꿈시키기 위해 하루하루 고군분투 중입니다."
+ GER_thorny_rose_desc:0 "장미는 겉으로 보기엔 아름다우나, 자세히 들여다보면 가시가 돋쳐있습니다. German Empire의 현주소는 바로 장미와도 같습니다. 한때 중앙유럽의 강력한 패권국가였던 German Empire은, 오늘날 내부로부터 망가졌으며 과거의 영광만이 국가를 연명시키고 있습니다.\n\n대공황의 타격은 돌이킬 수 없을 정도로 컸으며, 극단주의와의 전쟁이 시작되었습니다. 정권을 잡은 사회민주당은 허상의 제국을 탈바꿈시키기 위해 하루하루 고군분투 중입니다."
  GER_berlinprojekt:0 "베를린프로옉트"
  GER_berlinprojekt_desc:0 "1930년 말의 대베를린법(Groß-Berlin-Gesetz)으로 베를린의 행정구역은 크게 확장되었습니다. 대베를린 중심의 베를린시를 제외한 다른 구역들은 개발도에서 차이가 나고 있으며, 대공황 이후 실업자 구제를 위한 정책의 일부로 대규모 건설 작업을 위한 많은 노동자와 자본이 투입되었습니다."
  GER_steal_the_sunset:0 "석양을 훔쳐라"

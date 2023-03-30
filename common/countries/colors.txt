@@ -152,6 +152,10 @@ CHI = {
 	color = rgb { 12 47 171 }
 	color_ui = rgb { 12 47 171 }
 }
+PRC = {
+	color = rgb { 230 15 55 }
+	color_ui = rgb { 178 34 60 }
+}
 CHL = {
 	color = rgb { 155 101 107 }
 	color_ui = rgb { 202 131 139 }
@@ -305,11 +309,18 @@ GXC = {
 	color = rgb { 71 96 113 }
 	color_ui = rgb { 71 96 113 }
 }
-XSM = {
+TMC = {
 	color = rgb { 105 90 132 }
 	color_ui = rgb { 105 90 132 }
 }
-
+NMC = {
+	color = rgb { 105 90 132 }
+	color_ui = rgb { 105 90 132 }
+}
+XKC = {
+	color = rgb { 105 90 132 }
+	color_ui = rgb { 105 90 132 }
+}
 LBA = {
 	color = rgb { 25 105 90 }
 	color_ui = rgb { 25 105 90 }
@@ -480,21 +491,9 @@ BKF = {
 	color = rgb { 50 50 50 }
 	color_ui = rgb { 50 50 50 }
 }
-KUM = {
-	color = rgb { 168 109 41 }
-	color_ui = rgb { 168 109 41 }
-}
-GDC = {
-	color = rgb { 72 118 125 }
-	color_ui = rgb { 72 118 125 }
-}
 ETR = {
 	color = rgb { 0 133 255 }
 	color_ui = rgb { 0 133 255 }
-}
-TUG = {
-	color = rgb { 218 37 29 }
-	color_ui = rgb { 218 37 29 }
 }
 NFL = {
 	color = rgb { 120 29 44 }
@@ -503,6 +502,10 @@ NFL = {
 MOR = {
 	color = rgb { 224 146 113 }
 	color_ui = rgb { 246 161 124 }
+}
+SHX = {
+	color = rgb { 9  171  190 }
+	color_ui = rgb { 9  171  190 }
 }
 D01 = {
 	color = rgb { 122 179 97 }

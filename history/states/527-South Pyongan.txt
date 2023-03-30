@@ -19,7 +19,7 @@ state={
 
 		}
 		victory_points = {
-			4052 10 
+			4052 20 
 		}
 		add_core_of = KOR
 
