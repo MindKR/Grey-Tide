@@ -207,6 +207,8 @@ set_popularities = { # Last Election: 비지역주의 정당 357석 중 199석 (
 
 set_country_flag = banned_anarchist
 
+puppet = AUS
+
 add_to_array = { Reichstag_buttons_array = 1 }
 add_to_array = { Reichstag_buttons_array = 2 }
 add_to_array = { Reichstag_buttons_array = 3 }

@@ -291,6 +291,11 @@ set_popularities = {
 	authoritarian_socialist = 100
 }
 
+puppet = MON
+puppet = EST
+puppet = LAT
+#puppet = LIT #LITBEL
+
 if = {
 	limit = {
 		has_dlc = "La Resistance"
