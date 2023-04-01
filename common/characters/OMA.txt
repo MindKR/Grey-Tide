@@ -25,19 +25,6 @@ characters={
 			id=-1
 		}
 	}
-	OMA_halil_ibn_halil={
-		name="Halil ibn Halil"
-		portraits={
-			civilian={
-				large="gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-			}
-		}
-		country_leader={
-			ideology=anarchist_subtype
-			expire="1950.1.1.12"
-			id=-1
-		}
-	}
 	OMA_abdul_rahal={
 		advisor={
 			cost = 100

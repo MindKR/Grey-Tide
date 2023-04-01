@@ -40,7 +40,6 @@ ideas = {
 				liberal_acceptance = 25
 				libertarian_socialist_acceptance = 50
 				authoritarian_socialist_acceptance = 50
-				anarchist_acceptance = 50
 			}
 		}
 		

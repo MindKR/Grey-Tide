@@ -33,7 +33,6 @@ autonomy_state = {
 		OVERLORD = {
 			NOT = { 
 				has_socialist_government = yes
-				has_government = anarchist
 				has_government = despot
 			}
 		}

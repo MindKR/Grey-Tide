@@ -1,33 +1,26 @@
 ﻿l_english:
- Reichstag_Government_button:0 "정부"
- Reichstag_Election_Map_button:0 "선거 지도"
- Reichstag_Laws_button:0 "법률"
-
- GER_Reichstag_button:0 "§Y라이히스탁§!"
- GER_Reichstag_button_tt:0 "라이히스탁 GUI 열기"
-
- Reichstag_hold_federal_election_tt:0 "§C총선이 열릴 것이며, 라이히스탁의 정치 지형이 변화할 것입니다!"
-
- reichstag_gui_decision_category:0 "라이히스탁§!"
+ Reichstag_Government_button:0 "Goverment"
+ Reichstag_Election_Map_button:0 "Electoral map"
+ Reichstag_Laws_button:0 "Laws"
+ GER_Reichstag_button:0 "§YReichstag§!"
+ GER_Reichstag_button_tt:0 "Open the Reichstag GUI"
+ Reichstag_hold_federal_election_tt:0 "§CFederal election will be held, and the political landscape of Reichstag will change!"
+ reichstag_gui_decision_category:0 "Reichstag§!"
  reichstag_gui_decision_category_desc:0 "라이히스탁은 독일의 유서 깊은 의회로, 1903년 이후로 실질적인 권력을 행사하는 총리를 배출해왔습니다. 이 곳에서 국가의 다양한 정책을 정할 수 있습니다."
-
- reichstag_title:0 "라이히스탁"
- reichstag_seats_rule:0 "선출의석 397명\n과반의석 199명"
- reichstag_mechanism:0 "§C<규칙 읽기>§!"
+ reichstag_title:0 "Reichstag"
+ reichstag_seats_rule:0 "All 397 seats in the Reichstag\n199 seats needed for a majority"
+ reichstag_mechanism:0 "§C<Read Rules>§!"
  reichstag_mechanism_desc:0 "§Y라이히스탁§!은 다양한 정당으로 구성됩니다. 각 정당은 그 당을 대표하는 이념 지지도에 비례해 총선 후 의석이 배정됩니다.\n\n'소수 정당'은 기본적으로 §R불법 정당 혹은 단체§!나, 알자스-로렌당과 같은 §R민족주의 정당§!이 이에 포함됩니다. 스토미나잇의 9가지 이념의 면에서, §R라이히스탁 내 정당을 대표하지 못하는 나머지 이념 §!이 이곳에 포함됩니다.\n\n의석 배정 기준은 총 이념 지지도(100%)의 반올림 방식으로 이루어지며, 예로 들어 §C'33.33%의 지지율을 가진 세 정당의 반올림 결과'§!와 같이 총 합이 99%가 되는 경우, 나머지 1%는 소수 정당에 배정됩니다."
-
- reichstag_personal_color:0 "대표색"
- reichstag_party:0 "정당"
- reichstag_seats:0 "의석"
-
+ reichstag_personal_color:0 "Colours"
+ reichstag_party:0 "Parties"
+ reichstag_seats:0 "Seats"
  reichstag_main_icon_tt:0 "[GetReichstagSeatName] - [GetReichstagPartyName]"
- reichstag_seat_text:0 "[?temp_seat|Y0]번 의석[?reichstag_seat_array^reichstag_member_index]"
+ reichstag_seat_text:0 "Seat [?temp_seat|Y0][?reichstag_seat_array^reichstag_member_index]"
  reichstag_member_text:0 "[GetReichstagPartyName]"
  reichstag_member_tt:0 "[GetReichstagPartyTooltip]"
  reichstag_member_desc:0 "[GetReichstagPartyDesc]"
- reichstag_member_seat_text:0 "[?reichstag_seat_array^reichstag_member_index]석 ([GetReichstagSeatModifiers])"
- reichstag_ruling_party:0 "현재 카이저 폐하의 정부는 [GetReichstagRulingPartyName]입니다."
-
+ reichstag_member_seat_text:0 "[?reichstag_seat_array^reichstag_member_index] seats ([GetReichstagSeatModifiers])"
+ reichstag_ruling_party:0 "His Majesty's current government is the [GetReichstagRulingPartyName]."
  Reichstag_social_democrat_seat_modifiers:0 "[?Reichstag_social_democrat_seat_modifiers|+0]"
  Reichstag_liberal_seat_modifiers:0 "[?Reichstag_liberal_seat_modifiers|+0]"
  Reichstag_conservative_seat_modifiers:0 "[?Reichstag_conservative_seat_modifiers|+0]"
@@ -37,9 +30,8 @@
  Reichstag_national_populist_seat_modifiers:0 "[?Reichstag_national_populist_seat_modifiers|+0]"
  Reichstag_MP_seat_modifiers:0 "[?Reichstag_MP_seat_modifiers|+0]"
  Reichstag_0:0 "§Y0§!"
-
  Reichstag_KPD:0 "§R독일 공산당§!"
- Reichstag_KPD_desc:0 "§R독일 공산당§!" (사회주의)\n\n독일 공산당은 혼란스럽고 어려운 시기에도 주목받지 못하는 정당입니다. 사회민주당에서도 극좌에 위치해있던 이들은 사회민주당의 온건적 행태를 비난하며 생겨난 분파입니다. 공산당이 추구하는 사회주의 체제의 실현은 현재 이루어지기엔 먼산일 뿐입니다."
+ Reichstag_KPD_desc:0 "§R독일 공산당§!\" (사회주의)\n\n독일 공산당은 혼란스럽고 어려운 시기에도 주목받지 못하는 정당입니다. 사회민주당에서도 극좌에 위치해있던 이들은 사회민주당의 온건적 행태를 비난하며 생겨난 분파입니다. 공산당이 추구하는 사회주의 체제의 실현은 현재 이루어지기엔 먼산일 뿐입니다."
  Reichstag_SPDL:0 "§t사회민주당 (강경파)§t"
  Reichstag_SPD:0 "§t사회민주당§!"
  Reichstag_SPD_tt:0 "§t사회민주당§! (사회민주주의)"
@@ -54,7 +46,6 @@
  Reichstag_ELP_tt:0 "알자스-로렌당 (지역 정당)"
  Reichstag_BDL:0 "§G농민 연맹§!"
  Reichstag_BB:0 "§G바이에른 농민 연맹§!"
- Reichstag_BB_tt:0 "§G바이에른 농민 연맹§! (지역 정당)
  Reichstag_FVP:0 "§8진보인민당§!"
  Reichstag_FVP_tt:0 "§8진보인민당§! (사회자유주의)"
  Reichstag_DDP:0 "§Y독일 민주당§!"

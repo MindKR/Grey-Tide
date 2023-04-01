@@ -202,8 +202,7 @@ set_politics = {
 set_popularities = {
 	social_democrat = 4
 	liberal = 7
-	libertarian_socialist = 68
-	anarchist = 20
+	libertarian_socialist = 88
 	despot = 1
 	
 }

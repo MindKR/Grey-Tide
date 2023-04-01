@@ -1,4 +1,5 @@
-﻿###########################
+﻿
+###########################
 # Capitulation Events
 ###########################
 
@@ -58,10 +59,6 @@ news_event = {
 							FROM.FROM = { has_government = libertarian_socialist }
 							FROM.FROM = { has_government = authoritarian_socialist }
 						}
-					}
-					AND = {
-						ROOT = { has_government = anarchist }
-						FROM.FROM = { has_government = anarchist }
 					}
 					AND = {
 						ROOT = { has_government = despot }
@@ -220,10 +217,7 @@ news_event = {
 							FROM.FROM = { has_government = authoritarian_socialist }
 						}
 					}
-					AND = {
-						ROOT = { has_government = anarchist }
-						FROM.FROM = { has_government = anarchist }
-					}
+					AND = 
 					AND = {
 						ROOT = { has_government = despot }
 						FROM.FROM = { has_government = despot }

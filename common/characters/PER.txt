@@ -20,19 +20,6 @@ characters={
 			}
 		}
 	}
-	PER_soleyman_mirza_eskandari={
-		name="Soleyman Mirza Eskandari"
-		portraits={
-			civilian={
-				large="gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
-			}
-		}
-		country_leader={
-			ideology=anarchist_subtype
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
 	PER_hasan_arfa={
 		name="Hasan Arfa"
 		portraits={

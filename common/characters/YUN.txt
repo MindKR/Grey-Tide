@@ -64,20 +64,6 @@ characters={
 			id=-1
 		}
 	}
-	
-	YUN_cheng_peng={
-		name=YUN_cheng_peng
-		portraits={
-			civilian={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
-			}
-		}
-		country_leader={
-			ideology=anarchist_subtype
-			expire="1951.1.1.12"
-			id=-1
-		}
-	}
 
 
 	### THEORISTS ###

@@ -1027,19 +1027,6 @@ Reichstag_update = {
 		set_variable = { Reichstag_socialist_updated = Reichstag_authoritarian_socialist_temp }
 	}
 
-	# Anarchism
-	if = {
-		limit = { NOT = { has_country_flag = banned_anarchist } }
-
-		set_temp_variable = { Reichstag_anarchist_temp = party_popularity_100@anarchist }
-		round_temp_variable = Reichstag_anarchist_temp
-		divide_temp_variable = { Reichstag_anarchist_temp = 100 }
-
-		multiply_temp_variable = { Reichstag_anarchist_temp = Reichstag_seats }
-		round_temp_variable = Reichstag_anarchist_temp
-		set_variable = { Reichstag_anarchist_updated = Reichstag_anarchist_temp }
-	}
-
 	# Despotism
 	if = {
 		limit = { NOT = { has_country_flag = banned_despot } }
@@ -1071,7 +1058,6 @@ Reichstag_update = {
 	add_to_temp_variable = { Reichstag_MP_temp = Reichstag_liberal_updated }
 	add_to_temp_variable = { Reichstag_MP_temp = Reichstag_conservative_updated }
 	add_to_temp_variable = { Reichstag_MP_temp = Reichstag_socialist_updated }
-	add_to_temp_variable = { Reichstag_MP_temp = Reichstag_anarchist_updated }
 	add_to_temp_variable = { Reichstag_MP_temp = Reichstag_despot_updated }
 	add_to_temp_variable = { Reichstag_MP_temp = Reichstag_fascist_updated }
 	subtract_from_temp_variable = { Reichstag_seats = Reichstag_MP_temp }
@@ -1086,7 +1072,6 @@ Reichstag_hold_federal_election = {
 	set_variable = { Reichstag_liberal_seat = Reichstag_liberal_updated }
 	set_variable = { Reichstag_conservative_seat = Reichstag_conservative_updated }
 	set_variable = { Reichstag_socialist_seat = Reichstag_socialist_updated }
-	set_variable = { Reichstag_anarchist_seat = Reichstag_anarchist_updated }
 	set_variable = { Reichstag_despot_seat = Reichstag_despot_updated }
 	set_variable = { Reichstag_fascist_seat = Reichstag_fascist_updated }
 	set_variable = { Reichstag_MP = Reichstag_MP_updated }
@@ -1117,11 +1102,6 @@ Reichstag_seat_modifiers = {
 	set_temp_variable = { Reichstag_socialist_updated_temp = Reichstag_socialist_updated }
 	subtract_from_temp_variable = { Reichstag_socialist_updated_temp = Reichstag_socialist_seat }
 	set_variable = { Reichstag_socialist_seat_modifiers = Reichstag_socialist_updated_temp }
-
-	#Anarchist
-	set_temp_variable = { Reichstag_anarchist_updated_temp = Reichstag_anarchist_updated }
-	subtract_from_temp_variable = { Reichstag_anarchist_updated_temp = Reichstag_anarchist_seat }
-	set_variable = { Reichstag_anarchist_seat_modifiers = Reichstag_anarchist_updated_temp }
 
 	#Strong Autocrat
 	set_temp_variable = { Reichstag_despot_updated_temp = Reichstag_despot_updated }

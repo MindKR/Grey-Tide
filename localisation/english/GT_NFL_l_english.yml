@@ -1,17 +1,4 @@
 ﻿l_english:
- # Name
- NFL:0 "뉴펀들랜드"
-
- # PARTY
- NFL_liberal_party:0 "뉴펀들랜드 자유당"
- NFL_conservative_party:0 "뉴펀들랜드 연합당"
-
- # CHARACTER
-
- # FOCUS
-
-
-
-
-
- #EVENT
+ NFL:0 "Newfoundland"
+ NFL_liberal_party:0 "Liberal Party of Newfoundland and Labrador"
+ NFL_conservative_party:0 "United Newfoundland Party"

@@ -99,17 +99,6 @@ country_event = {
 			}
 		}
 	}
-	desc = { # FROM and ROOT are Anarchist
-		text = generic.2.d.anarchist
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = anarchist
-				}
-				has_government = anarchist
-			}
-		}
-	}
 	desc = { # FROM and ROOT are different ideologies
 		text = generic.2.d.e
 		trigger = {
@@ -131,12 +120,6 @@ country_event = {
 						has_socialist_government = yes
 					}
 					has_socialist_government = yes
-				}
-				AND = {
-					FROM = {
-						has_government = anarchist
-					}
-					has_government = anarchist
 				}
 			}
 		}
@@ -217,27 +200,6 @@ country_event = {
 			news_event = { id = news.289 hours = 12 }
 		}
 	}
-	option = { #Agree / Both Anarchist
-		name = generic.2.c
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = anarchist
-				}
-				has_government = anarchist
-			}
-		}
-		ai_chance = {
-			base = 100
-		}
-		add_to_faction = FROM
-		FROM = { country_event = { id = generic.3 hours = 6 } }
-		hidden_effect = {
-			set_country_flag = alliance_inviter@ROOT
-			FROM = { set_country_flag = alliance_applicant@ROOT }
-			news_event = { id = news.289 hours = 12 }
-		}
-	}
 	option = { #Agree / Both different
 		name = generic.2.e
 		trigger = {
@@ -259,12 +221,6 @@ country_event = {
 						has_socialist_government = yes
 					}
 					has_socialist_government = yes
-				}
-				AND = {
-					FROM = {
-						has_government = anarchist
-					}
-					has_government = anarchist
 				}
 			}
 		}
@@ -431,17 +387,6 @@ country_event = {
 		}
 	}
 	option = {
-		name = generic.3.anarchist
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = anarchist
-				}
-				has_government = anarchist
-			}
-		}
-	}
-	option = {
 		name = generic.3.e
 		trigger = {
 			NOT = {
@@ -462,12 +407,6 @@ country_event = {
 						has_socialist_government = yes
 					}
 					has_socialist_government = yes
-				}
-				AND = {
-					FROM = {
-						has_government = anarchist
-					}
-					has_government = anarchist
 				}
 			}
 		}
@@ -518,17 +457,6 @@ country_event = {
 		}
 	}
 	option = {
-		name = generic.4.anarchist
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = anarchist
-				}
-				has_government = anarchist
-			}
-		}
-	}
-	option = {
 		name = generic.4.e
 		trigger = {
 			NOT = {
@@ -549,12 +477,6 @@ country_event = {
 						has_socialist_government = yes
 					}
 					has_socialist_government = yes
-				}
-				AND = {
-					FROM = {
-						has_government = anarchist
-					}
-					has_government = anarchist
 				}
 			}
 		}
@@ -601,17 +523,6 @@ country_event = {
 			}
 		}
 	}
-	desc = { # FROM and ROOT are Anarchist
-		text = generic.5.d.anarchist
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = anarchist
-				}
-				has_government = anarchist
-			}
-		}
-	}
 	desc = { # FROM and ROOT are different ideologies
 		text = generic.5.d.e
 		trigger = {
@@ -633,12 +544,6 @@ country_event = {
 						has_socialist_government = yes
 					}
 					has_socialist_government = yes
-				}
-				AND = {
-					FROM = {
-						has_government = anarchist
-					}
-					has_government = anarchist
 				}
 			}
 		}
@@ -741,33 +646,6 @@ country_event = {
 		}
 	}
 
-	option = { #Agree / Both Anarchist
-		name = generic.5.anarchist
-		trigger = {
-			is_in_faction = no
-			AND = {
-				FROM = {
-					has_government = anarchist
-				}
-				has_government = anarchist
-			}
-		}
-		FROM = { 
-			add_to_faction = ROOT
-			country_event = { id = generic.6 hours = 6 }
-		}
-		add_ai_strategy = {
-			type = alliance
-			id = FROM
-			value = 200
-		}
-		hidden_effect = {
-			set_country_flag = alliance_applicant@ROOT
-			FROM = { set_country_flag = alliance_inviter@ROOT }
-			news_event = { id = news.289 hours = 12 }
-		}
-	}
-
 	option = { #Agree / Both different
 		name = generic.5.e
 		trigger = {
@@ -790,12 +668,6 @@ country_event = {
 						has_socialist_government = yes
 					}
 					has_socialist_government = yes
-				}
-				AND = {
-					FROM = {
-						has_government = anarchist
-					}
-					has_government = anarchist
 				}
 			}
 		}
@@ -960,17 +832,6 @@ country_event = {
 		}
 	}
 	option = {
-		name = generic.3.anarchist
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = anarchist
-				}
-				has_government = anarchist
-			}
-		}
-	}
-	option = {
 		name = generic.3.e
 		trigger = {
 			NOT = {
@@ -991,12 +852,6 @@ country_event = {
 						has_socialist_government = yes
 					}
 					has_socialist_government = yes
-				}
-				AND = {
-					FROM = {
-						has_government = anarchist
-					}
-					has_government = anarchist
 				}
 			}
 		}
@@ -1047,17 +902,6 @@ country_event = {
 		}
 	}
 	option = {
-		name = generic.4.anarchist
-		trigger = {
-			AND = {
-				FROM = {
-					has_government = anarchist
-				}
-				has_government = anarchist
-			}
-		}
-	}
-	option = {
 		name = generic.4.e
 		trigger = {
 			NOT = {
@@ -1078,12 +922,6 @@ country_event = {
 						has_socialist_government = yes
 					}
 					has_socialist_government = yes
-				}
-				AND = {
-					FROM = {
-						has_government = anarchist
-					}
-					has_government = anarchist
 				}
 			}
 		}

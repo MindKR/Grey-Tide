@@ -1,14 +1,10 @@
 ﻿l_english:
- OVERLORD_SUBJECT:0 "$OVERLORDADJ$령 $NONIDEOLOGY$"
-
+ OVERLORD_SUBJECT:0 "$OVERLORDADJ$ $NONIDEOLOGY$"
  RAJ_UK:0 "British Raj"
-
  INS_HOL:0 "Dutch East Indies"
  INS_HOL_DEF:0 "Dutch East Indies"
-
  JAP_USA_GT_military_government:0 "Occupation of Japan"
  JAP_USA_GT_military_government_DEF:0 "Occupation of Japan"
-
  GER_republic_social_democrat:0 "Federal Republic of Germany"
  GER_republic_social_democrat_DEF:0 "Federal Republic of Germany"
  GER_republic_liberal:0 "Federal Republic of Germany"
@@ -26,27 +22,17 @@
  GER_republic:0 "Germany"
  GER_republic_DEF:0 "Germany"
  GER_republic_ADJ:0 "Germany"
-
- WAF_subject:0 "$OVERLORDADJ$령 서아프리카"
- WAF_subject_DEF:0 "$OVERLORDADJ$령 서아프리카"
-
- EAF_subject:0 "$OVERLORDADJ$령 적도아프리카"
- EAF_subject_DEF:0 "$OVERLORDADJ$령 적도아프리카"
-
- TUN_subject:0 "$OVERLORDADJ$령 튀니지"
- TUN_subject_DEF:0 "$OVERLORDADJ$령 튀니지"
-
- DJI_subject:0 "$OVERLORDADJ$령 지부티"
- DJI_subject_DEF:0 "$OVERLORDADJ$령 지부티"
+ WAF_subject:0 "$OVERLORDADJ$ West Africa"
+ WAF_subject_DEF:0 "the $OVERLORDADJ$ West Africa"
+ EAF_subject:0 "$OVERLORDADJ$ Equatorial Africa"
+ EAF_subject_DEF:0 "the $OVERLORDADJ$ Equatorial Africa"
+ TUN_subject:0 "$OVERLORDADJ$ Tunisia"
+ TUN_subject_DEF:0 "the $OVERLORDADJ$ Tunisia"
  DJI_FRA_subject:0 "French Somaliland"
  DJI_FRA_subject_DEF:0 "French Somaliland"
-
- MAD_subject:0 "$OVERLORDADJ$령 마다가스카르"
-
- KUW_UK:0 "쿠웨이트"
- KUW_UK_DEF:0 "쿠웨이트 셰흐국"
-
+ MAD_subject:0 "$OVERLORDADJ$ Madagascar"
+ KUW_UK:0 "Kuwait"
+ KUW_UK_DEF:0 "Sheikhdom of Kuwait"
  EGY_UK:0 "Kingdom of Egypt"
  EGY_UK_DEF:0 "Kingdom of Egypt"
-
- NFL_UK_DEF:0 "뉴펀들랜드"
+ NFL_UK_DEF:0 "Newfoundland"

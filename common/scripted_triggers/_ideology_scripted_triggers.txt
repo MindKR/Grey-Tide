@@ -27,10 +27,6 @@ is_same_ideology = {
 			ROOT = { has_government = authoritarian_socialist }
 		}
 		AND = {
-			has_government = anarchist
-			ROOT = { has_government = anarchist }
-		}
-		AND = {
 			has_government = fascist
 			ROOT = { has_government = fascist }
 		}
@@ -51,7 +47,6 @@ is_enemy_ideology = {
 					has_government = authoritarian_socialist
 					has_government = despot
 					has_government = fascist
-					has_government = anarchist
 				}
 			}
 		}
@@ -82,18 +77,6 @@ is_enemy_ideology = {
 					has_government = conservative
 					has_government = libertarian_socialist
 					has_government = authoritarian_socialist
-				}
-			}
-		}
-		AND = {
-			has_government = anarchist
-			ROOT = {
-				OR = {
-					has_government = social_democrat
-					has_government = liberal
-					has_government = conservative
-					has_government = despot
-					has_government = fascist
 				}
 			}
 		}
@@ -168,11 +151,6 @@ social_democrat_plurality = {
 				value = ROOT.party_popularity@fascist
 				compare = greater_than
 			}
-			check_variable = {
-				var = ROOT.party_popularity@social_democrat
-				value = ROOT.party_popularity@anarchist
-				compare = greater_than
-			}
 		}
 	}
 }
@@ -210,11 +188,6 @@ liberal_plurality = {
 			check_variable = {
 				var = ROOT.party_popularity@liberal
 				value = ROOT.party_popularity@fascist
-				compare = greater_than
-			}
-			check_variable = {
-				var = ROOT.party_popularity@liberal
-				value = ROOT.party_popularity@anarchist
 				compare = greater_than
 			}
 		}
@@ -256,11 +229,6 @@ conservative_plurality = {
 				value = ROOT.party_popularity@fascist
 				compare = greater_than
 			}
-			check_variable = {
-				var = ROOT.party_popularity@conservative
-				value = ROOT.party_popularity@anarchist
-				compare = greater_than
-			}
 		}
 	}
 }
@@ -298,11 +266,6 @@ libertarian_socialist_plurality = {
 			check_variable = {
 				var = ROOT.party_popularity@libertarian_socialist
 				value = ROOT.party_popularity@fascist
-				compare = greater_than
-			}
-			check_variable = {
-				var = ROOT.party_popularity@libertarian_socialist
-				value = ROOT.party_popularity@anarchist
 				compare = greater_than
 			}
 		}
@@ -344,11 +307,6 @@ authoritarian_socialist_plurality = {
 				value = ROOT.party_popularity@fascist
 				compare = greater_than
 			}
-			check_variable = {
-				var = ROOT.party_popularity@authoritarian_socialist
-				value = ROOT.party_popularity@anarchist
-				compare = greater_than
-			}
 		}
 	}
 }
@@ -388,11 +346,6 @@ despot_plurality = {
 				value = ROOT.party_popularity@fascist
 				compare = greater_than
 			}
-			check_variable = {
-				var = ROOT.party_popularity@despot
-				value = ROOT.party_popularity@anarchist
-				compare = greater_than
-			}
 		}
 	}
 }
@@ -430,11 +383,6 @@ fascist_plurality = {
 			check_variable = {
 				var = ROOT.party_popularity@fascist
 				value = ROOT.party_popularity@despot
-				compare = greater_than
-			}
-			check_variable = {
-				var = ROOT.party_popularity@fascist
-				value = ROOT.party_popularity@anarchist
 				compare = greater_than
 			}
 		}

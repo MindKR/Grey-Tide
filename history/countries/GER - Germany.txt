@@ -188,8 +188,7 @@ set_popularities = {
 	authoritarian_democrat = 4
 	libertarian_socialist = 1
 	authoritarian_socialist = 3
-	fascist = 2
-	anarchist = 1
+	fascist = 3
 }
 
 set_popularities = { # Last Election: 비지역주의 정당 357석 중 199석 (56%) 이상을 차지해야 했음.
@@ -201,8 +200,7 @@ set_popularities = { # Last Election: 비지역주의 정당 357석 중 199석 (
 	despot = 1
 	libertarian_socialist = 1
 	authoritarian_socialist = 2
-	fascist = 2
-	anarchist = 1
+	fascist = 3
 }
 
 set_country_flag = banned_anarchist

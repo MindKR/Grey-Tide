@@ -8,7 +8,6 @@
  authoritarian_democrat_drift:0 "일일 권위민주주의 지지"
  despot_drift:0 "일일 전제주의 지지"
  fascist_drift:0 "일일 파시즘 지지"
-
  social_democrat_acceptance:0 "사회민주주의 외교 수용"
  liberal_acceptance:0 "자유주의 외교 수용"
  conservative_acceptance:0 "보수주의 외교 수용"
@@ -18,33 +17,26 @@
  authoritarian_democrat_acceptance:0 "권위민주주의 외교 수용"
  despot_acceptance:0 "전제주의 외교 수용"
  fascist_acceptance:0 "파시즘 외교 수용"
-
  SN_is_democratic:0 "현재 집권 정당이 §C민주주의 정부§!임."
  SN_is_socialist:0 "현재 집권 정당이 §R사회주의 정부§!임"
-
-
  MODIFIER_POLITICAL_POWER_GAIN:0 "£pol_power 매일 정치력 획득"
  MODIFIER_POLITICAL_POWER_COST:0 "£pol_power 매일 정치력 비용"
  MODIFIER_POLITICAL_POWER_FACTOR:0 "£pol_power 정치력 획득"
-
  stability_good_modifier:0 "£stability_texticon 안정도"
  stability_bad_modifier:0 "£stability_texticon 안정도"
  MODIFIER_STABILITY_FACTOR:0 "£stability_texticon 안정도"
  MODIFIER_STABILITY_WEEKLY:0 "£stability_texticon 주간 안정도"
  MODIFIER_STABILITY_WEEKLY_FACTOR:0 "£stability_texticon 주간 안정도 획득"
-
  war_support_modifier:0 "£war_support_icon 전쟁 지지도"
  war_support_good_modifier:0 "£war_support_icon 전쟁 지지도"
  war_support_bad_modifier:0 "£war_support_icon 전쟁 지지도"
  MODIFIER_WAR_SUPPORT_FACTOR:0 "£war_support_icon 전쟁 지지도"
  MODIFIER_WAR_SUPPORT_WEEKLY:0 "£war_support_icon 주간 전쟁 지지도"
  MODIFIER_WAR_SUPPORT_WEEKLY_FACTOR:0 "£war_support_icon 주간 전쟁 지지도 획득"
-
  MODIFIER_CONSUMER_GOODS_FACTOR:0 "£consumer_goods_texticon 소비재 공장"
  MODIFIER_LINE_CHANGE_PRODUCTION_EFFICIENCY_FACTOR:1 "£change_prod_eff 생산 효율 유지"
  MODIFIER_LINE_CHANGE_PRODUCTION_EFFICIENCY_FACTOR_DESC:0 "생산 라인에서 생산품을 변경할 때 £prod_eff 생산 효율의 변화입니다."
  MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR:0 "£prod_eff_stt 기본 생산 효율"
-
  modifier_production_speed_infrastructure_factor:0 "£infrastructure_texticon §Y기반시설§! 건설 속도"
  modifier_production_speed_arms_factory_factor:0 "£mil_factory §Y군수공장§! 건설 속도"
  modifier_production_speed_industrial_complex_factor:0 "£civ_factory §Y민간공장§! 건설 속도"

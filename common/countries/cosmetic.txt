@@ -53,38 +53,6 @@ HOL_benelux_unified = {
 	color_ui = rgb { 255 128 0 }
 }
 
-SPR_nationalist_spain = {
-	color = rgb { 200 100 31 }
-	color_ui = rgb { 245 123 38 }
-}
-SPR_carlist_spain = {
-	color = rgb { 255 128 0 }
-	color_ui = rgb { 255 255 122 }
-}
-SPR_anarchist_spain = {
-	color = rgb { 204 0 0 }
-	color_ui = rgb { 35 35 35 }
-}
-SPR_republican_spain = {
-	color = rgb { 242 205 94 }
-	color_ui = rgb { 255 255 122 }
-}
-
-SPA_directory = {
-	color = rgb { 200 100 31 }
-	color_ui = rgb { 245 123 38 }
-}
-
-SPA_spanish_empire = {
-	color = rgb { 200 100 31 }
-	color_ui = rgb { 245 123 38 }
-}
-
-SPB_kingdom = {
-	color = rgb { 255 128 0 }
-	color_ui = rgb { 255 255 122 }
-}
-
 ARM_UK = { 
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 201 56 93 }

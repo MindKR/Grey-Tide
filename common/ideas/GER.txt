@@ -20,10 +20,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					OR = {
-						has_socialist_government = yes
-						has_government = anarchist
-					}
+					has_socialist_government = yes
 				}
 			}
 			
@@ -54,10 +51,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					OR = {
-						has_socialist_government = yes
-						has_government = anarchist
-					}
+					has_socialist_government = yes
 				}
 			}
 			

@@ -26,20 +26,6 @@ characters={
 			id=-1
 		}
 	}
-	SIA_chao_phonphayuhasena={
-		name="Chao Phonphayuhasena"
-		portraits={
-			civilian={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
-			}
-		}
-		country_leader={
-			ideology=anarchist_subtype
-			traits={ retired_officer }
-			expire="1942.1.1.12"
-			id=-1
-		}
-	}
 	SIA_tianliang_huntrakool={
 		advisor={
 			

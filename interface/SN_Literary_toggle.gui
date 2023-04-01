@@ -2,7 +2,7 @@ guiTypes = {
 	#Grouped text and checkbox for easier positioning
 	containerWindowType = {
 		name = "literary_event_checkbox_window"
-		position = {x=-475 y=15}
+		position = {x=-500 y=15}
 		Orientation = upper_right
 
 		buttonType = {

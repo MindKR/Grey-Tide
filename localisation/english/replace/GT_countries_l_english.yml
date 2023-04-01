@@ -1,67 +1,57 @@
 ﻿l_english:
  SWI_social_democrat:0 "Swiss"
-
- FRA_social_democrat:0 "French Republic"
- FRA_social_democrat_DEF:0 "French Republic"
- FRA_liberal:0 "French Republic"
- FRA_liberal_DEF:0 "French Republic"
- FRA_conservative:0 "French Republic"
- FRA_conservative_DEF:0 "French Republic"
+ FRA_social_democrat:0 "France"
+ FRA_social_democrat_DEF:0 "France"
+ FRA_liberal:0 "France"
+ FRA_liberal_DEF:0 "France"
+ FRA_conservative:0 "France"
+ FRA_conservative_DEF:0 "France"
  FRA:0 "France"
  FRA_DEF:0 "France"
- FRA_ADJ:0 "France"
-
+ FRA_ADJ:0 "French"
  ITA_social_democrat:0 "Kingdom of Italy"
- ITA_social_democrat_DEF:0 "Kingdom of Italy"
+ ITA_social_democrat_DEF:0 "the Kingdom of Italy"
  ITA_liberal:0 "Kingdom of Italy"
- ITA_liberal_DEF:0 "Kingdom of Italy"
+ ITA_liberal_DEF:0 "the Kingdom of Italy"
  ITA_conservative:0 "Kingdom of Italy"
- ITA_conservative_DEF:0 "Kingdom of Italy"
+ ITA_conservative_DEF:0 "the Kingdom of Italy"
  ITA_despot:0 "Kingdom of Italy"
- ITA_despot_DEF:0 "Kingdom of Italy"
+ ITA_despot_DEF:0 "the Kingdom of Italy"
  ITA_national_populist:0 "Kingdom of Italy"
- ITA_national_populist_DEF:0 "Kingdom of Italy"
+ ITA_national_populist_DEF:0 "the Kingdom of Italy"
  ITA:0 "Italy"
  ITA_DEF:0 "Italy"
- ITA_ADJ:0 "Italy"
-
+ ITA_ADJ:0 "Italian"
  LIT:0 "Lituania"
  LIT_DEF:0 "Lituania"
- LIT_ADJ:0 "Lituania"
-
+ LIT_ADJ:0 "Lituanian"
  AUS:0 "Austria"
  AUS_DEF:0 "Austria"
- AUS_ADJ:0 "Austria"
-
+ AUS_ADJ:0 "Austrian"
  CRO:0 "Croatia"
  CRO_DEF:0 "Croatia"
- CRO_ADJ:0 "Croatia"
-
+ CRO_ADJ:0 "Croatian"
  BLR:0 "Belarus"
  BLR_DEF:0 "Belarus"
- BLR_ADJ:0 "Belarus"
-
+ BLR_ADJ:0 "Belarusian"
  UKR:0 "Ukraine"
  UKR_DEF:0 "Ukraine"
- UKR_ADJ:0 "Ukraine"
-
+ UKR_ADJ:0 "Ukrainian"
  USA_liberal:0 "United States of America"
- USA_liberal_DEF:0 "United States of America"
+ USA_liberal_DEF:0 "the United States of America"
  USA_conservative:0 "United States of America"
- USA_conservative_DEF:0 "United States of America"
-
+ USA_conservative_DEF:0 "the United States of America"
  CZE:0 "Czechoslovakia"
  CZE_DEF:0 "Czechoslovakia"
- CZE_ADJ:0 "Czechoslovakia"
-
+ CZE_ADJ:0 "Czechoslovakian"
  SLO:0 "Slovakia"
  SLO_DEF:0 "Slovakia"
- SLO_ADJ:0 "Slovakia"
-
+ SLO_ADJ:0 "Slovakian"
+ SAX:0 "작센"
+ SAX_DEF:0 "작센"
  JAP:0 "Japan"
  JAP_DEF:0 "Japan"
- JAP_ADJ:0 "Japan"
-
+ JAP_ADJ:0 "Japanese"
  CHI_social_democrat:0 "Republic of China"
  CHI_social_democrat_DEF:0 "Republic of China"
  CHI_liberal:0 "Republic of China"
@@ -81,7 +71,6 @@
  CHI:0 "Republic of China"
  CHI_DEF:0 "China"
  CHI_ADJ:0 "China"
-
  PRC_social_democrat:0 "Communist China"
  PRC_social_democrat_DEF:0 "Communist China"
  PRC_liberal:0 "Communist China"
@@ -99,11 +88,9 @@
  PRC:0 "Communist China"
  PRC_DEF:0 "Communist China"
  PRC_ADJ:0 "Communist China"
-
  ETR:0 "East Turkistan"
  ETR_DEF:0 "East Turkistan"
  ETR_ADJ:0 "East Turkistan"
-
  SHX_social_democrat:0 "Shanxi clique"
  SHX_social_democrat_DEF:0 "Shanxi clique"
  SHX_liberal:0 "Shanxi clique"
@@ -121,7 +108,6 @@
  SHX:0 "Shanxi"
  SHX_DEF:0 "Shanxi"
  SHX_ADJ:0 "Shanxi"
-
  TMC_social_democrat:0 "Tsinghai Ma Clique"
  TMC_social_democrat_DEF:0 "Tsinghai Ma Clique"
  TMC_liberal:0 "Tsinghai Ma Clique"
@@ -139,7 +125,6 @@
  TMC:0 "Tsinghai Ma Clique"
  TMC_DEF:0 "Tsinghai Ma Clique"
  TMC_ADJ:0 "Tsinghai Ma Clique"
-
  NMC_social_democrat:0 "Ningxia Ma Clique"
  NMC_social_democrat_DEF:0 "Ningxia Ma Clique"
  NMC_liberal:0 "Ningxia Ma Clique"
@@ -157,7 +142,6 @@
  NMC:0 "Ningxia Ma Clique"
  NMC_DEF:0 "Ningxia Ma Clique"
  NMC_ADJ:0 "Ningxia Ma Clique"
-
  XKC_social_democrat:0 "Sikang Clique"
  XKC_social_democrat_DEF:0 "Sikang Clique"
  XKC_liberal:0 "Sikang Clique"
@@ -175,7 +159,6 @@
  XKC:0 "Sikang Clique"
  XKC_DEF:0 "Sikang Clique"
  XKC_ADJ:0 "Sikang Clique"
-
  GXC_social_democrat:0 "Guangxi Clique"
  GXC_social_democrat_DEF:0 "Guangxi Clique"
  GXC_liberal:0 "Guangxi Clique"
@@ -193,7 +176,6 @@
  GXC:0 "Guangxi"
  GXC_DEF:0 "Guangxi"
  GXC_ADJ:0 "Guangxi"
-
  YUN_social_democrat:0 "운남군벌"
  YUN_social_democrat_DEF:0 "운남군벌"
  YUN_liberal:0 "운남군벌"
@@ -211,7 +193,6 @@
  YUN:0 "운남"
  YUN_DEF:0 "운남"
  YUN_ADJ:0 "운남"
-
  MON_social_democrat:0 "Mongolia"
  MON_social_democrat_DEF:0 "Mongolia"
  MON_liberal:0 "Mongolia"
@@ -229,7 +210,6 @@
  MON:0 "Mongolia"
  MON_DEF:0 "Mongolia"
  MON_ADJ:0 "Mongolia"
-
  TUR_social_democrat:0 "Republic of Türkiye"
  TUR_social_democrat_DEF:0 "Republic of Türkiye"
  TUR_liberal:0 "Republic of Türkiye"
@@ -245,7 +225,6 @@
  TUR:0 "Türkiye"
  TUR_DEF:0 "Türkiye"
  TUR_ADJ:0 "Türkiye"
-
  SAU_social_democrat:0 "Saudi Arabia"
  SAU_social_democrat_DEF:0 "Saudi Arabia"
  SAU_liberal:0 "Saudi Arabia"
@@ -259,10 +238,8 @@
  SAU:0 "Saudi"
  SAU_DEF:0 "Saudi"
  SAU_ADJ:0 "Saudi"
-
  MNT:1 "몬테네그로"
  MNT_DEF:1 "몬테네그로"
-
  GEO_social_democrat:0 "Georgia"
  GEO_social_democrat_DEF:0 "Georgia"
  GEO_liberal:0 "Georgia"
@@ -275,10 +252,11 @@
  GEO_authoritarian_socialist_DEF:0 "Georgian Soviet Socialist Republic"
  GEO_despot:0 "Kingdom of Georgia"
  GEO_despot_DEF:0 "Kingdom of Georgia"
+ GEO_national_populist:0 "조지아국"
+ GEO_national_populist_DEF:0 "조지아국"
  GEO:0 "Georgia"
  GEO_DEF:0 "Georgia"
  GEO_ADJ:0 "Georgia"
-
  AZR_social_democrat:0 "Azerbaijan"
  AZR_social_democrat_DEF:0 "Azerbaijan"
  AZR_liberal:0 "Azerbaijan"
@@ -296,7 +274,6 @@
  AZR:0 "Azerbaijan"
  AZR_DEF:0 "Azerbaijan"
  AZR_ADJ:0 "Azerbaijan"
-
  ARM_social_democrat:0 "아르메니아"
  ARM_social_democrat_DEF:0 "아르메니아"
  ARM_liberal:0 "아르메니아"
@@ -314,7 +291,6 @@
  ARM:0 "아르메니아"
  ARM_DEF:0 "아르메니아"
  ARM_ADJ:0 "아르메니아"
-
  WAF_social_democrat:0 "서아프리카 연방"
  WAF_social_democrat_DEF:0 "서아프리카 연방"
  WAF_liberal:0 "서아프리카 연방"
@@ -332,7 +308,6 @@
  WAF:0 "서아프리카"
  WAF_DEF:0 "서아프리카"
  WAF_ADJ:0 "서아프리카"
-
  EAF_social_democrat:0 "적도아프리카 연방"
  EAF_social_democrat_DEF:0 "적도아프리카 연방"
  EAF_liberal:0 "적도아프리카 연방"
@@ -350,7 +325,6 @@
  EAF:0 "적도아프리카"
  EAF_DEF:0 "적도아프리카"
  EAF_ADJ:0 "적도아프리카"
-
  VIN_social_democrat:0 "베트남"
  VIN_social_democrat_DEF:0 "베트남"
  VIN_liberal:0 "베트남"
@@ -368,11 +342,9 @@
  VIN:0 "대남"
  VIN_DEF:0 "대남"
  VIN_ADJ:0 "대남"
- 
  AST:0 "오스트레일리아"
  AST_DEF:0 "오스트레일리아"
  AST_ADJ:0 "오스트레일리아"
-
  SPA:0 "스페인"
  SPA_DEF:0 "스페인"
  SPA_ADJ:0 "스페인"
@@ -380,7 +352,6 @@
  SPA_despot_DEF:0 "스페인 왕국"
  SPA_fascist:0 "스페인국"
  SPA_fascist_DEF:0 "스페인국"
-
  PER_social_democrat:0 "이란"
  PER_social_democrat_DEF:0 "이란"
  PER_liberal:0 "이란"
@@ -398,7 +369,6 @@
  PER:0 "이란"
  PER_DEF:0 "이란"
  PER_ADJ:0 "이란"
-
  NFL:0 "뉴펀들랜드"
  NFL_DEF:0 "뉴펀들랜드"
  NFL_ADJ:0 "뉴펀들랜드"

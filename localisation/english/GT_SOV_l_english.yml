@@ -1,5 +1,4 @@
 ﻿l_english:
- #COUNTRY NAME
  SOV_social_democrat:0 "Russia"
  SOV_social_democrat_DEF:0 "Russia"
  SOV_liberal:0 "Russia"
@@ -17,6 +16,4 @@
  SOV:0 "Soviet"
  SOV_DEF:0 "Soviet"
  SOV_ADJ:0 "Soviet"
-
- #PARTY
  SOV_authoritarian_socialist_party:0 "볼셰비키"

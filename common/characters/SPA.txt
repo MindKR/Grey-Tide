@@ -481,19 +481,6 @@ characters={
 			logistics_skill=1
 			legacy_id=1107
 			visible = {
-				OR = {
-					NOT = { has_global_flag = spanish_civil_war }
-					AND = {
-						tag = SPD
-						has_global_flag = spanish_civil_war
-						NOT = { has_global_flag = SPA_anarchist_uprising_flag }
-					}
-					AND = {
-						tag = SPC
-						has_global_flag = spanish_civil_war
-						has_global_flag = SPA_anarchist_uprising_flag
-					}
-				}
 			}
 		}
 	}

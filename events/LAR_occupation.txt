@@ -202,12 +202,6 @@ country_event = {
 								}
 								set_politics = { ruling_party = despot elections_allowed = no }
 							}
-							allowed_party_anarchism = {
-								set_popularities = {
-									anarchist = 100
-								}
-								set_politics = { ruling_party = anarchist elections_allowed = no }
-							}
 						}
 					}
 				}
