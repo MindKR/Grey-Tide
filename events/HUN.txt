@@ -1,6 +1,0 @@
-﻿###########################
-# Hungarian Events
-###########################
-
-add_namespace = hungary
-

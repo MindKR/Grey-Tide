@@ -1,6 +1,6 @@
 SN_endonyms = {
 	name = "RULE_ENDONYMS"
-	group = "RULE_GROUP_SN"
+	group = "RULE_GROUP_GT"
 	icon = GFX_production_licenses
 	option = {
 		name = ON
@@ -16,7 +16,7 @@ SN_endonyms = {
 
 GER_reichskriegsflagge = {
 	name = "RULE_REICHSKRIEGSFLAGGE"
-	group = "RULE_GROUP_SN"
+	group = "RULE_GROUP_GT"
 	icon = GFX_reichskriegsflagge
 	default = {
 		name = WAR

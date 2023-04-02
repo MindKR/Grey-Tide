@@ -305,6 +305,10 @@ RAJ = {
 	color = rgb { 226  135  40 }
 	color_ui = rgb { 226  135  40 }
 }
+GDC = {
+	color = rgb { 72 118 125 }
+	color_ui = rgb { 72 118 125 }
+}
 GXC = {
 	color = rgb { 71 96 113 }
 	color_ui = rgb { 71 96 113 }

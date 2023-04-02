@@ -1,5 +1,4 @@
 ﻿l_english:
- OVERLORD_SUBJECT:0 "$OVERLORDADJ$ $NONIDEOLOGY$"
  RAJ_UK:0 "British Raj"
  INS_HOL:0 "Dutch East Indies"
  INS_HOL_DEF:0 "Dutch East Indies"
@@ -36,3 +35,4 @@
  EGY_UK:0 "Kingdom of Egypt"
  EGY_UK_DEF:0 "Kingdom of Egypt"
  NFL_UK_DEF:0 "Newfoundland"
+ GDC_GXC:0 "Guangdong"

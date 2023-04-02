@@ -1,28 +1,21 @@
 is_literally_china = {
 	OR = {
 		original_tag = CHI
-		original_tag = TUG
+		original_tag = TMC
+		original_tag = NMC
+		original_tag = XKC
 		original_tag = GXC
-		original_tag = YUN
-		original_tag = GDC
-		original_tag = XSM
-		original_tag = LHC
-		original_tag = ZJC
-		original_tag = ROC
-		original_tag = KUM
-		original_tag = ETR
+		original_tag = SHX
+		original_tag = PRC
 	}
 }
 
 is_chinese_warlord = {
 	OR = {		
-		original_tag = TUG
+		original_tag = TMC
+		original_tag = NMC
+		original_tag = XKC
 		original_tag = GXC
-		original_tag = YUN
-		original_tag = GDC
-		original_tag = XSM
-		original_tag = LHC
-		original_tag = ZJC
-		original_tag = ROC
+		original_tag = SHX
 	}
 }

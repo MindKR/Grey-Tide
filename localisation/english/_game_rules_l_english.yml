@@ -1,5 +1,5 @@
 ﻿l_english:
- RULE_GROUP_SN:0 "Stormy Night 설정"
+ RULE_GROUP_GT:0 "Grey Tide Settings"
  RULE_OPTION_ON:0 "On"
  RULE_OPTION_ON_ENDONYMS:0 "Start the game with endonyms turned on."
  RULE_OPTION_OFF_ENDONYMS:0 "Start the game with endonyms turned off. This is a setting for multiplayer that cannot switch the endonyms/place name through the toggle."

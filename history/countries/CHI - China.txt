@@ -76,12 +76,14 @@ create_faction = National_Government
 add_to_faction = TMC
 add_to_faction = NMC
 add_to_faction = XKC
+add_to_faction = GDC
 add_to_faction = GXC
 add_to_faction = SHX
 
 set_autonomy = { target = TMC autonomous_state = GT_warlord }
 set_autonomy = { target = NMC autonomous_state = GT_warlord }
 set_autonomy = { target = XKC autonomous_state = GT_warlord }
+GXC = { set_autonomy = { target = GDC autonomous_state = GT_warlord } }
 set_autonomy = { target = GXC autonomous_state = GT_warlord }
 set_autonomy = { target = SHX autonomous_state = GT_warlord }
 

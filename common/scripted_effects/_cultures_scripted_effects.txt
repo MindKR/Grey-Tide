@@ -41,6 +41,7 @@ SN_startup_cultures = {
 	set_variable = { 867.nationality = 1 }
 	set_variable = { 868.nationality = 1 }
 	set_variable = { 903.nationality = 1 }
+	set_variable = { 907.nationality = 1 }
 
 	#Southern Germany
 	set_variable = { 50.nationality = 1.1 }
@@ -52,11 +53,6 @@ SN_startup_cultures = {
 
 	#German-Polish Culture
 	set_variable = { 5.nationality = 1.2 }
-	set_variable = { 807.nationality = 1.2 }
-
-	#Bohemia (Czecho)
-	set_variable = { 9.nationality = 1.3 }
-	set_variable = { 75.nationality = 1.3 }
 
 	#Krain (Slovenia)
 	set_variable = { 68.nationality = 1.4 }
@@ -182,6 +178,7 @@ SN_startup_cultures = {
 
 	#Greece
 	set_variable = { 47.nationality = 6 }
+	set_variable = { 184.nationality = 6 }
 	set_variable = { 185.nationality = 6 }
 	set_variable = { 186.nationality = 6 }
 	set_variable = { 731.nationality = 6 }
@@ -196,9 +193,6 @@ SN_startup_cultures = {
 	set_variable = { 856.nationality = 7 }
 	set_variable = { 857.nationality = 7 }
 	set_variable = { 858.nationality = 7 }
-
-	#Thrace (Greek-Bulgarian culture)
-	set_variable = { 184.nationality = 7.1 }
 
 	#Romania
 	set_variable = { 46.nationality = 8 }
@@ -224,9 +218,11 @@ SN_startup_cultures = {
 	set_variable = { 98.nationality = 10 }
 	set_variable = { 898.nationality = 10 }
 	set_variable = { 899.nationality = 10 }
+	set_variable = { 908.nationality = 10 }
 
 	#Poland (POL M, GER m)
 	set_variable = { 86.nationality = 10.1 }
+	set_variable = { 807.nationality = 10.1 }
 
 	#Polish-Ukrainian Culture
 	set_variable = { 91.nationality = 10.2 }
@@ -265,6 +261,11 @@ SN_startup_cultures = {
 	set_variable = { 73.nationality = 11.2 }
 	set_variable = { 905.nationality = 11.2 }
 	set_variable = { 906.nationality = 11.2 }
+
+	#Czechia
+	set_variable = { 9.nationality = 12 }
+	set_variable = { 75.nationality = 12 }
+	set_variable = { 909.nationality = 12 }
 
 	#Slovakia
 	set_variable = { 70.nationality = 13 }

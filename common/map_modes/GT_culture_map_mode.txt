@@ -289,17 +289,6 @@ scripted_map_modes = {
 					set_temp_variable = { blue = 0.1 }
 					set_temp_variable = { alpha = alpha_temp }
 				}
-				else_if = { #Greek-Bulgarian culture
-					limit = {
-						FROM = {
-							check_variable = { nationality = 7.1 }
-						}
-					}
-					set_temp_variable = { red = 0.1 }
-					set_temp_variable = { green = 0.55 }
-					set_temp_variable = { blue = 0.475 }
-					set_temp_variable = { alpha = alpha_temp }
-				}
 
 				## 8: Romania
 				else_if = { #Romania
@@ -325,7 +314,7 @@ scripted_map_modes = {
 					set_temp_variable = { alpha = alpha_temp }
 				}
 
-				## 9: Ottoman
+				## 9: Turkey
 
 				# 10: Poland
 				else_if = { #Poland (Mainland)
