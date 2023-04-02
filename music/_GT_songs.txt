@@ -1,0 +1,171 @@
+
+music_station = "_GT_music"
+	
+music = {
+	song = "Heil_dir_im_Siegerkranz"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			has_war = no
+			NOT = { is_in_faction_with = GER }
+		}
+		modifier = {
+			factor = 1.25
+			has_war = no
+			is_in_faction_with = GER
+		}
+	}
+}
+
+music = {
+	song = "Gott_erhalte_Franz_den_Kaiser"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			has_war = no
+			NOT = { is_in_faction_with = AUS }
+		}
+		modifier = {
+			factor = 1.25
+			has_war = no
+			is_in_faction_with = AUS
+		}
+	}
+}
+
+music = {
+	song = "theinternationale"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+
+			NOT = { 
+				is_in_faction_with = FRA
+			}
+			has_socialist_government = no
+		}
+		modifier = {
+			factor = 1.25
+
+			OR = {
+				has_socialist_government = yes
+				is_in_faction_with = FRA
+			}
+		}		
+	}
+}
+
+music = {
+	song = "thebluedanube"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+
+			has_war = no
+			NOT = { is_in_faction_with = AUS }
+		}
+		modifier = {
+			factor = 1.25
+
+			has_war = no
+			is_in_faction_with = AUS
+		}
+	}
+}
+
+music = {
+	song = "Le_Drapeau_Rouge"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			has_socialist_government = no
+		}
+		modifier = {
+			factor = 1.25
+			has_socialist_government = yes
+		}
+	}
+}
+
+# WAR SONGS #####################
+
+music = {
+	song = "whenjohnnycomesmarchinghome"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			has_war = no
+		}
+		modifier = {
+			factor = 0
+			has_socialist_government = yes
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				tag = USA
+				is_in_faction_with = USA
+			}
+		}
+	}
+}
+
+music = {
+	song = "Farewell_of_Slavianka"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			has_war = no
+		}
+		modifier = {
+			factor = 0.05
+
+			has_socialist_government = yes
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				tag = RUS
+				is_in_faction_with = RUS
+			}
+		}
+	}
+}
+
+music = {
+	song = "La_Varsovienne"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			has_war = no
+		}
+		modifier = {
+			factor = 1
+			has_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			has_war = yes
+			OR = {
+				tag = FRA
+				is_in_faction_with = FRA
+			}
+		}
+	}
+}

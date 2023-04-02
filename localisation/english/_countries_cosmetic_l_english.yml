@@ -35,4 +35,5 @@
  EGY_UK:0 "Kingdom of Egypt"
  EGY_UK_DEF:0 "Kingdom of Egypt"
  NFL_UK_DEF:0 "Newfoundland"
- GDC_GXC:0 "Guangdong"
+ GDC_GXC_subject:0 "Guangdong"
+ GDC_GXC_subject_DEF:0 "Guangdong"

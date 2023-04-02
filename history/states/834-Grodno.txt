@@ -1,3 +1,4 @@
+
 state={
 	id=834
 	name="STATE_834"
@@ -18,7 +19,7 @@ state={
 	}
 
 	provinces={
-		318 3281 3366 3393 6359 13206 
+		318 3281 3366 3393 6359 11247 13206 
 	}
 	manpower=920157
 	buildings_max_level_factor=1.000
