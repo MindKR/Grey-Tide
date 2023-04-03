@@ -5,5 +5,5 @@
  cabinet:0 "관료"
  head_of_gov:0 "정부수반"
  vizekanzler:0 "부수상"
- POLITICS_NEXT_ELECTION:0 "다음 선거:\n§Y$DATE$§!"
- POLITICS_STATUS:0 "지위"
+ POLITICS_NEXT_ELECTION:0 "Next Election:\n§Y$DATE$§!"
+ POLITICS_STATUS:0 "Status"

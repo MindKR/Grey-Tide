@@ -479,10 +479,6 @@ BOS = {
 	color = rgb { 56 104 194 }
 	color_ui = rgb { 56 104 194 }
 }
-FEN = {
-	color = rgb { 200 115 45 }
-	color_ui = rgb { 200 115 45 }
-}
 WAF = {
 	color = rgb { 50 150 100 }
 	color_ui = rgb { 50 150 100 }
@@ -510,6 +506,14 @@ MOR = {
 SHX = {
 	color = rgb { 9  171  190 }
 	color_ui = rgb { 9  171  190 }
+}
+MAD = {
+	color = rgb { 255 255 153 }
+	color_ui = rgb { 255 255 153 }
+}
+TUN = {
+	color = rgb { 153 153 102 }
+	color_ui = rgb { 153 153 102 }
 }
 D01 = {
 	color = rgb { 122 179 97 }

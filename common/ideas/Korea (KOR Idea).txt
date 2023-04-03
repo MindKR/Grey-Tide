@@ -1,0 +1,22 @@
+ideas = {
+	country = {
+		KOR_scars_of_the_rising_sun = {
+
+			picture = GFX_idea_jap_militarism_shogun
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = -0.2
+			}
+
+		}v
+}

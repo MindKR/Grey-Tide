@@ -1,56 +1,15 @@
 characters={
-	USA_Charles_Evans_Hughes={
-		name=USA_Charles_Evans_Hughes
+	USA_Harry_S_Truman={
+		name=USA_Harry_S_Truman
 		portraits={
 			civilian={
-				large="gfx/leaders/USA/Portrait_USA_Charles_Evans_Hughes.png"
+				large="gfx/leaders/USA/Portrait_USA_Harry_S_Truman.png"
 			}
 		}
 		country_leader={
-			ideology=conservative_subtype
+			ideology=social_liberal_subtype
 			traits={ }
-			expire="1947.1.1.1"
-			id=-1
-		}
-	}
-
-	USA_Charles_Curtis={
-		name=USA_Charles_Curtis
-		portraits={
-			civilian={
-				large="gfx/leaders/USA/Portrait_USA_Charles_Curtis.png"
-			}
-		}
-	}
-
-	USA_franklin_delano_roosevelt={
-		name=USA_franklin_delano_roosevelt
-		portraits={
-			civilian={
-				large="gfx/leaders/USA/Portrait_USA_Franklin_Roosevelt.dds"
-			}
-		}
-		country_leader={
-			ideology=liberal_subtype
-			traits={ }
-			expire="1947.1.1.1"
-			id=-1
-		}
-	}
-
-	USA_earl_browder={
-		name=USA_earl_browder
-		portraits={
-			civilian={
-				large="gfx/leaders/USA/portrait_USA_earl_browder.dds"
-			}
-			army={
-				small="gfx/interface/ideas/idea_USA_earl_browder.dds"
-			}
-		}
-		country_leader={
-			ideology=libertarian_socialist_subtype
-			expire="1965.1.1.1"
+			expire="1990.1.1.1"
 			id=-1
 		}
 	}
