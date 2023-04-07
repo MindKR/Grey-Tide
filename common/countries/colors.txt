@@ -487,10 +487,6 @@ EAF = {
 	color = rgb { 50 150 150 }
 	color_ui = rgb { 50 150 150 }
 }
-BKF = {
-	color = rgb { 50 50 50 }
-	color_ui = rgb { 50 50 50 }
-}
 ETR = {
 	color = rgb { 0 133 255 }
 	color_ui = rgb { 0 133 255 }
@@ -514,6 +510,10 @@ MAD = {
 TUN = {
 	color = rgb { 153 153 102 }
 	color_ui = rgb { 153 153 102 }
+}
+TGR = {
+	color = rgb { 174 34 41 }
+	color_ui = rgb { 174 34 41 }
 }
 D01 = {
 	color = rgb { 122 179 97 }

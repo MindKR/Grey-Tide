@@ -5,7 +5,7 @@ state={
 	state_category = small_island
 
 	history={
-		owner = GER
+		owner = USA
 		add_core_of = FSM
 		buildings = {
 			infrastructure = 2

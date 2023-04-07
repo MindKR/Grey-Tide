@@ -1,0 +1,22 @@
+
+state={
+	id=856
+	name="STATE_856"
+
+	history={
+		owner = TGR
+		buildings = {
+			infrastructure = 3
+			dockyard = 5
+		}
+		add_core_of = TGR
+		add_core_of = MOR
+	}
+	provinces={
+		2501 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}
