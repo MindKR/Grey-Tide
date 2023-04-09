@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = SN_colony
+	id = GT_colony
 	
 	is_puppet = yes
 	
