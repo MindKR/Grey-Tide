@@ -1,0 +1,27 @@
+guiTypes = {
+	containerWindowType = {
+		name = "GT_politics_container"
+		size = { width = 220 height = 118 }
+		position = { x=50 y=350 }
+
+		iconType = {
+			name = "faction_status"
+			spriteType = "GFX_idea_unknown"
+			position = { x = 50 y = 0 }
+			scale = 0.625
+			alwaystransparent = no
+			pdx_tooltip = "FACTION_STATUS_SHORT_TT"
+			pdx_tooltip_delayed = "FACTION_STATUS_TT"
+			centerposition = yes
+		}
+
+		iconType = {
+			name = "faction_icon_NATO"
+			position = {x = -30 y = -23}
+			quadTextureSprite = "GFX_NATO"
+			scale = 0.625
+			pdx_tooltip = NATO
+			pdx_tooltip_delayed = NATO_desc
+		}
+	}
+}

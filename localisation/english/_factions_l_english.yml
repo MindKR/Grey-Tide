@@ -1,4 +1,7 @@
 ﻿l_english:
- French_Republic:0 "French Republic"
+ French_Republic:0 "§YFrench Republic§!"
  National_Government:0 "National Government"
  Commonwealth:0 "Commonwelth"
+
+ NATO:0 "§YNATO§!"
+ NATO_desc:0 ""

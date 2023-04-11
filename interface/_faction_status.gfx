@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_NATO"
+		textureFile = "gfx/interface/factions/NATO.png"
+	}
+	spriteType = {
+		name = "GFX_NATO_Leader"
+		textureFile = "gfx/interface/factions/NATO.png"
+	}
+	spriteType = {
+		name = "GFX_NATO_Member"
+		textureFile = "gfx/interface/factions/NATO.png"
+	}
+	spriteType = {
+		name = "GFX_NATO_MNNA"
+		textureFile = "gfx/interface/factions/NATO.png"
+	}
+}

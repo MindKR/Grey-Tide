@@ -1,0 +1,34 @@
+defined_text = {
+	name = GetFactionStatus
+
+	### NATO ###
+	text = {
+		trigger = { has_idea = NATO_Leader }
+		localization_key = "GFX_NATO_Leader"
+	}
+	text = {
+		trigger = { has_idea = NATO_Member }
+		localization_key = "GFX_NATO_Member"
+	}
+	text = {
+		trigger = { has_idea = NATO_MNNA }
+		localization_key = "GFX_NATO_MNNA"
+	}
+}
+
+defined_text = {
+	name = GetFactionStatus_desc
+
+	text = {
+		trigger = { has_idea = NATO_Leader }
+		localization_key = NATO_Leader_desc
+	}
+	text = {
+		trigger = { has_idea = NATO_Member }
+		localization_key = NATO_Member_desc
+	}
+	text = {
+		trigger = { has_idea = NATO_MNNA }
+		localization_key = NATO_MNNA_desc
+	}
+}

@@ -1,0 +1,57 @@
+scripted_gui = {
+
+	GT_politics = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "GT_politics_container"
+
+		visible = {
+			always = yes
+		}
+
+		triggers = {
+			faction_leader_member_visible = {
+				is_in_faction = yes
+				#is_subject = no
+			}
+			faction_subject_visible = {
+				is_in_faction = yes
+				is_subject = yes
+			}
+			faction_icon_NATO_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				USA = { is_faction_leader = yes }
+				OR = {
+					tag = USA
+					is_in_faction_with = USA
+				}
+			}
+			faction_icon_generic_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				NOT = {
+					AND = {
+						USA = { is_faction_leader = yes }
+						OR = {
+							tag = USA
+							is_in_faction_with = USA
+						}
+					}
+				}
+			}
+			faction_status_visible = {
+				OR = {
+					is_in_faction = yes
+					has_idea = NATO_Member
+				}
+			}
+		}
+
+		properties = {
+			faction_status = {
+				image = "[This.GetFactionStatus]"
+			}
+		}
+	}
+}
