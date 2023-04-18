@@ -4,6 +4,17 @@ guiTypes = {
 		size = { width = 220 height = 118 }
 		position = { x=50 y=350 }
 
+		instantTextboxType = {
+			name = "party_name"
+			position = {x = 145 y = -10}
+			font = "hoi_18mbs"
+			text = "[This.GetRulingParty]"
+			fixedsize = yes
+			maxWidth = 160
+			maxHeight = 20
+			format = left
+		}
+
 		iconType = {
 			name = "faction_status"
 			spriteType = "GFX_idea_unknown"

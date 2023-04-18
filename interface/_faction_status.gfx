@@ -5,7 +5,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_NATO_Leader"
-		textureFile = "gfx/interface/factions/NATO.png"
+		textureFile = "gfx/interface/factions/status/NATO_Leader.png"
 	}
 	spriteType = {
 		name = "GFX_NATO_Member"
