@@ -1,6 +1,3 @@
-# Aleksandra Kollontay has an unsed portrait
-# Viktor Baydalakov has an unused portrait
-
 characters = {
 
 
@@ -11,48 +8,20 @@ characters = {
  #    #  #    #  #    #  #   ##    #    #   #     #        #       #       #    #  #    #  #       #   #   #    # 
   ####    ####    ####   #    #    #    #    #    #        ######  ######  #    #  #####   ######  #    #   ####  
 
-	SOV_lev_trotsky = {
-		name = SOV_lev_trotsky
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/RUS/Portrait_Leon_Trotsky.dds"
-			}
-			army = {
-				large = "gfx/leaders/RUS/Portrait_Leon_Trotsky.dds"
-				small = "gfx/interface/ideas/idea_SOV_leon_trotsky.dds"
-			}
-		}
-	}
-
 	SOV_iosif_stalin = {
 		name = SOV_iosif_stalin
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/RUS/Portrait_Soviet_Joseph_Stalin.dds"
+				large = "gfx/leaders/SOV/Portrait_SOV_Iosif_Stalin.png"
 			}
 			army = {
-				large = "gfx/leaders/RUS/Portrait_Soviet_Joseph_Stalin.dds"
+				large = "gfx/leaders/SOV/Portrait_SOV_Iosif_Stalin.png"
 				small = "gfx/interface/ideas/idea_SOV_joseph_stalin.dds"
 			}
 		}
 		country_leader = {
 			ideology = authoritarian_socialist_subtype
 			traits = { stalin_heart_of_steel }
-			expire = "1953.3.1.1"
-			id = -1
-		}
-	}
-
-	#TODO: This should be a country leader token added to Stalin in the appropriate event/focus/whatever
-	SOV_tsar_iosif_stalin = {
-		name = "Tsar Joseph I"
-		portraits = {
-			civilian = {
-				large = "GFX_portrait_SOV_tsar_stalin"
-			}
-		}
-		country_leader = {
-			ideology = despot_subtype
 			expire = "1953.3.1.1"
 			id = -1
 		}

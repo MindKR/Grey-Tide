@@ -129,10 +129,44 @@ guiTypes = {
 
 		buttonType = {
 			name = "country_leader"
-			quadTextureSprite ="GFX_blank"
-			position = { x = -2500 y = -2500 }
-			scale=0.01
+			quadTextureSprite ="GFX_leader_unknown"
+			position = { x = 17 y = 22 }
+			scale=0.75
+			clicksound = click_checkbox
 		}
+
+		iconType = {
+			name = "country_flag"
+			quadTextureSprite ="GFX_shield_medium"
+			position = { x = 34 y = 188 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "country"
+			quadTextureSprite = "GFX_country_selection_entry"
+			position = { x=0 y =0 }
+			clicksound = click_checkbox
+		}
+
+		instantTextBoxType = {
+			name = "country_name"
+			position = { x = 8 y = 247 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 131
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			Orientation = "UPPER_LEFT"
+		}
+	}
+
+	### country entry
+	containerWindowType = {
+		name = "country_entry_medium"
+
 
 		iconType = {
 			name = "country_flag"
@@ -144,46 +178,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "country"
-			quadTextureSprite = "GFX_country_selection_entry"
-			position = { x = 26000 y = 22 }
-			clicksound = click_checkbox
-		}
-
-		iconType ={
-			name ="country_frame"
-			spriteType = "GFX_large_flag_frame_menu"
-			position = { x = 22 y = 20 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
-
-		instantTextBoxType = {
-			name = "country_name"
-			position = { x = -2500 y = -2500 }
-			font = "aldrich_18_outline"
-			borderSize = {x = 0 y = 0}
-			maxWidth = 131
-			maxHeight = 20
-			fixedsize = yes
-			Orientation = "UPPER_LEFT"
-		}
-	}
-
-	### country entry
-	containerWindowType = {
-		name = "country_entry_medium"
-
-		iconType = {
-			name = "country_flag"
-			quadTextureSprite ="GFX_flag_small2"
-			position = { x = 8 y = 7 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
-
-		buttonType = {
-			name = "country"
-			quadTextureSprite = "GFX_mini_country_selector"
+			quadTextureSprite = "GFX_country_selection_minor_entry"
 			position = { x=0 y =0 }
 			clicksound = click_checkbox
 		}
@@ -196,7 +191,7 @@ guiTypes = {
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_flag_small2"
-			position = { x = 8 y = 7 }
+			position = { x = 9 y = 8 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -609,17 +604,18 @@ guiTypes = {
 		Orientation = center
 		origo = center
 		clipping = no
-		moveable = no
+		moveable = yes
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 435 y = 17 }
+			position = { x = 435 y = 12 }
 			textureFile = ""
-			font = "aldrich_24_outline"
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
 			text = "FE_SELECT_COUNTRY"
 			maxWidth = 340
 			maxHeight = 30
-			format = center
+			format = centre
 		}
 
 		background = {
@@ -627,28 +623,28 @@ guiTypes = {
 			quadTextureSprite ="GFX_country_selection_bg"
 		}
 
-		iconType = { # UGLY AMERICAN NEW -- AMERICA
-			name = "country_selection_new_ugly"
-			position = { x = 102 y = 49 }
-			spriteType = "GFX_country_selection_new_big_shine"
-			pdx_tooltip = "BOOKMARK_UGLY_AMERICAN_NEW"
-			pdx_tooltip_delayed = "BOOKMARK_UGLY_AMERICAN_NEW_DELAYED"
+		ButtonType = {
+			name = "back_button"
+			position = { x = -158 y = -52 }
+			quadTextureSprite ="GFX_button_148x34"
+			buttonText = "BACK"
+			buttonFont = "hoi_18mbs"
+			Orientation = "CENTER_DOWN"
+			clicksound = click_close
+			oversound = ui_menu_over
+			shortcut = "ESCAPE"
 		}
 
-		iconType = { # UGLY AMERICAN NEW -- GERMANY
-			name = "country_selection_new_ugly_ger"
-			position = { x = 282 y = 49 }
-			spriteType = "GFX_country_selection_new_big_shine"
-			pdx_tooltip = "BOOKMARK_UGLY_AMERICAN_NEW_GER"
-			pdx_tooltip_delayed = "BOOKMARK_UGLY_AMERICAN_NEW_DELAYED_GER"
-		}
-
-		iconType = { # UGLY AMERICAN NEW -- JAPA
-			name = "country_selection_new_ugly_jpn"
-			position = { x = 822 y = 49 }
-			spriteType = "GFX_country_selection_new_big_shine"
-			pdx_tooltip = "BOOKMARK_UGLY_AMERICAN_NEW_JAP"
-			pdx_tooltip_delayed = "BOOKMARK_UGLY_AMERICAN_NEW_DELAYED_JAP"
+		ButtonType = {
+			name = "select_button"
+			position = { x = 10 y = -52 }
+			quadTextureSprite ="GFX_button_148x34"
+			buttonText = "FE_SELECT_COUNTRY"
+			buttonFont = "hoi_18mbs"
+			Orientation = "CENTER_DOWN"
+			clicksound = click_default
+			oversound = ui_menu_over
+			shortcut = "RETURN"
 		}
 
 		containerWindowType = {
@@ -658,110 +654,46 @@ guiTypes = {
 
 			gridboxType = {
 				name ="countries_grid"
-				position = { x = 82 y = 0 }
+				position = { x = 0 y = 0 }
 				size = { width = 100% height = 100% }
-				slotsize = { width = 180 height = 70 }
+				slotsize = { width = 150 height = 0 }
 				add_horizontal = yes
-				max_slots_vertical = 3
-				max_slots_horizontal = 6
+				max_slots_vertical = 1
 				format = "UPPER_LEFT"
 			}
 
-			#used for covering blank countries. increase by x = 100 per slot.
-			#iconType = {
-			#	name ="dud_countries_overlay_1"
-			#	spriteType = "GFX_flag_blank_82_52"
-			#	position = { x = 206 y = 50 }
-			#}
-			iconType = { # CANADA BLOCKED ENTRY
-				name = "countries_blocker_big_ofn_2_entry"
-				position = { x = 107 y = 90 }
-				spriteType = "GFX_country_selection_screen_blocker_big"
-				pdx_tooltip = "BOOKMARK_CANADA_BLOCKER"
-				pdx_tooltip_delayed = "BOOKMARK_CANADA_BLOCKER_DELAYED"
-			}
-			iconType = { # BRAZIL INFO
-				name = "country_selection_info_brazil"
-				position = { x = 87 y = 140 }
-				spriteType = "GFX_country_selection_alert_big_shine"
-				pdx_tooltip = "BOOKMARK_BRAZIL_INFO"
-				pdx_tooltip_delayed = "BOOKMARK_BRAZIL_INFO_DELAYED"
-			}
-			iconType = { # ITALY INFO
-				name = "country_selection_info_italy"
-				position = { x = 987 y = 0 }
-				spriteType = "GFX_country_selection_alert_big_shine"
-				pdx_tooltip = "BOOKMARK_ITALY_INFO"
-				pdx_tooltip_delayed = "BOOKMARK_ITALY_INFO_DELAYED"
-			}
-			iconType = { # TURKEY BLOCKED ENTRY
-				name = "countries_blocker_big_trium_2_entry"
-				position = { x = 1007 y = 90 }
-				spriteType = "GFX_country_selection_screen_blocker_big"
-				pdx_tooltip = "BOOKMARK_TURKEY_BLOCKER"
-				pdx_tooltip_delayed = "BOOKMARK_TURKEY_BLOCKER_DELAYED"
-			}
-			iconType = { # IBERIA INFO
-				name = "country_selection_info_iberia"
-				position = { x = 987 y = 140 }
-				spriteType = "GFX_country_selection_alert_big_shine"
-				pdx_tooltip = "BOOKMARK_IBERIA_INFO"
-				pdx_tooltip_delayed = "BOOKMARK_IBERIA_INFO_DELAYED"
-			}
-			iconType = { # GERMANY INFO
-				name = "country_selection_info_germany"
-				position = { x = 267 y = 0 }
-				spriteType = "GFX_country_selection_alert_big_shine"
-				pdx_tooltip = "BOOKMARK_GERMANY_INFO"
-				pdx_tooltip_delayed = "BOOKMARK_GERMANY_INFO_DELAYED"
-			}
-			iconType = { # FRANCE BLOCKED ENTRY
-				name = "countries_blocker_big_pakt_3_entry"
-				position = { x = 287 y = 160 }
-				spriteType = "GFX_country_selection_screen_blocker_big"
-				pdx_tooltip = "BOOKMARK_FRANCE_BLOCKER"
-				pdx_tooltip_delayed = "BOOKMARK_FRANCE_BLOCKER_DELAYED"
-			}
-			iconType = { # MANCHUKUO BLOCKED ENTRY
-				name = "countries_blocker_big_sphere_3_entry"
-				position = { x = 827 y = 160 }
-				spriteType = "GFX_country_selection_screen_blocker_big"
-				pdx_tooltip = "BOOKMARK_MANCHUKUO_BLOCKER"
-				pdx_tooltip_delayed = "BOOKMARK_MANCHUKUO_BLOCKER_DELAYED"
-			}
 		}
 
-		#Minor countries section
 		containerWindowType = {
 			name ="countries_medium"
-			position = { x = 14 y = 285 }
+			position = { x = 15 y = 330 }
 			size = { width = -15 height = 120}
 
 			gridboxType = {
 				name ="countries_grid"
 				position = { x = 0 y = 0 }
 				size = { width = 100% height = 100% }
-				slotsize = { width = 60 height = 40 }
+				slotsize = { width = 150 height = 0 }
 				add_horizontal = yes
-				max_slots_horizontal = 20
-				max_slots_vertical = 3
+				max_slots_vertical = 1
 				format = "UPPER_LEFT"
 			}
 		}
 
 		containerWindowType = {
 			name ="countries_mini"
-			position = { x = 14 y = 285 }
+			position = { x = 15 y = 340 }
 			size = { width = -15 height = 120}
 
 			gridboxType = {
 				name ="countries_grid"
-				position = { x = 2 y = 0 }
+				position = { x = 0 y = 0 }
 				size = { width = 100% height = 100% }
-				slotsize = { width = 60 height = 40 }
+				slotsize = { width = 53 height = 40 }
+				max_slots_horizontal = 22
 				add_horizontal = yes
-				max_slots_horizontal = 20
-				max_slots_vertical = 3
+				max_slots_horizontal = 22
+				max_slots_vertical = 2
 				format = "UPPER_LEFT"
 			}
 		}
