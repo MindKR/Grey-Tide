@@ -1372,7 +1372,7 @@ characters={
 		}
 	}
 
-	ENG_louis_mountbatten={ #This guy is duplicated in RAJ
+	ENG_louis_mountbatten={ #This guy is duplicated in IND
 		name=ENG_louis_mountbatten
 		portraits={
 			army={

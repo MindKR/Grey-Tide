@@ -6,8 +6,8 @@ bookmarks = {
 	###################################################################
 
 	bookmark = {
-		name = "THENEWORDER_NAME"
-		desc = "THENEWORDER_DESC"
+		name = "GREY_TIDE_NAME"
+		desc = "GREY_TIDE_DESC"
 		date = 1949.1.1.1
 		picture = "GFX_select_date_1939"
 		default_country = "USA"
@@ -21,7 +21,7 @@ bookmarks = {
 		#### MAJORS ####
 		# ROW 1 MAJOR #
 		"USA" = {
-			history = "USA_THENEWORDER_DESC"
+			history = "USA_GREY_TIDE_DESC"
 			ideology = conservatism
 			ideas = {
 				USA_last_bastion_of_liberty
@@ -35,53 +35,35 @@ bookmarks = {
 			}
 		}
 
-		"GER" = {
-			history = "GER_THENEWORDER_DESC"
+		"FRA" = {
+			history = "FRA_GREY_TIDE_DESC"
 			ideology = national_socialism
 			ideas = {
-				to_banish_want
-				the_two_principles
-				endsieg
 			}
 			focuses = {
-				BOR_der_wilde_ritt
-				SGR_doppeldenken
-				HGR_victory_tree
 			}
 		}
 
-		"USA" = { #For random country select
-			history = "USA_THENEWORDER_DESC"
+		"CHI" = {
+			history = "CHI_GREY_TIDE_DESC"
 			ideology = conservatism
 			ideas = {
-				USA_last_bastion_of_liberty
-				USA_the_american_depression_4
-				USA_jim_crow
 			}
 			focuses = {
-				USA_the_nixon_presidency
-				USA_the_civil_rights_dillema
-				USA_Boxing_In_the_Sphere
 			}
 		}
 
-		"GER" = { #For random country select
-			history = "GER_THENEWORDER_DESC"
+		"PRC" = {
+			history = "PRC_GREY_TIDE_DESC"
 			ideology = national_socialism
 			ideas = {
-				to_banish_want
-				the_two_principles
-				endsieg
 			}
 			focuses = {
-				BOR_der_wilde_ritt
-				SGR_doppeldenken
-				HGR_victory_tree
 			}
 		}
 
-		"JAP" = {
-			history = "JAP_THENEWORDER_DESC"
+		"MON" = {
+			history = "JAP_GREY_TIDE_DESC"
 			ideology = fascism
 			ideas = {
 				JAP_showa_emperor
@@ -95,8 +77,8 @@ bookmarks = {
 			}
 		}
 
-		"ITA" = {
-			history = "ITA_THENEWORDER_DESC"
+		"SOV" = {
+			history = "ITA_GREY_TIDE_DESC"
 			ideology = fascism
 			ideas = {
 				ITA_king_umberto
@@ -112,25 +94,19 @@ bookmarks = {
 		# ROW 1 MAJOR #
 
 		# ROW 2 MAJOR #
-		"CAN" = {
+		"ENG" = {
 			history = ""
 			ideology = liberalism
 			ideas = {}
 			focuses = {}
 		}
 		
-		"ENG" = {
-			history = "ENG_THENEWORDER_DESC"
+		"CAN" = {
+			history = "CAN_GREY_TIDE_DESC"
 			ideology = paternalism
 			ideas = {
-				ENG_HMMLR
-				ENG_Own_Peoples_Hate
-				ENG_Across_The_Channel
 			}
 			focuses = {
-				ENG_keeping_ahead
-				ENG_the_kings_speech
-				ENG_writing_on_the_walls
 			}
 		}
 
@@ -138,7 +114,7 @@ bookmarks = {
 		"ZZZ" = { history = "" }
 
 		"CHI" = {
-			history = "CHI_THENEWORDER_DESC"
+			history = "CHI_GREY_TIDE_DESC"
 			ideology = fascism
 			ideas = {
 				CHI_japans_breadbasket_0
@@ -160,7 +136,7 @@ bookmarks = {
 		
 		# ROW 3 MAJOR #
 		"BRA" = {
-			history = "BRA_THENEWORDER_DESC"
+			history = "BRA_GREY_TIDE_DESC"
 			ideology = liberalism
 			ideas = {
 				BRA_idea_rampant_corruption
@@ -190,7 +166,7 @@ bookmarks = {
 		}
 
 		"IBR" = {
-			history = "IBR_THENEWORDER_DESC"
+			history = "IBR_GREY_TIDE_DESC"
 			ideology = despotism
 			ideas = {
 				Betray_Old_Guard
@@ -215,7 +191,7 @@ bookmarks = {
 		## OFN ##
 		"SCO" = {
 			minor = yes
-			history = "SCO_THENEWORDER_DESC"
+			history = "SCO_GREY_TIDE_DESC"
 			ideology = liberalism
 			ideas = {
 				SCO_The_Lonely_Ilse
@@ -239,7 +215,7 @@ bookmarks = {
 
 		"SAF" = {
 			minor = yes
-			history = "SAF_THENEWORDER_DESC"
+			history = "SAF_GREY_TIDE_DESC"
 			ideology = conservatism
 			ideas = {
 				SAF_The_Empty_Throne
@@ -259,7 +235,7 @@ bookmarks = {
 
 		"IRE" = {
 			minor = yes
-			history = "IRE_THENEWORDER_DESC"
+			history = "IRE_GREY_TIDE_DESC"
 			ideology = paternalism
 			ideas = {
 				IRE_there_will_be_blood
@@ -283,7 +259,7 @@ bookmarks = {
 
 		"BRG" = {
 			minor = yes
-			history = "BRG_THENEWORDER_DESC"
+			history = "BRG_GREY_TIDE_DESC"
 			ideology = esoteric_nazism
 			ideas = {
 				BRG_the_shadow_state
@@ -301,7 +277,7 @@ bookmarks = {
 		## RUSSIA ##
 		"WRS" = {
 			minor = yes
-			history = "WRS_THENEWORDER_DESC"
+			history = "WRS_GREY_TIDE_DESC"
 			ideology = communist
 			ideas = {
 				RUS_terror_bombing
@@ -317,7 +293,7 @@ bookmarks = {
 
 		"SAM" = {
 			minor = yes
-			history = "SAM_THENEWORDER_DESC"
+			history = "SAM_GREY_TIDE_DESC"
 			ideology = despotism
 			ideas = {
 				SAM_Turncoat_General
@@ -333,7 +309,7 @@ bookmarks = {
 
 		"VYT" = {
 			minor = yes
-			history = "VYT_THENEWORDER_DESC"
+			history = "VYT_GREY_TIDE_DESC"
 			ideology = despotism
 			ideas = {
 				VYT_the_tsar_and_himself
@@ -349,7 +325,7 @@ bookmarks = {
 
 		"KOM" = {
 			minor = yes
-			history = "KOM_THENEWORDER_DESC"
+			history = "KOM_GREY_TIDE_DESC"
 			ideology = progressivism
 			ideas = {
 				KOM_syvtyvkartsi
@@ -365,7 +341,7 @@ bookmarks = {
 
 		"PRM" = {
 			minor = yes
-			history = "PRM_THENEWORDER_DESC"
+			history = "PRM_GREY_TIDE_DESC"
 			ideology = national_socialism
 			ideas = {
 				PRM_aryan_cult
@@ -381,7 +357,7 @@ bookmarks = {
 
 		"OMS" = {
 			minor = yes
-			history = "OMS_THENEWORDER_DESC"
+			history = "OMS_GREY_TIDE_DESC"
 			ideology = ultranationalism
 			ideas = {
 				OMS_fueled_by_revenge
@@ -399,7 +375,7 @@ bookmarks = {
 		## CPS ##
 		"GNG" = {
 			minor = yes
-			history = "GNG_THENEWORDER_DESC"
+			history = "GNG_GREY_TIDE_DESC"
 			ideology = fascism
 			ideas = {
 				GNG_kenpeitai_pervasive_kenpeitai_networks_dummy
@@ -417,7 +393,7 @@ bookmarks = {
 
 		"YUN" = {
 			minor = yes
-			history = "YUN_THENEWORDER_DESC"
+			history = "YUN_GREY_TIDE_DESC"
 			ideology = despotism
 			ideas = {
 				#YUN_bandit_holdouts
@@ -493,7 +469,7 @@ bookmarks = {
 
 		"TYM" = {
 			minor = yes
-			history = "TYM_THENEWORDER_DESC"
+			history = "TYM_GREY_TIDE_DESC"
 			ideology = communist
 			ideas = {
 				TYM_revisionist_remnant
@@ -509,7 +485,7 @@ bookmarks = {
 
 		"SVR" = {
 			minor = yes
-			history = "SVR_THENEWORDER_DESC"
+			history = "SVR_GREY_TIDE_DESC"
 			ideology = paternalism
 			ideas = {
 				SVR_notso_redarmy
@@ -525,7 +501,7 @@ bookmarks = {
 
 		"KEM" = {
 			minor = yes
-			history = "KEM_THENEWORDER_DESC"
+			history = "KEM_GREY_TIDE_DESC"
 			ideology = despotism
 			ideas = {
 				KEM_esoteric_kingdom
@@ -541,7 +517,7 @@ bookmarks = {
 
 		"TOM" = {
 			minor = yes
-			history = "TOM_THENEWORDER_DESC"
+			history = "TOM_GREY_TIDE_DESC"
 			ideology = conservatism
 			ideas = {
 				TOM_formation_of_the_salons
@@ -557,7 +533,7 @@ bookmarks = {
 
 		"SBA" = {
 			minor = yes
-			history = "SBA_THENEWORDER_DESC"
+			history = "SBA_GREY_TIDE_DESC"
 			ideology = socialist
 			ideas = {
 				SBA_anarchist_refuge
@@ -573,7 +549,7 @@ bookmarks = {
 
 		"NOV" = {
 			minor = yes
-			history = "NOV_THENEWORDER_DESC"
+			history = "NOV_GREY_TIDE_DESC"
 			ideology = paternalism
 			ideas = {
 				NOV_Disproportionate_Population
@@ -623,7 +599,7 @@ bookmarks = {
 		## PAKT ##
 		"ANG" = {
 			minor = yes
-			history = "ANG_THENEWORDER_DESC"
+			history = "ANG_GREY_TIDE_DESC"
 			ideology = national_socialism
 
 			ideas={
@@ -640,7 +616,7 @@ bookmarks = {
 
 		"COG" = {
 			minor = yes
-			history = "COG_THENEWORDER_DESC"
+			history = "COG_GREY_TIDE_DESC"
 			ideology = national_socialism
 
 			ideas={
@@ -657,7 +633,7 @@ bookmarks = {
 
 		"GRO" = {
 			minor = yes
-			history = "GRO_THENEWORDER_DESC"
+			history = "GRO_GREY_TIDE_DESC"
 			ideology = national_socialism
 
 			ideas={
@@ -677,7 +653,7 @@ bookmarks = {
 
 		"IRK" = {
 			minor = yes
-			history = "IRK_THENEWORDER_DESC"
+			history = "IRK_GREY_TIDE_DESC"
 			ideology = communist
 			ideas = {
 				IRK_bitter_remnant
@@ -693,7 +669,7 @@ bookmarks = {
 
 		"BRY" = {
 			minor = yes
-			history = "BRY_THENEWORDER_DESC"
+			history = "BRY_GREY_TIDE_DESC"
 			ideology = socialist
 			ideas = {
 				BRY_uncertain_revolutionaries
@@ -708,7 +684,7 @@ bookmarks = {
 
 		"CHT" = {
 			minor = yes
-			history = "CHT_THENEWORDER_DESC"
+			history = "CHT_GREY_TIDE_DESC"
 			ideology = despotism
 			ideas = {
 				RUS_heirs_of_harbin
@@ -724,7 +700,7 @@ bookmarks = {
 
 		"MAG" = {
 			minor = yes
-			history = "MAG_THENEWORDER_DESC"
+			history = "MAG_GREY_TIDE_DESC"
 			ideology = fascism
 			ideas = {
 				RUS_heirs_of_harbin
@@ -740,7 +716,7 @@ bookmarks = {
 
 		"AMR" = {
 			minor = yes
-			history = "AMR_THENEWORDER_DESC"
+			history = "AMR_GREY_TIDE_DESC"
 			ideology = national_socialism
 			ideas = {
 				RUS_heirs_of_harbin

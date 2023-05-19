@@ -1,0 +1,166 @@
+﻿capital = 439
+
+oob = "IND"
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "IND_air_bba"
+		set_technology = {
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			iw_small_airframe = 1
+		}
+	else = {
+		set_air_oob = "IND_air_legacy"
+		set_technology = {
+			CAS1 = 1
+			early_fighter = 1
+		}
+	}
+}
+
+set_stability = 0.6
+set_war_support = 0.1
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	recruit_character = IND_lakshmi_sahgal
+	recruit_character = IND_orde_wingate
+	recruit_character = IND_kodandera_madappa_cariappa
+	recruit_character = IND_kodandera_subayya_thimayya
+	recruit_character = IND_jayanto_nath_chaudhuri
+}
+
+
+if = {
+	limit = {
+		not = { has_dlc =  "Man the Guns" }
+	}
+	set_technology = {
+		transport = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		mtg_transport = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Battle for the Bosporus"
+	}
+	set_technology = { camelry = 1 }
+}
+
+if = {
+	limit = { has_dlc = "Together for Victory" }
+
+	add_ideas = {
+		IND_princely_states
+		IND_marginalized_muslim_community
+		IND_agrarian_society
+		IND_risk_of_famine
+	}
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = despot
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	despot = 100
+}
+
+recruit_character = IND_lord_linlithgow
+recruit_character = IND_p_krishna_pillai
+recruit_character = IND_b_p_sitaramayya
+recruit_character = IND_noel_beresfordpeirse
+recruit_character = IND_frank_messervy
+recruit_character = IND_douglas_gracey
+recruit_character = IND_herbert_fitzherbert
+recruit_character = IND_w_h_gould_bradford
+recruit_character = IND_william_e_parry
+recruit_character = IND_mohan_singh
+recruit_character = IND_mehar_singh
+recruit_character = IND_reginald_savory
+recruit_character = IND_bruce_w_mcpherson
+recruit_character = IND_aspy_merwan_engineer
+recruit_character = IND_arjan_singh_vibhusan
+recruit_character = IND_subroto_mukherjee
+recruit_character = IND_arthur_a_barrett
+recruit_character = IND_bhaskar_soman
+recruit_character = IND_rajendra_prasad
+recruit_character = IND_ravindra_darshan_singh
+recruit_character = IND_ram_dass_katari
+recruit_character = IND_archibald_wavell
+recruit_character = IND_louis_mountbatten
+recruit_character = IND_kodandera_cariappa
+recruit_character = IND_ram_singh_thakur
+recruit_character = IND_homi_j_bhabha
+recruit_character = IND_bahadur_jayla_of_khoch_bahur
+recruit_character = IND_anyang_bhula
+recruit_character = IND_john_edward_golightly
+recruit_character = IND_bhimrao_ramji_ambedkar
+recruit_character = IND_chakravarti_rajagopalachari
+recruit_character = IND_karam_singh_mann
+recruit_character = IND_agha_khan_iii
+recruit_character = IND_subhas_chanda_bose
+recruit_character = IND_mahatma_mohandas_gandhi
+recruit_character = IND_sir_mohammed_iqbal
+recruit_character = IND_john_mathai
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Noor Inayat Khan"
+		GFX = GFX_portrait_noor_inayat_khan
+		traits = {  }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IND }
+	}
+}

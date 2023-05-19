@@ -4,14 +4,7 @@
 default_unit_production = { #If adding country-unique ones, bear in mind that they STACK
 	enable = {
 		always = yes
-		NOT = { original_tag = GER } NOT = { original_tag = FRA } NOT = { original_tag = CHI  } NOT = { original_tag = ENG  }
-		not = { original_tag = CZE }
-		NOT = { tag = SOV }
-		Not = {
-			OR = {
-				original_tag = JAP
-			}
-		}
+		NOT = { original_tag = GER }
 	}
 
 	ai_strategy = {

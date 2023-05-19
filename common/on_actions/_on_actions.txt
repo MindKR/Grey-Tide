@@ -277,7 +277,7 @@ on_actions = {
 				limit = {
 					OR = {
 						original_tag = CAN
-						original_tag = RAJ
+						original_tag = IND
 						original_tag = MAL
 						original_tag = INS
 					}
@@ -347,7 +347,7 @@ on_actions = {
 			every_country = {
 				limit = {
 					OR = {
-						original_tag = RAJ
+						original_tag = IND
 						original_tag = CAN
 						original_tag = MAL
 						original_tag = INS

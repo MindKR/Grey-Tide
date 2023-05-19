@@ -2271,7 +2271,7 @@ SRL = {
 	callsigns = { }
 }
 
-RAJ_UK = {
+IND_UK = {
 	male = {
 		names = { Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
 			Colin Cyril David Donald Douglas Edmund Edward Fairfax  Francis
@@ -2315,7 +2315,7 @@ MAL_UK = {
 	callsigns = { }
 }
 
-RAJ = {
+IND = {
 	male = {
 		names = { 
 			Mohandas Narenda Dalbir Bipin Subrata Amarjeet Sanijv Ravi Praveen Surinder Balwant Sarath Amit Bimal Kumar Ranbir Manoj Suresh Sunil Sushila Meena Velu Aniruddha Shokin Ashwani Ashok Abhay Devraj Rudramurti Punita Anand Dipankar Ramnath Bahadur Atan Syed Kesur Bana Chain Ganga Gian Jadunath Mukund Surinder Triveni Varinder Sonam Ram Yogendra

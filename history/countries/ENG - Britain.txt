@@ -180,7 +180,6 @@ set_autonomy = { target = CAN autonomous_state = autonomy_dominion }
 set_autonomy = { target = AST autonomous_state = autonomy_dominion }
 set_autonomy = { target = NZL autonomous_state = autonomy_dominion }
 set_autonomy = { target = SAF autonomous_state = autonomy_dominion }
-set_autonomy = { target = RAJ autonomous_state = SN_colony }
 set_autonomy = { target = NFL autonomous_state = autonomy_dominion }
 set_autonomy = { target = IRE autonomous_state = autonomy_dominion }
 set_autonomy = { target = MAL autonomous_state = autonomy_integrated_puppet }
@@ -193,7 +192,7 @@ add_to_faction = CAN
 add_to_faction = AST
 add_to_faction = NZL
 add_to_faction = SAF
-add_to_faction = RAJ
+add_to_faction = IND
 add_to_faction = NFL
 add_to_faction = IRE
 add_to_faction = MAL

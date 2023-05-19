@@ -46,7 +46,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Qazi Muhammad Essa"
 	
-	picture = "GFX_Portrait_RAJ_Political_Leader_Generic_2"
+	picture = "GFX_Portrait_IND_Political_Leader_Generic_2"
 	expire = "1960.1.1"
 	ideology = centrism
 	traits = {
@@ -57,7 +57,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Muhammad Ali Jinnah"
 	
-	picture = "GFX_Portrait_RAJ_Political_Leader_Generic_2"
+	picture = "GFX_Portrait_IND_Political_Leader_Generic_2"
 	expire = "1960.1.1"
 	ideology = liberal_subtype
 	traits = {
@@ -68,7 +68,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Haji Mohammad Danesh"
 	
-	picture = "GFX_Portrait_RAJ_Political_Leader_Generic_2"
+	picture = "GFX_Portrait_IND_Political_Leader_Generic_2"
 	expire = "1960.1.1"
 	ideology = authoritarian_socialist_subtype
 	traits = {

@@ -1009,7 +1009,7 @@ technologies = {
 
 
 		#If you change these
-		#Change the custom tooltip too: RAJ_jungle_training_effect
+		#Change the custom tooltip too: IND_jungle_training_effect
 		marine = {
 			jungle = {
 				attack = 0.05 

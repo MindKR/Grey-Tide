@@ -64,7 +64,7 @@ ideas = {
 				NOT = { has_idea = isolation }
 				if = {
 					limit = {
-						original_tag = RAJ
+						original_tag = IND
 						has_dlc = "Together for Victory"
 					}
 					is_subject = no
@@ -136,7 +136,7 @@ ideas = {
 				}
 				if = {
 					limit = {
-						original_tag = RAJ
+						original_tag = IND
 						has_dlc = "Together for Victory"
 					}
 					is_subject = no
@@ -219,7 +219,7 @@ ideas = {
 
 				if = {
 					limit = {
-						original_tag = RAJ
+						original_tag = IND
 						has_dlc = "Together for Victory"
 					}
 					is_subject = no
@@ -304,7 +304,7 @@ ideas = {
 
 				if = {
 					limit = {
-						original_tag = RAJ
+						original_tag = IND
 						has_dlc = "Together for Victory"
 					}
 					is_subject = no
@@ -380,7 +380,7 @@ ideas = {
 				#}
 				if = {
 					limit = {
-						original_tag = RAJ
+						original_tag = IND
 						has_dlc = "Together for Victory"
 					}
 					is_subject = no

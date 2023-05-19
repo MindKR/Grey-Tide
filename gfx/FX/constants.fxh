@@ -190,9 +190,9 @@ static const float  SHADOW_WEIGHT_TREE   		= 0.7f;
 
 static const float GB_CAM_MIN = 1.0f; //O 100.0f
 static const float GB_CAM_MAX = 50.0f; //O 350.0f
-static const float GB_CAM_MAX_FILLING_CLAMP = 0.8f; // 0 to 1 value for clamping the fill when camera is at max distance //O 0.8f
-static const float GB_THRESHOLD = 1.0f; // interpolation time //O 0.05f;
-static const float GB_THRESHOLD2 = 0.0f; // interpolation time //O 0.2f;
+static const float GB_CAM_MAX_FILLING_CLAMP = 1.0f; // 0 to 1 value for clamping the fill when camera is at max distance //O 0.8f
+static const float GB_THRESHOLD = 0.01f; // interpolation time //O 0.05f;
+static const float GB_THRESHOLD2 = 0.15f; // interpolation time //O 0.2f;
 //static const float3 GB_OUTLINE_COLOR = float3( 0.0f, 0.0f, 0.0f );
 static const float GB_OUTLINE_CUTOFF_SEA = 0.990f; // Magic number to balance cutoff on edges without neighbor (over Sea)
 static const float GB_OPACITY_NEAR = 0.65f; // Transparency when camera is near

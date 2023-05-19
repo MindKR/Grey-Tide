@@ -792,9 +792,9 @@ opinion_modifiers = {
 
 	NZL_strengthen_ties = { value = 25 }
 
-	RAJ_indian_national_congress = { value = 25 }	
+	IND_indian_national_congress = { value = 25 }	
 	
-	RAJ_swaraj = { value = -50 }
+	IND_swaraj = { value = -50 }
 
 	#Hungarian focus
 	HUN_reintegrate_the_railroads = { value = 15 }

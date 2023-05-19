@@ -1,0 +1,796 @@
+characters={
+	IND_lord_linlithgow={
+		name=IND_lord_linlithgow
+		portraits={
+			civilian={
+				large="gfx/leaders/IND/Portrait_British_Raj_Lord_Linlithgow.dds"
+			}
+		}
+		country_leader={
+			ideology=despot_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	IND_p_krishna_pillai={
+		name=IND_p_krishna_pillai
+		portraits={
+			civilian={
+				large="GFX_IND_krishna_pillai"
+			}
+		}
+		country_leader={
+			ideology=libertarian_socialist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	IND_b_p_sitaramayya={
+		name=IND_b_p_sitaramayya
+		portraits={
+			civilian={
+				large="GFX_IND_pattabhi_sitaramayya"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	IND_noel_beresfordpeirse={
+		name=IND_noel_beresfordpeirse
+		portraits={
+			army={
+				large="GFX_IND_noel_beresford_peirse"
+				small="gfx/interface/ideas/idea_IND_noel_beresford_peirse.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+
+	IND_frank_messervy={
+		name=IND_frank_messervy
+		portraits={
+			army={
+				large="GFX_IND_frank_messervy"
+				small="gfx/interface/ideas/idea_IND_frank_messervy.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+
+	IND_douglas_gracey={
+		name=IND_douglas_gracey
+		portraits={
+			army={
+				large="GFX_IND_douglas_gracey"
+				small="gfx/interface/ideas/idea_IND_douglas_gracey.dds"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox }
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+
+	IND_herbert_fitzherbert={
+		name=IND_herbert_fitzherbert
+		portraits={
+			army={
+				large="GFX_IND_herbert_fitzherbert"
+				small="gfx/interface/ideas/idea_IND_herbert_fitzherbert.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=2
+			legacy_id=-1
+		}
+	}
+
+	### Empty characters that can become unit leaders later ###
+
+	IND_lakshmi_sahgal = {
+		name=IND_lakshmi_sahgal
+		portraits={
+			army={
+				large="GFX_IND_lakshmi_sahgal"
+				small="gfx/interface/ideas/idea_IND_herbert_fitzherbert.dds"
+			}
+		}
+		gender = female
+	}
+
+	IND_orde_wingate = {
+		name=IND_orde_wingate
+		portraits={
+			army={
+				large="GFX_IND_orde_wingate"
+				small="gfx/interface/ideas/idea_IND_orde_wingate.dds"
+			}
+		}
+	}
+	
+	IND_kodandera_madappa_cariappa = {
+		name=IND_kodandera_madappa_cariappa
+		portraits={
+			army={
+				large="GFX_IND_kodandera_madappa_cariappa"
+				small="gfx/interface/ideas/idea_IND_kodandera_madappa_cariappa.dds"
+			}
+		}
+	}
+
+	IND_kodandera_subayya_thimayya = {
+		name=IND_kodandera_subayya_thimayya
+		portraits={
+			army={
+				large="GFX_IND_kodendera_subayya_thimayya"
+				small="gfx/interface/ideas/idea_IND_k_s_thimayya.dds"
+			}
+		}
+	}
+	
+	IND_jayanto_nath_chaudhuri = {
+		name=IND_jayanto_nath_chaudhuri
+		portraits={
+			army={
+				large="GFX_IND_jayanto_nath_chaudhuri"
+				small="gfx/interface/ideas/idea_IND_j_n_chaudhuri.dds"
+			}
+		}
+	}
+
+
+	### THEORISTS ###
+
+	IND_rajendra_prasad={
+		name=IND_rajendra_prasad
+		portraits={
+			army={
+				small="GFX_idea_IND_rajendra_prasad" #small="GFX_idea_generic_army_arab_1"
+			}
+		}
+		advisor={
+			cost = 100	
+			slot = theorist
+			idea_token = IND_rajendra_prasad
+			ledger = army
+			allowed = {
+				original_tag = IND
+			}
+			
+			traits = {
+				military_theorist
+			}
+		}
+	}
+
+	IND_anyang_bhula={
+		name=IND_anyang_bhula
+		portraits={
+			army={
+				small="GFX_idea_generic_air_arab_1"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = IND_anyang_bhula
+			ledger = air
+			allowed = {
+				original_tag = IND
+			}
+			
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+
+	IND_bahadur_jayla_of_khoch_bahur={
+		name=IND_bahadur_jayla_of_khoch_bahur
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_arab_1"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = IND_bahadur_jayla_of_khoch_bahur
+			ledger = navy
+			allowed = {
+				original_tag = IND
+			}
+			
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+
+	IND_homi_j_bhabha={
+		name=IND_homi_j_bhabha
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_arab_2"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = IND_homi_j_bhabha
+			ledger = army
+			available = {
+				has_completed_focus = IND_institute_of_fundamental_research
+			}
+			allowed = {
+				original_tag = IND
+				has_dlc = "Together for Victory"
+			}
+			research_bonus = {
+				nuclear = 0.150
+			}
+			traits = {
+				nuclear_scientist
+			}
+		}
+	}
+
+
+	### ARMY CHIEFS ###
+
+	IND_arthur_a_barrett={
+		name=IND_arthur_a_barrett
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_2"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = IND_arthur_a_barrett
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	IND_archibald_wavell={
+		name=IND_archibald_wavell
+		portraits={
+			army={
+				small="GFX_idea_IND_archibald_wavell" #small="GFX_idea_generic_army_europe_5"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = IND_archibald_wavell
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				army_chief_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	IND_reginald_savory={
+		name=IND_reginald_savory
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_1"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = IND_reginald_savory
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				army_chief_drill_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	IND_mohan_singh={
+		name=IND_mohan_singh
+		portraits={
+			army={
+				small="GFX_idea_IND_mohan_singh" #small="GFX_idea_generic_army_arab_2"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = IND_mohan_singh
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	IND_kodandera_cariappa={
+		name=IND_kodandera_cariappa
+		portraits={
+			army={
+				small="GFX_idea_IND_kodandera_cariappa" #small="GFX_idea_generic_army_arab_3"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = IND_kodandera_cariappa
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				army_chief_morale_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+
+	### NAVY CHIEFS ###
+
+	IND_louis_mountbatten={
+		name=IND_louis_mountbatten
+		portraits={
+			army={
+				small="GFX_idea_IND_louis_mountbatten" #small="GFX_idea_generic_navy_europe_2"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = IND_louis_mountbatten
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				navy_chief_maneuver_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	IND_william_e_parry={
+		name=IND_william_e_parry
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_1"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = IND_william_e_parry
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				navy_chief_commerce_raiding_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	IND_bhaskar_soman={
+		name=IND_bhaskar_soman
+		portraits={
+			army={
+				small="GFX_idea_IND_bhaskar_soman" #small="GFX_idea_generic_navy_arab_3"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = IND_bhaskar_soman
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				navy_chief_decisive_battle_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	IND_ram_dass_katari={
+		name=IND_ram_dass_katari
+		portraits={
+			army={
+				small="GFX_idea_IND_ram_dass_katari" #small="GFX_idea_generic_navy_arab_2"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = IND_ram_dass_katari
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				navy_chief_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+
+	### AIR CHIEFS ###
+
+	IND_bruce_w_mcpherson={
+		name=IND_bruce_w_mcpherson
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_1"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = IND_bruce_w_mcpherson
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				air_chief_safety_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	IND_subroto_mukherjee={
+		name=IND_subroto_mukherjee
+		portraits={
+			army={
+				small="GFX_idea_generic_air_arab_3"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = IND_subroto_mukherjee
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	IND_ravindra_darshan_singh={
+		name=IND_ravindra_darshan_singh
+		portraits={
+			army={
+				small="GFX_idea_IND_ravindra_darshan_singh" #small="GFX_idea_generic_air_arab_2"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = IND_ravindra_darshan_singh
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				air_chief_night_operations_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+
+	### MILITARY HIGH COMMAND ###
+
+	IND_ram_singh_thakur={
+		name=IND_ram_singh_thakur
+		portraits={
+			army={
+				small="GFX_idea_IND_ram_singh_thakur" #small="GFX_idea_generic_army_arab_1"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = IND_ram_singh_thakur
+			ledger = army
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				army_infantry_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	IND_arjan_singh_vibhusan={
+		name=IND_arjan_singh_vibhusan
+		portraits={
+			army={
+				small="GFX_idea_generic_air_arab_3"
+			}
+		}
+		advisor={	
+			slot = high_command
+			idea_token = IND_arjan_singh_vibhusan
+			ledger = air
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				air_air_combat_training_3
+			}
+			cost = 200
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	IND_aspy_merwan_engineer={
+		name=IND_aspy_merwan_engineer
+		portraits={
+			army={
+				small="GFX_idea_IND_aspy_merwan_engineer" #small="GFX_idea_generic_air_arab_2"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = IND_aspy_merwan_engineer
+			ledger = navy
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				air_naval_strike_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
+
+	IND_mehar_singh={
+		name=IND_mehar_singh
+		portraits={
+			army={
+				small="GFX_idea_IND_mehar_singh" #small="GFX_idea_generic_air_arab_1"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = IND_mehar_singh
+			ledger = air
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				air_close_air_support_3
+			}
+			cost = 200
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	IND_w_h_gould_bradford={
+		name=IND_w_h_gould_bradford
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_1"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = IND_w_h_gould_bradford
+			ledger = navy
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				navy_anti_submarine_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
+	
+	IND_john_edward_golightly={
+		name=IND_john_edward_golightly
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_5"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = IND_john_edward_golightly
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				silent_workhorse 
+			}
+		}
+	}
+	
+	IND_chakravarti_rajagopalachari={
+		name=IND_chakravarti_rajagopalachari
+		portraits={
+			army={
+				small="GFX_idea_IND_chakravarti_rajagopalachari" #small="GFX_idea_generic_political_advisor_arab_3"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = IND_chakravarti_rajagopalachari
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				popular_figurehead 
+			}
+		}
+	}
+
+	IND_mahatma_mohandas_gandhi={
+		name=IND_mahatma_mohandas_gandhi
+		portraits={
+			army={
+				small="GFX_idea_IND_mahatma_mohandas_gandhi" #small="GFX_idea_generic_political_advisor_arab_3"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = IND_mahatma_mohandas_gandhi
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				compassionate_gentleman 
+			}
+		}		
+	}
+
+	IND_john_mathai={
+		name=IND_john_mathai
+		portraits={
+			army={
+				small="GFX_idea_IND_john_mathai" #small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = IND_john_mathai
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				captain_of_industry 
+			}
+		}
+	}
+
+	IND_sir_mohammed_iqbal={
+		name=IND_sir_mohammed_iqbal
+		portraits={
+			army={
+				small="GFX_idea_IND_sir_mohammed_iqbal" #small="GFX_idea_generic_political_advisor_arab_3"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = IND_sir_mohammed_iqbal
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				backroom_backstabber 
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+	
+	IND_agha_khan_iii={
+		name=IND_agha_khan_iii
+		portraits={
+			army={
+				small= "GFX_idea_IND_agha_khan_iii" #small="GFX_idea_generic_political_advisor_arab_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = IND_agha_khan_iii
+			allowed = {
+				original_tag = IND
+			}
+			traits = {
+				ideological_crusader 
+			}
+		}
+	}
+	
+	#Illusive Gentleman auto-generated
+}
