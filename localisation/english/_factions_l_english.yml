@@ -5,3 +5,8 @@
 
  NATO:0 "§YNATO§!"
  NATO_desc:0 ""
+ KMT:0 "§YRepublic of China§!"
+ KMT_desc:0 ""
+ KMT_Leader:0 "Central Government"
+ KMT_Leader_text:0 "§YCentral Government§!\nPolitical Power Gain: §G+100%§!"
+ KMT_Warlord:0 "§YWarlord§!"

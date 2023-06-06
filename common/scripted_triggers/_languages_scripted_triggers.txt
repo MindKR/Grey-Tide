@@ -122,3 +122,13 @@ is_chinese_speaking_country = {
 		}
 	}
 }
+
+is_russian_speaking_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_russian_speaking_country_tt
+		OR = {
+			original_tag = RUS
+			original_tag = SOV
+		}
+	}
+}

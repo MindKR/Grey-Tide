@@ -19,6 +19,7 @@ defined_text = {
 defined_text = {
 	name = GetFactionStatus_desc
 
+	### NATO ###
 	text = {
 		trigger = { has_idea = NATO_Leader }
 		localization_key = NATO_Leader_desc

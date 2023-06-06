@@ -114,31 +114,28 @@ apply_russian_endonyms = {
 		}
 	}
 
-	if = { #Saint Petersburg
+	if = { #Leningrad
 		limit = {
 			state = 195
-			RUS = { NOT = { has_war_with = GER } }
+			NOT = { has_state_flag = original_appellation }
 		}
 		195 = {
-			set_state_name = StPetersburg
+			set_state_name = RUS_Leningrad
 		}
 		set_province_name = {
 			id = 3151
-			name = StPetersburg
+			name = RUS_Leningrad
 		}
 	}
 
-	if = { #Petrograd
+	if = { #Saint Petersburg
 		limit = {
 			state = 195
-			RUS = { has_war_with = GER }
-		}
-		195 = {
-			set_state_name = Petrograd
+			has_state_flag = original_appellation
 		}
 		set_province_name = {
 			id = 3151
-			name = Petrograd
+			name = RUS_StPetersburg
 		}
 	}
 

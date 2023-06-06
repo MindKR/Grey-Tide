@@ -9,10 +9,8 @@ state={
 	}
 
 	history={
-		owner = GDC
-		add_core_of = GDC
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = CHI
+		add_core_of = CHI
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
@@ -33,7 +31,7 @@ state={
 	}
 
 	provinces={
-		1047 1087 1131 1187 4092 7039 7152 9963 11938 11941 12077 
+		1018 1047 1087 1131 1187 4023 4092 4160 7039 7135 7152 9963 10004 11926 11938 11941 11981 12077 
 	}
 	manpower=17835200
 	buildings_max_level_factor=1.000

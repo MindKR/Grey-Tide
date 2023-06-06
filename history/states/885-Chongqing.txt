@@ -1,0 +1,26 @@
+
+state={
+	id=885
+	name="STATE_885"
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			6999 20 
+		}
+	}
+
+	provinces={
+		6999 
+	}
+	manpower=10286940
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
+}

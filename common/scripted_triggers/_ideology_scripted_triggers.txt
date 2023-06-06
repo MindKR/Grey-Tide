@@ -86,7 +86,7 @@ is_enemy_ideology = {
 
 has_democratic_government = {
 	custom_trigger_tooltip = {
-		tooltip = SN_is_democratic
+		tooltip = GT_is_democratic
 		OR = {
 			has_government = social_democrat
 			has_government = liberal
@@ -97,7 +97,7 @@ has_democratic_government = {
 
 has_socialist_government = {
 	custom_trigger_tooltip = {
-		tooltip = SN_is_socialist
+		tooltip = GT_is_socialist
 		OR = {
 			has_government = libertarian_socialist
 			has_government = authoritarian_socialist
@@ -107,7 +107,7 @@ has_socialist_government = {
 
 has_authoritarian_government = {
 	custom_trigger_tooltip = {
-		tooltip = SN_is_authoritarian
+		tooltip = GT_is_authoritarian
 		OR = {
 			has_government = despot
 			has_government = fascist

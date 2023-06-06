@@ -1,3 +1,9 @@
+original_appellation = {
+	custom_effect_tooltip = original_appellation_tt
+	set_state_flag = original_appellation
+	hidden_effect = { activate_endonyms = yes }
+}
+
 enable_endonyms = {
 	set_global_flag = endonyms_flag
 	activate_endonyms = yes

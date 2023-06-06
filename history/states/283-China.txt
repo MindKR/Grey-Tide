@@ -10,17 +10,17 @@ state={
 		owner = NMC
 		add_core_of = NMC
 		add_core_of = CHI
-		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-
 		}
-
+		victory_points = {
+			2022 3 
+		}
 	}
 
 	provinces={
-		517 531 556 1630 1647 1698 1933 1985 2022 2028 2099 2509 3742 3745 4313 4888 4939 4947 5025 5057 5076 5100 6638 7270 7397 7911 7971 7997 8081 11448 12327 12596 12732 12776 12797 12820 12882 
+		517 556 1630 1647 1698 1778 1933 1985 2028 3745 4939 4947 5025 5057 5076 5100 6638 7971 8102 12596 12776 12820 
 	}
 	manpower=6716000
 	buildings_max_level_factor=1.000

@@ -20,6 +20,14 @@ country_event = {
 	
 	option = {
 		name = test.1.a
+		195 = { original_appellation = yes }
+
+	}
+
+	option = {
+		name = test.2.a
+		195 = { clr_state_flag = original_appellation }
+		activate_endonyms = yes
 	}
 }
 

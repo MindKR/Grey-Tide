@@ -18,8 +18,8 @@ guiTypes = {
 		iconType = {
 			name = "faction_status"
 			spriteType = "GFX_idea_unknown"
-			position = { x = 50 y = 0 }
-			scale = 0.625
+			position = { x = -2 y = 35 }
+			scale = 0.5
 			alwaystransparent = no
 			pdx_tooltip = "FACTION_STATUS_SHORT_TT"
 			pdx_tooltip_delayed = "FACTION_STATUS_TT"
@@ -28,11 +28,35 @@ guiTypes = {
 
 		iconType = {
 			name = "faction_icon_NATO"
-			position = {x = -30 y = -23}
+			position = {x = -16 y = -25}
 			quadTextureSprite = "GFX_NATO"
-			scale = 0.625
+			scale = 0.5
 			pdx_tooltip = NATO
 			pdx_tooltip_delayed = NATO_desc
+		}
+		iconType = {
+			name = "faction_icon_KMT"
+			position = {x = -25 y = -25}
+			quadTextureSprite = "GFX_KMT"
+			scale = 0.5
+			pdx_tooltip = KMT
+			pdx_tooltip_delayed = KMT_desc
+		}
+		iconType = {
+			name = "faction_icon_KMT_Leader"
+			position = {x = -25 y = 20}
+			quadTextureSprite = "GFX_KMT_Leader"
+			scale = 0.5
+			pdx_tooltip = KMT_Leader_text
+			pdx_tooltip_delayed = KMT_Leader_desc
+		}
+		iconType = {
+			name = "faction_icon_KMT_Warlord"
+			position = {x = -25 y = 20}
+			quadTextureSprite = "GFX_KMT_Warlord"
+			scale = 0.5
+			pdx_tooltip = KMT_Warlord
+			pdx_tooltip_delayed = KMT_Warlord_desc
 		}
 	}
 }

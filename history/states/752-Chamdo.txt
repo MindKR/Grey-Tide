@@ -6,8 +6,7 @@ state={
 	history={
 		owner = XKC
 		add_core_of = XKC
-		add_core_of = CHI
-		add_core_of = PRC
+		add_core_of = CHI
 		victory_points = {
 			4999 1 
 		}
@@ -22,7 +21,7 @@ state={
 	}
 
 	provinces={
-		1918 1999 2067 4999 7294 7988 8104 10726 10841 10903 12724 12837 
+		1918 1999 2067 4999 7294 7988 8104 10726 12724 12819 12837 
 	}
 	manpower=599800
 	buildings_max_level_factor=1.000

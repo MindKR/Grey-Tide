@@ -4,39 +4,36 @@ state={
 	name="STATE_597"
 
 	history={
-		owner = PRC
+		owner = CHI
 		add_core_of = CHI
-		add_core_of = PRC
 		victory_points = {
 			1069 3 
+		}
+		victory_points = {
+			10000 5 
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			air_base = 3
+			air_base = 4
 			4205 = {
 				naval_base = 2
 				coastal_bunker = 1
 				bunker = 1
 
 			}
+			10000 = {
+				naval_base = 5
+				coastal_bunker = 1
+				bunker = 1
 
+			}
 		}
-		CHI = {
-			set_province_controller = 9956
-			set_province_controller = 12015
-			set_province_controller = 4037
-			set_province_controller = 1069
-			set_province_controller = 12045
-			set_province_controller = 10102
-			set_province_controller = 12074
-			set_province_controller = 1184
-			set_province_controller = 7089
-		}
+
 	}
 
 	provinces={
-		1069 1084 1104 1124 1154 1184 1200 4037 4071 4089 4157 4181 4186 4205 7025 7055 7089 7105 7160 7189 7200 9956 9971 9987 10018 10043 10072 10102 11933 11962 12015 12045 12069 12074 12093 
+		1069 1084 1104 1124 1154 1184 1200 4037 4071 4089 4157 4181 4186 4205 7025 7055 7089 7105 7160 7189 7200 9956 9971 9987 10000 10018 10043 10072 10102 11933 11962 12015 12045 12069 12074 12093 
 	}
 	manpower=38373200
 	buildings_max_level_factor=1.000

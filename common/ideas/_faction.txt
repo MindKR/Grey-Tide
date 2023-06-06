@@ -32,5 +32,25 @@ ideas = {
 				annual_gdp_growth_factor = -0.035
 			}
 		}
+
+		### KMT ###
+		KMT_Leader = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea KMT_Leader" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			modifier = {
+				political_power_gain = 1
+			}
+		}
+		KMT_Warlord = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea KMT_Warlord" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			modifier = {
+				political_power_gain = 0.1
+			}
+		}
 	}
 }

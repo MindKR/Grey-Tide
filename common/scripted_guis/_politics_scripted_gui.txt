@@ -27,6 +27,21 @@ scripted_gui = {
 					is_in_faction_with = USA
 				}
 			}
+			faction_icon_KMT_visible = {
+				is_in_faction = yes
+				#is_subject = no
+				CHI = { is_faction_leader = yes }
+				OR = {
+					tag = CHI
+					is_in_faction_with = CHI
+				}
+			}
+			faction_icon_KMT_Leader_visible = {
+				has_idea = KMT_Leader
+			}
+			faction_icon_KMT_Warlord_visible = {
+				has_idea = KMT_Warlord
+			}
 			faction_icon_generic_visible = {
 				is_in_faction = yes
 				#is_subject = no
@@ -36,6 +51,13 @@ scripted_gui = {
 						OR = {
 							tag = USA
 							is_in_faction_with = USA
+						}
+					}
+					AND = {
+						CHI = { is_faction_leader = yes }
+						OR = {
+							tag = CHI
+							is_in_faction_with = CHI
 						}
 					}
 				}

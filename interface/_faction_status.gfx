@@ -15,4 +15,16 @@ spriteTypes = {
 		name = "GFX_NATO_MNNA"
 		textureFile = "gfx/interface/factions/NATO.png"
 	}
+	spriteType = {
+		name = "GFX_KMT"
+		textureFile = "gfx/interface/factions/KMT.png"
+	}
+	spriteType = {
+		name = "GFX_KMT_Leader"
+		textureFile = "gfx/interface/factions/status/KMT_Leader.png"
+	}
+	spriteType = {
+		name = "GFX_KMT_Warlord"
+		textureFile = "gfx/interface/factions/status/KMT_Warlord.png"
+	}
 }

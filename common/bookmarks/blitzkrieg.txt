@@ -156,9 +156,15 @@ bookmarks = {
 		}
 
 		"ZZZ" = { history = "" }
-		"ZZZ" = { history = "" }
 
-		"MAN" = {
+		"GER" = {
+			history = ""
+			ideology = fascism
+			ideas = {}
+			focuses = {}
+		}
+
+		"ITA" = {
 			history = ""
 			ideology = fascism
 			ideas = {}

@@ -1,4 +1,4 @@
-﻿capital = 608
+﻿capital = 728
 
 oob = "CHI"
 if = {
@@ -18,6 +18,22 @@ if = {
 			early_bomber = 1
 		}
 	}
+}
+
+add_ideas = KMT_Leader
+if = {
+	limit = {
+		OR = {
+			original_tag = SHX
+			original_tag = GXC
+			original_tag = GDC
+			original_tag = SHX
+			original_tag = NMC
+			original_tag = TMC
+			original_tag = XKC
+		}
+	}
+	add_ideas = KMT_Warlord
 }
 
 set_stability = 0.2

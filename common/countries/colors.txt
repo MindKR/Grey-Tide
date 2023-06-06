@@ -5,8 +5,8 @@ GER = {
 	color_ui = rgb { 50 50 50 }
 }
 ENG = {
-	color = rgb { 150 50 25 }
-	color_ui = rgb { 150 50 25 }
+	color = rgb { 165 55 45 }
+	color_ui = rgb { 165 55 45 }
 }
 SOV = {
 	color = rgb { 160 0 0 }
@@ -452,8 +452,8 @@ PAK = {
 	color_ui = rgb { 21 38 66 }
 }
 KOR = {
-	color = rgb { 10 100 175 }
-	color_ui = rgb { 10 100 175 }	
+	color = rgb { 10 85 175 }
+	color_ui = rgb { 10 85 175 }	
 }
 ISR = {
 	color = rgb { 152  130  191 }
@@ -514,6 +514,14 @@ TUN = {
 TGR = {
 	color = rgb { 174 34 41 }
 	color_ui = rgb { 174 34 41 }
+}
+BRM = {
+	color = rgb { 122 53 92 }
+	color_ui = rgb { 122 53 92 }
+}
+SIK = {
+	color = rgb { 175 24 60 }
+	color_ui = rgb { 175 24 60 }
 }
 ZZZ = {
 	color = rgb { 0 0 0 }

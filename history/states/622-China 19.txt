@@ -9,8 +9,8 @@ state={
 
 	history={
 		owner = PRC
-		add_core_of = CHI
 		add_core_of = PRC
+		add_core_of = CHI
 		victory_points = {
 			12356 3 
 		}
@@ -21,10 +21,13 @@ state={
 		}
 		CHI = {
 			set_province_controller = 8049
-			set_province_controller = 7208
 			set_province_controller = 5007
 			set_province_controller = 12156
 			set_province_controller = 10733
+		}
+		SHX = {
+			set_province_controller = 7208
+			set_province_controller = 7659
 		}
 	}
 

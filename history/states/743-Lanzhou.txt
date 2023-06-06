@@ -1,0 +1,23 @@
+
+state={
+	id=743
+	name="STATE_743"
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+	}
+
+	provinces={
+		531 2022 4313 5193 7397 7911 11448 12797 12882 
+	}
+	manpower=385000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}
