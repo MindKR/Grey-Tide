@@ -1,0 +1,78 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = GT_places
+						option = EXONYMS
+					}
+				}
+				set_global_flag = exonyms_flag
+				every_state = { activate_exonyms = yes }
+			}
+			else_if = {
+				limit = {
+					has_game_rule = {
+						rule = GT_places
+						option = ENDONYMS
+					}
+				}
+				set_global_flag = endonyms_flag
+				every_state = { activate_endonyms = yes }
+				set_variable = { global.places_frame = 2 }
+			}
+			else = {
+				limit = {
+					has_game_rule = {
+						rule = GT_places
+						option = DEFAULT
+					}
+				}
+				set_variable = { global.places_frame = 3 }
+			}
+		}
+	}
+
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					has_global_flag = exonyms_flag
+				}
+				FROM.FROM = { activate_exonyms = yes }
+			}
+			if = {
+				limit = {
+					ROOT = { has_socialist_government = yes
+			if = { #Berlin - socialist
+				limit = {
+					ROOT = { has_socialist_government = yes }
+					FROM.FROM = { state = 835 }
+				}
+				set_province_name = {
+					id = 6521
+					name = Berlin_Socialist
+				}
+			}
+		}
+	}
+
+	on_war = {
+		#effect = {
+		#	limit = {
+		#		original_tag = SOV
+		#		has_war_with = GER
+		#	}
+		#	195 = {
+		#		set_state_name = Petrograd
+		#	}
+		#	set_province_name = {
+		#		id = 3151
+		#		name = Petrograd
+		#	}
+		#}
+	}
+		
+}

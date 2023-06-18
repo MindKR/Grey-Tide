@@ -1,0 +1,8 @@
+spriteTypes = {
+	
+	SpriteType = {
+		name = "GFX_places_button"
+		texturefile = "gfx/interface/topbar/places_button.png"	
+		noOfFrames = 3
+	}
+}

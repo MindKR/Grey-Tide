@@ -9,10 +9,13 @@ state={
 			industrial_complex = 1
 		}
 		victory_points = {
-			6822 1 
+			2386 3
 		}
 		victory_points = {
-			6928 1 
+			6822 3
+		}
+		victory_points = {
+			6944 3
 		}
 		add_core_of = KOR
 

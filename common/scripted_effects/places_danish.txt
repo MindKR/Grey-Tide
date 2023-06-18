@@ -1,0 +1,9 @@
+apply_danish_places = {
+
+	if = { #Nordschleswig
+		limit = { state = 848 }
+		848 = {
+			set_state_name = Sonderjyllands
+		}
+	}
+}

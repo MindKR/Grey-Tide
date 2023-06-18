@@ -1,7 +1,5 @@
 ﻿capital = 617
 
-set_cosmetic_tag = SIK_SOV
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

@@ -1,0 +1,202 @@
+apply_korean_places = {
+
+	if = { #Gyeonggi
+		limit = { state =  525 }
+		525 = { 
+			set_state_name = KOR_Gyeonggido
+		}
+		set_province_name = { #Incheon
+			id = 5095
+			name = KOR_Incheon
+		}
+		set_province_name = { #Ganghwa
+			id = 8354
+			name = KOR_Ganghwa
+		}
+		set_province_name = { #Gaeseong
+			id = 8430
+			name = KOR_Gaeseong
+		}
+	}
+
+	if = { #South Pyongan
+		limit = { state = 527 }
+		527 = { 
+			set_state_name = KOR_Pyongannamdo
+		}
+	}
+
+	if = { #North Chungcheong
+		limit = { state =  840 }
+		840 = { 
+			set_state_name = KOR_Chungcheongbukdo
+		}
+		set_province_name = { #Chongju
+			id = 1100
+			name = KOR_Chongju
+		}
+	}
+
+	if = { #Gangwon
+		limit = { state = 841 }
+		841 = { 
+			set_state_name = KOR_Gangwon
+		}
+		set_province_name = { #Uljin
+			id = 245
+			name = KOR_Uljin
+		}
+		set_province_name = { #Chuncheon
+			id = 1148
+			name = KOR_Chuncheon
+		}
+	}
+
+	if = { #North Jeolla
+		limit = { state = 842 }
+		842 = { 
+			set_state_name = KOR_Jeollabukdo
+		}
+		set_province_name = { #Jeonju
+			id = 11977
+			name = KOR_Jeonju
+		}
+	}
+
+	if = { #North Gyeongsang
+		limit = { state = 843 }
+		843 = { 
+			set_state_name = KOR_Gyeongsangbukdo
+		}
+		set_province_name = {
+			id = 4086
+			name = KOR_Daegu
+		}
+		set_province_name = {
+			id = 12711
+			name = KOR_Ulleung
+		}
+	}
+
+	if = { #Hwanghae
+		limit = { state = 844 }
+		844 = { 
+			set_state_name = KOR_Hwanghae
+		}
+		set_province_name = { #Haeju
+			id = 1003
+			name = KOR_Haeju
+		}
+	}
+
+	if = { #South Hamgyong
+		limit = { state = 845 }
+		845 = { 
+			set_state_name = KOR_Hamgyongnamdo
+		}
+		set_province_name = {
+			id = 848
+			name = KOR_Wonsan
+		}
+		set_province_name = {
+			id = 6928
+			name = KOR_Hamhung
+		}
+	}
+
+	if = { #Jiandao
+		limit = { state = 875 }
+		875 = {
+			set_state_name = KOR_Gando
+		}
+	}
+
+	if = { #South Gyeongsang
+		limit = { state = 910 }
+		910 = { 
+			set_state_name = KOR_Gyeongsangnamdo
+		}
+		set_province_name = {
+			id = 8088
+			name = KOR_Busan
+		}
+	}
+
+	if = { #South Jeolla
+		limit = { state = 911 }
+		911 = { 
+			set_state_name = KOR_Jeollanamdo
+		}
+		set_province_name = { #Jeju
+			id = 1177
+			name = KOR_Jeju
+		}
+		set_province_name = { #Gwangju
+			id = 12085
+			name = KOR_Gwangju
+		}
+	}
+
+	if = { #South Chungcheong
+		limit = { state =  912 }
+		912 = { 
+			set_state_name = KOR_Chungcheongnamdo
+		}
+		set_province_name = { #Daejeon
+			id = 2572
+			name = KOR_Daejeon
+		}
+	}
+
+	if = { #North Pyongan
+		limit = { state = 913 }
+		913 = { 
+			set_state_name = KOR_Pyonganbukdo
+		}
+		set_province_name = { #Sinuiju
+			id = 11835
+			name = KOR_Sinuiju
+		}
+	}
+
+	if = { #North Hamgyong
+		limit = { state = 914 }
+		914 = { 
+			set_state_name = KOR_Hamgyongbukdo
+		}
+		set_province_name = {
+			id = 2386
+			name = KOR_Seongjin
+		}
+		set_province_name = {
+			id = 6822
+			name = KOR_Chongjin
+		}
+		set_province_name = {
+			id = 6944
+			name = KOR_Rajin
+		}
+	}
+
+	if = { #Seoul
+		limit = { state = 917 }
+		917 = { 
+			set_state_name = KOR_Seoul
+		}
+		set_province_name = { #Seoul
+			id = 1043
+			name = KOR_Seoul
+		}
+	}
+
+	if = { #Pyongyang
+		limit = { state = 918 }
+		918 = { 
+			set_state_name = KOR_Pyongyang
+		}
+		set_province_name = { #Pyongyang
+			id = 4052
+			name = KOR_Pyongyang
+		}
+	}
+}

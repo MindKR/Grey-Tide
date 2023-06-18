@@ -1,5 +1,8 @@
 ﻿capital = 282
 
+set_autonomy = { target = KOR autonomous_state = GT_sotokufu }
+set_autonomy = { target = TWN autonomous_state = GT_sotokufu }
+
 set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
 set_war_support = 0.8
 

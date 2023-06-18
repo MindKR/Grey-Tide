@@ -1,0 +1,68 @@
+defined_text = {
+	name = places_button_loc
+	text = { #Exonyms, No MP
+		trigger = {
+			NOT = { has_global_flag = is_mp }
+			has_global_flag = exonyms_flag
+		}
+		localization_key = places_button_exonyms
+	}
+	text = { #Exonyms, Yes MP
+		trigger = {
+			has_global_flag = is_mp
+			has_global_flag = exonyms_flag
+		}
+		localization_key = places_button_exonyms_mp
+	}
+	text = { #Endonyms, No MP
+		trigger = {
+			NOT = { has_global_flag = is_mp }
+			has_global_flag = endonyms_flag
+		}
+		localization_key = places_button_endonyms
+	}
+	text = { #Endonyms, Yes MP
+		trigger = {
+			has_global_flag = is_mp
+			has_global_flag = endonyms_flag
+		}
+		localization_key = places_button_endonyms_mp
+	}
+	text = { #Default
+		trigger = {
+			NOT = {
+				has_global_flag = exonyms_flag
+				has_global_flag = endonyms_flag
+			}
+		}
+		localization_key = places_button_default
+	}
+}
+
+defined_text = {
+	name = places_button_desc_loc
+	text = { #Exonyms, No MP
+		trigger = {
+			NOT = { has_global_flag = is_mp }
+			has_global_flag = exonyms_flag
+		}
+		localization_key = places_button_exonyms_desc
+	}
+	text = { #Endonyms, No MP
+		trigger = {
+			NOT = { has_global_flag = is_mp }
+			has_global_flag = endonyms_flag
+		}
+		localization_key = places_button_endonyms_desc
+	}
+	text = { #Default, No MP
+		trigger = {
+			NOT = {
+				has_global_flag = exonyms_flag
+				has_global_flag = endonyms_flag
+			}
+		}
+		localization_key = places_button_default_desc
+	}
+}
+

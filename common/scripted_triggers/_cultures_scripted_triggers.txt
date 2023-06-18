@@ -1,0 +1,25 @@
+is_arabic_culture = {
+	custom_trigger_tooltip = {
+		tooltip = is_arabic_speaking_country_tt
+		OR = {
+		}
+	}
+}
+
+is_german_culture = {
+	custom_trigger_tooltip = {
+		tooltip = is_german_culture_tt
+		OR = {
+			check_variable = { nationality = 1 }
+			check_variable = { nationality = 1.1 }
+			check_variable = { nationality = 1.3 }
+			check_variable = { nationality = 1.4 }
+			check_variable = { nationality = 1.5 }
+			check_variable = { nationality = 1.6 }
+			AND = {
+				check_variable = { nationality = 1.2 }
+				controller = { tag = GER }
+			}
+		}
+	}
+}

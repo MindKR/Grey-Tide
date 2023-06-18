@@ -1,4 +1,4 @@
-SN_startup_cultures = {
+GT_startup_cultures = {
 	#North German
 	set_variable = { 28.nationality = 1 }
 	set_variable = { 42.nationality = 1 }

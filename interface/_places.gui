@@ -1,0 +1,19 @@
+guiTypes = {
+	containerWindowType = {
+		name = "GT_places_container"
+		position = { x=-131 y=62 }
+		Orientation = UPPER_RIGHT
+
+		buttonType = {
+			name = "places_button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_places_button"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			pdx_tooltip = places_button
+			pdx_tooltip_delayed = places_button_desc
+			shortcut = "ctrl+e"
+		}
+	}
+}
+

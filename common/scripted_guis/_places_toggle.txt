@@ -1,0 +1,57 @@
+scripted_gui = {
+	GT_places = {
+		context_type = player_context
+		window_name = "GT_places_container"
+		parent_window_token = top_bar
+		dirty = global.places_frame
+
+		ai_enabled = {
+			always = no
+		}
+
+		triggers = {
+			places_button_click_enabled = {
+				NOT = { has_global_flag = is_mp }
+			}
+		}
+
+		effects = {
+			places_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_global_flag = exonyms_flag
+							has_global_flag = endonyms_flag
+						}
+					}
+					enable_exonyms = yes
+					set_variable = { global.places_frame = 1 }
+
+					log = "[GetDateText]: [Root.GetName]: event worldnews.1 FROM = [From.GetName]"
+				}
+				else_if = {
+					limit = { has_global_flag = exonyms_flag }
+					disable_exonyms = yes
+					enable_endonyms = yes
+					set_variable = { global.places_frame = 2 }
+
+					log = "[GetDateText]: [Root.GetName]: event worldnews.2 FROM = [From.GetName]"
+				}
+				else_if = {
+					limit = { has_global_flag = endonyms_flag }
+					disable_endonyms = yes
+					set_variable = { global.places_frame = 3 }
+
+					log = "[GetDateText]: [Root.GetName]: event worldnews.3 FROM = [From.GetName]"
+				}
+			}
+		}
+
+		properties = {
+			places_button = {
+				frame = global.places_frame
+			}
+		}
+	}
+}
+

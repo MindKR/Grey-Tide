@@ -1,0 +1,242 @@
+apply_greek_places = {
+
+	if = { #Ankara
+		limit = { state = 49 }
+		49 = {
+			set_state_name = GRE_Ancyra
+		}
+		set_province_name = {
+			id = 3951
+			name = GRE_Dorylaion
+		}
+		set_province_name = {
+			id = 11747
+			name = GRE_Ancyra
+		}
+	}
+
+	if = { #Dedeağaç
+		limit = { state = 184 }
+		184 = {
+			set_state_name = Thraki
+		}
+		set_province_name = {
+			id = 11905
+			name = Alexandroupolis
+		}
+	}
+
+	if = { #Aegean Islands
+		limit = { state = 187 }
+		set_province_name = {
+			id = 8435
+			name = Mytilene
+		}
+	}
+
+	if = { #Izmir
+		limit = { state = 339 }
+		339 = {
+			set_state_name = Smyrna
+		}
+		set_province_name = {
+			id = 4112
+			name = Smyrna
+		}
+		set_province_name = {
+			id = 928
+			name = Magnesia
+		}
+	}
+
+	if = { #Prussa
+		limit = { state = 340 }
+		340 = {
+			set_state_name = Prussa
+		}
+		set_province_name = {
+			id = 947
+			name = Prussa
+		}
+		set_province_name = {
+			id = 9799
+			name = Palaeokastron
+		}
+	}
+
+	if = { #Hadrianopolis
+		limit = { state = 341 }
+		341 = {
+			set_state_name = Hadrianopolis
+		}
+		set_province_name = {
+			id = 11842
+			name = Hadrianopolis
+		}
+	}
+
+	if = { #Antalya
+		limit = { state = 342 }
+		342 = {
+			set_state_name = Attaleia
+		}
+		set_province_name = {
+			id = 1005
+			name = Attaleia
+		}
+	}
+
+	if = { #Afyonkarahisar
+		limit = { state = 343 }
+		343 = {
+			set_state_name = Nicopolis
+		}
+		set_province_name = {
+			id = 3856
+			name = Kotyaion
+		}
+		set_province_name = {
+			id = 9878
+			name = Nicopolis
+		}
+		set_province_name = {
+			id = 10041
+			name = Attouda
+		}
+	}
+
+	if = { #Adana
+		limit = { state = 344 }
+		set_province_name = {
+			id = 6813
+			name = Germanikeia
+		}
+		set_province_name = {
+			id = 7620
+			name = Melitene
+		}
+	}
+
+	if = { #Mersin
+		limit = { state = 345 }
+		345 = {
+			set_state_name = Hadrianopolis
+		}
+		set_province_name = {
+			id = 10056
+			name = Hadrianopolis
+		}
+		set_province_name = {
+			id = 11810
+			name = Tarsos
+		}
+	}
+
+	if = { #Konya
+		limit = { state = 346 }
+		346 = {
+			set_state_name = Iconium
+		}
+		set_province_name = {
+			id = 784
+			name = Saporda
+		}
+		set_province_name = {
+			id = 6807
+			name = Laranda
+		}
+		set_province_name = {
+			id = 9861
+			name = Iconium
+		}
+	}
+
+	if = { #Izmit
+		limit = { state = 347 }
+		347 = {
+			set_state_name = Nicomedia
+		}
+		set_province_name = {
+			id = 904
+			name = Agrilion
+		}
+		set_province_name = {
+			id = 11811
+			name = Nicomedia
+		}
+	}
+
+	if = { #Kayseri
+		limit = { state = 348 }
+		348 = {
+			set_state_name = Caesarea
+		}
+		set_province_name = {
+			id = 3870
+			name = Caesarea
+		}
+	}
+
+	if = { #Sivas
+		limit = { state = 349 }
+		349 = {
+			set_state_name = Sebastia
+		}
+		set_province_name = {
+			id = 9777
+			name = Sebastia
+		}
+	}
+
+	if = { #Samsun
+		limit = { state = 355 }
+		355 = {
+			set_state_name = Sampsounta 
+		}
+		set_province_name = {
+			id = 11881
+			name = Sampsounta 
+		}
+	}
+
+	if = { #Kastamonu
+		limit = { state = 356 }
+		356 = {
+			set_state_name = Kastamone
+		}
+		set_province_name = {
+			id = 6938
+			name = Kastamone
+		}
+		set_province_name = {
+			id = 6995
+			name = Sinope
+		}
+	}
+
+	if = { #Constantinopolis
+		limit = { state = 797 }
+		797 = {
+			set_state_name = Constantinopolis
+		}
+		set_province_name = {
+			id = 9833
+			name = Constantinopolis
+		}
+	}
+
+	if = { #Amasya
+		limit = { state = 798 }
+		798 = {
+			set_state_name = Amaseia
+		}
+		set_province_name = {
+			id = 919
+			name = Amaseia
+		}
+		set_province_name = {
+			id = 3862
+			name = Bozok
+		}
+	}
+}

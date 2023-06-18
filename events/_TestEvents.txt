@@ -45,7 +45,8 @@ state_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = test_state.1.a		
+		name = test_state.1.a
+		replace_state_category = yes
 	}
 }
 

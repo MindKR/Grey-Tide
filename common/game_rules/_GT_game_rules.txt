@@ -1,16 +1,21 @@
-SN_endonyms = {
-	name = "RULE_ENDONYMS"
+GT_places = {
+	name = "RULE_PLACES"
 	group = "RULE_GROUP_GT"
 	icon = GFX_production_licenses
 	option = {
-		name = ON
-		text = "RULE_OPTION_ON"
-		desc = "RULE_OPTION_ON_ENDONYMS"
+		name = EXONYMS
+		text = "RULE_OPTION_EXONYMS"
+		desc = "RULE_OPTION_EXONYMS_DESC"
 	}
 	option = {
-		name = OFF
-		text = "RULE_OPTION_OFF"
-		desc = "RULE_OPTION_OFF_ENDONYMS"
+		name = ENDONYMS
+		text = "RULE_OPTION_ENDONYMS"
+		desc = "RULE_OPTION_ENDONYMS_DESC"
+	}
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_DESC"
 	}
 }
 

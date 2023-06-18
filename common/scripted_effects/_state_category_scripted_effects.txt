@@ -1,0 +1,219 @@
+replace_state_category = {
+	every_state = {
+		limit = {
+			NOT = {
+				has_state_category = wasteland
+				has_state_category = small_island
+				has_state_category = tiny_island
+				has_state_category = enclave
+			}
+		}	
+		if = { #500k-
+			limit = {
+				NOT = { has_state_category = one }
+				state_population_k < 500
+			}
+			set_state_category = one
+		}
+		else_if = { #500k+
+			limit = {
+				NOT = { has_state_category = two }
+				state_population > 499999
+				state_population_k < 1000
+			}
+			set_state_category = two
+		}
+		else_if = { #1M+
+			limit = {
+				NOT = { has_state_category = three }
+				state_population > 999999
+				state_population_k < 1500
+			}
+			set_state_category = three
+		}
+		else_if = { #1.5M+
+			limit = {
+				NOT = { has_state_category = four }
+				state_population > 1499999
+				state_population_k < 2000
+			}
+			set_state_category = four
+		}
+		else_if = { #2M+
+			limit = {
+				NOT = { has_state_category = five }
+				state_population > 1999999
+				state_population_k < 2500
+			}
+			set_state_category = five
+		}
+		else_if = { #2.5M+
+			limit = {
+				NOT = { has_state_category = six }
+				state_population > 2499999
+				state_population_k < 3000
+			}
+			set_state_category = six
+		}
+		else_if = { #3M+
+			limit = {
+				NOT = { has_state_category = seven }
+				state_population > 2999999
+				state_population_k < 3500
+			}
+			set_state_category = seven
+		}
+		else_if = { #3.5M+
+			limit = {
+				NOT = { has_state_category = eight }
+				state_population > 3499999
+				state_population_k < 4000
+			}
+			set_state_category = eight
+		}
+		else_if = { #4M+
+			limit = {
+				NOT = { has_state_category = nine }
+				state_population > 3999999
+				state_population_k < 4500
+			}
+			set_state_category = nine
+		}
+		else_if = { #4.5M+
+			limit = {
+				NOT = { has_state_category = ten }
+				state_population > 4499999
+				state_population_k < 5000
+			}
+			set_state_category = ten
+		}
+		else_if = { #5M+
+			limit = {
+				NOT = { has_state_category = eleven }
+				state_population > 4999999
+				state_population_k < 5500
+			}
+			set_state_category = eleven
+		}
+		else_if = { #5.5M+
+			limit = {
+				NOT = { has_state_category = twelve }
+				state_population > 5499999
+				state_population_k < 6000
+			}
+			set_state_category = twelve
+		}
+		else_if = { #6M+
+			limit = {
+				NOT = { has_state_category = thirteen }
+				state_population > 5999999
+				state_population_k < 6500
+			}
+			set_state_category = thirteen
+		}
+		else_if = { #6.5M+
+			limit = {
+				NOT = { has_state_category = fourteen }
+				state_population > 6499999
+				state_population_k < 7000
+			}
+			set_state_category = fourteen
+		}
+		else_if = { #7M+
+			limit = {
+				NOT = { has_state_category = fifteen }
+				state_population > 6999999
+				state_population_k < 7500
+			}
+			set_state_category = fifteen
+		}
+		else_if = { #7.5M+
+			limit = {
+				NOT = { has_state_category = sixteen }
+				state_population > 7499999
+				state_population_k < 8000
+			}
+			set_state_category = sixteen
+		}
+		else_if = { #8M+
+			limit = {
+				NOT = { has_state_category = seventeen }
+				state_population > 7999999
+				state_population_k < 8500
+			}
+			set_state_category = seventeen
+		}
+		else_if = { #8.5M+
+			limit = {
+				NOT = { has_state_category = eighteen }
+				state_population > 8499999
+				state_population_k < 9000
+			}
+			set_state_category = eighteen
+		}
+		else_if = { #9M+
+			limit = {
+				NOT = { has_state_category = nineteen }
+				state_population > 8999999
+				state_population_k < 9500
+			}
+			set_state_category = nineteen
+		}
+		else_if = { #9.5M+
+			limit = {
+				NOT = { has_state_category = twenty }
+				state_population > 9499999
+				state_population_k < 10000
+			}
+			set_state_category = twenty
+		}
+		else_if = { #10M+
+			limit = {
+				NOT = { has_state_category = twenty-one }
+				state_population > 9999999
+				state_population_k < 10500
+			}
+			set_state_category = twenty-one
+		}
+		else_if = { #10.5M+
+			limit = {
+				NOT = { has_state_category = twenty-two }
+				state_population > 10499999
+				state_population_k < 11000
+			}
+			set_state_category = twenty-two
+		}
+		else_if = { #11M+
+			limit = {
+				NOT = { has_state_category = twenty-three }
+				state_population > 10999999
+				state_population_k < 11500
+			}
+			set_state_category = twenty-three
+		}
+		else_if = { #11.5M+
+			limit = {
+				NOT = { has_state_category = twenty-four }
+				state_population > 11499999
+				state_population_k < 12000
+			}
+			set_state_category = twenty-four
+		}
+		else_if = { #12M+
+			limit = {
+				NOT = { has_state_category = twenty-five }
+				state_population > 11999999
+				state_population_k < 12500
+			}
+			set_state_category = twenty-five
+		}
+		else_if = { #12.5M+
+			limit = {
+				NOT = { has_state_category = twenty-six }
+				state_population > 12499999
+				state_population_k < 13000
+			}
+			set_state_category = twenty-six
+		}
+	}
+}

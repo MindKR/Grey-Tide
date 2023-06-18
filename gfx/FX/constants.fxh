@@ -188,8 +188,8 @@ static const float  SHADOW_WEIGHT_TREE   		= 0.7f;
 // ------------------    GRADIENT BORDERS   ---------------------
 // --------------------------------------------------------------
 
-static const float GB_CAM_MIN = 1.0f; //O 100.0f
-static const float GB_CAM_MAX = 50.0f; //O 350.0f
+static const float GB_CAM_MIN = 0.0f;
+static const float GB_CAM_MAX = 1.0f;
 static const float GB_CAM_MAX_FILLING_CLAMP = 1.0f; // 0 to 1 value for clamping the fill when camera is at max distance //O 0.8f
 static const float GB_THRESHOLD = 0.01f; // interpolation time //O 0.05f;
 static const float GB_THRESHOLD2 = 0.15f; // interpolation time //O 0.2f;
@@ -197,11 +197,11 @@ static const float GB_THRESHOLD2 = 0.15f; // interpolation time //O 0.2f;
 static const float GB_OUTLINE_CUTOFF_SEA = 0.990f; // Magic number to balance cutoff on edges without neighbor (over Sea)
 static const float GB_OPACITY_NEAR = 0.65f; // Transparency when camera is near
 static const float GB_OPACITY_FAR = 0.85f;  // Transparency when camera is far //원래 0.85f
-static const float BORDER_NIGHT_DESATURATION_MAX = 0.2f; // how much border colors can get desaturated at night. 1.0f is full grey
+static const float BORDER_NIGHT_DESATURATION_MAX = 0.25f; // how much border colors can get desaturated at night. 1.0f is full grey
 static const float BORDER_FOW_REMOVAL_FACTOR = 0.85f; // How much of the FOW that is removed from the borders. 1.0f is no FOW
 static const float BORDER_LIGHT_REMOVAL_FACTOR = 0.8f; // How much of the light calculations that are removed from the borders. 1.0f is no light
-static const float GB_STRENGTH_CH1 = 0.9; // Opacity of bottom layer
-static const float GB_STRENGTH_CH2 = 0.9; // Opacity of top layer
+static const float GB_STRENGTH_CH1 = 0.825; // Opacity of bottom layer
+static const float GB_STRENGTH_CH2 = 0.825; // Opacity of top layer
 static const float GB_FIRST_LAYER_PRIORITY = 0.4; // Priority for first/second layer when both are active at the same pixel
 static const float BORDER_MAP_TILE = 18000.0f;
 

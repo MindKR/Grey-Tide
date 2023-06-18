@@ -1,0 +1,107 @@
+state_categories={
+	one = {
+		local_building_slots = 1
+		color = { 0 255 0 }
+	}
+	two = {
+		local_building_slots = 2
+		color = { 0 228 12 }
+	}
+	three = {
+		local_building_slots = 3
+		color = { 0 216 24 }
+	}
+	four = {
+		local_building_slots = 4
+		color = { 0 204 36 }
+	}
+	five = {
+		local_building_slots = 5
+		color = { 0 192 48 }
+	}
+	six = {
+		local_building_slots = 6
+		color = { 0 180 60 }
+	}
+	seven = {
+		local_building_slots = 7
+		color = { 0 168 72 }
+	}
+	eight = {
+		local_building_slots = 8
+		color = { 0 156 84 }
+	}
+	nine = {
+		local_building_slots = 9
+		color = { 0 144 96 }
+	}
+	ten = {
+		local_building_slots = 10
+		color = { 0 132 108 }
+	}
+	eleven = {
+		local_building_slots = 11
+		color = { 0 120 120 }
+	}
+	twelve = {
+		local_building_slots = 12
+		color = { 0 108 132 }
+	}
+	thirteen = {
+		local_building_slots = 13
+		color = { 0 96 144 }
+	}
+	fourteen = {
+		local_building_slots = 14
+		color = { 0 84 156 }
+	}
+	fifteen = {
+		local_building_slots = 15
+		color = { 0 72 168 }
+	}
+	sixteen = {
+		local_building_slots = 16
+		color = { 0 60 180 }
+	}
+	seventeen = {
+		local_building_slots = 17
+		color = { 0 48 192 }
+	}
+	eighteen = {
+		local_building_slots = 18
+		color = { 0 36 204 }
+	}
+	nineteen = {
+		local_building_slots = 19
+		color = { 0 24 216 }
+	}
+	twenty = {
+		local_building_slots = 20
+		color = { 0 12 228 }
+	}
+	twenty-one = { #10M+
+		local_building_slots = 21
+		color = { 0 0 255 }
+	}
+
+	twenty-two = {
+		local_building_slots = 22
+		color = { 12 0 255 }
+	}
+	twenty-three = {
+		local_building_slots = 23
+		color = { 24 0 255 }
+	}
+	twenty-four = {
+		local_building_slots = 24
+		color = { 36 0 255 }
+	}
+	twenty-five = { 
+		local_building_slots = 25
+		color = { 48 0 255 }
+	}
+	twenty-six = {
+		local_building_slots = 26
+		color = { 60 0 255 }
+	}
+}

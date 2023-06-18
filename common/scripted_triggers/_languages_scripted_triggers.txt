@@ -28,9 +28,16 @@ is_german_speaking_country = {
 		OR = {
 			original_tag = GER
 			original_tag = AUS
-			has_autonomy_state = KUK_cisleithanien
-			has_autonomy_state = KUK_transleithanien
-			has_autonomy_state = KUK_kondominium
+		}
+	}
+}
+
+is_japanese_speaking_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_japanese_speaking_country_tt
+		OR = {
+			original_tag = JAP
+			has_autonomy_state = GT_sotokufu
 		}
 	}
 }

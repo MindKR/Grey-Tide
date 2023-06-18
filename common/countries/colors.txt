@@ -149,8 +149,8 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = rgb { 20 50 160 }
-	color_ui = rgb { 20 50 160 }
+	color = rgb { 40 30 150 }
+	color_ui = rgb { 40 30 150 }
 }
 PRC = {
 	color = rgb { 230 15 55 }
@@ -193,8 +193,16 @@ IRQ = {
 	color_ui = rgb { 231 148 129 }
 }
 JAP = {
-	color = rgb { 255 191 191 }
-	color_ui = rgb { 255 191 191 }
+	color = rgb { 145 15 40 }
+	color_ui = rgb { 145 15 40 }
+}
+MAN = {
+	color = rgb { 165 85 85 }
+	color_ui = rgb { 160 90 70 }
+}
+MEN = {
+	color = rgb { 150 85 60 }
+	color_ui = rgb { 150 85 60 }
 }
 LIB = {
 	color = rgb { 152 130 191 }
@@ -245,8 +253,8 @@ SIA = {
 	color_ui = rgb { 222 247 198 }
 }
 TIB = {
-	color = rgb { 80 115 45}
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 175 175 175 }
+	color_ui = rgb { 175 175 175 }
 }
 URG = {
 	color = rgb { 171 190 152 }
@@ -419,9 +427,9 @@ BLR = {
 	color = rgb { 180 220 190 }
 	color_ui = rgb { 180 220 190 }
 }
-MAN = {
-	color = rgb { 255 197 0 }
-	color_ui = rgb { 255 197 0 }
+TWN = {
+	color = rgb { 0 129 0 }
+	color_ui = rgb { 0 129 0 }
 }
 ANG = {
 	color = rgb { 37 140 61 }

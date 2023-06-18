@@ -1,4 +1,6 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+8430;8354;sea;2781;-1;-1;-1;-1;;Kaesung-Ganghwa
+5095;8354;sea;2781;-1;-1;-1;-1;;Incheon-Ganghwa
 12251;10321;sea;8313;-1;-1;-1;-1;;Andaman
 7413;1419;sea;5294;-1;-1;-1;-1;;Moluccas
 10141;1419;sea;5267;-1;-1;-1;-1;;Moluccas
@@ -64,7 +66,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9965;7072;sea;8791;-1;-1;-1;-1;;Shikoku-Kansai
 1399;1515;sea;220;-1;-1;-1;-1;;Kurils 1
 1515;13037;sea;5614;-1;-1;-1;-1;;Kurils 2
-13037;4646;sea;4465;-1;-1;-1;-1;;Kurils-Hokkaido
 9952;1117;sea;2658;-1;-1;-1;-1;;Niigata-Sado
 10092;7046;sea;8791;-1;-1;-1;-1;;Kyushu-Shikoku
 4198;12032;sea;8472;-1;-1;-1;-1;;Kanoya-Yokushima

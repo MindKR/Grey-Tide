@@ -12,24 +12,15 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			4052 = {
-				naval_base = 3
-
-			}
-
-		}
-		victory_points = {
-			4052 20 
 		}
 		add_core_of = KOR
-
 	}
 
 	provinces={
-		4052 7171 9790 10065 11770 
+		6848 7171 9790 10065 11770 
 	}
-	manpower=2054569
+	manpower=1604569
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=four
 	local_supplies=0.000
 }

@@ -1,6 +1,8 @@
 NDefines.NGame.START_DATE = "1949.1.1.1"
 NDefines.NGame.END_DATE = "1980.1.1.1"
 
+NDefines.NBuildings.MAX_SHARED_SLOTS = 100				-- Max slots shared by factories
+
 NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 0.05			-- Each province owned by the target country contributes this amount of volunteers to the limit.
 NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 0.05				-- Each army unit owned by the source country contributes this amount of volunteers to the limit.
 NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 30				-- This many divisons are required for the country to be able to send volunteers.
@@ -30,6 +32,7 @@ NDefines.NAI.STR_UNIT_NORMAL = 0.4						-- Strength (equipment) % for unit to be
 
 
 NDefines.NGraphics.CAPITAL_ICON_CUTOFF = 1100
+NDefines.NGraphics.VICTORY_POINT_MAP_ICON_AFTER = {0, 20} -- After this amount of VP the map icon becomes bigger dot.
 NDefines.NGraphics.VICTORY_POINT_MAP_ICON_TEXT_CUTOFF = {150, 250, 500} -- At what camera distance the VP name text disappears.
 NDefines.NGraphics.VICTORY_POINTS_DISTANCE_CUTOFF = {250, 500, 1000} -- At what distance VPs are hidden
-NDefines.NGraphics.MAX_NUMBER_OF_TEXTURES = 50000 -- increase if you have more than this textures
+NDefines.NGraphics.MAX_NUMBER_OF_TEXTURES = 10000 -- increase if you have more than this textures

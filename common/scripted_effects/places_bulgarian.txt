@@ -1,0 +1,23 @@
+apply_bulgarian_places = {
+
+	if = { #Bessarabia
+		limit = { state = 78 }
+		78 = {
+			set_state_name = BUL_Besarabiya
+		}
+	}
+
+	if = { #Tsargrad
+		limit = {
+			state = 797
+			has_government = despot
+		}
+		797 = {
+			set_state_name = Tsargrad
+		}
+		set_province_name = {
+			id = 9833
+			name = Tsargrad
+		}
+	}
+}

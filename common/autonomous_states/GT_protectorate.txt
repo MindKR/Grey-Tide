@@ -3,6 +3,8 @@ autonomy_state = {
 	
 	is_puppet = yes
 	
+	use_overlord_color = yes
+
 	min_freedom_level = 0.75
 	
 	manpower_influence = 0.1
@@ -38,8 +40,8 @@ autonomy_state = {
 	}
 
 	allowed_levels_filter = {
-		SN_protectorate
-		SN_veiled_protectorate
+		GT_protectorate
+		GT_veiled_protectorate
 	}
 	
 	can_take_level = {
