@@ -99,7 +99,9 @@ activate_exonyms = {
 			apply_chinese_places = yes
 		}
 
-		else = { reset_state_name = yes }
+		else = {
+			reset_state_name = yes
+		}
 	}
 }
 

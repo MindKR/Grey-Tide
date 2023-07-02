@@ -1,0 +1,37 @@
+
+state={
+	id=533
+	name="STATE_533"
+	resources={
+		steel=27.000
+	}
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2
+			fuel_silo = 1
+			infrastructure = 2
+			air_base = 6
+			9859 = {
+				naval_base = 6
+
+			}
+
+		}
+		victory_points = {
+			6994 5 
+		}
+
+	}
+
+	provinces={
+		6873 6994 9859 
+	}
+	manpower=1240244
+	buildings_max_level_factor=1.000
+	state_category=three
+	local_supplies=5.000
+}

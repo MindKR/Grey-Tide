@@ -1,10 +1,7 @@
 
 state={
 	id=534
-	name="STATE_534" # Hokuriku
-	manpower = 1933000
-	
-	state_category = city
+	name="STATE_534"
 
 	history={
 		owner = JAP
@@ -14,18 +11,19 @@ state={
 			arms_factory = 2
 			industrial_complex = 2
 			fuel_silo = 1
-		}
-		
-		victory_points = {
-			1117 10
-		}
 
+		}
+		victory_points = {
+			1117 10 
+		}
 
 	}
 
 	provinces={
-		1117 9952 10128 11930 11989 12007 
+		1117 9952 11930 11989 12007 
 	}
-
-	local_supplies=0.0 
+	manpower=2446550
+	buildings_max_level_factor=1.000
+	state_category=five
+	local_supplies=0.000
 }
