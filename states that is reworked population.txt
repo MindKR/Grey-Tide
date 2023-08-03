@@ -14,3 +14,4 @@
 914	KOR	North Hamgyong
 916	JAP	Kanto
 917	KOR	Seoul
+918 ... 955

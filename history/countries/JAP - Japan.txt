@@ -1,5 +1,11 @@
 ﻿capital = 282
 
+create_faction = GEACPS
+add_to_faction = KOR
+add_to_faction = MAN
+add_to_faction = TWN
+add_to_faction = MEN
+
 set_autonomy = { target = KOR autonomous_state = GT_sotokufu }
 set_autonomy = { target = TWN autonomous_state = GT_sotokufu }
 

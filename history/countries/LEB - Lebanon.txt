@@ -16,51 +16,11 @@ if = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = authoritarian_democrat
+	last_election = "1949.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 100
-}
-
-create_country_leader = {
-	name = "Hashim al-Atassi"
-	desc = ""
-	picture = GFX_portrait_Hashim_al_Atassi
-	ideology = liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Pierre Gemayel"
-	desc = ""
-	picture = GFX_portrait_Pierre_Gemayel
-	ideology = fascist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Melick Yarad"
-	desc = ""
-	picture = GFX_portrait_Melick_Yarad
-	ideology = despot_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rami Sarraff"
-	desc = ""
-	picture = GFX_portrait_Rami_Sarraff
-	ideology = authoritarian_socialist_subtype
-	traits = {
-		#
-	}
+	authoritarian_democrat = 100
 }

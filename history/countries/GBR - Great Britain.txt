@@ -8,13 +8,13 @@ if = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "ENG"
+	set_oob = "GBR"
 }
 if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_oob = "ENG_nsb"
+	set_oob = "GBR_nsb"
 }
 
 starting_train_buffer = 4
@@ -23,15 +23,15 @@ if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	set_naval_oob = "ENG_Naval"
+	set_naval_oob = "GBR_Naval"
 	else = {
-		set_naval_oob = "ENG_Naval_Legacy"
+		set_naval_oob = "GBR_Naval_Legacy"
 	}
 }
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "ENG_air_bba"
+		set_air_oob = "GBR_air_bba"
 		set_technology = {
 			aa_lmg = 1
 			engines_1 = 1
@@ -45,7 +45,7 @@ if = {
 			basic_small_airframe = 1
 		}
 	else = {
-		set_air_oob = "ENG_air_legacy"
+		set_air_oob = "GBR_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			cv_early_fighter = 1
@@ -57,7 +57,7 @@ if = {
 	}
 }
 
-load_oob = "ENG_Motorized"
+load_oob = "GBR_Motorized"
 
 set_research_slots = 4
 
@@ -176,29 +176,51 @@ add_ideas = {
 set_convoys = 800
 
 ### DIPLOMACY ###
-set_autonomy = { target = CAN autonomous_state = autonomy_dominion }
-set_autonomy = { target = AST autonomous_state = autonomy_dominion }
-set_autonomy = { target = NZL autonomous_state = autonomy_dominion }
-set_autonomy = { target = SAF autonomous_state = autonomy_dominion }
-set_autonomy = { target = NFL autonomous_state = autonomy_dominion }
-set_autonomy = { target = MAL autonomous_state = autonomy_integrated_puppet }
-set_autonomy = { target = KUW autonomous_state = GT_protectorate }
+set_autonomy = { target = AST autonomous_state = GT_Dominion }
+set_autonomy = { target = BOT autonomous_state = GT_Protectorate }
+set_autonomy = { target = CAN autonomous_state = GT_Dominion }
 set_autonomy = { target = EGY autonomous_state = GT_veiled_protectorate }
+set_autonomy = { target = MAL autonomous_state = autonomy_integrated_puppet }
+set_autonomy = { target = NFL autonomous_state = GT_Dominion }
+set_autonomy = { target = NZL autonomous_state = GT_Dominion }
+set_autonomy = { target = SAF autonomous_state = GT_Dominion }
+set_autonomy = { target = SUD autonomous_state = GT_Dominion }
+set_autonomy = { target = TZN autonomous_state = GT_UN_Trust_Territory }
+set_autonomy = { target = KEN autonomous_state = GT_Colony }
+set_autonomy = { target = KUW autonomous_state = GT_Protectorate }
+set_autonomy = { target = UGA autonomous_state = GT_Protectorate }
+set_autonomy = { target = ZAM autonomous_state = GT_Protectorate }
+set_autonomy = { target = ZIM autonomous_state = GT_Colony }
 
 create_faction = Commonwealth
-add_to_faction = CAN
 add_to_faction = AST
+add_to_faction = BOT
+add_to_faction = CAN
+add_to_faction = EGY
+add_to_faction = MAL
+add_to_faction = NFL
 add_to_faction = NZL
 add_to_faction = SAF
-add_to_faction = IND
-add_to_faction = NFL
-add_to_faction = MAL
+add_to_faction = SUD
+add_to_faction = TZN
+add_to_faction = KEN
 add_to_faction = KUW
-add_to_faction = EGY
+add_to_faction = UGA
+add_to_faction = ZAM
+add_to_faction = ZIM
 
-NFL = { set_cosmetic_tag = NFL_UK }
-KUW = { set_cosmetic_tag = KUW_UK }
-EGY = { set_cosmetic_tag = EGY_UK }
+
+BOT = { set_cosmetic_tag = BOT_GBR }
+CAN = { set_cosmetic_tag = CAN_GBR }
+EGY = { set_cosmetic_tag = EGY_GBR }
+NFL = { set_cosmetic_tag = NFL_GBR }
+KEN = { set_cosmetic_tag = KEN_GBR }
+KUW = { set_cosmetic_tag = KUW_GBR }
+SUD = { set_cosmetic_tag = SUD_GBR }
+TZN = { set_cosmetic_tag = TZN_GBR }
+UGA = { set_cosmetic_tag = UGA_GBR }
+ZAM = { set_cosmetic_tag = ZAM_GBR }
+ZIM = { set_cosmetic_tag = ZIM_GBR }
 
 add_to_tech_sharing_group = commonwealth_research
 
@@ -225,99 +247,99 @@ set_popularities = {
 }
 
 # Order matters - here Chamberlain becomes starting leader
-recruit_character = ENG_stanley_baldwin
-recruit_character = ENG_winston_churchill
-recruit_character = ENG_harry_pollitt
-recruit_character = ENG_alan_brooke
-recruit_character = ENG_bernard_montgomery
-recruit_character = ENG_claude_auchinleck
-recruit_character = ENG_neil_ritchie
-recruit_character = ENG_alan_cunningham
-recruit_character = ENG_william_slim
-recruit_character = ENG_richard_oconnor
-recruit_character = ENG_william_platt
-recruit_character = ENG_george_giffard
-recruit_character = ENG_harold_alexander
-recruit_character = ENG_jackie_smyth
-recruit_character = ENG_thomas_jacomb_hutton
-recruit_character = ENG_arthur_percival
-recruit_character = ENG_merton_beckwithsmith
-recruit_character = ENG_henry_pownall
-recruit_character = ENG_john_vereker
-recruit_character = ENG_henry_wilson
-recruit_character = ENG_william_gott
-recruit_character = ENG_jock_campbell
-recruit_character = ENG_oliver_leese
-recruit_character = ENG_miles_dempsey
-recruit_character = ENG_brian_horrocks
-recruit_character = ENG_archibald_wavell
-recruit_character = ENG_james_fownes_somerville
-recruit_character = ENG_henry_harwood
-recruit_character = ENG_andrew_cunningham
-recruit_character = ENG_bruce_fraser
-recruit_character = ENG_john_tovey
-recruit_character = ENG_bernard_rawlings
-recruit_character = ENG_john_cunningham
-recruit_character = ENG_charles_forbes
-recruit_character = ENG_algernon_willis
-recruit_character = ENG_arthur_power
-recruit_character = ENG_horatio_dundas
-recruit_character = ENG_edmund_ironside
-recruit_character = ENG_david_stirling
-recruit_character = ENG_james_somerville
-recruit_character = ENG_kenneth_anderson
-recruit_character = ENG_louis_mountbatten
-recruit_character = ENG_arthur_harris
-recruit_character = ENG_james_chadwick
-recruit_character = ENG_jfc_fuller
-recruit_character = ENG_frank_whittle
-recruit_character = ENG_random_communist_minister_15
-recruit_character = ENG_random_communist_minister_14
-recruit_character = ENG_ernle_chatfield
-recruit_character = ENG_trafford_leigh_mallory
-recruit_character = ENG_max_horton
-recruit_character = ENG_tom_phillips
-recruit_character = ENG_hugh_dowding
-recruit_character = ENG_charles_portal
-recruit_character = ENG_dudley_pound
-recruit_character = ENG_raymond_briggs
-recruit_character = ENG_frederick_bowhill
-recruit_character = ENG_cyril_newall
-recruit_character = ENG_sholto_douglas
-recruit_character = ENG_edward_ellington
+recruit_character = GBR_stanley_baldwin
+recruit_character = GBR_winston_churchill
+recruit_character = GBR_harry_pollitt
+recruit_character = GBR_alan_brooke
+recruit_character = GBR_bernard_montgomery
+recruit_character = GBR_claude_auchinleck
+recruit_character = GBR_neil_ritchie
+recruit_character = GBR_alan_cunningham
+recruit_character = GBR_william_slim
+recruit_character = GBR_richard_oconnor
+recruit_character = GBR_william_platt
+recruit_character = GBR_george_giffard
+recruit_character = GBR_harold_alexander
+recruit_character = GBR_jackie_smyth
+recruit_character = GBR_thomas_jacomb_hutton
+recruit_character = GBR_arthur_percival
+recruit_character = GBR_merton_beckwithsmith
+recruit_character = GBR_henry_pownall
+recruit_character = GBR_john_vereker
+recruit_character = GBR_henry_wilson
+recruit_character = GBR_william_gott
+recruit_character = GBR_jock_campbell
+recruit_character = GBR_oliver_leese
+recruit_character = GBR_miles_dempsey
+recruit_character = GBR_brian_horrocks
+recruit_character = GBR_archibald_wavell
+recruit_character = GBR_james_fownes_somerville
+recruit_character = GBR_henry_harwood
+recruit_character = GBR_andrew_cunningham
+recruit_character = GBR_bruce_fraser
+recruit_character = GBR_john_tovey
+recruit_character = GBR_bernard_rawlings
+recruit_character = GBR_john_cunningham
+recruit_character = GBR_charles_forbes
+recruit_character = GBR_algernon_willis
+recruit_character = GBR_arthur_power
+recruit_character = GBR_horatio_dundas
+recruit_character = GBR_edmund_ironside
+recruit_character = GBR_david_stirling
+recruit_character = GBR_james_somerville
+recruit_character = GBR_kenneth_anderson
+recruit_character = GBR_louis_mountbatten
+recruit_character = GBR_arthur_harris
+recruit_character = GBR_james_chadwick
+recruit_character = GBR_jfc_fuller
+recruit_character = GBR_frank_whittle
+recruit_character = GBR_random_communist_minister_15
+recruit_character = GBR_random_communist_minister_14
+recruit_character = GBR_ernle_chatfield
+recruit_character = GBR_trafford_leigh_mallory
+recruit_character = GBR_max_horton
+recruit_character = GBR_tom_phillips
+recruit_character = GBR_hugh_dowding
+recruit_character = GBR_charles_portal
+recruit_character = GBR_dudley_pound
+recruit_character = GBR_raymond_briggs
+recruit_character = GBR_frederick_bowhill
+recruit_character = GBR_cyril_newall
+recruit_character = GBR_sholto_douglas
+recruit_character = GBR_edward_ellington
 
 
 
-recruit_character = ENG_john_beckett
-recruit_character = ENG_corgis_1
-recruit_character = ENG_corgis_2
-recruit_character = ENG_corgis_3
-recruit_character = ENG_alan_turing
-recruit_character = ENG_clement_attlee
-recruit_character = ENG_ernest_bevin
-recruit_character = ENG_leslie_hore_belisha
-recruit_character = ENG_george_orwell
-recruit_character = ENG_nevile_henderson
-recruit_character = ENG_random_communist_minister_8
-recruit_character = ENG_random_communist_minister_9
-recruit_character = ENG_david_lloyd_george
-recruit_character = ENG_random_communist_minister_1
-recruit_character = ENG_random_communist_minister_2
-recruit_character = ENG_random_communist_minister_3
-recruit_character = ENG_random_communist_minister_4
-recruit_character = ENG_random_communist_minister_5
-recruit_character = ENG_random_communist_minister_6
-recruit_character = ENG_random_communist_minister_7
-recruit_character = ENG_random_communist_minister_13
-recruit_character = ENG_random_communist_minister_12
-recruit_character = ENG_random_communist_minister_11
-recruit_character = ENG_random_communist_minister_10
-recruit_character = ENG_mary_sophia_allen
-recruit_character = ENG_philip_kerr
-recruit_character = ENG_sylvia_pankhurst
-recruit_character = ENG_stewart_menzies
-recruit_character = ENG_maxwell_aitken
-recruit_character = ENG_thomas_moore
+recruit_character = GBR_john_beckett
+recruit_character = GBR_corgis_1
+recruit_character = GBR_corgis_2
+recruit_character = GBR_corgis_3
+recruit_character = GBR_alan_turing
+recruit_character = GBR_clement_attlee
+recruit_character = GBR_ernest_bevin
+recruit_character = GBR_leslie_hore_belisha
+recruit_character = GBR_george_orwell
+recruit_character = GBR_nevile_henderson
+recruit_character = GBR_random_communist_minister_8
+recruit_character = GBR_random_communist_minister_9
+recruit_character = GBR_david_lloyd_george
+recruit_character = GBR_random_communist_minister_1
+recruit_character = GBR_random_communist_minister_2
+recruit_character = GBR_random_communist_minister_3
+recruit_character = GBR_random_communist_minister_4
+recruit_character = GBR_random_communist_minister_5
+recruit_character = GBR_random_communist_minister_6
+recruit_character = GBR_random_communist_minister_7
+recruit_character = GBR_random_communist_minister_13
+recruit_character = GBR_random_communist_minister_12
+recruit_character = GBR_random_communist_minister_11
+recruit_character = GBR_random_communist_minister_10
+recruit_character = GBR_mary_sophia_allen
+recruit_character = GBR_philip_kerr
+recruit_character = GBR_sylvia_pankhurst
+recruit_character = GBR_stewart_menzies
+recruit_character = GBR_maxwell_aitken
+recruit_character = GBR_thomas_moore
 
 if = {
 	limit = {
@@ -330,7 +352,7 @@ if = {
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
-		nationalities = { ENG }
+		nationalities = { GBR }
 	}
 
 	create_operative_leader = {
@@ -340,7 +362,7 @@ if = {
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
-		nationalities = { ENG }
+		nationalities = { GBR }
 	}
 
 	create_operative_leader = {
@@ -349,7 +371,7 @@ if = {
 		traits = { operative_double_agent }
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { ENG GER }
+		nationalities = { GBR GER }
 	}
 
 	create_operative_leader = {
@@ -358,7 +380,7 @@ if = {
 		traits = { operative_double_agent }
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { ENG GER YUG }
+		nationalities = { GBR GER YUG }
 	}
 }
 
@@ -497,7 +519,7 @@ if = {
 			tank_nsb_engine_upgrade = 2
 			tank_nsb_armor_upgrade = 1
 		}
-		icon = "GFX_ENG_basic_light_tank_medium"
+		icon = "GFX_GBR_basic_light_tank_medium"
 		obsolete = yes #used for oob
 	}
 	create_equipment_variant = {
@@ -513,7 +535,7 @@ if = {
 			special_type_slot_1 = tank_radio_1
 			special_type_slot_2 = smoke_launchers
 		}
-		icon = "GFX_ENG_basic_light_tank_medium"
+		icon = "GFX_GBR_basic_light_tank_medium"
 		upgrades = {
 			tank_nsb_engine_upgrade = 2
 			tank_nsb_armor_upgrade = 2
@@ -536,7 +558,7 @@ if = {
 			tank_nsb_armor_upgrade = 1
 			tank_nsb_engine_upgrade = 2
 		}
-		icon = "GFX_ENG_basic_light_tank_medium"
+		icon = "GFX_GBR_basic_light_tank_medium"
 	}
 
 	create_equipment_variant = {
@@ -555,7 +577,7 @@ if = {
 			tank_nsb_armor_upgrade = 3
 			tank_nsb_engine_upgrade = 2
 		}
-		icon = "GFX_ENG_light_BAB_camo"
+		icon = "GFX_GBR_light_BAB_camo"
 		obsolete = yes #export only
 	}
 
@@ -574,7 +596,7 @@ if = {
 			tank_nsb_armor_upgrade = 3
 			tank_nsb_engine_upgrade = 2
 		}
-		icon = "GFX_ENG_light_BAB_camo"
+		icon = "GFX_GBR_light_BAB_camo"
 		obsolete = yes #export only
 	}
 }
@@ -585,7 +607,7 @@ if = {
 	create_equipment_variant = {
 		name = "O/P/R Class"
 		type = ship_hull_submarine_1
-		name_group = ENG_SS_HISTORICAL
+		name_group = GBR_SS_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
@@ -596,7 +618,7 @@ if = {
 	create_equipment_variant = {
 		name = "S Class"
 		type = ship_hull_submarine_1
-		name_group = ENG_SS_HISTORICAL
+		name_group = GBR_SS_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
@@ -608,7 +630,7 @@ if = {
 	create_equipment_variant = {
 		name = "A/B/C/D Class"
 		type = ship_hull_light_1
-		name_group = ENG_DD_HISTORICAL
+		name_group = GBR_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = dp_light_battery_2
@@ -625,7 +647,7 @@ if = {
 	create_equipment_variant = {
 		name = "E/F/G/H Class"
 		type = ship_hull_light_2
-		name_group = ENG_DD_HISTORICAL
+		name_group = GBR_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = dp_light_battery_2
@@ -641,7 +663,7 @@ if = {
 	create_equipment_variant = {
 		name = "V/W Class"
 		type = ship_hull_light_1
-		name_group = ENG_DD_HISTORICAL
+		name_group = GBR_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = dp_light_battery_1
@@ -658,7 +680,7 @@ if = {
 	create_equipment_variant = {
 		name = "S Class"
 		type = ship_hull_light_1
-		name_group = ENG_DD_HISTORICAL
+		name_group = GBR_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -676,7 +698,7 @@ if = {
 	create_equipment_variant = {
 		name = "C-Class"
 		type = ship_hull_cruiser_1
-		name_group = ENG_CL_HISTORICAL
+		name_group = GBR_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1
@@ -694,7 +716,7 @@ if = {
 	create_equipment_variant = {
 		name = "Danae Class"
 		type = ship_hull_cruiser_1
-		name_group = ENG_CL_HISTORICAL
+		name_group = GBR_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1
@@ -712,7 +734,7 @@ if = {
 	create_equipment_variant = {
 		name = "Emerald Class"
 		type = ship_hull_cruiser_2
-		name_group = ENG_CL_HISTORICAL
+		name_group = GBR_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1
@@ -731,7 +753,7 @@ if = {
 	create_equipment_variant = {
 		name = "Leander Class"
 		type = ship_hull_cruiser_2
-		name_group = ENG_CL_HISTORICAL
+		name_group = GBR_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_2
@@ -750,7 +772,7 @@ if = {
 	create_equipment_variant = {
 		name = "Adventure Class"						# cruiser minelayer
 		type = ship_hull_cruiser_1
-		name_group = ENG_MINELAYERS_HISTORICAL
+		name_group = GBR_MINELAYERS_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1
@@ -768,7 +790,7 @@ if = {
 	create_equipment_variant = {
 			name = "Town Class"
 			type = ship_hull_cruiser_2
-			name_group = ENG_CL_HISTORICAL
+			name_group = GBR_CL_HISTORICAL
 			parent_version = 0
 			modules = {
 				fixed_ship_battery_slot = ship_light_medium_battery_2
@@ -788,7 +810,7 @@ if = {
 	create_equipment_variant = {
 		name = "County Class"
 		type = ship_hull_cruiser_1
-		name_group = ENG_CA_HISTORICAL
+		name_group = GBR_CA_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_medium_battery_2
@@ -806,7 +828,7 @@ if = {
 	create_equipment_variant = {
 		name = "York Class"
 		type = ship_hull_cruiser_1
-		name_group = ENG_CA_HISTORICAL
+		name_group = GBR_CA_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_medium_battery_2
@@ -824,7 +846,7 @@ if = {
 	create_equipment_variant = {
 		name = "Hawkins Class"
 		type = ship_hull_cruiser_1
-		name_group = ENG_CA_HISTORICAL
+		name_group = GBR_CA_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_medium_battery_1
@@ -843,7 +865,7 @@ if = {
 	create_equipment_variant = {
 		name = "Renown Class"
 		type = ship_hull_heavy_1
-		name_group = ENG_BC_HISTORICAL
+		name_group = GBR_BC_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
@@ -864,7 +886,7 @@ if = {
 	create_equipment_variant = {
 		name = "Admiral Class"
 		type = ship_hull_heavy_1
-		name_group = ENG_BC_HISTORICAL
+		name_group = GBR_BC_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
@@ -884,7 +906,7 @@ if = {
 	create_equipment_variant = {
 		name = "G3 Design"
 		type = ship_hull_heavy_1
-		name_group = ENG_BC_HISTORICAL
+		name_group = GBR_BC_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_2
@@ -904,7 +926,7 @@ if = {
 	create_equipment_variant = {
 		name = "Nelson Class"
 		type = ship_hull_heavy_1
-		name_group = ENG_BB_HISTORICAL
+		name_group = GBR_BB_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_2
@@ -923,7 +945,7 @@ if = {
 	create_equipment_variant = {
 		name = "Queen Elizabeth Class"
 		type = ship_hull_heavy_1
-		name_group = ENG_BB_HISTORICAL
+		name_group = GBR_BB_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
@@ -943,7 +965,7 @@ if = {
 	create_equipment_variant = {
 		name = "Revenge Class"
 		type = ship_hull_heavy_1
-		name_group = ENG_BB_HISTORICAL
+		name_group = GBR_BB_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
@@ -963,7 +985,7 @@ if = {
 	create_equipment_variant = {
 		name = "Eagle Class"
 		type = ship_hull_carrier_conversion_bb
-		name_group = ENG_CV_HISTORICAL
+		name_group = GBR_CV_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_deck_slot_1 = ship_deck_space
@@ -980,7 +1002,7 @@ if = {
 	create_equipment_variant = {
 		name = "Hermes Class"
 		type = ship_hull_carrier_conversion_ca
-		name_group = ENG_CVL_HISTORICAL
+		name_group = GBR_CVL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_deck_slot_1 = ship_deck_space
@@ -995,7 +1017,7 @@ if = {
 	create_equipment_variant = {
 		name = "Courageous Class"
 		type = ship_hull_carrier_conversion_bb
-		name_group = ENG_CV_HISTORICAL
+		name_group = GBR_CV_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_deck_slot_1 = ship_deck_space
@@ -1011,7 +1033,7 @@ if = {
 	create_equipment_variant = {
 			name = "Ark Royal Class"
 			type = ship_hull_carrier_1
-			name_group = ENG_CV_HISTORICAL
+			name_group = GBR_CV_HISTORICAL
 			parent_version = 0
 			modules = {
 				fixed_ship_deck_slot_1 = ship_deck_space
@@ -1069,7 +1091,7 @@ if = {
 				special_type_slot_1 = empty
 			}
 			obsolete = yes
-			icon = "GFX_ENG_CAS1_medium"
+			icon = "GFX_GBR_CAS1_medium"
 		}
 		create_equipment_variant = {
 			name = "Vickers Vildebeest" 
@@ -1079,7 +1101,7 @@ if = {
 				engine_type_slot = engine_1_1x
 				special_type_slot_1 = empty
 			}
-			icon = "GFX_ENG_naval_bomber1_medium" #TODO GABRIEL: change if art in before release
+			icon = "GFX_GBR_naval_bomber1_medium" #TODO GABRIEL: change if art in before release
 		}
 		create_equipment_variant = {
 			name = "Blackburn Shark" 
@@ -1089,7 +1111,7 @@ if = {
 				engine_type_slot = engine_1_1x
 				special_type_slot_1 = empty
 			}
-			icon = "GFX_ENG_naval_bomber1_medium"
+			icon = "GFX_GBR_naval_bomber1_medium"
 		}
 		create_equipment_variant = {
 			name = "Handley Page Heyford" 
@@ -1109,7 +1131,7 @@ if = {
 				engine_type_slot = engine_2_2x
 				special_type_slot_1 = lmg_defense_turret
 			}
-			icon = "GFX_ENG_heavy_fighter1_medium"
+			icon = "GFX_GBR_heavy_fighter1_medium"
 		}
 	}
 }

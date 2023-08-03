@@ -1,9 +1,9 @@
-MAL_UK = {
+MAL_GBR = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
 }
 
-IND_UK = {
+IND_GBR = {
 	color = rgb { 170  10  10 }
 	color_ui = rgb { 200  10  10 }
 }
@@ -33,7 +33,7 @@ CAN_north_america_dominion = {
 	color_ui = rgb { 235 0 0 }
 }
 
-CAN_UK = {
+CAN_GBR = {
 	color = rgb { 119 48 39 }
 	color_ui = rgb { 155 62 51 }
 }
@@ -53,12 +53,12 @@ HOL_benelux_unified = {
 	color_ui = rgb { 255 128 0 }
 }
 
-ARM_UK = { 
+ARM_GBR = { 
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 201 56 93 }
 }
 
-CYP_UK = {
+CYP_GBR = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 201 56 93 }
 }
@@ -76,11 +76,6 @@ BOH = {
 FRA_blue = {
 	color = rgb { 0 18 127 }
 	color_ui = rgb { 0 18 127 }
-}
-
-SN_negotiation_territory = {
-    color = rgb { 100 50 175 }
-    color_ui = rgb { 100 50 175 }
 }
 
 MOR_FRA = {
@@ -113,14 +108,49 @@ GER_republic = {
 	color_ui = rgb { 80 80 80 }
 }
 
-KUW_UK = {
-	color = rgb { 150 25 25 }
-	color_ui = rgb { 150 25 25 }
+KUW_GBR = {
+	color = rgb { 165 55 45 }
+	color_ui = rgb { 165 55 45 }
 }
 
-EGY_UK = {
-	color = rgb { 150 25 25 }
-	color_ui = rgb { 150 25 25 }
+EGY_GBR = {
+	color = rgb { 165 55 45 }
+	color_ui = rgb { 165 55 45 }
+}
+
+SUD_GBR = {
+	color = rgb { 165 55 45 }
+	color_ui = rgb { 165 55 45 }
+}
+
+UGA_GBR = {
+	color = rgb { 165 55 45 }
+	color_ui = rgb { 165 55 45 }
+}
+
+KEN_GBR = {
+	color = rgb { 165 55 45 }
+	color_ui = rgb { 165 55 45 }
+}
+
+TZN_GBR = {
+	color = rgb { 165 55 45 }
+	color_ui = rgb { 165 55 45 }
+}
+
+ZAM_GBR = {
+	color = rgb { 165 55 45 }
+	color_ui = rgb { 165 55 45 }
+}
+
+ZIM_GBR = {
+	color = rgb { 165 55 45 }
+	color_ui = rgb { 165 55 45 }
+}
+
+BOT_GBR = {
+	color = rgb { 165 55 45 }
+	color_ui = rgb { 165 55 45 }
 }
 
 SPR = {

@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = GT_protectorate
+	id = GT_Protectorate
 	
 	is_puppet = yes
 	
@@ -40,7 +40,7 @@ autonomy_state = {
 	}
 
 	allowed_levels_filter = {
-		GT_protectorate
+		GT_Protectorate
 		GT_veiled_protectorate
 	}
 	

@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = autonomy_dominion
+	id = GT_Dominion
 	
 	min_freedom_level = 0.8
 	
@@ -33,11 +33,11 @@ autonomy_state = {
 		OVERLORD = {
 			NOT = { 
 				has_socialist_government = yes
-				has_government = despot
+				has_government = fascist
 			}
 		}
 		NOT = {
-			has_autonomy_state = sn_protectorate
+			has_autonomy_state = GT_protectorate
 		}
 	}
 	

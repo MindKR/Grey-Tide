@@ -213,49 +213,52 @@ ideologies = {
 		ai_neutral = yes
 	}
 
-	libertarian_socialist = {
-		
+	authoritarian_democrat = {
+	
 		types = {
-			libertarian_socialist_subtype = {
+			
+			authoritarian_democrat = {
 			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_libertarian_socialist_1"
-			"FACTION_NAME_libertarian_socialist_2"
-			"FACTION_NAME_libertarian_socialist_3"
-			"FACTION_NAME_libertarian_socialist_4"
-			"FACTION_NAME_libertarian_socialist_5"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_2"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_3"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_4"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
 		}
 		
-		color = { 186 46 39 }
+		color = { 112 112 112 }
 		
-		war_impact_on_world_tension = 0.75		#Commie less threatening
-		faction_impact_on_world_tension = 0.5
 		
-		ai_communist = yes # uses the commie AI behaviour
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
 		
 		rules = {
 			can_force_government = no
-			can_send_volunteers = yes
 			can_puppet = yes
+			can_send_volunteers = no
 		}
 		
-		can_collaborate = yes
-		
 		modifiers = {
-			puppet_cost_factor = -0.3
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
-			hidden_modifier = { join_faction_tension = -0.1 }
+			#increased_influence_factor = 0.3 #30% easier to influence
+			generate_wargoal_tension = 0.5
+			join_faction_tension = 0.4
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.4
+			drift_defence_factor = -0.3	
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 10.0
 		}
 		
 		faction_modifiers = {
-			
 		}
 
+		ai_neutral = yes # 
 	}
 
 	authoritarian_socialist = {
@@ -303,59 +306,56 @@ ideologies = {
 
 	}
 
+	libertarian_socialist = {
+		
+		types = {
+			libertarian_socialist_subtype = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_libertarian_socialist_1"
+			"FACTION_NAME_libertarian_socialist_2"
+			"FACTION_NAME_libertarian_socialist_3"
+			"FACTION_NAME_libertarian_socialist_4"
+			"FACTION_NAME_libertarian_socialist_5"
+		}
+		
+		color = { 186 46 39 }
+		
+		war_impact_on_world_tension = 0.75		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			hidden_modifier = { join_faction_tension = -0.1 }
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+
 	despot = {
 	
 		types = {
 			
 			despot_subtype = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_despot_1"
-			"FACTION_NAME_despot_2"
-			"FACTION_NAME_despot_3"
-			"FACTION_NAME_despot_4"
-			"FACTION_NAME_despot_5"
-		}
-		
-		color = { 112 112 112 }
-		
-		
-		war_impact_on_world_tension = 0.25		#no major danger
-		faction_impact_on_world_tension = 0.1
-		
-		rules = {
-			can_force_government = no
-			can_puppet = yes
-			can_send_volunteers = no
-		}
-		
-		modifiers = {
-			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
-			drift_defence_factor = -0.3	
-			civilian_intel_to_others = 20.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 20.0
-			airforce_intel_to_others = 10.0
-		}
-		
-		faction_modifiers = {
-		}
-
-		ai_neutral = yes # 
-	}
-
-	authoritarian_democrat = {
-	
-		types = {
-			
-			authoritarian_democrat = {
 			}
 		}
 		

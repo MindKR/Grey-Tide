@@ -1,6 +1,8 @@
 ﻿l_english:
- GT_protectorate:0 "보호령"
- GT_colony:0 "식민지"
+ GT_Dominion:0 "Dominion"
+ GT_Protectorate:0 "Protectorate"
+ GT_Colony:0 "Colony"
  GT_military_government:0 "Military Government"
  GT_warlord:0 "Warload"
  GT_sotokufu:0 "Imperial General Government"
+ GT_UN_Trust_Territory:0 "UN Trust Territory"

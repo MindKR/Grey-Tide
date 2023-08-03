@@ -4,7 +4,7 @@ state={
 	name="STATE_852"
 
 	history={
-		owner = ENG
+		owner = GBR
 		add_core_of = TOG
 		buildings = {
 			infrastructure = 3

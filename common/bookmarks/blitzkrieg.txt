@@ -94,7 +94,7 @@ bookmarks = {
 		# ROW 1 MAJOR #
 
 		# ROW 2 MAJOR #
-		"ENG" = {
+		"GBR" = {
 			history = ""
 			ideology = liberalism
 			ideas = {}

@@ -120,20 +120,12 @@ apply_japanese_places = {
 		910 = { 
 			set_state_name = JAP_Keishonando
 		}
-		set_province_name = {
-			id = 8088
-			name = JAP_Fuzan
-		}
 	}
 
 	if = { #South Jeolla
 		limit = { state = 911 }
 		911 = { 
 			set_state_name = JAP_Zenranando
-		}
-		set_province_name = { #Jeju
-			id = 1177
-			name = JAP_Saishu
 		}
 		set_province_name = { #Gwangju
 			id = 12085
@@ -201,6 +193,28 @@ apply_japanese_places = {
 		set_province_name = { #Pyongyang
 			id = 4052
 			name = JAP_Heijo
+		}
+	}
+
+	if = { #Busan
+		limit = { state =  954 }
+		954 = { 
+			set_state_name = JAP_Fuzan
+		}
+		set_province_name = {
+			id = 8088
+			name = JAP_Fuzan
+		}
+	}
+
+	if = { #Jeju
+		limit = { state =  955 }
+		955 = { 
+			set_state_name = JAP_Saishu
+		}
+		set_province_name = { #Jeju
+			id = 1177
+			name = JAP_Saishu
 		}
 	}
 }

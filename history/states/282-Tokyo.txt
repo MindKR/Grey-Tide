@@ -23,8 +23,8 @@ state={
 	provinces={
 		1182 9998 
 	}
-	manpower=10342538
+	manpower=5581510
 	buildings_max_level_factor=1.000
-	state_category=twenty-one
+	state_category=twelve
 	local_supplies=0.000
 }

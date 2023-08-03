@@ -1,12 +1,12 @@
 characters={
-	ENG_winston_churchill={
-		name=ENG_winston_churchill
+	GBR_winston_churchill={
+		name=GBR_winston_churchill
 		portraits={
 			civilian={
 				large="gfx/leaders/ENG/Portrait_Britain_Winston_Churchill.dds"
 			}
 			army={
-				small="GFX_idea_ENG_winston_churchill"
+				small="GFX_idea_GBR_winston_churchill"
 			}
 		}
 
@@ -20,11 +20,11 @@ characters={
 		}
 	}
 
-	ENG_stanley_baldwin={
-		name=ENG_stanley_baldwin
+	GBR_stanley_baldwin={
+		name=GBR_stanley_baldwin
 		portraits={
 			civilian={
-				large="gfx/leaders/ENG/Portrait_ENG_Stanley_Baldwin.png"
+				large="gfx/leaders/ENG/Portrait_GBR_Stanley_Baldwin.png"
 			}
 		}
 		country_leader={
@@ -35,11 +35,11 @@ characters={
 		}
 	}
 
-	ENG_harry_pollitt={
-		name=ENG_harry_pollitt
+	GBR_harry_pollitt={
+		name=GBR_harry_pollitt
 		portraits={
 			civilian={
-				large="gfx/leaders/ENG/portrait_eng_harry_pollitt.dds"
+				large="gfx/leaders/ENG/portrait_GBR_harry_pollitt.dds"
 			}
 			army={
 				small="GFX_idea_harry_pollitt"
@@ -54,8 +54,8 @@ characters={
 		}
 	}
 
-	ENG_neville_chamberlain={
-		name=ENG_neville_chamberlain
+	GBR_neville_chamberlain={
+		name=GBR_neville_chamberlain
 		portraits={
 			civilian={
 				large="gfx/leaders/ENG/Portrait_Britain_Neville_Chamberlain.dds"
@@ -70,8 +70,8 @@ characters={
 		
 	}
 
-	ENG_horatio_dundas={
-		name=ENG_horatio_dundas
+	GBR_horatio_dundas={
+		name=GBR_horatio_dundas
 		portraits={
 			civilian={
 				large="gfx/leaders/Europe/portrait_europe_generic_6.dds"
@@ -85,8 +85,8 @@ characters={
 		}
 	}
 
-	ENG_alan_brooke={
-		name=ENG_alan_brooke
+	GBR_alan_brooke={
+		name=GBR_alan_brooke
 		portraits={
 			army={
 				small="GFX_idea_alan_brooke"
@@ -121,8 +121,8 @@ characters={
 		}
 	}
 
-	ENG_bernard_montgomery={
-		name=ENG_bernard_montgomery
+	GBR_bernard_montgomery={
+		name=GBR_bernard_montgomery
 		portraits={
 			army={
 				small="GFX_idea_bernard_montgomery"
@@ -156,8 +156,8 @@ characters={
 		}
 	}
 
-	ENG_claude_auchinleck={
-		name=ENG_claude_auchinleck
+	GBR_claude_auchinleck={
+		name=GBR_claude_auchinleck
 		portraits={
 			army={
 				small="GFX_idea_claude_auchinleck"
@@ -193,12 +193,12 @@ characters={
 		}
 	}
 
-	ENG_neil_ritchie={
-		name=ENG_neil_ritchie
+	GBR_neil_ritchie={
+		name=GBR_neil_ritchie
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Neil_Ritchie.dds"
-				small="gfx/interface/ideas/idea_ENG_neil_ritchie.dds"
+				small="gfx/interface/ideas/idea_GBR_neil_ritchie.dds"
 			}
 		}
 		corps_commander={
@@ -212,12 +212,12 @@ characters={
 		}
 	}
 
-	ENG_alan_cunningham={
-		name=ENG_alan_cunningham
+	GBR_alan_cunningham={
+		name=GBR_alan_cunningham
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Alan_Cunningham.dds"
-				small="gfx/interface/ideas/idea_ENG_alan_cunningham.dds"
+				small="gfx/interface/ideas/idea_GBR_alan_cunningham.dds"
 			}
 		}
 		corps_commander={
@@ -230,12 +230,12 @@ characters={
 		}
 	}
 
-	ENG_william_slim={
-		name=ENG_william_slim
+	GBR_william_slim={
+		name=GBR_william_slim
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_William_Slim.dds"
-				small="gfx/interface/ideas/idea_ENG_william_slim.dds"
+				small="gfx/interface/ideas/idea_GBR_william_slim.dds"
 			}
 		}
 		corps_commander={
@@ -249,12 +249,12 @@ characters={
 		}
 	}
 
-	ENG_richard_oconnor={
-		name=ENG_richard_oconnor
+	GBR_richard_oconnor={
+		name=GBR_richard_oconnor
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Richard_OConnor.dds"
-				small="gfx/interface/ideas/idea_ENG_richard_oconnor.dds"
+				small="gfx/interface/ideas/idea_GBR_richard_oconnor.dds"
 			}
 		}
 		corps_commander={
@@ -267,12 +267,12 @@ characters={
 		}
 	}
 
-	ENG_william_platt={
-		name=ENG_william_platt
+	GBR_william_platt={
+		name=GBR_william_platt
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_William_Platt.dds"
-				small="gfx/interface/ideas/idea_ENG_william_platt.dds"
+				small="gfx/interface/ideas/idea_GBR_william_platt.dds"
 			}
 		}
 		corps_commander={
@@ -285,12 +285,12 @@ characters={
 		}
 	}
 
-	ENG_george_giffard={
-		name=ENG_george_giffard
+	GBR_george_giffard={
+		name=GBR_george_giffard
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_George_Giffard.dds"
-				small="gfx/interface/ideas/idea_ENG_george_giffard.dds"
+				small="gfx/interface/ideas/idea_GBR_george_giffard.dds"
 			}
 		}
 		corps_commander={
@@ -304,8 +304,8 @@ characters={
 		}
 	}
 
-	ENG_harold_alexander={
-		name=ENG_harold_alexander
+	GBR_harold_alexander={
+		name=GBR_harold_alexander
 		portraits={
 			army={
 				small="GFX_idea_harold_alexander"
@@ -346,12 +346,12 @@ characters={
 		}
 	}
 
-	ENG_jackie_smyth={
-		name=ENG_jackie_smyth
+	GBR_jackie_smyth={
+		name=GBR_jackie_smyth
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_John_Jackie_Smyth.dds"
-				small="gfx/interface/ideas/idea_ENG_john_jackie_smyth.dds"
+				small="gfx/interface/ideas/idea_GBR_john_jackie_smyth.dds"
 			}
 		}
 		corps_commander={
@@ -365,12 +365,12 @@ characters={
 		}
 	}
 
-	ENG_thomas_jacomb_hutton={
-		name=ENG_thomas_jacomb_hutton
+	GBR_thomas_jacomb_hutton={
+		name=GBR_thomas_jacomb_hutton
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Thomas_Jacomb_Hutton.dds"
-				small="gfx/interface/ideas/idea_ENG_thomas_jacomb_hutton.dds"
+				small="gfx/interface/ideas/idea_GBR_thomas_jacomb_hutton.dds"
 			}
 		}
 		corps_commander={
@@ -384,12 +384,12 @@ characters={
 		}
 	}
 
-	ENG_arthur_percival={
-		name=ENG_arthur_percival
+	GBR_arthur_percival={
+		name=GBR_arthur_percival
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Arthur_Percival.dds"
-				small="gfx/interface/ideas/idea_ENG_arthur_percival.dds"
+				small="gfx/interface/ideas/idea_GBR_arthur_percival.dds"
 			}
 		}
 		corps_commander={
@@ -403,12 +403,12 @@ characters={
 		}
 	}
 
-	ENG_merton_beckwithsmith={
-		name=ENG_merton_beckwithsmith
+	GBR_merton_beckwithsmith={
+		name=GBR_merton_beckwithsmith
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Merton_Beckwith_Smith.dds"
-				small="gfx/interface/ideas/idea_ENG_merton_beckwith_smith.dds"
+				small="gfx/interface/ideas/idea_GBR_merton_beckwith_smith.dds"
 			}
 		}
 		corps_commander={
@@ -422,12 +422,12 @@ characters={
 		}
 	}
 
-	ENG_henry_pownall={
-		name=ENG_henry_pownall
+	GBR_henry_pownall={
+		name=GBR_henry_pownall
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Henry_Pownall.dds"
-				small="gfx/interface/ideas/idea_ENG_henry_pownall.dds"
+				small="gfx/interface/ideas/idea_GBR_henry_pownall.dds"
 			}
 		}
 		corps_commander={
@@ -441,8 +441,8 @@ characters={
 		}
 	}
 
-	ENG_john_vereker={
-		name=ENG_john_vereker
+	GBR_john_vereker={
+		name=GBR_john_vereker
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_John_Vereker.dds"
@@ -475,12 +475,12 @@ characters={
 		}
 	}
 
-	ENG_henry_wilson={
-		name=ENG_henry_wilson
+	GBR_henry_wilson={
+		name=GBR_henry_wilson
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Henry_Maitland_Wilson.dds"
-				small="gfx/interface/ideas/idea_ENG_henry_maitland_wilson.dds"
+				small="gfx/interface/ideas/idea_GBR_henry_maitland_wilson.dds"
 			}
 		}
 		corps_commander={
@@ -494,12 +494,12 @@ characters={
 		}
 	}
 
-	ENG_william_gott={
-		name=ENG_william_gott
+	GBR_william_gott={
+		name=GBR_william_gott
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_William_Gott.dds"
-				small="gfx/interface/ideas/idea_ENG_william_gott.dds"
+				small="gfx/interface/ideas/idea_GBR_william_gott.dds"
 			}
 		}
 		corps_commander={
@@ -513,12 +513,12 @@ characters={
 		}
 	}
 
-	ENG_jock_campbell={
-		name=ENG_jock_campbell
+	GBR_jock_campbell={
+		name=GBR_jock_campbell
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Jock_Campbell.dds"
-				small="gfx/interface/ideas/idea_ENG_jock_campbell.dds"
+				small="gfx/interface/ideas/idea_GBR_jock_campbell.dds"
 			}
 		}
 		corps_commander={
@@ -532,12 +532,12 @@ characters={
 		}
 	}
 
-	ENG_oliver_leese={
-		name=ENG_oliver_leese
+	GBR_oliver_leese={
+		name=GBR_oliver_leese
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Oliver_Leese.dds"
-				small="gfx/interface/ideas/idea_ENG_oliver_leese.dds"
+				small="gfx/interface/ideas/idea_GBR_oliver_leese.dds"
 			}
 		}
 		corps_commander={
@@ -551,12 +551,12 @@ characters={
 		}
 	}
 
-	ENG_miles_dempsey={
-		name=ENG_miles_dempsey
+	GBR_miles_dempsey={
+		name=GBR_miles_dempsey
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Miles_Dempsey.dds"
-				small="gfx/interface/ideas/idea_ENG_miles_dempsey.dds"
+				small="gfx/interface/ideas/idea_GBR_miles_dempsey.dds"
 			}
 		}
 		corps_commander={
@@ -570,12 +570,12 @@ characters={
 		}
 	}
 
-	ENG_brian_horrocks={
-		name=ENG_brian_horrocks
+	GBR_brian_horrocks={
+		name=GBR_brian_horrocks
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Brian_Horrocks.dds"
-				small="gfx/interface/ideas/idea_ENG_brian_horrocks.dds"
+				small="gfx/interface/ideas/idea_GBR_brian_horrocks.dds"
 			}
 		}
 		corps_commander={
@@ -589,8 +589,8 @@ characters={
 		}
 	}
 
-	ENG_archibald_wavell={
-		name=ENG_archibald_wavell
+	GBR_archibald_wavell={
+		name=GBR_archibald_wavell
 		portraits={
 			army={
 				small="GFX_idea_archibald_wavell"
@@ -626,12 +626,12 @@ characters={
 		}
 	}
 
-	ENG_thomas_moore = {
-		name = ENG_thomas_moore
+	GBR_thomas_moore = {
+		name = GBR_thomas_moore
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Tom_Moore.dds"
-				small="gfx/interface/ideas/idea_ENG_tom_moore.dds"
+				small="gfx/interface/ideas/idea_GBR_tom_moore.dds"
 			}
 		}
 		corps_commander = {
@@ -644,12 +644,12 @@ characters={
 		}
 	}
 
-	ENG_james_fownes_somerville={
-		name=ENG_james_fownes_somerville
+	GBR_james_fownes_somerville={
+		name=GBR_james_fownes_somerville
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_James_Fownes_Somerville.dds"
-				small="gfx/interface/ideas/idea_ENG_james_fownes_somerville.dds"
+				small="gfx/interface/ideas/idea_GBR_james_fownes_somerville.dds"
 			}
 		}
 		navy_leader={
@@ -663,8 +663,8 @@ characters={
 		}
 	}
 
-	ENG_henry_harwood={
-		name=ENG_henry_harwood
+	GBR_henry_harwood={
+		name=GBR_henry_harwood
 		portraits={
 			navy={
 				small="GFX_idea_henry_harwood"
@@ -700,8 +700,8 @@ characters={
 		}
 	}
 
-	ENG_andrew_cunningham={
-		name=ENG_andrew_cunningham
+	GBR_andrew_cunningham={
+		name=GBR_andrew_cunningham
 		portraits={
 			navy={
 				small="GFX_idea_andrew_cunningham"
@@ -736,12 +736,12 @@ characters={
 		}
 	}
 
-	ENG_bruce_fraser={
-		name=ENG_bruce_fraser
+	GBR_bruce_fraser={
+		name=GBR_bruce_fraser
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Bruce_Fraser.dds"
-				small="gfx/interface/ideas/idea_ENG_bruce_fraser.dds"
+				small="gfx/interface/ideas/idea_GBR_bruce_fraser.dds"
 			}
 		}
 		navy_leader={
@@ -755,12 +755,12 @@ characters={
 		}
 	}
 
-	ENG_john_tovey={
-		name=ENG_john_tovey
+	GBR_john_tovey={
+		name=GBR_john_tovey
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_John_Tovey.dds"
-				small="gfx/interface/ideas/idea_ENG_john_tovey.dds"
+				small="gfx/interface/ideas/idea_GBR_john_tovey.dds"
 			}
 		}
 		navy_leader={
@@ -774,12 +774,12 @@ characters={
 		}
 	}
 
-	ENG_bernard_rawlings={
-		name=ENG_bernard_rawlings
+	GBR_bernard_rawlings={
+		name=GBR_bernard_rawlings
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Bernard_Rawlings.dds"
-				small="gfx/interface/ideas/idea_ENG_bernard_rawlings.dds"
+				small="gfx/interface/ideas/idea_GBR_bernard_rawlings.dds"
 			}
 		}
 		navy_leader={
@@ -793,12 +793,12 @@ characters={
 		}
 	}
 
-	ENG_john_cunningham={
-		name=ENG_john_cunningham
+	GBR_john_cunningham={
+		name=GBR_john_cunningham
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_John_Cunningham.dds"
-				small="gfx/interface/ideas/idea_ENG_john_cunningham.dds"
+				small="gfx/interface/ideas/idea_GBR_john_cunningham.dds"
 			}
 		}
 		navy_leader={
@@ -812,12 +812,12 @@ characters={
 		}
 	}
 
-	ENG_charles_forbes={
-		name=ENG_charles_forbes
+	GBR_charles_forbes={
+		name=GBR_charles_forbes
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Charles_Forbes.dds"
-				small="gfx/interface/ideas/idea_ENG_charles_forbes.dds"
+				small="gfx/interface/ideas/idea_GBR_charles_forbes.dds"
 			}
 		}
 		navy_leader={
@@ -831,12 +831,12 @@ characters={
 		}
 	}
 
-	ENG_algernon_willis={
-		name=ENG_algernon_willis
+	GBR_algernon_willis={
+		name=GBR_algernon_willis
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Algernon_Willis.dds"
-				small="gfx/interface/ideas/idea_ENG_algernon_willis.dds"
+				small="gfx/interface/ideas/idea_GBR_algernon_willis.dds"
 			}
 		}
 		navy_leader={
@@ -850,12 +850,12 @@ characters={
 		}
 	}
 
-	ENG_arthur_power={
-		name=ENG_arthur_power
+	GBR_arthur_power={
+		name=GBR_arthur_power
 		portraits={
 			army={
 				large="gfx/leaders/ENG/Portrait_Britain_Arthur_Power.dds"
-				small="gfx/interface/ideas/idea_ENG_arthur_power.dds"
+				small="gfx/interface/ideas/idea_GBR_arthur_power.dds"
 			}
 		}
 		navy_leader={
@@ -876,8 +876,8 @@ characters={
 
 	# Alexander up there
 
-	ENG_raymond_briggs={
-		name=ENG_raymond_briggs
+	GBR_raymond_briggs={
+		name=GBR_raymond_briggs
 		portraits={
 			army={
 				small="GFX_idea_generic_army_europe_2"
@@ -886,13 +886,13 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = ENG_raymond_briggs
+			idea_token = GBR_raymond_briggs
 			ledger = army
 			visible = {
-				has_completed_focus = ENG_eliminate_the_upper_class
+				has_completed_focus = GBR_eliminate_the_upper_class
 			}
 			available = {
-				has_completed_focus = ENG_eliminate_the_upper_class
+				has_completed_focus = GBR_eliminate_the_upper_class
 			}
 			allowed = {
 				original_tag = ENG
@@ -903,8 +903,8 @@ characters={
 		}
 	}
 
-	ENG_james_somerville={
-		name=ENG_james_somerville
+	GBR_james_somerville={
+		name=GBR_james_somerville
 		portraits={
 			army={
 				small="GFX_idea_james_somerville"
@@ -925,8 +925,8 @@ characters={
 		}
 	}
 
-	ENG_tom_phillips={
-		name=ENG_tom_phillips
+	GBR_tom_phillips={
+		name=GBR_tom_phillips
 		portraits={
 			army={
 				small="GFX_idea_tom_phillips"
@@ -944,8 +944,8 @@ characters={
 		}
 	}
 
-	ENG_hugh_dowding={
-		name=ENG_hugh_dowding
+	GBR_hugh_dowding={
+		name=GBR_hugh_dowding
 		portraits={
 			army={
 				small="GFX_idea_hugh_dowding"
@@ -965,8 +965,8 @@ characters={
 		}
 	}
 
-	ENG_arthur_harris={
-		name=ENG_arthur_harris
+	GBR_arthur_harris={
+		name=GBR_arthur_harris
 		portraits={
 			army={
 				small="GFX_idea_arthur_harris"
@@ -987,8 +987,8 @@ characters={
 		}
 	}
 
-	ENG_james_chadwick={
-		name=ENG_james_chadwick
+	GBR_james_chadwick={
+		name=GBR_james_chadwick
 		portraits={
 			army={
 				small="GFX_idea_james_chadwick"
@@ -1011,8 +1011,8 @@ characters={
 		}
 	}
 
-	ENG_frank_whittle={
-		name=ENG_frank_whittle
+	GBR_frank_whittle={
+		name=GBR_frank_whittle
 		portraits={
 			army={
 				small="GFX_idea_frank_whittle"
@@ -1035,17 +1035,17 @@ characters={
 		}		
 	}
 
-	ENG_jfc_fuller={
-		name=ENG_jfc_fuller
+	GBR_jfc_fuller={
+		name=GBR_jfc_fuller
 		portraits={
 			army={
-				small="GFX_idea_ENG_jfc_fuller"
+				small="GFX_idea_GBR_jfc_fuller"
 			}
 		}
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = ENG_jfc_fuller
+			idea_token = GBR_jfc_fuller
 			ledger = army
 			available = {
 				has_government = fascism
@@ -1065,7 +1065,7 @@ characters={
 	}
 
 # Communist ministers, intentionally without loc so they are 'randomized'
-	ENG_random_communist_minister_14={
+	GBR_random_communist_minister_14={
 		portraits={
 			army={
 				small="GFX_idea_generic_army_europe_5"
@@ -1074,10 +1074,10 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = ENG_random_communist_minister_14
+			idea_token = GBR_random_communist_minister_14
 			ledger = air
 			visible = {
-				has_country_flag = ENG_trade_unions_demand_minister_appointment_14
+				has_country_flag = GBR_trade_unions_demand_minister_appointment_14
 			}
 			allowed = {
 				original_tag = ENG
@@ -1091,7 +1091,7 @@ characters={
 		}
 	}
 
-	ENG_random_communist_minister_15={
+	GBR_random_communist_minister_15={
 		portraits={
 			army={
 				small="GFX_idea_generic_army_europe_6"
@@ -1100,10 +1100,10 @@ characters={
 		advisor={
 			cost = 100
 			slot = theorist
-			idea_token = ENG_random_communist_minister_15
+			idea_token = GBR_random_communist_minister_15
 			ledger = army
 			visible = {
-				has_country_flag = ENG_trade_unions_demand_minister_appointment_15
+				has_country_flag = GBR_trade_unions_demand_minister_appointment_15
 			}
 			allowed = {
 				original_tag = ENG
@@ -1122,8 +1122,8 @@ characters={
 
 	# Vereker up there
 
-	ENG_edmund_ironside={
-		name=ENG_edmund_ironside
+	GBR_edmund_ironside={
+		name=GBR_edmund_ironside
 		portraits={
 			army={
 				small="GFX_idea_edmund_ironside"
@@ -1150,8 +1150,8 @@ characters={
 
 	# Andrew Cunningham up there
 
-	ENG_ernle_chatfield={
-		name=ENG_ernle_chatfield
+	GBR_ernle_chatfield={
+		name=GBR_ernle_chatfield
 		portraits={
 			army={
 				small="GFX_idea_ernle_chatfield"
@@ -1173,8 +1173,8 @@ characters={
 		}
 	}
 
-	ENG_dudley_pound={
-		name=ENG_dudley_pound
+	GBR_dudley_pound={
+		name=GBR_dudley_pound
 		portraits={
 			army={
 				small="GFX_idea_dudley_pound"
@@ -1199,8 +1199,8 @@ characters={
 
 	### AIR CHIEFS ###
 
-	ENG_cyril_newall={
-		name=ENG_cyril_newall
+	GBR_cyril_newall={
+		name=GBR_cyril_newall
 		portraits={
 			army={
 				small="GFX_idea_cyril_newall"
@@ -1222,8 +1222,8 @@ characters={
 		}
 	}
 
-	ENG_charles_portal={
-		name=ENG_charles_portal
+	GBR_charles_portal={
+		name=GBR_charles_portal
 		portraits={
 			army={
 				small="GFX_idea_charles_portal"
@@ -1245,8 +1245,8 @@ characters={
 		}
 	}
 
-	ENG_edward_ellington={
-		name=ENG_edward_ellington
+	GBR_edward_ellington={
+		name=GBR_edward_ellington
 		portraits={
 			army={
 				small="GFX_idea_edward_ellington"
@@ -1276,8 +1276,8 @@ characters={
 
 	# Harwood up there
 
-	ENG_kenneth_anderson={
-		name=ENG_kenneth_anderson
+	GBR_kenneth_anderson={
+		name=GBR_kenneth_anderson
 		portraits={
 			army={
 				small="GFX_idea_kenneth_anderson"
@@ -1300,8 +1300,8 @@ characters={
 		}
 	}
 
-	ENG_sholto_douglas={
-		name=ENG_sholto_douglas
+	GBR_sholto_douglas={
+		name=GBR_sholto_douglas
 		portraits={
 			army={
 				small="GFX_idea_sholto_douglas"
@@ -1324,8 +1324,8 @@ characters={
 		}
 	}
 
-	ENG_trafford_leigh_mallory={
-		name=ENG_trafford_leigh_mallory
+	GBR_trafford_leigh_mallory={
+		name=GBR_trafford_leigh_mallory
 		portraits={
 			army={
 				small="GFX_idea_trafford_leigh_mallory"
@@ -1348,8 +1348,8 @@ characters={
 		}
 	}
 
-	ENG_frederick_bowhill={
-		name=ENG_frederick_bowhill
+	GBR_frederick_bowhill={
+		name=GBR_frederick_bowhill
 		portraits={
 			army={
 				small="GFX_idea_frederick_bowhill"
@@ -1372,8 +1372,8 @@ characters={
 		}
 	}
 
-	ENG_louis_mountbatten={ #This guy is duplicated in IND
-		name=ENG_louis_mountbatten
+	GBR_louis_mountbatten={ #This guy is duplicated in IND
+		name=GBR_louis_mountbatten
 		portraits={
 			army={
 				small="GFX_idea_louis_mountbatten"
@@ -1396,8 +1396,8 @@ characters={
 		}
 	}
 
-	ENG_max_horton={
-		name=ENG_max_horton
+	GBR_max_horton={
+		name=GBR_max_horton
 		portraits={
 			army={
 				small="GFX_idea_max_horton"
@@ -1420,19 +1420,19 @@ characters={
 		}
 	}
 
-	ENG_david_stirling={
-		name=ENG_david_stirling
+	GBR_david_stirling={
+		name=GBR_david_stirling
 		portraits={
 			army={
-				small="GFX_idea_ENG_david_stirling"
+				small="GFX_idea_GBR_david_stirling"
 			}
 		}
 		advisor={	
 			slot = high_command
-			idea_token = ENG_david_stirling
+			idea_token = GBR_david_stirling
 			ledger = army
 			available = {
-				has_completed_focus = ENG_special_air_service
+				has_completed_focus = GBR_special_air_service
 			}
 			allowed = {
 				original_tag = ENG
@@ -1456,23 +1456,23 @@ characters={
 
 	# Pollit up there
 
-	ENG_philip_kerr={
-		name=ENG_philip_kerr
+	GBR_philip_kerr={
+		name=GBR_philip_kerr
 		portraits={
 			army={
-				small="GFX_idea_ENG_philip_kerr"
+				small="GFX_idea_GBR_philip_kerr"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_philip_kerr
+			idea_token = GBR_philip_kerr
 			available  = {
 				if  = {
 					limit  = {
 						has_dlc = "Man the Guns"
 					}
 					NOT = {
-						has_completed_focus  = ENG_no_further_appeasement 
+						has_completed_focus  = GBR_no_further_appeasement 
 					}
 					has_government  = democratic 
 				}
@@ -1487,7 +1487,7 @@ characters={
 				factor  = 2.000
 				modifier  = {
 					has_country_leader = {
-						character = ENG_stanley_baldwin
+						character = GBR_stanley_baldwin
 						ruling_only = yes 
 					}
 					factor  = 10.000
@@ -1496,16 +1496,16 @@ characters={
 		}		
 	}
 
-	ENG_nevile_henderson={
-		name=ENG_nevile_henderson
+	GBR_nevile_henderson={
+		name=GBR_nevile_henderson
 		portraits={
 			army={
-				small="GFX_idea_ENG_nevile_henderson"
+				small="GFX_idea_GBR_nevile_henderson"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_nevile_henderson
+			idea_token = GBR_nevile_henderson
 			allowed  = {
 				original_tag  = ENG
 			}
@@ -1515,16 +1515,16 @@ characters={
 		}
 	}
 
-	ENG_maxwell_aitken={
-		name=ENG_maxwell_aitken
+	GBR_maxwell_aitken={
+		name=GBR_maxwell_aitken
 		portraits={
 			army={
-				small="GFX_idea_ENG_maxwell_aitken"
+				small="GFX_idea_GBR_maxwell_aitken"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_maxwell_aitken
+			idea_token = GBR_maxwell_aitken
 			allowed  = {
 				original_tag  = ENG
 			}
@@ -1537,16 +1537,16 @@ characters={
 		}
 	}
 
-	ENG_leslie_hore_belisha={
-		name=ENG_leslie_hore_belisha
+	GBR_leslie_hore_belisha={
+		name=GBR_leslie_hore_belisha
 		portraits={
 			army={
-				small="GFX_idea_ENG_leslie_hore_belisha"
+				small="GFX_idea_GBR_leslie_hore_belisha"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_leslie_hore_belisha
+			idea_token = GBR_leslie_hore_belisha
 			allowed  = {
 				original_tag  = ENG
 			}
@@ -1556,16 +1556,16 @@ characters={
 		}
 	}
 
-	ENG_ernest_bevin={
-		name=ENG_ernest_bevin
+	GBR_ernest_bevin={
+		name=GBR_ernest_bevin
 		portraits={
 			army={
-				small="GFX_idea_ENG_ernest_bevin"
+				small="GFX_idea_GBR_ernest_bevin"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_ernest_bevin
+			idea_token = GBR_ernest_bevin
 			allowed  = {
 				original_tag  = ENG
 			}
@@ -1578,16 +1578,16 @@ characters={
 		}
 	}
 
-	ENG_mary_sophia_allen={
-		name=ENG_mary_sophia_allen
+	GBR_mary_sophia_allen={
+		name=GBR_mary_sophia_allen
 		portraits={
 			army={
-				small="GFX_idea_ENG_mary_sophia_allen"
+				small="GFX_idea_GBR_mary_sophia_allen"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_mary_sophia_allen
+			idea_token = GBR_mary_sophia_allen
 			available  = {
 				has_government  = fascism 
 			}
@@ -1604,16 +1604,16 @@ characters={
 		}
 	}
 
-	ENG_george_orwell={
-		name=ENG_george_orwell
+	GBR_george_orwell={
+		name=GBR_george_orwell
 		portraits={
 			army={
-				small="GFX_idea_ENG_george_orwell"
+				small="GFX_idea_GBR_george_orwell"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_george_orwell
+			idea_token = GBR_george_orwell
 			available  = {
 				has_government  = communism 
 				if  = {
@@ -1638,17 +1638,17 @@ characters={
 		}
 	}
 
-	ENG_sylvia_pankhurst={
-		name=ENG_sylvia_pankhurst
+	GBR_sylvia_pankhurst={
+		name=GBR_sylvia_pankhurst
 		portraits={
 			army={
-				small="GFX_idea_ENG_sylvia_pankhurst"
+				small="GFX_idea_GBR_sylvia_pankhurst"
 			}
 		}
 		gender = female
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_sylvia_pankhurst
+			idea_token = GBR_sylvia_pankhurst
 			available  = {
 				has_government  = communism 
 			}
@@ -1665,19 +1665,19 @@ characters={
 		}
 	}
 
-	ENG_david_lloyd_george={
-		name=ENG_david_lloyd_george
+	GBR_david_lloyd_george={
+		name=GBR_david_lloyd_george
 		portraits={
 			army={
-				small="GFX_idea_ENG_david_lloyd_george"
+				small="GFX_idea_GBR_david_lloyd_george"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_david_lloyd_george
+			idea_token = GBR_david_lloyd_george
 			available  = {
 				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
+				has_completed_focus  = GBR_the_kings_party 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1694,7 +1694,7 @@ characters={
 
 # Communist ministers, intentionally without loc so they are 'randomized'
 
-	ENG_random_communist_minister_1={
+	GBR_random_communist_minister_1={
 		portraits={
 			army={
 				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
@@ -1702,9 +1702,9 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_random_communist_minister_1
+			idea_token = GBR_random_communist_minister_1
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_1 
+				has_country_flag  = GBR_trade_unions_demand_minister_appointment_1 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1714,7 +1714,7 @@ characters={
 			}
 		}
 	}
-	ENG_random_communist_minister_2={
+	GBR_random_communist_minister_2={
 		portraits={
 			army={
 				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
@@ -1722,9 +1722,9 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_random_communist_minister_2
+			idea_token = GBR_random_communist_minister_2
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_2 
+				has_country_flag  = GBR_trade_unions_demand_minister_appointment_2 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1734,7 +1734,7 @@ characters={
 			}
 		}
 	}
-	ENG_random_communist_minister_3={
+	GBR_random_communist_minister_3={
 		portraits={
 			army={
 				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
@@ -1742,9 +1742,9 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_random_communist_minister_3
+			idea_token = GBR_random_communist_minister_3
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_3 
+				has_country_flag  = GBR_trade_unions_demand_minister_appointment_3 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1754,7 +1754,7 @@ characters={
 			}
 		}
 	}
-	ENG_random_communist_minister_4={
+	GBR_random_communist_minister_4={
 		portraits={
 			army={
 				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
@@ -1762,9 +1762,9 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_random_communist_minister_4
+			idea_token = GBR_random_communist_minister_4
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_4 
+				has_country_flag  = GBR_trade_unions_demand_minister_appointment_4 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1774,7 +1774,7 @@ characters={
 			}
 		}
 	}
-	ENG_random_communist_minister_5={
+	GBR_random_communist_minister_5={
 		portraits={
 			army={
 				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
@@ -1782,9 +1782,9 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_random_communist_minister_5
+			idea_token = GBR_random_communist_minister_5
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_5 
+				has_country_flag  = GBR_trade_unions_demand_minister_appointment_5 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1794,7 +1794,7 @@ characters={
 			}
 		}
 	}
-	ENG_random_communist_minister_6={
+	GBR_random_communist_minister_6={
 		portraits={
 			army={
 				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
@@ -1802,9 +1802,9 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_random_communist_minister_6
+			idea_token = GBR_random_communist_minister_6
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_6 
+				has_country_flag  = GBR_trade_unions_demand_minister_appointment_6 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1814,7 +1814,7 @@ characters={
 			}
 		}
 	}
-	ENG_random_communist_minister_7={
+	GBR_random_communist_minister_7={
 		portraits={
 			army={
 				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
@@ -1822,9 +1822,9 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_random_communist_minister_7
+			idea_token = GBR_random_communist_minister_7
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_7 
+				has_country_flag  = GBR_trade_unions_demand_minister_appointment_7 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1835,7 +1835,7 @@ characters={
 		}
 	}
 
-	ENG_random_communist_minister_8={
+	GBR_random_communist_minister_8={
 		portraits={
 			army={
 				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
@@ -1843,9 +1843,9 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_random_communist_minister_8
+			idea_token = GBR_random_communist_minister_8
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_8 
+				has_country_flag  = GBR_trade_unions_demand_minister_appointment_8 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1855,7 +1855,7 @@ characters={
 			}
 		}
 	}
-	ENG_random_communist_minister_9={
+	GBR_random_communist_minister_9={
 		portraits={
 			army={
 				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
@@ -1863,9 +1863,9 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_random_communist_minister_9
+			idea_token = GBR_random_communist_minister_9
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_9 
+				has_country_flag  = GBR_trade_unions_demand_minister_appointment_9 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1876,7 +1876,7 @@ characters={
 		}
 	}
 
-	ENG_random_communist_minister_10={
+	GBR_random_communist_minister_10={
 		portraits={
 			army={
 				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
@@ -1884,9 +1884,9 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_random_communist_minister_10
+			idea_token = GBR_random_communist_minister_10
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_10 
+				has_country_flag  = GBR_trade_unions_demand_minister_appointment_10 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1897,7 +1897,7 @@ characters={
 		}
 	}
 
-	ENG_random_communist_minister_11={
+	GBR_random_communist_minister_11={
 		portraits={
 			army={
 				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
@@ -1905,9 +1905,9 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_random_communist_minister_11
+			idea_token = GBR_random_communist_minister_11
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_11 
+				has_country_flag  = GBR_trade_unions_demand_minister_appointment_11 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1918,7 +1918,7 @@ characters={
 		}
 	}
 
-	ENG_random_communist_minister_12={
+	GBR_random_communist_minister_12={
 		portraits={
 			army={
 				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
@@ -1926,9 +1926,9 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_random_communist_minister_12
+			idea_token = GBR_random_communist_minister_12
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_12 
+				has_country_flag  = GBR_trade_unions_demand_minister_appointment_12 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1939,7 +1939,7 @@ characters={
 		}
 	}
 
-	ENG_random_communist_minister_13={
+	GBR_random_communist_minister_13={
 		portraits={
 			army={
 				small="GFX_idea_generic_communist_revolutionary_western_european_2d"
@@ -1947,9 +1947,9 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_random_communist_minister_13
+			idea_token = GBR_random_communist_minister_13
 			visible  = {
-				has_country_flag  = ENG_trade_unions_demand_minister_appointment_13 
+				has_country_flag  = GBR_trade_unions_demand_minister_appointment_13 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1960,19 +1960,19 @@ characters={
 		}
 	}
 
-	ENG_corgis_1={
-		name=ENG_corgis_1
+	GBR_corgis_1={
+		name=GBR_corgis_1
 		portraits={
 			army={
-				small="GFX_idea_ENG_corgis_1"
+				small="GFX_idea_GBR_corgis_1"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_corgis_1
+			idea_token = GBR_corgis_1
 			available  = {
 				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
+				has_completed_focus  = GBR_the_kings_party 
 				has_country_leader  = {
 					name = "Elizabeth II"
 					ruling_only  = yes 
@@ -1997,19 +1997,19 @@ characters={
 		}
 	}
 
-	ENG_corgis_2={
-		name=ENG_corgis_2
+	GBR_corgis_2={
+		name=GBR_corgis_2
 		portraits={
 			army={
-				small="GFX_idea_ENG_corgis_2"
+				small="GFX_idea_GBR_corgis_2"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_corgis_2
+			idea_token = GBR_corgis_2
 			available  = {
 				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
+				has_completed_focus  = GBR_the_kings_party 
 				has_country_leader  = {
 					name = "Elizabeth II"
 					ruling_only  = yes 
@@ -2034,19 +2034,19 @@ characters={
 		}
 	}
 
-	ENG_corgis_3={
-		name=ENG_corgis_3
+	GBR_corgis_3={
+		name=GBR_corgis_3
 		portraits={
 			army={
-				small="GFX_idea_ENG_corgis_3"
+				small="GFX_idea_GBR_corgis_3"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = ENG_corgis_3
+			idea_token = GBR_corgis_3
 			available  = {
 				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
+				has_completed_focus  = GBR_the_kings_party 
 				has_country_leader  = {
 					name = "Elizabeth II"
 					ruling_only  = yes 
@@ -2071,16 +2071,16 @@ characters={
 		}
 	}
 
-	ENG_stewart_menzies={
-		name=ENG_stewart_menzies
+	GBR_stewart_menzies={
+		name=GBR_stewart_menzies
 		portraits={
 			army={
-				small="GFX_idea_eng_stewart_menzies"
+				small="GFX_idea_GBR_stewart_menzies"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = eng_stewart_menzies
+			idea_token = GBR_stewart_menzies
 			available  = {
 				has_intelligence_agency  = yes 
 			}
@@ -2094,16 +2094,16 @@ characters={
 		}
 	}
 
-	ENG_alan_turing={
-		name=ENG_alan_turing
+	GBR_alan_turing={
+		name=GBR_alan_turing
 		portraits={
 			army={
-				small="GFX_idea_eng_alan_turing"
+				small="GFX_idea_GBR_alan_turing"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = eng_alan_turing
+			idea_token = GBR_alan_turing
 			available  = {
 				has_intelligence_agency  = yes 
 				custom_trigger_tooltip  = {

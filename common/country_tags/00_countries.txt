@@ -1,5 +1,5 @@
 GER	= "countries/WestEur.txt"
-ENG = "countries/Commonw.txt"
+GBR = "countries/Commonw.txt"
 SWE	= "countries/WestEur.txt"
 FRA	= "countries/WestEur.txt"
 LUX	= "countries/WestEur.txt"

@@ -12,21 +12,11 @@ set_convoys = 5
 
 # A colongy of Italy in 1939, however if independent it would have the same politics as in 1936
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1936.1.1"
+	ruling_party = authoritarian_democrat
+	last_election = "1949.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	neutrality = 100
-}
-
-create_country_leader = {
-	name = " Marcus James Hugins"
-	picture = GFX_portrait__Marcus_James_Hugins
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = { 
-		prince_of_terror
-	}
+	authoritarian_democrat = 100
 }

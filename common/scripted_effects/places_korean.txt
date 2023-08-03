@@ -116,20 +116,12 @@ apply_korean_places = {
 		910 = { 
 			set_state_name = KOR_Gyeongsangnamdo
 		}
-		set_province_name = {
-			id = 8088
-			name = KOR_Busan
-		}
 	}
 
 	if = { #South Jeolla
 		limit = { state = 911 }
 		911 = { 
 			set_state_name = KOR_Jeollanamdo
-		}
-		set_province_name = { #Jeju
-			id = 1177
-			name = KOR_Jeju
 		}
 		set_province_name = { #Gwangju
 			id = 12085
@@ -197,6 +189,28 @@ apply_korean_places = {
 		set_province_name = { #Pyongyang
 			id = 4052
 			name = KOR_Pyongyang
+		}
+	}
+
+	if = { #Busan
+		limit = { state =  954 }
+		954 = { 
+			set_state_name = KOR_Busan
+		}
+		set_province_name = {
+			id = 8088
+			name = KOR_Busan
+		}
+	}
+
+	if = { #Jeju
+		limit = { state =  955 }
+		955 = { 
+			set_state_name = KOR_Jeju
+		}
+		set_province_name = { #Jeju
+			id = 1177
+			name = KOR_Jeju
 		}
 	}
 }

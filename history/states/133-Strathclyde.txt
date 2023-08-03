@@ -1,4 +1,3 @@
-
 state={
 	id=133
 	name="STATE_133" # Lanark
@@ -11,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = GBR
 		victory_points = {
 			3273 15
 		}
@@ -29,7 +28,7 @@ state={
 			}
 
 		}
-		add_core_of = ENG
+		add_core_of = GBR
 	}
 
 	provinces={

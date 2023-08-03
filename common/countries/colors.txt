@@ -4,7 +4,7 @@ GER = {
 	color = hsv { 0 0 0.45 }
 	color_ui = rgb { 50 50 50 }
 }
-ENG = {
+GBR = {
 	color = rgb { 165 55 45 }
 	color_ui = rgb { 165 55 45 }
 }
@@ -530,6 +530,26 @@ BRM = {
 SIK = {
 	color = rgb { 175 24 60 }
 	color_ui = rgb { 175 24 60 }
+}
+SUD = {
+	color = rgb { 0 114 41 }
+	color_ui = rgb { 0 114 41 }
+}
+UGA = {
+	color = rgb { 252 220 4 }
+	color_ui = rgb { 252 220 4 }
+}
+KEN = {
+	color = rgb { 0 102 0 }
+	color_ui = rgb { 0 102 0 }
+}
+TZN = {
+	color = rgb { 0 163 221 }
+	color_ui = rgb { 0 163 221 }
+}
+ZAM = {
+	color = rgb { 239 125 0 }
+	color_ui = rgb { 239 125 0 }
 }
 ZZZ = {
 	color = rgb { 0 0 0 }

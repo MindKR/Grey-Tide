@@ -5,83 +5,83 @@ state_categories={
 	}
 	two = {
 		local_building_slots = 2
-		color = { 0 228 12 }
+		color = { 24 255 0 }
 	}
 	three = {
 		local_building_slots = 3
-		color = { 0 216 24 }
+		color = { 48 255 0 }
 	}
 	four = {
 		local_building_slots = 4
-		color = { 0 204 36 }
+		color = { 72 255 0 }
 	}
 	five = {
 		local_building_slots = 5
-		color = { 0 192 48 }
+		color = { 96 255 0 }
 	}
 	six = {
 		local_building_slots = 6
-		color = { 0 180 60 }
+		color = { 120 255 0 }
 	}
 	seven = {
 		local_building_slots = 7
-		color = { 0 168 72 }
+		color = { 144 255 0 }
 	}
 	eight = {
 		local_building_slots = 8
-		color = { 0 156 84 }
+		color = { 168 255 0 }
 	}
 	nine = {
 		local_building_slots = 9
-		color = { 0 144 96 }
+		color = { 192 255 0 }
 	}
 	ten = {
 		local_building_slots = 10
-		color = { 0 132 108 }
+		color = { 216 255 0 }
 	}
 	eleven = {
 		local_building_slots = 11
-		color = { 0 120 120 }
+		color = { 240 240 0 }
 	}
 	twelve = {
 		local_building_slots = 12
-		color = { 0 108 132 }
+		color = { 255 216 0 }
 	}
 	thirteen = {
 		local_building_slots = 13
-		color = { 0 96 144 }
+		color = { 255 192 0 }
 	}
 	fourteen = {
 		local_building_slots = 14
-		color = { 0 84 156 }
+		color = { 255 168 0 }
 	}
 	fifteen = {
 		local_building_slots = 15
-		color = { 0 72 168 }
+		color = { 255 144 0 }
 	}
 	sixteen = {
 		local_building_slots = 16
-		color = { 0 60 180 }
+		color = { 255 120 0 }
 	}
 	seventeen = {
 		local_building_slots = 17
-		color = { 0 48 192 }
+		color = { 255 96 0 }
 	}
 	eighteen = {
 		local_building_slots = 18
-		color = { 0 36 204 }
+		color = { 255 72 0 }
 	}
 	nineteen = {
 		local_building_slots = 19
-		color = { 0 24 216 }
+		color = { 255 48 0 }
 	}
 	twenty = {
 		local_building_slots = 20
-		color = { 0 12 228 }
+		color = { 255 24 0 }
 	}
 	twenty-one = { #10M+
 		local_building_slots = 21
-		color = { 0 0 255 }
+		color = { 255 0 0 }
 	}
 
 	twenty-two = {

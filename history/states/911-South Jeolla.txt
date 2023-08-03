@@ -1,3 +1,4 @@
+
 state={
 	id=911
 	name="STATE_911"
@@ -11,9 +12,6 @@ state={
 
 		}
 		victory_points = {
-			1177 1 
-		}
-		victory_points = {
 			12085 1 
 		}
 		add_core_of = KOR
@@ -21,10 +19,10 @@ state={
 	}
 
 	provinces={
-		1177 10110 11948 12085 
+		10110 11948 12085 
 	}
-	manpower=2895307
+	manpower=2640307
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=six
 	local_supplies=0.000
 }
