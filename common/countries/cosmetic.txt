@@ -109,48 +109,48 @@ GER_republic = {
 }
 
 KUW_GBR = {
-	color = rgb { 165 55 45 }
-	color_ui = rgb { 165 55 45 }
+	color = rgb { 185 25 60 }
+	color_ui = rgb { 185 25 60 }
 }
 
 EGY_GBR = {
-	color = rgb { 165 55 45 }
-	color_ui = rgb { 165 55 45 }
+	color = rgb { 185 25 60 }
+	color_ui = rgb { 185 25 60 }
 }
 
 SUD_GBR = {
-	color = rgb { 165 55 45 }
-	color_ui = rgb { 165 55 45 }
+	color = rgb { 185 25 60 }
+	color_ui = rgb { 185 25 60 }
 }
 
 UGA_GBR = {
-	color = rgb { 165 55 45 }
-	color_ui = rgb { 165 55 45 }
+	color = rgb { 185 25 60 }
+	color_ui = rgb { 185 25 60 }
 }
 
 KEN_GBR = {
-	color = rgb { 165 55 45 }
-	color_ui = rgb { 165 55 45 }
+	color = rgb { 185 25 60 }
+	color_ui = rgb { 185 25 60 }
 }
 
 TZN_GBR = {
-	color = rgb { 165 55 45 }
-	color_ui = rgb { 165 55 45 }
+	color = rgb { 185 25 60 }
+	color_ui = rgb { 185 25 60 }
 }
 
 ZAM_GBR = {
-	color = rgb { 165 55 45 }
-	color_ui = rgb { 165 55 45 }
+	color = rgb { 185 25 60 }
+	color_ui = rgb { 185 25 60 }
 }
 
 ZIM_GBR = {
-	color = rgb { 165 55 45 }
-	color_ui = rgb { 165 55 45 }
+	color = rgb { 185 25 60 }
+	color_ui = rgb { 185 25 60 }
 }
 
 BOT_GBR = {
-	color = rgb { 165 55 45 }
-	color_ui = rgb { 165 55 45 }
+	color = rgb { 185 25 60 }
+	color_ui = rgb { 185 25 60 }
 }
 
 SPR = {

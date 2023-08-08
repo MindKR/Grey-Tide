@@ -3,19 +3,19 @@ GT_places = {
 	group = "RULE_GROUP_GT"
 	icon = GFX_production_licenses
 	option = {
-		name = EXONYMS
-		text = "RULE_OPTION_EXONYMS"
-		desc = "RULE_OPTION_EXONYMS_DESC"
+		name = ENDONYM-C
+		text = "RULE_OPTION_ENDONYM-C"
+		desc = "RULE_OPTION_ENDONYM-C_DESC"
 	}
 	option = {
-		name = ENDONYMS
-		text = "RULE_OPTION_ENDONYMS"
-		desc = "RULE_OPTION_ENDONYMS_DESC"
+		name = ENDONYM-S
+		text = "RULE_OPTION_ENDONYM-S"
+		desc = "RULE_OPTION_ENDONYM-S_DESC"
 	}
 	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_DEFAULT"
-		desc = "RULE_OPTION_DEFAULT_DESC"
+		name = EXONYM
+		text = "RULE_OPTION_EXONYM"
+		desc = "RULE_OPTION_EXONYM_DESC"
 	}
 }
 

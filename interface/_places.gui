@@ -5,13 +5,13 @@ guiTypes = {
 		Orientation = UPPER_RIGHT
 
 		buttonType = {
-			name = "places_button"
+			name = "places_toggle"
 			position = { x = 0 y = 0 }
-			quadTextureSprite = "GFX_places_button"
+			quadTextureSprite = "GFX_places_toggle"
 			clicksound = click_ok
 			oversound = ui_menu_over
-			pdx_tooltip = places_button
-			pdx_tooltip_delayed = places_button_desc
+			pdx_tooltip = places_toggle
+			pdx_tooltip_delayed = places_toggle_desc
 			shortcut = "ctrl+e"
 		}
 	}

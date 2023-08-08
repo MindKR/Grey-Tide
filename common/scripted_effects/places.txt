@@ -1,15 +1,15 @@
 original_appellation = {
 	custom_effect_tooltip = original_appellation_tt
 	set_state_flag = original_appellation
-	hidden_effect = { activate_endonyms = yes }
+	hidden_effect = { activate_Endonym-S = yes }
 }
 
-enable_exonyms = {
-	set_global_flag = exonyms_flag
-	activate_exonyms = yes
+enable_Endonym-C = {
+	set_global_flag = Endonym-C_flag
+	activate_Endonym-C = yes
 }
 
-activate_exonyms = {
+activate_Endonym-C = {
 	every_state = {
 		if = { limit = { controller = { tag = KOR NOT = { has_autonomy_state = GT_sotokufu } } }
 			apply_korean_places = yes
@@ -105,8 +105,8 @@ activate_exonyms = {
 	}
 }
 
-disable_exonyms = {
-	clr_global_flag = exonyms_flag
+disable_Endonym-C = {
+	clr_global_flag = Endonym-C_flag
 	every_state = { reset_state_name = yes }
 	reset_places = yes
 }
@@ -115,12 +115,12 @@ disable_exonyms = {
 
 
 
-enable_endonyms = {
-	set_global_flag = endonyms_flag
-	activate_endonyms = yes
+enable_Endonym-S = {
+	set_global_flag = Endonym-S_flag
+	activate_Endonym-S = yes
 }
 
-activate_endonyms = {
+activate_Endonym-S = {
 	every_state = {
 		if = { limit = { is_german_culture = yes }
 			apply_german_places = yes
@@ -130,8 +130,8 @@ activate_endonyms = {
 	}
 }
 
-disable_endonyms = {
-	clr_global_flag = endonyms_flag
+disable_Endonym-S = {
+	clr_global_flag = Endonym-S_flag
 	every_state = { reset_state_name = yes }
 	reset_places = yes
 }

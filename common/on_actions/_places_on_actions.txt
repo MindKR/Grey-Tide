@@ -1,33 +1,32 @@
 on_actions = {
-
 	on_startup = {
 		effect = {
 			if = {
 				limit = {
 					has_game_rule = {
 						rule = GT_places
-						option = EXONYMS
+						option = Endonym-C
 					}
 				}
-				set_global_flag = exonyms_flag
-				every_state = { activate_exonyms = yes }
+				set_global_flag = Endonym-C_flag
+				every_state = { activate_Endonym-C = yes }
 			}
 			else_if = {
 				limit = {
 					has_game_rule = {
 						rule = GT_places
-						option = ENDONYMS
+						option = Endonym-S
 					}
 				}
-				set_global_flag = endonyms_flag
-				every_state = { activate_endonyms = yes }
+				set_global_flag = Endonym-S_flag
+				every_state = { activate_Endonym-S = yes }
 				set_variable = { global.places_frame = 2 }
 			}
 			else = {
 				limit = {
 					has_game_rule = {
 						rule = GT_places
-						option = DEFAULT
+						option = Exonym
 					}
 				}
 				set_variable = { global.places_frame = 3 }
@@ -39,9 +38,9 @@ on_actions = {
 		effect = {
 			if = {
 				limit = {
-					has_global_flag = exonyms_flag
+					has_global_flag = Endonym-C_flag
 				}
-				FROM.FROM = { activate_exonyms = yes }
+				FROM.FROM = { activate_Endonym-C = yes }
 			}
 			if = {
 				limit = {

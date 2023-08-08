@@ -10,36 +10,36 @@ scripted_gui = {
 		}
 
 		triggers = {
-			places_button_click_enabled = {
+			places_toggle_click_enabled = {
 				NOT = { has_global_flag = is_mp }
 			}
 		}
 
 		effects = {
-			places_button_click = {
+			places_toggle_click = {
 				if = {
 					limit = {
 						NOT = {
-							has_global_flag = exonyms_flag
-							has_global_flag = endonyms_flag
+							has_global_flag = Endonym-C_flag
+							has_global_flag = Endonym-S_flag
 						}
 					}
-					enable_exonyms = yes
+					enable_Endonym-C = yes
 					set_variable = { global.places_frame = 1 }
 
 					log = "[GetDateText]: [Root.GetName]: event worldnews.1 FROM = [From.GetName]"
 				}
 				else_if = {
-					limit = { has_global_flag = exonyms_flag }
-					disable_exonyms = yes
-					enable_endonyms = yes
+					limit = { has_global_flag = Endonym-C_flag }
+					disable_Endonym-C = yes
+					enable_Endonym-S = yes
 					set_variable = { global.places_frame = 2 }
 
 					log = "[GetDateText]: [Root.GetName]: event worldnews.2 FROM = [From.GetName]"
 				}
 				else_if = {
-					limit = { has_global_flag = endonyms_flag }
-					disable_endonyms = yes
+					limit = { has_global_flag = Endonym-S_flag }
+					disable_Endonym-S = yes
 					set_variable = { global.places_frame = 3 }
 
 					log = "[GetDateText]: [Root.GetName]: event worldnews.3 FROM = [From.GetName]"
@@ -48,7 +48,7 @@ scripted_gui = {
 		}
 
 		properties = {
-			places_button = {
+			places_toggle = {
 				frame = global.places_frame
 			}
 		}

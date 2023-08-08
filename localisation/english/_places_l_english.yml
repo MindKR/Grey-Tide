@@ -1,17 +1,23 @@
 ﻿l_english:
- places_button:0 "[places_button_loc]"
- places_button_desc:0 "[places_button_desc_loc]"
+ places_toggle:0 "[places_toggle_loc]"
+ places_toggle_desc:0 "[places_toggle_desc_loc]"
 
- places_button_exonyms:0 "Exonyms"
- places_button_exonyms_mp:0 "§RExonyms - Unchangeable§!"
- places_button_exonyms_desc:0 "The Place name changes depending on the ruling country."
+ #Endonyms by Countries
+ Endonym-C:0 "Endonyms (Countries)"
+ places_toggle_Endonym-C:0 "§YEndonym/Exonym§!\nCurrent: §GEndonyms/Countries§!"
+ places_toggle_Endonym-C_mp:0 "§YEndonym/Exonym§!\nCurrent: §REndonyms/Countries§!"
+ places_toggle_Endonym-C_desc:0 "The Place name changes depending on the ruling country."
 
- places_button_endonyms:0 "Endonyms"
- places_button_endonyms_mp:0 "§Endonyms - Unchangeable§!"
- places_button_endonyms_desc:0 "The Place name changes depending on the culture of the state."
+ #Endonyms by States
+ Endonym-S:0 "Endonyms (States)"
+ places_toggle_Endonym-S:0 "§YEndonym/Exonym§!\nCurrent: §GEndonyms/States§!"
+ places_toggle_Endonym-S_mp:0 "§YEndonym/Exonym§!\nCurrent: §REndonyms/States§!"
+ places_toggle_Endonym-S_desc:0 "The Place name changes depending on the culture of the state."
 
- places_button_default:0 "Default"
- places_button_default_desc:0 "The Place name is unchanging."
+ #Exonyms - Defualt
+ Exonym:0 "Exonyms"
+ places_toggle_Exonym:0 "§YEndonym/Exonym§!\nCurrent: §GExonym/Default§!"
+ places_toggle_Exonym_desc:0 "The Place name is unchanging."
 
  original_appellation_tt:0 "Cities will be returned to §Ythe Original Appellation§!."
 
