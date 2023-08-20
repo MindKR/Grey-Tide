@@ -444,8 +444,8 @@ MZB = {
 	color_ui = rgb { 112 62 90 }
 }
 KEN = {
-	color = rgb { 145 103 14 }
-	color_ui = rgb { 145 103 14 }
+	color = rgb { 28 60 154 }
+	color_ui = rgb { 28 60 154 }
 }
 ZIM = {
 	color = rgb { 7 7 239 }
@@ -539,10 +539,6 @@ UGA = {
 	color = rgb { 252 220 4 }
 	color_ui = rgb { 252 220 4 }
 }
-KEN = {
-	color = rgb { 0 102 0 }
-	color_ui = rgb { 0 102 0 }
-}
 TZN = {
 	color = rgb { 0 163 221 }
 	color_ui = rgb { 0 163 221 }
@@ -550,6 +546,14 @@ TZN = {
 ZAM = {
 	color = rgb { 239 125 0 }
 	color_ui = rgb { 239 125 0 }
+}
+DJI = {
+	color = rgb { 106 178 231 }
+	color_ui = rgb { 106 178 231 }
+}
+KUW = {
+	color = rgb { 255 235 104 }
+	color_ui = rgb { 255 235 104 }
 }
 ZZZ = {
 	color = rgb { 0 0 0 }

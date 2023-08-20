@@ -6,14 +6,16 @@ state={
 	history={
 		owner = GBR
 		add_core_of = JOR
-		victory_points = {
-			12029 1 
-		}
 		buildings = {
 			infrastructure = 1
 
 		}
-
+		victory_points = {
+			7151 1 
+		}
+		victory_points = {
+			11976 1 
+		}
 	}
 
 	provinces={

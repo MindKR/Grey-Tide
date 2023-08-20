@@ -1,0 +1,17 @@
+focus_tree = {
+	id = generic_focus
+	country = { factor = 0 }
+	default = no
+}
+
+focus_tree = {
+	id = blank_it
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ZZZ
+		}
+	}
+	default = yes
+}

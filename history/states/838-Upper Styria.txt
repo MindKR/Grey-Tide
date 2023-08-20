@@ -9,11 +9,10 @@ state={
 			infrastructure = 3
 
 		}
-		victory_points = {
-			9627 3 
-		}
 		add_core_of = AUS
-
+		victory_points = {
+			9648 5 
+		}
 	}
 
 	provinces={

@@ -191,9 +191,10 @@ set_popularities = {
 	fascist = 3
 }
 
-set_popularities = { # Last Election: 비지역주의 정당 357석 중 199석 (56%) 이상을 차지해야 했음.
+set_popularities = {
 	social_democrat = 22
-	social_liberal = 37
+	social_democrat_1 = 22
+	social_liberal = 15
 	market_liberal = 20
 	conservative = 10
 	authoritarian_democrat = 4
