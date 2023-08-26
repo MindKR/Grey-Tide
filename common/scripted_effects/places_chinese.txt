@@ -1,6 +1,6 @@
 apply_chinese_places = {
 
-	if = { #Jiandao
+	if = { #Beijing
 		limit = {
 			state = 751
 			is_capital = yes
@@ -11,6 +11,20 @@ apply_chinese_places = {
 		set_province_name = {
 			id = 9843
 			name = CHI_Beijing
+		}
+	}
+
+	if = { #Beiping
+		limit = {
+			state = 751
+			is_capital = no
+		}
+		751 = {
+			set_state_name = CHI_Beiping
+		}
+		set_province_name = {
+			id = 9843
+			name = CHI_Beiping
 		}
 	}
 

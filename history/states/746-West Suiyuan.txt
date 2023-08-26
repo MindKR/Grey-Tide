@@ -1,0 +1,24 @@
+
+state={
+	id=746
+	name="STATE_746"
+
+	history={
+		owner = SHX
+		add_core_of = SHX
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1959 2087 3427 4525 4960 4986 10451 10629 10854 12609 12706 12880 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

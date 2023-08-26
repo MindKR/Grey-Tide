@@ -245,6 +245,7 @@ reset_places = {
 	reset_province_name = 9777
 	reset_province_name = 9799
 	reset_province_name = 9833
+	reset_province_name = 9843
 	reset_province_name = 9861
 	reset_province_name = 9878
 	reset_province_name = 9894

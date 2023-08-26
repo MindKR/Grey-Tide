@@ -2,14 +2,14 @@ scripted_gui = {
 	Reichstag_open = {
 		context_type = player_context
 		parent_window_token = politics_tab
-		window_name = "Reichstag_open"
+		window_name = "reichstag_button_container"
 
 		visible = {
 			tag = GER
 		}
 
 		effects = {
-			GER_Reichstag_button_click = {
+			show_reichstag_button_click = {
 				if = {
 					limit = { NOT = { has_variable = GER_Reichstag } }
 					set_variable = { GER_Reichstag = 1 }

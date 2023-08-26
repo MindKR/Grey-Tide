@@ -1,9 +1,10 @@
 ﻿l_english:
+ reichstag_button_text:0 "£pol_power  Reichstag"
+ reichstag_button_tt:0 "§YOpen the Reichstag GUI§!"
  Reichstag_Government_button:0 "Goverment"
  Reichstag_Election_Map_button:0 "Electoral map"
  Reichstag_Laws_button:0 "Laws"
  GER_Reichstag_button:0 "§YReichstag§!"
- GER_Reichstag_button_tt:0 "Open the Reichstag GUI"
  Reichstag_hold_federal_election_tt:0 "§CFederal election will be held, and the political landscape of Reichstag will change!"
  reichstag_gui_decision_category:0 "Reichstag§!"
  reichstag_gui_decision_category_desc:0 "라이히스탁은 독일의 유서 깊은 의회로, 1903년 이후로 실질적인 권력을 행사하는 총리를 배출해왔습니다. 이 곳에서 국가의 다양한 정책을 정할 수 있습니다."

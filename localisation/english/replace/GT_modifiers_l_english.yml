@@ -1,7 +1,7 @@
 ﻿l_english:
  social_democrat_drift:0 "일일 사회민주주의 지지"
  liberal_drift:0 "일일 자유주의 지지"
- conservative_drift:0 "일일 보수주의 지지"
+ conservative_drift:0 "일일 Social Conservatism 지지"
  libertarian_socialist_drift:0 "일일 자유지상적 사회주의 지지"
  authoritarian_socialist_drift:0 "일일 권위주의적 사회주의 지지"
  anarchist_drift:0 "일일 아나키즘 지지"
@@ -10,7 +10,7 @@
  fascist_drift:0 "일일 파시즘 지지"
  social_democrat_acceptance:0 "사회민주주의 외교 수용"
  liberal_acceptance:0 "자유주의 외교 수용"
- conservative_acceptance:0 "보수주의 외교 수용"
+ conservative_acceptance:0 "Social Conservatism 외교 수용"
  libertarian_socialist_acceptance:0 "자유지상적 사회주의 외교 수용"
  authoritarian_socialist_acceptance:0 "권위주의적 사회주의 외교 수용"
  anarchist_acceptance:0 "아나키즘 외교 수용"

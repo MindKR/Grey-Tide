@@ -2,12 +2,12 @@ guiTypes = {
 	containerWindowType = {
 		name = "GT_politics_container"
 		size = { width = 220 height = 118 }
-		position = { x=50 y=350 }
+		position = { x=100 y=255 }
 
 		instantTextboxType = {
 			name = "party_name"
-			position = {x = 145 y = -10}
-			font = "hoi_18mbs"
+			position = {x = 144 y = -7}
+			font = "hoi_16mbs"
 			text = "[This.GetRulingParty]"
 			fixedsize = yes
 			maxWidth = 160

@@ -1,99 +1,13 @@
 characters={
-	#FVP
-	GER_Friedrich_Naumann={
-		name=GER_Friedrich_Naumann
+	GER_Otto_Ernst_Remer={
+		name=GER_Otto_Ernst_Remer
 		portraits={
 			civilian={
-				large="gfx/leaders/GER/Portrait_GER_Friedrich_Naumann.png"
-				small="gfx/interface/ideas/ministers/GER/Friedrich_Naumann.png"
+				large="gfx/leaders/GER/Portrait_GER_Otto_Ernst_Remer.png"
 			}
 		}
 		country_leader={
-			ideology=social_liberal_subtype
-			traits = {  }
-			expire="1965.1.1.1"
-			desc = "GER_Friedrich_Naumann_desc"
-			id=-1
-		}
-	}
-
-	#NLP
-	GER_Gustav_Stresemann={
-		name=GER_Gustav_Stresemann
-		portraits={
-			civilian={
-				large="gfx/leaders/GER/Portrait_GER_Gustav_Stresemann.png"
-				small="gfx/interface/ideas/ministers/GER/Gustav_Stresemann.png"
-			}
-		}
-		country_leader={
-			ideology=market_liberal_subtype
-			traits = {  }
-			expire="1965.1.1.1"
-			desc = "GER_Gustav_Stresemann_desc"
-			id=-1
-		}
-	}
-
-	GER_otto_wels={
-		name=GER_otto_wels
-		portraits={
-			civilian={
-				large="gfx/leaders/GER/Portrait_GER_Otto_Wels.png"
-				small="gfx/interface/ideas/ministers/GER/Otto_Wels.png"
-			}
-		}
-		country_leader={
-			ideology=social_democrat_subtype
-			traits = { principles_of_humanity_and_justice }
-			expire="1965.1.1.1"
-			desc = "GER_otto_wels_desc"
-			id=-1
-		}
-	}
-
-	GER_arthur_crispien={
-		name=GER_arthur_crispien
-		portraits={
-			civilian={
-				large="gfx/leaders/GER/Portrait_GER_arthur_crispien.png"
-				small="gfx/interface/ideas/ministers/GER/Arthur_Crispien.png"
-			}
-		}
-		advisor={
-			slot = SIC
-			idea_token = GER_arthur_crispien
-			desc = "GER_arthur_crispien_desc"
-			allowed = { original_tag = GER }
-			traits = { vizekanzler social_democrat }
-			removal_cost = -1
-			cost = -1
-		}
-	}
-
-	GER_franz_von_papen={
-		name=GER_franz_von_papen
-		portraits={
-			civilian={
-				large="gfx/leaders/GER/Portrait_GER_Franz_von_Papen.png"
-			}
-		}
-		country_leader={
-			ideology=conservative_subtype
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
-	GER_wilhelm_ii={
-		name=GER_wilhelm_ii
-		portraits={
-			civilian={
-				large="gfx/leaders/GER/Portrait_GER_Kaiser_Wilhelm_II.png"
-			}	
-		}
-		country_leader={
-			ideology=despot_subtype
+			ideology=authoritarian_democrat_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}

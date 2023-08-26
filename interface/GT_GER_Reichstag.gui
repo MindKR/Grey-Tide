@@ -1,15 +1,35 @@
 guiTypes = {
-	containerWindowType = {
-		name = "Reichstag_open"
-		size = { width = 220 height = 118 }
-		position = { x=210 y=573 }
+	containerWindowType = { # 라이히스탁
+		name = "reichstag_button_container"
+		position = { x = 379 y = 333 }
 
-		buttonType ={
-			name ="GER_Reichstag_button"
-			spriteType = "GFX_Reichstag_button"
-			position = { x=238 y=41 }
-			pdx_tooltip = "GER_Reichstag_button_tt"
+		buttonType = {
+			name = "show_reichstag_button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_icon_button_155x31"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = "reichstag_button_tt"
 		}
+
+		instantTextboxType = {
+			name = "show_reichstag_button_text"
+			position = { x = 8 y = 8 }
+			font = "hoi_16mbs"
+			text = "reichstag_button_text"
+			Orientation = "UPPER_LEFT"
+			maxWidth = 130
+			alwaystransparent = yes
+			format = center
+		}
+
+		#iconType = {
+		#	name = "icon_manage_reichstag"
+		#	spriteType = "GFX_icon_manage_subjects"
+		#	position = { x = 27 y = 5 }
+		#	alwaystransperent = yes
+		#	scale = 0.8
+		#}
 	}
 	
 	containerwindowtype = {

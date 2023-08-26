@@ -198,7 +198,7 @@ JAP = {
 }
 MAN = {
 	color = rgb { 165 85 85 }
-	color_ui = rgb { 160 90 70 }
+	color_ui = rgb { 165 85 85 }
 }
 MEN = {
 	color = rgb { 150 85 60 }
@@ -519,10 +519,6 @@ TUN = {
 	color = rgb { 153 153 102 }
 	color_ui = rgb { 153 153 102 }
 }
-TGR = {
-	color = rgb { 174 34 41 }
-	color_ui = rgb { 174 34 41 }
-}
 BRM = {
 	color = rgb { 122 53 92 }
 	color_ui = rgb { 122 53 92 }
@@ -554,6 +550,10 @@ DJI = {
 KUW = {
 	color = rgb { 255 235 104 }
 	color_ui = rgb { 255 235 104 }
+}
+HUB = {
+	color = rgb { 150 50 50 }
+	color_ui = rgb { 150 50 50 }
 }
 ZZZ = {
 	color = rgb { 0 0 0 }

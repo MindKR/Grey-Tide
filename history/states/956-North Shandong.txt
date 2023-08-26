@@ -1,0 +1,25 @@
+
+state={
+	id=956
+	name="STATE_956"
+
+	history={
+		owner = HUB
+		add_core_of = HUB
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1084 7189 10119 11962 12093 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=one
+	local_supplies=0.000
+}

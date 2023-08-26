@@ -1,9 +1,11 @@
 ﻿l_english:
+ conquest:0 "Conquests"
+
  laws:0 "Laws"
  government:0 "Government"
  SIC:0 "Second-in-Command"
  cabinet:0 "Cabinet"
  head_of_gov:0 "Head of Government"
  vizekanzler:0 "Vizekanzler"
- POLITICS_NEXT_ELECTION:0 "Next Election:\n§Y$DATE$§!"
+ POLITICS_NEXT_ELECTION:0 "Next Election: §Y$DATE$§!"
  POLITICS_STATUS:0 "Status"

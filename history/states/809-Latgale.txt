@@ -4,7 +4,7 @@ state={
 	name="STATE_809"
 
 	history={
-		owner = LAT
+		owner = SOV
 		victory_points = {
 			3255 1 #Jekabpils
 		}
@@ -17,6 +17,7 @@ state={
 			arms_factory = 1
 		}
 		add_core_of = LAT
+		add_core_of = SOV
 
 	}
 

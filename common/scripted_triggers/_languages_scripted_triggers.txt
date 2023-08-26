@@ -122,10 +122,9 @@ is_chinese_speaking_country = {
 		tooltip = is_chinese_speaking_country_tt
 		OR = {
 			original_tag = CHI
-			AND = {
-				original_tag = MAN
-				NOT = { is_subject_of = RUS }
-			}
+			original_tag = MAN
+			original_tag = HUB
+			has_autonomy_state = GT_warlord
 		}
 	}
 }

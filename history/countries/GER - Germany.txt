@@ -174,37 +174,21 @@ set_war_support = 0.3
 add_command_power = 20
 
 set_politics = {
-	ruling_party = social_liberal
-	last_election = "1933.3.5"
+	ruling_party = authoritarian_democrat
+	last_election = "1938.3.5"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	social_democrat = 37
-	social_liberal = 28
-	market_liberal = 13
-	conservative = 11
-	authoritarian_democrat = 4
-	libertarian_socialist = 1
-	authoritarian_socialist = 3
-	fascist = 3
+	social_democrat = 0
+	social_liberal = 4
+	market_liberal = 9
+	conservative = 14
+	authoritarian_democrat = 73
+	authoritarian_socialist = 0
+	fascist = 0
 }
-
-set_popularities = {
-	social_democrat = 22
-	social_democrat_1 = 22
-	social_liberal = 15
-	market_liberal = 20
-	conservative = 10
-	authoritarian_democrat = 4
-	despot = 1
-	libertarian_socialist = 1
-	authoritarian_socialist = 2
-	fascist = 3
-}
-
-set_country_flag = banned_anarchist
 
 puppet = AUS
 
@@ -243,11 +227,8 @@ set_country_flag = Reichstag_NP
 
 
 # Cabinet
-recruit_character = GER_Friedrich_Naumann #Liberal
-recruit_character = GER_otto_wels #Social Democrat
-recruit_character = GER_arthur_crispien
-recruit_character = GER_franz_von_papen #Conservative
-recruit_character = GER_wilhelm_ii #despot
+recruit_character = GER_Otto_Ernst_Remer #Authoritarian Democrat
+recruit_character = GER_wilhelm_iii #despot
 
 
 recruit_character = GER_albert_kesselring
@@ -319,13 +300,12 @@ recruit_character = GER_wilhelm_canaris
 recruit_character = GER_joseph_goebbels
 recruit_character = GER_konstantin_von_neurath
 recruit_character = GER_alfred_hugenberg
-recruit_character = GER_wilhelm_iii
 recruit_character = GER_august_von_mackensen
 
 recruit_character = GER_alexander_von_falkenhausen #Not visible unless recalled from China
 
 add_ideas = {
-	wilhelm_ii
+	wilhelm_iii
 	GER_unified_german_pride
 	GER_conservative_military
 	GER_exclusive_of_junkers

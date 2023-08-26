@@ -3,4 +3,8 @@ spriteTypes = {
 		name = "GFX_blank"
 		textureFile = "gfx/interface/blank.dds"
 	}
+	spriteType = {
+		name = "GFX_icon_button_155x31"
+		textureFile = "gfx/interface/icon_button_155x31.dds"
+	}
 }

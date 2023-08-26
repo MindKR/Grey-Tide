@@ -1,0 +1,33 @@
+
+state={
+	id=608
+	name="STATE_608"
+
+	history={
+		owner = HUB
+		add_core_of = HUB
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 3
+			10068 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			10068 1 
+		}
+
+	}
+
+	provinces={
+		1134 1188 4032 4093 4137 4140 4190 4208 6828 7000 7092 7109 9969 10003 10022 10053 10068 11761 11944 11980 11996 12026 12062 
+	}
+	manpower=9648400
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=1.000
+}
