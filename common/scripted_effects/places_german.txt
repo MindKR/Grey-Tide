@@ -64,10 +64,21 @@ apply_german_places = {
 		}
 	}
 
-	if = { #Hinterpommern
+	if = { #Rhineland
+	limit = { state = 51 }
+	51 = {
+		set_state_name = GER_Rheinland
+	}
+	set_province_name = {
+		id = 587
+		name = GER_Koln
+	}
+}
+
+	if = { #Pommerania
 		limit = { state = 63 }
 		63 = {
-			set_state_name = GER_Hinterpommern
+			set_state_name = GER_Pommern
 		}
 		set_province_name = {
 			id = 6282
@@ -79,7 +90,7 @@ apply_german_places = {
 		}
 	}
 
-	if = { #Sachsen
+	if = { #Saxony
 		limit = { state = 65 }
 		65 = {
 			set_state_name = GER_Sachsen
@@ -535,14 +546,14 @@ apply_german_places = {
 		}
 	}
 
-	if = { #Frankenstadt
+	if = { #Vienna
 		limit = { state = 884 }
 		884 = {
-			set_state_name = GER_Frankenstadt
+			set_state_name = GER_Wien
 		}
 		set_province_name = {
-			id = 6670
-			name = GER_Frankenstadt
+			id = 11666
+			name = GER_Wien
 		}
 	}
 
@@ -559,5 +570,15 @@ apply_german_places = {
 		904 = {
 			set_state_name = GER_Suczawa
 		}
+	}
+
+	if = { #Danzig
+	limit = { state = 915 }
+	915 = {
+		set_state_name = GER_Danzig
+	}
+	set_province_name = {
+		id = 362
+		name = GER_Danzig
 	}
 }

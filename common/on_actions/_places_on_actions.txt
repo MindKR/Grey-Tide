@@ -44,16 +44,9 @@ on_actions = {
 			}
 			if = {
 				limit = {
-					ROOT = { has_socialist_government = yes
-			if = { #Berlin - socialist
-				limit = {
-					ROOT = { has_socialist_government = yes }
-					FROM.FROM = { state = 835 }
+					has_global_flag = Endonym-S_flag
 				}
-				set_province_name = {
-					id = 6521
-					name = Berlin_Socialist
-				}
+				FROM.FROM = { activate_Endonym-S = yes }
 			}
 		}
 	}

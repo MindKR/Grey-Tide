@@ -13,6 +13,9 @@ state={
 
 		}
 		victory_points = {
+			6670 3 
+		}
+		victory_points = {
 			11659 1 
 		}
 		add_core_of = HUN
@@ -20,7 +23,7 @@ state={
 	}
 
 	provinces={
-		679 699 730 3730 6700 6735 9656 9706 11625 11644 11646 11659 
+		679 699 730 3730 6670 6700 6735 9656 9706 11625 11644 11646 11659 
 	}
 	manpower=2735383
 	buildings_max_level_factor=1.000

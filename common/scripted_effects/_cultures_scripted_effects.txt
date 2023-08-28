@@ -10,7 +10,6 @@ GT_startup_cultures = {
 	set_variable = { 59.nationality = 1 }
 	set_variable = { 60.nationality = 1 }
 	set_variable = { 61.nationality = 1 }
-	set_variable = { 62.nationality = 1 }
 	set_variable = { 63.nationality = 1 }
 	set_variable = { 64.nationality = 1 }
 	set_variable = { 65.nationality = 1 }
@@ -48,8 +47,10 @@ GT_startup_cultures = {
 	set_variable = { 52.nationality = 1.1 }
 	set_variable = { 53.nationality = 1.1 }
 	set_variable = { 54.nationality = 1.1 }
+	set_variable = { 62.nationality = 1.1 }
 	set_variable = { 151.nationality = 1.1 }
 	set_variable = { 882.nationality = 1.1 }
+	set_variable = { 884.nationality = 1.1 }
 
 	#German-Polish Culture
 	set_variable = { 5.nationality = 1.2 }
@@ -72,12 +73,6 @@ GT_startup_cultures = {
 	set_variable = { 847.nationality = 1.5 }
 	set_variable = { 849.nationality = 1.5 }
 	set_variable = { 855.nationality = 1.5 }
-	set_variable = { 883.nationality = 1.5 }
-
-	#Sudetenland
-	set_variable = { 69.nationality = 1.6 }
-	set_variable = { 74.nationality = 1.6 }
-	set_variable = { 881.nationality = 1.6 }
 
 
 	#France
@@ -264,7 +259,11 @@ GT_startup_cultures = {
 
 	#Czechia
 	set_variable = { 9.nationality = 12 }
+	set_variable = { 69.nationality = 12 }
+	set_variable = { 74.nationality = 12 }
 	set_variable = { 75.nationality = 12 }
+	set_variable = { 881.nationality = 12 }
+	set_variable = { 883.nationality = 12 }
 	set_variable = { 909.nationality = 12 }
 
 	#Slovakia
@@ -276,7 +275,6 @@ GT_startup_cultures = {
 	set_variable = { 154.nationality = 14 }
 	set_variable = { 155.nationality = 14 }
 	set_variable = { 664.nationality = 14 }
-	set_variable = { 884.nationality = 14 }
 
 	#Szeklerland
 	set_variable = { 879.nationality = 14.1 }

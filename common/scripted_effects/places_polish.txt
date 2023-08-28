@@ -11,10 +11,10 @@ apply_polish_places = {
 		}
 	}
 
-	if = { #Hinterpommern
+	if = { #Pommerania
 		limit = { state = 63 }
 		63 = {
-			set_state_name = POL_Zachodniopomorskie
+			set_state_name = POL_Pomorze
 		}
 		set_province_name = {
 			id = 6282
@@ -26,7 +26,7 @@ apply_polish_places = {
 		}
 	}
 
-	if = { #Sachsen
+	if = { #Saxony
 		limit = { state = 65 }
 		65 = {
 			set_state_name = POL_Saksonia
@@ -389,5 +389,15 @@ apply_polish_places = {
 		904 = {
 			set_state_name = POL_Suczawa
 		}
+	}
+
+	if = { #Danzig
+	limit = { state = 915 }
+	915 = {
+		set_state_name = POL_Gdansk
+	}
+	set_province_name = {
+		id = 362
+		name = POL_Gdansk
 	}
 }

@@ -12,8 +12,8 @@ set_autonomy = { target = WAF autonomous_state = GT_federation_of_colonies }
 set_autonomy = { target = EAF autonomous_state = GT_federation_of_colonies }
 set_autonomy = { target = MOR autonomous_state = GT_Protectorate }
 set_autonomy = { target = TUN autonomous_state = GT_Protectorate }
-set_autonomy = { target = DJI autonomous_state = GT_colony }
-set_autonomy = { target = MAD autonomous_state = GT_colony }
+set_autonomy = { target = DJI autonomous_state = GT_Colony }
+set_autonomy = { target = MAD autonomous_state = GT_Colony }
 
 country_event = { id = History_FRA.1 days = 1 }
 

@@ -79,17 +79,6 @@ scripted_map_modes = {
 					set_temp_variable = { blue = 0.4 }
 					set_temp_variable = { alpha = alpha_temp }
 				}
-				else_if = { #Sudetenland
-					limit = {
-						FROM = {
-							check_variable = { nationality = 1.6 }
-						}
-					}
-					set_temp_variable = { red = 0.365 }
-					set_temp_variable = { green = 0.325 }
-					set_temp_variable = { blue = 0.325 }
-					set_temp_variable = { alpha = alpha_temp }
-				}
 
 
 				# 2: France

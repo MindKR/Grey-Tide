@@ -104,9 +104,14 @@
  GRE_Dorylaion:0 "Dorylaion"
 
 
-#63, Hinterpommern
- GER_Hinterpommern:0 "Hinterpommern"
- POL_Zachodniopomorskie:0 "Zachodniopomorskie"
+#51, Rhineland
+ GER_Rheinland:0 "Rheinland"
+ GER_Koln:0 "Köln"
+
+
+#63, Pommern
+ GER_Pommern:0 "Pommern"
+ POL_Pomorze:0 "Pomorze"
 
  GER_Stettin:0 "Stettin"
  POL_Szczecin:0 "Szczecin"
@@ -844,9 +849,8 @@
  CZE_Znojmo:0 "즈노이모"
 
 
-#884, Frankenstadt
- GER_Frankenstadt:0 "프랑켄슈타트"
- HUN_Baja:0 "버여"
+#884, Wien
+ GER_Wien:0 "Wien"
 
 
 #891, Brest-Litovsk
@@ -951,6 +955,11 @@
  JAP_Seishin:0 "Seishin"
  KOR_Rajin:0 "Rajin"
  JAP_Rashin:0 "Rashin"
+
+
+#915, Danzig
+ GER_Danzig:0 "Danzig"
+ POL_Gdansk:0 "Gdańsk"
 
 
 #917, Seoul
