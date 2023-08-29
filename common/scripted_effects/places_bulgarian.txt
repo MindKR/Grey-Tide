@@ -1,23 +1,36 @@
+set_bulgarian_name = {
+	clr_state_flag = arab_name
+	clr_state_flag = belarusian_name
+	set_state_flag = bulgarian_name
+	clr_state_flag = chinese_name
+	clr_state_flag = czech_name
+	clr_state_flag = danish_name
+	clr_state_flag = french_name
+	clr_state_flag = german_name
+	clr_state_flag = greek_name
+	clr_state_flag = hungarian_name
+	clr_state_flag = italian_name
+	clr_state_flag = japanese_name
+	clr_state_flag = korean_name
+	clr_state_flag = latvian_name
+	clr_state_flag = lithuanian_name
+	clr_state_flag = polish_name
+	clr_state_flag = romanian_name
+	clr_state_flag = russian_name
+	clr_state_flag = serbo-croatian_name
+	clr_state_flag = slovene_name
+	clr_state_flag = turkish_name
+	clr_state_flag = ukrainian_name
+}
+
 apply_bulgarian_places = {
 
 	if = { #Bessarabia
-		limit = { state = 78 }
-		78 = {
-			set_state_name = BUL_Besarabiya
-		}
-	}
-
-	if = { #Tsargrad
 		limit = {
-			state = 797
-			has_government = despot
+			state = 78
+			NOT = { has_state_flag = bulgarian_name }
 		}
-		797 = {
-			set_state_name = Tsargrad
-		}
-		set_province_name = {
-			id = 9833
-			name = Tsargrad
-		}
+		set_bulgarian_name = yes
+		set_state_name = BUL_Besarabiya
 	}
 }

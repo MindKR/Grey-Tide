@@ -1,10 +1,37 @@
+set_belarusian_name = {
+	clr_state_flag = arab_name
+	set_state_flag = belarusian_name
+	clr_state_flag = bulgarian_name
+	clr_state_flag = chinese_name
+	clr_state_flag = czech_name
+	clr_state_flag = danish_name
+	clr_state_flag = french_name
+	clr_state_flag = german_name
+	clr_state_flag = greek_name
+	clr_state_flag = hungarian_name
+	clr_state_flag = italian_name
+	clr_state_flag = japanese_name
+	clr_state_flag = korean_name
+	clr_state_flag = latvian_name
+	clr_state_flag = lithuanian_name
+	clr_state_flag = polish_name
+	clr_state_flag = romanian_name
+	clr_state_flag = russian_name
+	clr_state_flag = serbo-croatian_name
+	clr_state_flag = slovene_name
+	clr_state_flag = turkish_name
+	clr_state_flag = ukrainian_name
+}
+
 apply_belarusian_places = {
 
 	if = { #Novogrudok
-		limit = { state = 95 }
-		95 = {
-			set_state_name = Navahrudak
+		limit = {
+			state = 95
+			NOT = { has_state_flag = belarusian_name }
 		}
+		set_belarusian_name = yes
+		set_state_name = Navahrudak
 		set_province_name = {
 			id = 9304
 			name = Baranavichy
@@ -12,10 +39,12 @@ apply_belarusian_places = {
 	}
 
 	if = { #Viliejka (Vileyka)
-		limit = { state = 96 }
-		96 = {
-			set_state_name = Viliejka
+		limit = {
+			state = 96
+			NOT = { has_state_flag = belarusian_name }
 		}
+		set_belarusian_name = yes
+		set_state_name = Viliejka
 		set_province_name = {
 			id = 406
 			name = Maladziecna
@@ -23,10 +52,12 @@ apply_belarusian_places = {
 	}
 
 	if = { #Belostok
-		limit = { state = 97 }
-		97 = {
-			set_state_name = Bielastok
+		limit = {
+			state = 97
+			NOT = { has_state_flag = belarusian_name }
 		}
+		set_belarusian_name = yes
+		set_state_name = Bielastok
 		set_province_name = {
 			id = 11301
 			name = Bielastok
@@ -34,10 +65,12 @@ apply_belarusian_places = {
 	}
 
 	if = { #Chernihiv
-		limit = { state = 193 }
-		193 = {
-			set_state_name = Carnihau
+		limit = {
+			state = 193
+			NOT = { has_state_flag = belarusian_name }
 		}
+		set_belarusian_name = yes
+		set_state_name = Carnihau
 		set_province_name = {
 			id = 3568
 			name = Carnihau
@@ -49,10 +82,12 @@ apply_belarusian_places = {
 	}
 
 	if = { #Mozyr
-		limit = { state = 194 }
-		194 = {
-			set_state_name = Mazyr
+		limit = {
+			state = 194
+			NOT = { has_state_flag = belarusian_name }
 		}
+		set_belarusian_name = yes
+		set_state_name = Mazyr
 		set_province_name = {
 			id = 6232
 			name = Mazyr
@@ -60,10 +95,12 @@ apply_belarusian_places = {
 	}
 
 	if = { #Bobrujsk 
-		limit = { state = 204 }
-		204 = {
-			set_state_name = Babruysk 
+		limit = {
+			state = 204
+			NOT = { has_state_flag = belarusian_name }
 		}
+		set_belarusian_name = yes
+		set_state_name = Babruysk
 		set_province_name = {
 			id = 3350
 			name = Babruysk
@@ -75,7 +112,11 @@ apply_belarusian_places = {
 	}
 
 	if = { #Minsk
-		limit = { state = 206 }
+		limit = {
+			state = 206
+			NOT = { has_state_flag = belarusian_name }
+		}
+		set_belarusian_name = yes
 		set_province_name = {
 			id = 9289
 			name = Mahiliou
@@ -83,10 +124,12 @@ apply_belarusian_places = {
 	}
 
 	if = { #Vitebsk 
-		limit = { state = 207 }
-		207 = {
-			set_state_name = Viciebsk 
+		limit = {
+			state = 207
+			NOT = { has_state_flag = belarusian_name }
 		}
+		set_belarusian_name = yes
+		set_state_name = Viciebsk
 		set_province_name = {
 			id = 11241
 			name = Viciebsk
@@ -94,17 +137,21 @@ apply_belarusian_places = {
 	}
 
 	if = { #Chaussy 
-		limit = { state = 241 }
-		241 = {
-			set_state_name = Chavusy 
+		limit = {
+			state = 241
+			NOT = { has_state_flag = belarusian_name }
 		}
+		set_belarusian_name = yes
+		set_state_name = Chavusy
 	}
 
 	if = { #Vilna
-		limit = { state = 784 }
-		784 = {
-			set_state_name = Vilnia
+		limit = {
+			state = 784
+			NOT = { has_state_flag = belarusian_name }
 		}
+		set_belarusian_name = yes
+		set_state_name = Vilnia
 		set_province_name = {
 			id = 3320
 			name = Vilnia
@@ -112,10 +159,12 @@ apply_belarusian_places = {
 	}
 
 	if = { #Grodno
-		limit = { state = 834 }
-		834 = {
-			set_state_name = BLR_Hrodna
+		limit = {
+			state = 834
+			NOT = { has_state_flag = belarusian_name }
 		}
+		set_belarusian_name = yes
+		set_state_name = BLR_Hrodna
 		set_province_name = {
 			id = 3393
 			name = BLR_Hrodna
@@ -123,10 +172,12 @@ apply_belarusian_places = {
 	}
 
 	if = { #Brest-Litovsk
-		limit = { state = 891 }
-		891 = {
-			set_state_name = BLR_Berastze_Litouski
+		limit = {
+			state = 891
+			NOT = { has_state_flag = belarusian_name }
 		}
+		set_belarusian_name = yes
+		set_state_name = BLR_Berastze_Litouski
 		set_province_name = {
 			id = 3392
 			name = BLR_Berastze_Litouski
@@ -134,23 +185,29 @@ apply_belarusian_places = {
 	}
 
 	if = { #Kamenets
-		limit = { state = 900 }
-		900 = {
-			set_state_name = RUS_Kamenets
+		limit = {
+			state = 900
+			NOT = { has_state_flag = belarusian_name }
 		}
+		set_belarusian_name = yes
+		set_state_name = RUS_Kamenets
 	}
 
 	if = { #Rossony
-		limit = { state = 901 }
-		901 = {
-			set_state_name = BLR_Rasony
+		limit = {
+			state = 901
+			NOT = { has_state_flag = belarusian_name }
 		}
+		set_belarusian_name = yes
+		set_state_name = BLR_Rasony
 	}
 
 	if = { #Beshenkovichy
-		limit = { state = 902 }
-		902 = {
-			set_state_name = BLR_Biesankovicy
+		limit = {
+			state = 902
+			NOT = { has_state_flag = belarusian_name }
 		}
+		set_belarusian_name = yes
+		set_state_name = BLR_Biesankovicy
 	}
 }

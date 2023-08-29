@@ -1,10 +1,11 @@
 apply_french_places = {
 
 	if = { #Corsica
-		limit = { state = 1 }
-		1 = { #Corsica
-			set_state_name = FRA_Corse
+		limit = {
+			state = 1
+			is_controlled_by = FRA
 		}
+		set_state_name = FRA_Corse
 		set_province_name = { #Ajaccio
 			id = 3838
 			name = FRA_Ajaccio
@@ -12,7 +13,10 @@ apply_french_places = {
 	}
 
 	if = { #Champagne
-		limit = { state = 18 }
+		limit = {
+			state = 18
+			is_controlled_by = FRA
+		}
 		set_province_name = {
 			id = 3546
 			name = FRA_Verdun
@@ -20,10 +24,11 @@ apply_french_places = {
 	}
 
 	if = { #Alsace-Lorraine
-		limit = { state = 28 }
-		28 = {
-			set_state_name = FRA_Alsace-Lorraine
+		limit = {
+			state = 28
+			is_controlled_by = FRA
 		}
+		set_state_name = FRA_Alsace-Lorraine
 		set_province_name = {
 			id = 678
 			name = FRA_Mulhouse
@@ -39,91 +44,101 @@ apply_french_places = {
 	}
 
 	if = { #Piemonte
-		limit = { state = 158 }
-		158 = {
-			set_state_name = Piemont
+		limit = {
+			state = 158
+			is_controlled_by = FRA
 		}
+		set_state_name = FRA_Piemont
 		set_province_name = {
 			id = 6780
-			name = Turin
+			name = FRA_Turin
 		}
 	}
 
 	if = { #Lombardy
-		limit = { state = 159 }
-		159 = {
-			set_state_name = Lombardie
+		limit = {
+			state = 159
+			is_controlled_by = FRA
 		}
+		set_state_name = FRA_Lombardie
 		set_province_name = {
 			id = 3780
-			name = Milan
+			name = FRA_Milan
 		}
 	}
 
 	if = { #Tunisia
-		limit = { state = 458 }
-		458 = { #Tunisia
-			set_state_name = Tunisie
+		limit = {
+			state = 458
+			is_controlled_by = FRA
 		}
+		set_state_name = FRA_Tunisie
 		set_province_name = { #Bizerte
 			id = 9994
-			name = Bizerte
+			name = FRA_Bizerte
 		}
 		set_province_name = { #Tunis
 			id = 11969
-			name = Tunis
+			name = FRA_Tunis
 		}
 	}
 
 	if = { #Savoy
-		limit = { state = 735 }
-		735 = { #Savoy
-			set_state_name = Savoie
+		limit = {
+			state = 735
+			is_controlled_by = FRA
 		}
+		set_state_name = FRA_Savoie
 		set_province_name = { #Annecy
 			id = 778
-			name = Annecy
+			name = FRA_Annecy
 		}
 	}
 
 	if = { #Nice
-		limit = { state = 762 }
-		762 = { #Nice
-			set_state_name = Nice
+		limit = {
+			state = 762
+			is_controlled_by = FRA
 		}
+		set_state_name = FRA_Nice
 		set_province_name = {
 			id = 9909
-			name = Nice
+			name = FRA_Nice
 		}
 	}
 
 	if = { #Berlin
-		limit = { state = 835 }
+		limit = {
+			state = 835
+			is_controlled_by = FRA
+		}
 		set_province_name = {
 			id = 6521
-			name = Berlin_FRA
+			name = FRA_Berlin
 		}
 	}
 
 	if = { #Nancy
-		limit = { state = 869 }
-		869 = {
-			set_state_name = Nancy
+		limit = {
+			state = 869
+			is_controlled_by = FRA
 		}
+		set_state_name = FRA_Nancy
 		set_province_name = {
 			id = 11516
-			name = Nancy
+			name = FRA_Nancy
 		}
 	}
 
 	if = { #Sedan
-		limit = { state = 870 }
-		870 = {
-			set_state_name = Sedan_FRA
+		limit = {
+			state = 870
+			is_controlled_by = FRA
 		}
+		set_state_name = FRA_Sedan
 		set_province_name = {
 			id = 3560
-			name = Sedan_FRA
+			name = FRA_Sedan
 		}
 	}	
 }

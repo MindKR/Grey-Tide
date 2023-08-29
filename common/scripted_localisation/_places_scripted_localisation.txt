@@ -3,14 +3,14 @@ defined_text = {
 	text = { #Endonym-C, No MP
 		trigger = {
 			NOT = { has_global_flag = is_mp }
-			has_global_flag = Endonym-C_flag
+			has_global_flag = Endonyms-C_flag
 		}
 		localization_key = places_toggle_Endonym-C
 	}
 	text = { #Endonym-C, Yes MP
 		trigger = {
 			has_global_flag = is_mp
-			has_global_flag = Endonym-C_flag
+			has_global_flag = Endonyms-C_flag
 		}
 		localization_key = places_toggle_Endonym-C_mp
 	}
@@ -31,7 +31,7 @@ defined_text = {
 	text = { #Exonym
 		trigger = {
 			NOT = {
-				has_global_flag = Endonym-C_flag
+				has_global_flag = Endonyms-C_flag
 				has_global_flag = Endonym-S_flag
 			}
 		}
@@ -44,7 +44,7 @@ defined_text = {
 	text = { #Endonym-C, No MP
 		trigger = {
 			NOT = { has_global_flag = is_mp }
-			has_global_flag = Endonym-C_flag
+			has_global_flag = Endonyms-C_flag
 		}
 		localization_key = places_toggle_Endonym-C_desc
 	}
@@ -58,7 +58,7 @@ defined_text = {
 	text = { #Default, No MP
 		trigger = {
 			NOT = {
-				has_global_flag = Endonym-C_flag
+				has_global_flag = Endonyms-C_flag
 				has_global_flag = Endonym-S_flag
 			}
 		}

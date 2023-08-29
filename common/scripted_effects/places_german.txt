@@ -1,10 +1,10 @@
 apply_german_places = {
-
 	if = { #Ermland-Masuren
-		limit = { state = 5 }
-		5 = {
-			set_state_name = GER_Ermland-Masuren
-		}
+		limit = {
+			state = 5
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Ermland-Masuren
 		set_province_name = {
 			id = 6375
 			name = GER_Allenstein
@@ -12,10 +12,11 @@ apply_german_places = {
 	}
 	
 	if = { #Čechy
-		limit = { state = 9 }
-		9 = {
-			set_state_name = GER_Bohmen
-		}
+		limit = {
+			state = 9
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Bohmen
 		set_province_name = {
 			id = 6418
 			name = GER_Pilsen
@@ -27,7 +28,10 @@ apply_german_places = {
 	}
 
 	if = { #Champagne
-		limit = { state = 18 }
+		limit = {
+			state = 18
+			is_german_speaking_country = yes
+	 	}
 		set_province_name = {
 			id = 3546
 			name = GER_Wirten
@@ -35,10 +39,11 @@ apply_german_places = {
 	}
 
 	if = { #Alsace-Lorraine
-		limit = { state = 28 }
-		28 = {
-			set_state_name = GER_Elsass-Lothringen
-		}
+		limit = {
+			state = 28
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Elsass-Lothringen
 		set_province_name = {
 			id = 678
 			name = GER_Mulhausen
@@ -54,10 +59,11 @@ apply_german_places = {
 	}
 
 	if = { #Südtirol
-		limit = { state = 39 }
-		39 = {
-			set_state_name = GER_Sudtirol
-		}
+		limit = {
+			state = 39
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Sudtirol
 		set_province_name = {
 			id = 11598
 			name = GER_Bozen
@@ -65,21 +71,55 @@ apply_german_places = {
 	}
 
 	if = { #Rhineland
-	limit = { state = 51 }
-	51 = {
+		limit = {
+			state = 51
+			is_german_speaking_country = yes
+		}
 		set_state_name = GER_Rheinland
+		set_province_name = {
+			id = 587
+			name = GER_Koln
+		}
 	}
-	set_province_name = {
-		id = 587
-		name = GER_Koln
+
+	if = { #Upper Bavaria
+		limit = {
+			state = 52
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Oberbayern
 	}
-}
+
+	if = { #Middle Franconia
+		limit = {
+			state = 54
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Mittelfranken
+	}
+
+	if = { #Lower Bavaria
+		limit = {
+			state = 53
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Niederbayern
+	}
+
+	if = { #Thuringia
+		limit = {
+			state = 60
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Thuringen
+	}
 
 	if = { #Pommerania
-		limit = { state = 63 }
-		63 = {
-			set_state_name = GER_Pommern
-		}
+		limit = {
+			state = 63
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Pommern
 		set_province_name = {
 			id = 6282
 			name = GER_Stettin
@@ -91,10 +131,11 @@ apply_german_places = {
 	}
 
 	if = { #Saxony
-		limit = { state = 65 }
-		65 = {
-			set_state_name = GER_Sachsen
-		}
+		limit = {
+			state = 65
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Sachsen
 		set_province_name = {
 			id = 514
 			name = GER_Dresden
@@ -106,10 +147,11 @@ apply_german_places = {
 	}
 
 	if = { #Niederschlesien
-		limit = { state = 66 }
-		66 = {
-			set_state_name = GER_Niederschlesien
-		}
+		limit = {
+			state = 66
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Niederschlesien
 		set_province_name = {
 			id = 9570
 			name = GER_Breslau
@@ -117,14 +159,11 @@ apply_german_places = {
 	}
 
 	if = { #Oberschlesien
-		limit = { state = 67 }
-		67 = {
-			set_state_name = GER_Oberschlesien
-		}
-		set_province_name = {
-			id = 6464
-			name = GER_Kattowitz
-		}
+		limit = {
+			state = 67
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Oberschlesien
 		set_province_name = {
 			id = 9511
 			name = GER_Oppeln
@@ -136,10 +175,11 @@ apply_german_places = {
 	}
 
 	if = { #Sudety
-		limit = { state = 69 }
-		69 = {
-			set_state_name = GER_Sudetenland
-		}
+		limit = {
+			state = 69
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Sudetenland
 		set_province_name = {
 			id = 3585
 			name = GER_Karlsbad
@@ -151,10 +191,11 @@ apply_german_places = {
 	}
 
 	if = { #Teschen
-		limit = { state = 72 }
-		72 = {
-			set_state_name = GER_Teschen
-		}
+		limit = {
+			state = 72
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Teschen
 		set_province_name = {
 			id = 9551
 			name = GER_Teschen
@@ -162,10 +203,11 @@ apply_german_places = {
 	}
 	
 	if = { #Czech Silesia
-		limit = { state = 74 }
-		74 = {
-			set_state_name = GER_Tschechisch-Schlesien
-		}
+		limit = {
+			state = 74
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Tschechisch-Schlesien
 		set_province_name = {
 			id = 3583
 			name = GER_Troppau
@@ -173,10 +215,11 @@ apply_german_places = {
 	}
 
 	if = { #Morava
-		limit = { state = 75 }
-		75 = {
-			set_state_name = GER_Mahren
-		}
+		limit = {
+			state = 75
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Mahren
 		set_province_name = {
 			id = 3569
 			name = GER_Brunn
@@ -192,7 +235,10 @@ apply_german_places = {
 	}
 
 	if = { #Bessarabia
-		limit = { state = 78 }
+		limit = {
+			state = 78
+			is_german_speaking_country = yes
+	 	}
 		set_province_name = {
 			id = 3707
 			name = GER_Kischinau
@@ -200,10 +246,11 @@ apply_german_places = {
 	}
 
 	if = { #Bukowina
-		limit = { state = 80 }
-		80 = {
-			set_state_name = GER_Czernowitz
-		}
+		limit = {
+			state = 80
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Czernowitz
 		set_province_name = {
 			id = 577
 			name = GER_Czernowitz
@@ -211,10 +258,11 @@ apply_german_places = {
 	}
 
 	if = { #Posen
-		limit = { state = 86 }
-		86 = {
-			set_state_name = GER_Posen
-		}
+		limit = {
+			state = 86
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Posen
 		set_province_name = {
 			id = 279
 			name = GER_Bromberg
@@ -226,10 +274,11 @@ apply_german_places = {
 	}
 
 	if = { #Krakau
-		limit = { state = 88 }
-		88 = {
-			set_state_name = GER_Krakau
-		}
+		limit = {
+			state = 88
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Krakau
 		set_province_name = {
 			id = 442
 			name = GER_Tarnau
@@ -241,10 +290,11 @@ apply_german_places = {
 	}
 
 	if = { #Stanislau
-		limit = { state = 89 }
-		89 = {
-			set_state_name = GER_Stanislau
-		}
+		limit = {
+			state = 89
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Stanislau
 		set_province_name = {
 			id = 11411
 			name = GER_Stanislau
@@ -252,10 +302,11 @@ apply_german_places = {
 	}
 
 	if = { #Lemberg
-		limit = { state = 91 }
-		91 = {
-			set_state_name = GER_Lemberg
-		}
+		limit = {
+			state = 91
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Lemberg
 		set_province_name = {
 			id = 11479
 			name = GER_Lemberg
@@ -263,10 +314,11 @@ apply_german_places = {
 	}
 
 	if = { #Volhynia
-		limit = { state = 93 }
-		93 = {
-			set_state_name = GER_Wolhynien
-		}
+		limit = {
+			state = 93
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Wolhynien
 		set_province_name = {
 			id = 422
 			name = GER_Kowel
@@ -278,10 +330,11 @@ apply_german_places = {
 	}
 
 	if = { #Dalmatia
-		limit = { state = 103 }
-		103 = {
-			set_state_name = GER_Dalmatien
-		}
+		limit = {
+			state = 103
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Dalmatien
 		set_province_name = {
 			id = 3868
 			name = GER_Ragus
@@ -293,10 +346,11 @@ apply_german_places = {
 	}
 
 	if = { #Bosnia
-		limit = { state = 104 }
-		104 = {
-			set_state_name = GER_Bosnien
-		}
+		limit = {
+			state = 104
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Bosnien
 		set_province_name = {
 			id = 6983
 			name = GER_Weina_Luka
@@ -308,10 +362,11 @@ apply_german_places = {
 	}
 
 	if = { #Zareb
-		limit = { state = 109 }
-		109 = {
-			set_state_name = GER_Agram
-		}
+		limit = {
+			state = 109
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Agram
 		set_province_name = {
 			id = 11581
 			name = GER_Agram
@@ -319,76 +374,83 @@ apply_german_places = {
 	}
 
 	if = { #Lombardy
-		limit = { state = 159 }
-		159 = {
-			set_state_name = Lombardei
-		}
+		limit = {
+			state = 159
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Lombardei
 		set_province_name = {
 			id = 3780
-			name = Mailand
+			name = GER_Mailand
 		}
 	}
 
 	if = { #Trient
-		limit = { state = 163 }
-		163 = {
-			set_state_name = Trient
-		}
+		limit = {
+			state = 163
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Trient
 		set_province_name = {
 			id = 9598
-			name = Trient
+			name = GER_Trient
 		}
 	}
 
 	if = { #Memel
-		limit = { state = 188 }
-		188 = {
-			set_state_name = Memel
-		}
+		limit = {
+			state = 188
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Memel
 		set_province_name = {
 			id = 3288
-			name = Memel
+			name = GER_Memel
 		}
 	}
 
 	if = { #Saint Petersburg
-		limit = { state = 195 }
-		195 = {
-			set_state_name = StPetersburg
-		}
+		limit = {
+			state = 195
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_StPetersburg
 		set_province_name = {
 			id = 3151
-			name = StPetersburg
+			name = GER_StPetersburg
 		}
 	}
 
 	if = { #Königsberg
-		limit = { state = 763 }
-		763 = {
-			set_state_name = Konigsberg
-		}
+		limit = {
+			state = 763
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Konigsberg
 		set_province_name = {
 			id = 6332
-			name = Konigsberg
+			name = GER_Konigsberg
 		}
 	}
 
 	if = { #Vilna
-		limit = { state = 784 }
-		784 = {
-			set_state_name = Wilna
-		}
+		limit = {
+			state = 784
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Wilna
 		set_province_name = {
 			id = 3320
-			name = Wilna
+			name = GER_Wilna
 		}
 	}
 
 	if = { #Herzegovina
-		limit = { state = 804 }
-		804 = {
-			set_state_name = GER_Herzegowina
-		}
+		limit = {
+			state = 804
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Herzegowina
 		set_province_name = {
 			id = 9894
 			name = GER_Mostar
@@ -396,25 +458,27 @@ apply_german_places = {
 	}
 
 	if = { #Westpreußen
-		limit = { state = 807 }
-		807 = {
-			set_state_name = Westpreussen
-		}
+		limit = {
+			state = 807
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Westpreussen
 		set_province_name = {
 			id = 3295
 			name = Thorn
 		}
 		set_province_name = {
 			id = 9263
-			name = Gdingen
+			name = GER_Gdingen
 		}
 	}
 
 	if = { #Grodno
-		limit = { state = 834 }
-		834 = {
-			set_state_name = GER_Garten
-		}
+		limit = {
+			state = 834
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Garten
 		set_province_name = {
 			id = 3393
 			name = GER_Garten
@@ -422,26 +486,33 @@ apply_german_places = {
 	}
 
 	if = { #Berlin
-		limit = { state = 835 }
+		limit = {
+			state = 835
+			is_german_speaking_country = yes
+	 	}
 		set_province_name = {
 			id = 6521
-			name = Berlin_GER
+			name = GER_Berlin
 		}
 	}
 
 	if = { #Triest
-		limit = { state = 837 }
-		837 = {
-			set_state_name = Triest
-		}
+		limit = {
+			state = 837
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Triest
 		set_province_name = {
 			id = 6626
-			name = Triest
+			name = GER_Triest
 		}
 	}
 
 	if = { #Lika
-		limit = { state = 846 }
+		limit = {
+			state = 846
+			is_german_speaking_country = yes
+	 	}
 		set_province_name = {
 			id = 11564
 			name = GER_Sankt_Veit_am_Flaum
@@ -449,17 +520,35 @@ apply_german_places = {
 	}
 
 	if = { #Nordschleswig
-		limit = { state = 848 }
-		848 = {
-			set_state_name = Nordschleswig
-		}
+		limit = {
+			state = 848
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = Nordschleswig
+	}
+
+	if = { #Swabia
+		limit = {
+			state = 849
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Schwaben
+	}
+
+	if = { #Saxony-Anhalt
+		limit = {
+			state = 867
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Sachsen-Anhalt
 	}
 
 	if = { #Nancy
-		limit = { state = 869 }
-		869 = {
-			set_state_name = Nanzig
-		}
+		limit = {
+			state = 869
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = Nanzig
 		set_province_name = {
 			id = 11516
 			name = Nanzig
@@ -467,10 +556,11 @@ apply_german_places = {
 	}
 
 	if = { #Sedan
-		limit = { state = 870 }
-		870 = {
-			set_state_name = Sedan_GER
-		}
+		limit = {
+			state = 870
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = Sedan_GER
 		set_province_name = {
 			id = 3560
 			name = Sedan_GER
@@ -478,10 +568,11 @@ apply_german_places = {
 	}
 
 	if = { #Srijem
-		limit = { state = 873 }
-		873 = {
-			set_state_name = Syrmien
-		}
+		limit = {
+			state = 873
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = Syrmien
 		set_province_name = {
 			id = 11577
 			name = Mitrovica
@@ -489,17 +580,19 @@ apply_german_places = {
 	}
 
 	if = { #Southern Baranya
-		limit = { state = 874 }
-		874 = {
-			set_state_name = Southern_Branau
-		}
+		limit = {
+			state = 874
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = Southern_Branau
 	}
 
 	if = { #Muravidek
-		limit = { state = 877 }
-		877 = {
-			set_state_name = Ubermurgebiet
-		}
+		limit = {
+			state = 877
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = Ubermurgebiet
 		set_province_name = {
 			id = 5035
 			name = Olsnitz
@@ -507,17 +600,19 @@ apply_german_places = {
 	}
 
 	if = { #Slovene Carinthia
-		limit = { state = 878 }
-		878 = {
-			set_state_name = Niederkarnten
-		}
+		limit = {
+			state = 878
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = Niederkarnten
 	}
 
 	if = { #Szekelyfold
-		limit = { state = 879 }
-		879 = {
-			set_state_name = Szeklerland
-		}
+		limit = {
+			state = 879
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = Szeklerland
 		set_province_name = {
 			id = 9670
 			name = Neumarkt_am_Mieresch
@@ -525,10 +620,11 @@ apply_german_places = {
 	}
 
 	if = { #Murakoz megye
-		limit = { state = 880 }
-		880 = {
-			set_state_name = Murinsel
-		}
+		limit = {
+			state = 880
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = Murinsel
 		set_province_name = {
 			id = 6672
 			name = Tschakathurn
@@ -536,10 +632,11 @@ apply_german_places = {
 	}
 
 	if = { #Znaim
-		limit = { state = 883 }
-		883 = {
-			set_state_name = GER_Znaim
-		}
+		limit = {
+			state = 883
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Znaim
 		set_province_name = {
 			id = 3718
 			name = GER_Znaim
@@ -547,10 +644,11 @@ apply_german_places = {
 	}
 
 	if = { #Vienna
-		limit = { state = 884 }
-		884 = {
-			set_state_name = GER_Wien
-		}
+		limit = {
+			state = 884
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Wien
 		set_province_name = {
 			id = 11666
 			name = GER_Wien
@@ -558,7 +656,10 @@ apply_german_places = {
 	}
 
 	if = { #Ostmark
-		limit = { state = 903 }
+		limit = {
+			state = 903
+			is_german_speaking_country = yes
+	 	}
 		set_province_name = {
 			id = 3473
 			name = GER_Kustrin
@@ -566,19 +667,58 @@ apply_german_places = {
 	}
 
 	if = { #Suczawa
-		limit = { state = 904 }
-		904 = {
-			set_state_name = GER_Suczawa
+		limit = {
+			state = 904
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Suczawa
+	}
+
+	if = { #Katowice
+		limit = {
+			state = 908
+			is_german_speaking_country = yes
+		}
+		set_state_name = GER_Kattowitz
+		set_province_name = {
+			id = 6464
+			name = GER_Kattowitz
 		}
 	}
 
 	if = { #Danzig
-	limit = { state = 915 }
-	915 = {
+		limit = {
+			state = 915
+			is_german_speaking_country = yes
+	 	}
 		set_state_name = GER_Danzig
+		set_province_name = {
+			id = 362
+			name = GER_Danzig
+		}
 	}
-	set_province_name = {
-		id = 362
-		name = GER_Danzig
+
+	if = { #Upper Palatinate
+		limit = {
+			state = 957
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Oberpfalz
+	}
+
+	if = { #Lower Franconia
+		limit = {
+			state = 958
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Unterfranken
+	}
+
+	if = { #Upper Franconia
+		limit = {
+			state = 959
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Oberfranken
 	}
 }

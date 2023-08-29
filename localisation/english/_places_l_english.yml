@@ -109,6 +109,22 @@
  GER_Koln:0 "Köln"
 
 
+#52, Upper Bavaria
+ GER_Oberbayern:0 "Oberbayern"
+
+
+#53, Lower Bavaria
+ GER_Niederbayern:0 "Niederbayern"
+
+
+#54, Middle Franconia
+ GER_Mittelfranken:0 "Mittelfranken"
+
+
+#60, Thüringen
+ GER_Thuringen:0 "Thüringen"
+
+
 #63, Pommern
  GER_Pommern:0 "Pommern"
  POL_Pomorze:0 "Pomorze"
@@ -141,8 +157,6 @@
  GER_Oberschlesien:0 "Oberschlesien"
  POL_Gorny_Slask:0 "Gorny Slask"
 
- GER_Kattowitz:0 "Kattowitz"
- POL_Katowice:0 "Katowice"
  GER_Oppeln:0 "Oppeln"
  POL_Opole:0 "Opole"
  GER_Gleiwitz:0 "Gleiwitz"
@@ -223,7 +237,7 @@
 
 #88, Krakau
  GER_Krakau:0 "Krakau"
- POL_Krakow:0 "Krakow"
+ POL_Krakow:0 "Kraków"
 
  GER_Tarnau:0 "Tarnau"
  POL_Tarnow:0 "Tarnow"
@@ -332,24 +346,24 @@
 
 #158, Piemonte
  Piemonte:0 "피에몬테"
- Piemont:0 "피에몽"
+ FRA_Piemont:0 "Piemont"
 
  Torino:0 "토리노"
- Turin:0 "튀랭"
+ FRA_Turin:0 "Turin"
 
 
 #159, Lombardy
  Lombardia:0 "롬바르디아"
- Lombardie:0 "롬바르디"
- Lombardei:0 "롬바르다이"
+ FRA_Lombardie:0 "Lombardie"
+ GER_Lombardei:0 "Lombardei"
 
  Milano:0 "밀라노"
- Milan:0 "밀롱"
- Mailand:0 "마일란트"
+ FRA_Milan:0 "Milan"
+ GER_Mailand:0 "Mailand"
 
 
 #163, Trient
- Trient:0 "트리엔트"
+ GER_Trient:0 "Trient"
  Trento:0 "트렌토"
 
 
@@ -367,7 +381,7 @@
 
 
 #188, Memel
- Memel:0 "메멜"
+ GER_Memel:0 "Memel"
  Klaipeda:0 "클라이페다"
  Klajpeda:0 "크와이페다"
 
@@ -397,6 +411,7 @@
 #195, Saint Petersburg
  RUS_StPetersburg:0 "Saint Petersburg"
  RUS_Leningrad:0 "Leningrad"
+ GER_StPetersburg:0 "Sankt Petersburg"
 
 
 #197, Nikolayev
@@ -573,12 +588,12 @@
 
 
 #458, Tunisia
- Tunisie:0 "튀니지"
+ FRA_Tunisie:0 "Tunisie"
  Tunisia:0 "투니지아"
 
- Bizerte:0 "비제르테"
+ FRA_Bizerte:0 "Bizerte"
  Biserta:0 "비제르타"
- Tunis:0 "튀니스"
+ FRA_Tunis:0 "Tunis"
 
 
 #525, Gyeonggi
@@ -607,11 +622,11 @@
 
 
 #735, Savoy
- Savoie:0 "사부아"
+ FRA_Savoie:0 "Savoie"
  Savoy:0 "사보이"
  Savoia:0 "사보이아"
 
- Annecy:0 "안시"
+ FRA_Annecy:0 "Annecy"
  Annesi:0 "안네시"
 
 
@@ -623,13 +638,14 @@
  CHI_Beijing:0 "Beijing"
  CHI_Beiping:0 "Beiping"
 
+
 #762, Nice
- Nice:0 "니스"
+ FRA_Nice:0 "Nice"
  Nizza:0 "니차"
 
 
 #763, Königsberg
- Konigsberg:0 "쾨니히스베르크"
+ GER_Konigsberg:0 "Königsberg"
  Krolewiec:0 "크롤레비츠"
 
 
@@ -642,7 +658,7 @@
  Vilna_RUS:0 "빌나"
  Vilna_LAT:0 "빌냐"
  Vilnius:0 "빌뉴스"
- Wilna:0 "빌나"
+ GER_Wilna:0 "빌나"
  Wilno:0 "빌노"
  Vilno:0 "빌노"
  Vilnia:0 "빌냐"
@@ -673,8 +689,8 @@
 
 
 #807, Westpreußen
- Westpreussen:0 "베스트프로이센"
- Gdingen:0 "그딩겐"
+ GER_Westpreussen:0 "Westpreußen"
+ GER_Gdingen:0 "Gdingen"
  Gdynia:0 "그디니아"
 
  Thorn:0 "토른"
@@ -696,16 +712,16 @@
 
 
 #835, Berlin
- Berlin:0 "베를린"
- Berlin_GER:0 "§Y베를린§!"
- Berlin_FRA:0 "§B베를린§!"
- Berlin_ITA:0 "§G베를린§!"
- Berlin_Socialist:0 "§R베를린§!"
+ Berlin:0 "Berlin"
+ GER_Berlin:0 "§YBerlin§!"
+ FRA_Berlin:0 "§BBerlin§!"
+ Berlin_ITA:0 "§GBerlin§!"
+ Berlin_Socialist:0 "§RBerlin§!"
 
 
 #837, Triest
- Triest:0 "트리스트"
  Trieste:0 "트리에스테"
+ GER_Triest:0 "Triest"
  Trst:0 "트르스트"
 
 
@@ -775,13 +791,21 @@
  Sonderjyllands:0 "쇠네르윌란"
 
 
+#849, Swabia
+ GER_Schwaben:0 "Schwaben"
+
+
+#867, Saxony-Anhalt
+ GER_Sachsen-Anhalt:0 "Sachsen-Anhalt"
+
+
 #869, Nancy
- Nancy:0 "낭시"
+ FRA_Nancy:0 "Nancy"
  Nanzig:0 "난치히"
 
 
 #870, Sedan
- Sedan_FRA:0 "스당"
+ FRA_Sedan:0 "Sedan"
  Sedan_GER:0 "제단"
 
 
@@ -911,6 +935,11 @@
  POL_Suczawa:0 "수차바"
 
 
+#908, Katowice
+ GER_Kattowitz:0 "Kattowitz"
+ POL_Katowice:0 "Katowice"
+
+
 #910, South Gyeongsang
  KOR_Gyeongsangnamdo:0 "Gyeongsangnamdo"
  JAP_Keishonando:0 "Keishōnandō"
@@ -970,6 +999,18 @@
 #918, Pyongyang
  KOR_Pyongyang:0 "Pyongyang"
  JAP_Heijo:0 "Heijō"
+
+
+#957, Upper Palatinate
+ GER_Oberpfalz:0 "Oberpfalz"
+
+
+#958, Lower Franconia
+ GER_Unterfranken:0 "Unterfranken"
+
+
+#959, Upper Franconia
+ GER_Oberfranken:0 "Oberfranken"
 
 
 # Soviet Provinces

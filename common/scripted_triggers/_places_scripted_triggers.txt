@@ -1,0 +1,13 @@
+has_german_name = {
+	OR = {
+		has_state_flag = german_name
+		NOT = { has_state_flag = german_name }
+	}
+}
+
+has_polish_name = {
+	OR = {
+		has_state_flag = polish_name
+		NOT = { has_state_flag = polish_name }
+	}
+}

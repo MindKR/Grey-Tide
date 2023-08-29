@@ -51,6 +51,9 @@ GT_startup_cultures = {
 	set_variable = { 151.nationality = 1.1 }
 	set_variable = { 882.nationality = 1.1 }
 	set_variable = { 884.nationality = 1.1 }
+	set_variable = { 957.nationality = 1.1 }
+	set_variable = { 958.nationality = 1.1 }
+	set_variable = { 959.nationality = 1.1 }
 
 	#German-Polish Culture
 	set_variable = { 5.nationality = 1.2 }

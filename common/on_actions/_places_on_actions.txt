@@ -8,8 +8,8 @@ on_actions = {
 						option = Endonym-C
 					}
 				}
-				set_global_flag = Endonym-C_flag
-				every_state = { activate_Endonym-C = yes }
+				set_global_flag = Endonyms-C_flag
+				every_state = { GT_activate_endonyms-c = yes }
 			}
 			else_if = {
 				limit = {
@@ -34,13 +34,24 @@ on_actions = {
 		}
 	}
 
+	on_weekly = {
+		effect = {
+			if = {
+				limit = {
+					has_global_flag = Endonyms-C_flag
+				}
+				every_state = { GT_activate_endonyms-c = yes }
+			}
+		}
+	}
+
 	on_state_control_changed = {
 		effect = {
 			if = {
 				limit = {
-					has_global_flag = Endonym-C_flag
+					has_global_flag = Endonyms-C_flag
 				}
-				FROM.FROM = { activate_Endonym-C = yes }
+				FROM.FROM = { GT_activate_endonyms-c = yes }
 			}
 			if = {
 				limit = {

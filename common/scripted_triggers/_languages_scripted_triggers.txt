@@ -23,12 +23,9 @@ is_arabic_speaking_country = {
 }
 
 is_german_speaking_country = {
-	custom_trigger_tooltip = {
-		tooltip = is_german_speaking_country_tt
-		OR = {
-			original_tag = GER
-			original_tag = AUS
-		}
+	OR = {
+		is_controlled_by = GER
+		is_controlled_by = AUS
 	}
 }
 
@@ -38,26 +35,6 @@ is_japanese_speaking_country = {
 		OR = {
 			original_tag = JAP
 			has_autonomy_state = GT_sotokufu
-		}
-	}
-}
-
-is_polish_speaking_country = {
-	custom_trigger_tooltip = {
-		tooltip = is_polish_speaking_country_tt
-		OR = {
-			original_tag = POL
-			original_tag = GAL
-		}
-	}
-}
-
-is_turkish_speaking_country = {
-	custom_trigger_tooltip = {
-		tooltip = is_turkish_speaking_country_tt
-		OR = {
-			original_tag = TUR
-			original_tag = OTT
 		}
 	}
 }
@@ -82,17 +59,6 @@ is_slovene_speaking_country = {
 	}
 }
 
-is_spanish_speaking_country = {
-	custom_trigger_tooltip = {
-		tooltip = is_spanish_speaking_country_tt
-		OR = {
-			original_tag = SPR
-			original_tag = FAL
-			original_tag = ALF
-		}
-	}
-}
-
 is_romanian_speaking_country = {
 	custom_trigger_tooltip = {
 		tooltip = is_romanian_speaking_country_tt
@@ -111,7 +77,7 @@ is_serbo-croatian_speaking_country = {
 			original_tag = SER
 			original_tag = CRO
 			original_tag = BOS
-			original_tag = MON
+			original_tag = MNT
 			original_tag = YUG
 		}
 	}

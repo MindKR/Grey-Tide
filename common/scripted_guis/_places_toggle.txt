@@ -20,17 +20,17 @@ scripted_gui = {
 				if = {
 					limit = {
 						NOT = {
-							has_global_flag = Endonym-C_flag
+							has_global_flag = Endonyms-C_flag
 							has_global_flag = Endonym-S_flag
 						}
 					}
-					enable_Endonym-C = yes
+					GT_enable_endonyms-c = yes
 					set_variable = { global.places_frame = 1 }
 
 					log = "[GetDateText]: [Root.GetName]: event worldnews.1 FROM = [From.GetName]"
 				}
 				else_if = {
-					limit = { has_global_flag = Endonym-C_flag }
+					limit = { has_global_flag = Endonyms-C_flag }
 					disable_Endonym-C = yes
 					enable_Endonym-S = yes
 					set_variable = { global.places_frame = 2 }
@@ -39,7 +39,8 @@ scripted_gui = {
 				}
 				else_if = {
 					limit = { has_global_flag = Endonym-S_flag }
-					disable_Endonym-S = yes
+					clr_global_flag = Endonym-S_flag
+					GT_activate_exonyms = yes
 					set_variable = { global.places_frame = 3 }
 
 					log = "[GetDateText]: [Root.GetName]: event worldnews.3 FROM = [From.GetName]"
