@@ -56,6 +56,10 @@
  ITA_Aiaccio:0 "Aiaccio"
 
 
+#4, Lower Austria
+ GER_Niederosterreich:0 "Niederösterreich"
+
+
 #5, Ermland-Masuren
  GER_Ermland-Masuren:0 "Ermland-Masuren"
  POL_Warmia-Masuria:0 "Warmia-Masuria"
@@ -80,15 +84,15 @@
 
 
 #28, Elsaß-Lothringen
- GER_Elsass-Lothringen:0 "Elsass-Lothringen"
  FRA_Alsace-Lorraine:0 "Alsace-Lorraine"
-
- GER_Mulhausen:0 "Mulhausen"
  FRA_Mulhouse:0 "Mulhouse"
- GER_Strassburg:0 "Strassburg"
  FRA_Strasbourg:0 "Strasbourg"
- GER_Metz:0 "Metz"
  FRA_Metz:0 "Metz"
+
+ GER_Elsass-Lothringen:0 "Elsass-Lothringen"
+ GER_Mulhausen:0 "Mulhausen"
+ GER_Strassburg:0 "Straßburg"
+ GER_Metz:0 "Metz"
 
 
 #39, Südtirol
@@ -107,6 +111,15 @@
 #51, Rhineland
  GER_Rheinland:0 "Rheinland"
  GER_Koln:0 "Köln"
+ GER_Trier:0 "Trier"
+
+ FRA_Rhenanie:0 "Rhénanie"
+ FRA_Cologne:0 "Cologne"
+ FRA_Treves:0 "Trèves"
+
+ ITA_Renania:0 "Renania"
+ ITA_Colonia:0 "Colonia"
+ ITA_Treviri:0 "Treviri"
 
 
 #52, Upper Bavaria
@@ -344,27 +357,31 @@
  Krym_UKR:0 "크름"
 
 
+#152, Upper Austria
+ GER_Oberosterreich:0 "Oberösterreich"
+
+
 #158, Piemonte
- Piemonte:0 "피에몬테"
+ ITA_Piemonte:0 "Piemonte"
  FRA_Piemont:0 "Piemont"
 
- Torino:0 "토리노"
+ ITA_Torino:0 "토리노"
  FRA_Turin:0 "Turin"
 
 
 #159, Lombardy
- Lombardia:0 "롬바르디아"
+ ITA_Lombardia:0 "Lombardia"
  FRA_Lombardie:0 "Lombardie"
  GER_Lombardei:0 "Lombardei"
 
- Milano:0 "밀라노"
+ ITA_Milano:0 "Milano"
  FRA_Milan:0 "Milan"
  GER_Mailand:0 "Mailand"
 
 
 #163, Trient
  GER_Trient:0 "Trient"
- Trento:0 "트렌토"
+ ITA_Trento:0 "Trento"
 
 
 #184, Thrace
@@ -589,10 +606,10 @@
 
 #458, Tunisia
  FRA_Tunisie:0 "Tunisie"
- Tunisia:0 "투니지아"
+ ITA_Tunisia:0 "Tunisia"
 
  FRA_Bizerte:0 "Bizerte"
- Biserta:0 "비제르타"
+ ITA_Biserta:0 "Biserta"
  FRA_Tunis:0 "Tunis"
 
 
@@ -624,10 +641,10 @@
 #735, Savoy
  FRA_Savoie:0 "Savoie"
  Savoy:0 "사보이"
- Savoia:0 "사보이아"
+ ITA_Savoia:0 "Savoia"
 
  FRA_Annecy:0 "Annecy"
- Annesi:0 "안네시"
+ ITA_Annesi:0 "Annesi"
 
 
 #742, Dushanbe
@@ -641,7 +658,7 @@
 
 #762, Nice
  FRA_Nice:0 "Nice"
- Nizza:0 "니차"
+ ITA_Nizza:0 "Nizza"
 
 
 #763, Königsberg
@@ -715,14 +732,22 @@
  Berlin:0 "Berlin"
  GER_Berlin:0 "§YBerlin§!"
  FRA_Berlin:0 "§BBerlin§!"
- Berlin_ITA:0 "§GBerlin§!"
+ ITA_Berlin:0 "§GBerlin§!"
  Berlin_Socialist:0 "§RBerlin§!"
 
 
 #837, Triest
- Trieste:0 "트리에스테"
+ ITA_Trieste:0 "Trieste"
  GER_Triest:0 "Triest"
  Trst:0 "트르스트"
+
+
+#838, Styria
+ GER_Steiermark:0 "Steiermark"
+
+
+#839, Carinthia
+ GER_Karnten:0 "Kärnten"
 
 
 #840, North Chungcheong
@@ -783,7 +808,7 @@
 #846, Lika
  GER_Sankt_Veit_am_Flaum:0 "장크트 파이트 암 플라움"
  SCR_Rijeka:0 "리예카"
- ITA_Fiume:0 "피우메"
+ ITA_Fiume:0 "Fiume"
 
 
 #848, Nordschleswig

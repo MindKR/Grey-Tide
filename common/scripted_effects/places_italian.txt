@@ -1,10 +1,11 @@
 apply_italian_places = {
 
 	if = { #Corsica
-		limit = { state = 1 }
-		1 = { #Corsica
-			set_state_name = ITA_Corsica
+		limit = {
+			state = 1
+			is_controlled_by = ITA
 		}
+		set_state_name = ITA_Corsica
 		set_province_name = { #Ajaccio
 			id = 3838
 			name = ITA_Aiaccio
@@ -12,21 +13,39 @@ apply_italian_places = {
 	}
 
 	if = { #Südtirol
-		limit = { state = 39 }
-		39 = {
-			set_state_name = ITA_Bolzano
+		limit = {
+			state = 39
+			is_controlled_by = ITA
 		}
+		set_state_name = ITA_Bolzano
 		set_province_name = {
 			id = 11598
 			name = ITA_Bolzano
 		}
 	}
 
-	if = { #Dalmatia
-		limit = { state = 103 }
-		103 = {
-			set_state_name = ITA_Dalmazia
+	if = { #Rhineland
+		limit = {
+			state = 51
+			is_controlled_by = ITA
 		}
+		set_state_name = ITA_Renania
+		set_province_name = {
+			id = 587
+			name = ITA_Colonia
+		}
+		set_province_name = {
+			id = 9575
+			name = ITA_Treviri
+		}
+	}
+
+	if = { #Dalmatia
+		limit = {
+			state = 103
+			is_controlled_by = ITA
+		}
+		set_state_name = ITA_Dalmazia
 		set_province_name = {
 			id = 3868
 			name = ITA_Ragusa
@@ -38,99 +57,109 @@ apply_italian_places = {
 	}
 
 	if = { #Piemonte
-		limit = { state = 158 }
-		158 = {
-			set_state_name = Piemonte
+		limit = {
+			state = 158
+			is_controlled_by = ITA
 		}
+		set_state_name = ITA_Piemonte
 		set_province_name = {
 			id = 6780
-			name = Torino
+			name = ITA_Torino
 		}
 	}
 
 	if = { #Lombardy
-		limit = { state = 159 }
-		159 = {
-			set_state_name = Lombardia
+		limit = {
+			state = 159
+			is_controlled_by = ITA
 		}
+		set_state_name = ITA_Lombardia
 		set_province_name = {
 			id = 3780
-			name = Milano
+			name = ITA_Milano
 		}
 	}
 
 	if = { #Trient
-		limit = { state = 163 }
-		163 = {
-			set_state_name = Trento
+		limit = {
+			state = 163
+			is_controlled_by = ITA
 		}
+		set_state_name = ITA_Trento
 		set_province_name = {
 			id = 9598
-			name = Trento
+			name = ITA_Trento
 		}
 	}
 
 	if = { #Tunisia
-		limit = { state = 458 }
-		458 = { #Tunisia
-			set_state_name = Tunisia
+		limit = {
+			state = 458
+			is_controlled_by = ITA
 		}
+		set_state_name = ITA_Tunisia
 		set_province_name = { #Bizerte
 			id = 9994
-			name = Biserta
+			name = ITA_Biserta
 		}
 		set_province_name = { #Tunis
 			id = 11969
-			name = Tunisia
+			name = ITA_Tunisia
 		}
 	}
 
 	if = { #Savoy
-		limit = { state = 735 }
-		735 = { #Savoy
-			set_state_name = Savoia
+		limit = {
+			state = 735
+			is_controlled_by = ITA
 		}
-		735 = { #Savoy
-			set_state_name = Savoia
-		}
+		set_state_name = ITA_Savoia
 		set_province_name = { #Annecy
 			id = 778
-			name = Annesi
+			name = ITA_Annesi
 		}
 	}
 
 	if = { #Nice
-		limit = { state = 762 }
-		762 = { #Nice
-			set_state_name = Nizza
+		limit = {
+			state = 762
+			is_controlled_by = ITA
 		}
+		set_state_name = ITA_Nizza
 		set_province_name = {
 			id = 9909
-			name = Nizza
+			name = ITA_Nizza
 		}
 	}
 
 	if = { #Berlin
-		limit = { state = 835 }
+		limit = {
+			state = 835
+			is_controlled_by = ITA
+		}
 		set_province_name = {
 			id = 6521
-			name = Berlin_ITA
+			name = ITA_Berlin
 		}
 	}
 
 	if = { #Triest
-		limit = { state = 837 }
-		837 = {
-			set_state_name = Trieste
+		limit = {
+			state = 837
+			is_controlled_by = ITA
 		}
+		set_state_name = ITA_Trieste
 		set_province_name = {
 			id = 6626
-			name = Trieste
+			name = ITA_Trieste
 		}
 	}
 
 	if = { #Lika
-		limit = { state = 846 }
+		limit = {
+			state = 846
+			is_controlled_by = ITA
+		}
 		set_province_name = {
 			id = 11564
 			name = ITA_Fiume

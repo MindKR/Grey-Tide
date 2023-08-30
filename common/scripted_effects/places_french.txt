@@ -3,7 +3,7 @@ apply_french_places = {
 	if = { #Corsica
 		limit = {
 			state = 1
-			is_controlled_by = FRA
+			is_french_speaking_country = yes
 		}
 		set_state_name = FRA_Corse
 		set_province_name = { #Ajaccio
@@ -15,7 +15,7 @@ apply_french_places = {
 	if = { #Champagne
 		limit = {
 			state = 18
-			is_controlled_by = FRA
+			is_french_speaking_country = yes
 		}
 		set_province_name = {
 			id = 3546
@@ -26,7 +26,7 @@ apply_french_places = {
 	if = { #Alsace-Lorraine
 		limit = {
 			state = 28
-			is_controlled_by = FRA
+			is_french_speaking_country = yes
 		}
 		set_state_name = FRA_Alsace-Lorraine
 		set_province_name = {
@@ -43,10 +43,26 @@ apply_french_places = {
 		}
 	}
 
+	if = { #Rhineland
+		limit = {
+			state = 51
+			is_french_speaking_country = yes
+		}
+		set_state_name = FRA_Rhenanie
+		set_province_name = {
+			id = 587
+			name = FRA_Cologne
+		}
+		set_province_name = {
+			id = 9575
+			name = FRA_Treves
+		}
+	}
+
 	if = { #Piemonte
 		limit = {
 			state = 158
-			is_controlled_by = FRA
+			is_french_speaking_country = yes
 		}
 		set_state_name = FRA_Piemont
 		set_province_name = {
@@ -58,7 +74,7 @@ apply_french_places = {
 	if = { #Lombardy
 		limit = {
 			state = 159
-			is_controlled_by = FRA
+			is_french_speaking_country = yes
 		}
 		set_state_name = FRA_Lombardie
 		set_province_name = {
@@ -70,7 +86,7 @@ apply_french_places = {
 	if = { #Tunisia
 		limit = {
 			state = 458
-			is_controlled_by = FRA
+			is_french_speaking_country = yes
 		}
 		set_state_name = FRA_Tunisie
 		set_province_name = { #Bizerte
@@ -86,7 +102,7 @@ apply_french_places = {
 	if = { #Savoy
 		limit = {
 			state = 735
-			is_controlled_by = FRA
+			is_french_speaking_country = yes
 		}
 		set_state_name = FRA_Savoie
 		set_province_name = { #Annecy
@@ -98,7 +114,7 @@ apply_french_places = {
 	if = { #Nice
 		limit = {
 			state = 762
-			is_controlled_by = FRA
+			is_french_speaking_country = yes
 		}
 		set_state_name = FRA_Nice
 		set_province_name = {
@@ -110,7 +126,7 @@ apply_french_places = {
 	if = { #Berlin
 		limit = {
 			state = 835
-			is_controlled_by = FRA
+			is_french_speaking_country = yes
 		}
 		set_province_name = {
 			id = 6521
@@ -121,7 +137,7 @@ apply_french_places = {
 	if = { #Nancy
 		limit = {
 			state = 869
-			is_controlled_by = FRA
+			is_french_speaking_country = yes
 		}
 		set_state_name = FRA_Nancy
 		set_province_name = {
@@ -133,7 +149,7 @@ apply_french_places = {
 	if = { #Sedan
 		limit = {
 			state = 870
-			is_controlled_by = FRA
+			is_french_speaking_country = yes
 		}
 		set_state_name = FRA_Sedan
 		set_province_name = {

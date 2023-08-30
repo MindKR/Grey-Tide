@@ -1,4 +1,12 @@
 apply_german_places = {
+	if = { #Lower Austria
+		limit = {
+			state = 152
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Niederosterreich
+	}
+
 	if = { #Ermland-Masuren
 		limit = {
 			state = 5
@@ -79,6 +87,10 @@ apply_german_places = {
 		set_province_name = {
 			id = 587
 			name = GER_Koln
+		}
+		set_province_name = {
+			id = 9575
+			name = GER_Trier
 		}
 	}
 
@@ -373,6 +385,14 @@ apply_german_places = {
 		}
 	}
 
+	if = { #Upper Austria
+		limit = {
+			state = 152
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Oberosterreich
+	}
+
 	if = { #Lombardy
 		limit = {
 			state = 159
@@ -506,6 +526,22 @@ apply_german_places = {
 			id = 6626
 			name = GER_Triest
 		}
+	}
+
+	if = { #Styria
+		limit = {
+			state = 838
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Steiermark
+	}
+
+	if = { #Carinthia
+		limit = {
+			state = 839
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Karnten
 	}
 
 	if = { #Lika

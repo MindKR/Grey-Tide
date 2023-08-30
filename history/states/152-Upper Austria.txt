@@ -20,15 +20,15 @@ state={
 		victory_points = {
 			732 10 
 		}
+		add_core_of = GER
 		add_core_of = AUS
-
 	}
 
 	provinces={
 		732 3684 3703 6708 9665 
 	}
-	manpower=870000
+	manpower=1076244
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=three
 	local_supplies=0.000
 }

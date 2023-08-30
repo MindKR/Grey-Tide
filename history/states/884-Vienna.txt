@@ -6,7 +6,7 @@ state={
 	history={
 		owner = GER
 		victory_points = {
-			11666 50 
+			11666 30 
 		}
 		buildings = {
 			infrastructure = 3
@@ -14,14 +14,14 @@ state={
 
 		}
 		add_core_of = GER
-
+		add_core_of = AUS
 	}
 
 	provinces={
 		11666 
 	}
-	manpower=591379
+	manpower=1640954
 	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=2.000
+	state_category=four
+	local_supplies=3.000
 }

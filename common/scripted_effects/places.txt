@@ -20,10 +20,7 @@ GT_activate_endonyms-c = {
 
 	apply_french_places = yes
 	apply_german_places = yes
-
-#		else_if = { limit = { controller = { tag = ITA } }
-#			apply_italian_places = yes
-#		}
+	apply_italian_places = yes
 
 #		else_if = { limit = { controller = { tag = SOV } }
 #			apply_russian_places = yes
@@ -99,7 +96,7 @@ GT_activate_endonyms-c = {
 disable_Endonym-C = {
 	clr_global_flag = Endonyms-C_flag
 	every_state = { reset_state_name = yes }
-	reset_places = yes
+	GT_activate_exonyms = yes
 }
 
 

@@ -29,6 +29,23 @@ is_german_speaking_country = {
 	}
 }
 
+is_french_speaking_country = {
+	OR = {
+		is_controlled_by = FRA
+		controller = {
+			overlord = { original_tag = FRA }
+			OR = {
+				original_tag = WAF
+				original_tag = EAF
+				original_tag = MOR
+				original_tag = TUN
+				original_tag = DJI
+				original_tag = MAD
+			}
+		}
+	}
+}
+
 is_japanese_speaking_country = {
 	custom_trigger_tooltip = {
 		tooltip = is_japanese_speaking_country_tt

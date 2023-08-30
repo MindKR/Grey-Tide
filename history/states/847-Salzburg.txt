@@ -13,6 +13,7 @@ state={
 			industrial_complex = 1
 
 		}
+		add_core_of = GER
 		add_core_of = AUS
 
 	}
@@ -20,9 +21,9 @@ state={
 	provinces={
 		688 3675 
 	}
-	manpower=200000
+	manpower=314363
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=one
 
 	local_supplies = 0.0 
 }

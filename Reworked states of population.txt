@@ -1,12 +1,23 @@
+4	GER	Lower Austria
+52	GER	Upper Bavaria
+53	GER	Lower Bavaria
+54	GER	Middle Franconia
+152	GER	Upper Austria
+153	GER	Tyrol
 282	JAP	Tokyo
 525	KOR	Gyeonggi
 527	KOR	South Pyongan
+838	GER	Styria
+839	GER	Carinthia
 840	KOR	North Cungcheong
 841	KOR	Gangwon
 842	KOR	North Jeolla
 843	KOR	North Gyeongsang
 844	KOR	Hwanghae
 845	KOR	South Hamgyeong
+847	GER	Salzburg
+849	GER	Swabia
+855	GER	Vorarlberg
 910	KOR	South Gyeong
 911	KOR	South Jeolla
 912	KOR	South Chungcheong
@@ -15,3 +26,6 @@
 916	JAP	Kanto
 917	KOR	Seoul
 918 ... 955
+957	GER Upper Palatinate
+958	GER	Lower Franconia
+959	GER	Upper Franconia

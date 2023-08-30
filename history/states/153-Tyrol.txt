@@ -2,9 +2,9 @@
 state={
 	id=153
 	name="STATE_153"
-	manpower = 310000
+	manpower = 416159
 	
-	state_category = town
+	state_category = one
 
 	history={
 		owner = GER
@@ -16,6 +16,7 @@ state={
 			industrial_complex = 1
 			air_base = 3
 		}
+		add_core_of = GER
 		add_core_of = AUS
 	}
 
