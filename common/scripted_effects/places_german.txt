@@ -78,6 +78,17 @@ apply_german_places = {
 		}
 	}
 
+	if = { #Westmark
+		limit = {
+			state = 42
+			is_german_speaking_country = yes
+	 	}
+		set_province_name = {
+			id = 11531
+			name = GER_Saarbruken
+		}
+	}
+
 	if = { #Rhineland
 		limit = {
 			state = 51
@@ -102,20 +113,68 @@ apply_german_places = {
 		set_state_name = GER_Oberbayern
 	}
 
-	if = { #Middle Franconia
-		limit = {
-			state = 54
-			is_german_speaking_country = yes
-	 	}
-		set_state_name = GER_Mittelfranken
-	}
-
 	if = { #Lower Bavaria
 		limit = {
 			state = 53
 			is_german_speaking_country = yes
 	 	}
 		set_state_name = GER_Niederbayern
+	}
+
+	if = { #Middle Franconia
+		limit = {
+			state = 54
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Mittelfranken
+		set_province_name = {
+			id = 11544
+			name = GER_Nurnberg
+		}
+	}
+
+	if = { #Hesse
+		limit = {
+			state = 55
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Hessen
+		set_province_name = {
+			id = 564
+			name = GER_Kassel
+		}
+		set_province_name = {
+			id = 6488
+			name = GER_Frankfurt
+		}
+		set_province_name = {
+			id = 11560
+			name = GER_Mainz
+		}
+	}
+
+	if = { #Westfalen
+		limit = {
+			state = 57
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Westfalen
+		set_province_name = {
+			id = 11560
+			name = GER_Mainz
+		}
+	}
+
+	if = { #Hanover-Brunswick
+		limit = {
+			state = 59
+			is_german_speaking_country = yes
+	 	}
+		set_state_name = GER_Hannover-Braunschweig
+		set_province_name = {
+			id = 9375
+			name = GER_Braunschweig
+		}
 	}
 
 	if = { #Thuringia

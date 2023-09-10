@@ -43,6 +43,17 @@ apply_french_places = {
 		}
 	}
 
+	if = { #Westmark
+		limit = {
+			state = 42
+			is_french_speaking_country = yes
+	 	}
+		set_province_name = {
+			id = 11531
+			name = FRA_Sarrebruck
+		}
+	}
+
 	if = { #Rhineland
 		limit = {
 			state = 51
@@ -56,6 +67,26 @@ apply_french_places = {
 		set_province_name = {
 			id = 9575
 			name = FRA_Treves
+		}
+	}
+
+	if = { #Hesse
+		limit = {
+			state = 55
+			is_french_speaking_country = yes
+	 	}
+		set_state_name = FRA_Hesse
+		set_province_name = {
+			id = 564
+			name = FRA_Cassel
+		}
+		set_province_name = {
+			id = 6488
+			name = FRA_Francfort
+		}
+		set_province_name = {
+			id = 11560
+			name = FRA_Mayence
 		}
 	}
 

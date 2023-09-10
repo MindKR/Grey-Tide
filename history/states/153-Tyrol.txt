@@ -2,9 +2,6 @@
 state={
 	id=153
 	name="STATE_153"
-	manpower = 416159
-	
-	state_category = one
 
 	history={
 		owner = GER
@@ -12,17 +9,21 @@ state={
 			673 5 
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
 			industrial_complex = 1
 			air_base = 3
+
 		}
 		add_core_of = GER
 		add_core_of = AUS
+
 	}
 
 	provinces={
-		671 673 6678 9633 9636 11618 11634 
+		673 6678 9633 9636 11618 11634 
 	}
-
-	local_supplies=12.0 
+	manpower=416159
+	buildings_max_level_factor=1.000
+	state_category=one
+	local_supplies=12.000
 }

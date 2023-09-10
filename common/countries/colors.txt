@@ -37,8 +37,8 @@ CZE = {
 	color_ui = rgb { 70 217 203 }
 }
 POL = {
-	color = rgb { 197 92 106 }
-	color_ui = rgb { 255 120 138 }
+	color = rgb { 215 70 100 }
+	color_ui = rgb { 215 70 100 }
 }
 AUS = {
 	color = rgb { 194 198 215 }
@@ -117,8 +117,8 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 152 85 92 }
-	color_ui = rgb { 152 85 92 }
+	color = rgb { 215 125 100 }
+	color_ui = rgb { 215 125 100 }
 }
 AFG = {
 	color = rgb { 64 160 167 }

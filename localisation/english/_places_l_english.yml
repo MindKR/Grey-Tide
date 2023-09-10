@@ -101,6 +101,11 @@
  ITA_Bolzano:0 "Bolzano"
 
 
+#42, Westmark
+ GER_Saarbruken:0 "Saarbrücken"
+ FRA_Sarrebruck:0 "Sarrebruck"
+
+
 #49, Ankara
  TUR_Ankara:0 "Ankara"
  GRE_Ancyra:0 "Ancyra"
@@ -132,6 +137,28 @@
 
 #54, Middle Franconia
  GER_Mittelfranken:0 "Mittelfranken"
+ GER_Nurnberg:0 "Nürnberg"
+
+
+#55, Hesse
+ GER_Hessen:0 "Hessen"
+ GER_Kassel:0 "Kassel"
+ GER_Frankfurt:0 "Frankfurt"
+ GER_Mainz:0 "Mainz"
+
+ FRA_Hesse:0 "Hesse"
+ FRA_Cassel:0 "Cassel"
+ FRA_Francfort:0 "Francfort"
+ FRA_Mayence:0 "Mayence"
+
+
+#57, Westfalen
+ GER_Westfalen:0 "Westfalen"
+
+
+#59, Hanover-Brunswick
+ GER_Hannover-Braunschweig:0 "Hannover-Braunschweig"
+ GER_Braunschweig:0 "Braunschweig"
 
 
 #60, Thüringen

@@ -15,10 +15,10 @@ state={
 
 		}
 		victory_points = {
-			514 5 
+			514 20
 		}
 		victory_points = {
-			3535 5 
+			3535 20
 		}
 		add_core_of = GER
 
@@ -27,8 +27,8 @@ state={
 	provinces={
 		514 573 3514 3535 6559 9441 9471 11481 
 	}
-	manpower=5592576
+	manpower=5651485
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=twelve
 	local_supplies=0.000
 }

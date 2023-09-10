@@ -2,22 +2,22 @@ is_arabic_speaking_country = {
 	custom_trigger_tooltip = {
 		tooltip = is_arabic_speaking_country_tt
 		OR = {
-			original_tag = EGY
-			original_tag = SAU
-			original_tag = ZBS
-			original_tag = YEM
-			original_tag = IRQ
-			original_tag = YOR
-			original_tag = PAL
-			original_tag = OMA
-			original_tag = TUN
-			original_tag = LBA
-			original_tag = LEB
-			original_tag = ALG
-			original_tag = MOR
-			original_tag = SUD
-			original_tag = RWA
-			original_tag = TZN
+			is_controlled_by = EGY
+			is_controlled_by = SAU
+			is_controlled_by = ZBS
+			is_controlled_by = YEM
+			is_controlled_by = IRQ
+			is_controlled_by = YOR
+			is_controlled_by = PAL
+			is_controlled_by = OMA
+			is_controlled_by = TUN
+			is_controlled_by = LBA
+			is_controlled_by = LEB
+			is_controlled_by = ALG
+			is_controlled_by = MOR
+			is_controlled_by = SUD
+			is_controlled_by = RWA
+			is_controlled_by = TZN
 		}
 	}
 }
@@ -33,7 +33,7 @@ is_french_speaking_country = {
 	OR = {
 		is_controlled_by = FRA
 		controller = {
-			overlord = { original_tag = FRA }
+			is_subject_of = FRA
 			OR = {
 				original_tag = WAF
 				original_tag = EAF
@@ -51,7 +51,9 @@ is_japanese_speaking_country = {
 		tooltip = is_japanese_speaking_country_tt
 		OR = {
 			original_tag = JAP
-			has_autonomy_state = GT_sotokufu
+			controller = {
+				has_autonomy_state = GT_sotokufu
+			}
 		}
 	}
 }
@@ -60,8 +62,8 @@ is_croatian_speaking_country = {
 	custom_trigger_tooltip = {
 		tooltip = is_croatian_speaking_country_tt
 		OR = {
-			original_tag = CRO
-			original_tag = YUG
+			is_controlled_by = CRO
+			is_controlled_by = YUG
 		}
 	}
 }
@@ -70,8 +72,8 @@ is_slovene_speaking_country = {
 	custom_trigger_tooltip = {
 		tooltip = is_slovene_speaking_country_tt
 		OR = {
-			original_tag = SLV
-			original_tag = YUG
+			is_controlled_by = SLV
+			is_controlled_by = YUG
 		}
 	}
 }
@@ -80,9 +82,9 @@ is_romanian_speaking_country = {
 	custom_trigger_tooltip = {
 		tooltip = is_romanian_speaking_country_tt
 		OR = {
-			original_tag = ROM
-			original_tag = MOL
-			original_tag = BKO
+			is_controlled_by = ROM
+			is_controlled_by = MOL
+			is_controlled_by = BKO
 		}
 	}
 }
@@ -91,11 +93,11 @@ is_serbo-croatian_speaking_country = {
 	custom_trigger_tooltip = {
 		tooltip = is_serbo-croatian_speaking_country_tt
 		OR = {
-			original_tag = SER
-			original_tag = CRO
-			original_tag = BOS
-			original_tag = MNT
-			original_tag = YUG
+			is_controlled_by = SER
+			is_controlled_by = CRO
+			is_controlled_by = BOS
+			is_controlled_by = MNT
+			is_controlled_by = YUG
 		}
 	}
 }
@@ -104,10 +106,11 @@ is_chinese_speaking_country = {
 	custom_trigger_tooltip = {
 		tooltip = is_chinese_speaking_country_tt
 		OR = {
-			original_tag = CHI
-			original_tag = MAN
-			original_tag = HUB
-			has_autonomy_state = GT_warlord
+			is_controlled_by = CHI
+			is_controlled_by = MAN
+			is_controlled_by = HUB
+			
+			controller = { has_autonomy_state = GT_warlord }
 		}
 	}
 }
@@ -116,8 +119,8 @@ is_russian_speaking_country = {
 	custom_trigger_tooltip = {
 		tooltip = is_russian_speaking_country_tt
 		OR = {
-			original_tag = RUS
-			original_tag = SOV
+			is_controlled_by = RUS
+			is_controlled_by = SOV
 		}
 	}
 }
