@@ -1,0 +1,32 @@
+
+state={
+	id=188
+	name="STATE_188"
+
+	history={
+		victory_points = {
+			3288 3 
+		}
+		owner = GER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			3288 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = GER
+		add_core_of = LIT
+
+	}
+
+	provinces={
+		281 3288 3384 9327 
+	}
+	manpower=1119660
+	buildings_max_level_factor=1.000
+	state_category=three
+	local_supplies=0.000
+}

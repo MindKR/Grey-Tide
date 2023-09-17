@@ -1,12 +1,31 @@
 4	GER	Lower Austria
+5	GER	Allenstein
+42	GER	Saar-Palatinate
+50	GER	Wurttemberg
+51	GER	Rhineland
 52	GER	Upper Bavaria
 53	GER	Lower Bavaria
 54	GER	Middle Franconia
+55	GER	Hesse
+56	GER	Oldenburg
+57	GER	Westphalia
+59	GER	Hanover-Brunswick
+60	GER	Thuringia
+61	GER	Mecklenburg
+62	GER	Hohenzollern
+63	GER	German Pomerania
+64	GER	Brandenburg
+65	GER	Sachsen
+66	GER	Lower Silesia
+67	GER Upper Silesia
 152	GER	Upper Austria
 153	GER	Tyrol
+188	GER	Gumbinnen
 282	JAP	Tokyo
 525	KOR	Gyeonggi
 527	KOR	South Pyongan
+763	GER	Konigsberg
+835	GER	Berlin
 838	GER	Styria
 839	GER	Carinthia
 840	KOR	North Cungcheong
@@ -18,11 +37,15 @@
 847	GER	Salzburg
 849	GER	Swabia
 855	GER	Vorarlberg
+882	GER	Baden
+903	GER	Hamburg
+907	GER	Bremen
 910	KOR	South Gyeong
 911	KOR	South Jeolla
 912	KOR	South Chungcheong
 913	KOR	North Pyeongan
 914	KOR	North Hamgyong
+915	GER	Danzig
 916	JAP	Kanto
 917	KOR	Seoul
 918 ... 955

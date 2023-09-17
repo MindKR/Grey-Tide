@@ -43,11 +43,12 @@ apply_french_places = {
 		}
 	}
 
-	if = { #Westmark
+	if = { #Saar-Palatinate
 		limit = {
 			state = 42
 			is_french_speaking_country = yes
 	 	}
+		set_state_name = FRA_Sarre-Palatinat
 		set_province_name = {
 			id = 11531
 			name = FRA_Sarrebruck

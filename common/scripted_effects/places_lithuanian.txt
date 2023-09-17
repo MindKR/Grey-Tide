@@ -48,14 +48,14 @@ apply_lithuanian_places = {
 		}
 	}
 
-	if = { #Memel
+	if = { #Gumbinnen
 		limit = { state = 188 }
 		188 = {
-			set_state_name = Klaipeda
+			set_state_name = LIT_Gumbine
 		}
 		set_province_name = {
 			id = 3288
-			name = Klaipeda
+			name = LIT_Klaipeda
 		}
 	}
 

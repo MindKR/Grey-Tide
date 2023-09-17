@@ -60,10 +60,7 @@
  GER_Niederosterreich:0 "Niederösterreich"
 
 
-#5, Ermland-Masuren
- GER_Ermland-Masuren:0 "Ermland-Masuren"
- POL_Warmia-Masuria:0 "Warmia-Masuria"
-
+#5, Allenstein
  GER_Allenstein:0 "Allenstein"
  POL_Olsztyn:0 "Olsztyn"
 
@@ -101,7 +98,10 @@
  ITA_Bolzano:0 "Bolzano"
 
 
-#42, Westmark
+#42, Saar-Palatinate
+ GER_Saarpfalz:0 "Saarpfalz"
+ FRA_Sarre-Palatinat:0 "Sarre-Palatinat"
+
  GER_Saarbruken:0 "Saarbrücken"
  FRA_Sarrebruck:0 "Sarrebruck"
 
@@ -424,10 +424,14 @@
  Midilli:0 "미딜르"
 
 
-#188, Memel
+#188, Gumbinnen
+ GER_Gumbinnen:0 "Gumbinnen"
+ LIT_Gumbine:0 "Gumbinė"
+ POL_Gabin:0 "Gąbin"
+
  GER_Memel:0 "Memel"
- Klaipeda:0 "클라이페다"
- Klajpeda:0 "크와이페다"
+ LIT_Klaipeda:0 "Klaipeda"
+ POL_Klajpeda:0 "Klajpeda"
 
 
 #192, Odessa
@@ -735,7 +739,7 @@
 #807, Westpreußen
  GER_Westpreussen:0 "Westpreußen"
  GER_Gdingen:0 "Gdingen"
- Gdynia:0 "그디니아"
+ POL_Pomorze:0 "Pomorze"
 
  Thorn:0 "토른"
  Torun:0 "토룬"

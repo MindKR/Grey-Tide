@@ -1,0 +1,27 @@
+
+state={
+	id=5
+	name="STATE_5"
+
+	history={
+		victory_points = {
+			6375 3 
+		}
+		owner = GER
+		controller = GER
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = GER
+
+	}
+
+	provinces={
+		266 1924 6375 9372 9398 11386 
+	}
+	manpower=628749
+	buildings_max_level_factor=1.000
+	state_category=two
+	local_supplies=12.000
+}

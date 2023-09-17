@@ -7,12 +7,12 @@ apply_german_places = {
 		set_state_name = GER_Niederosterreich
 	}
 
-	if = { #Ermland-Masuren
+	if = { #Allenstein
 		limit = {
 			state = 5
 			is_german_speaking_country = yes
 	 	}
-		set_state_name = GER_Ermland-Masuren
+		set_state_name = GER_Allenstein
 		set_province_name = {
 			id = 6375
 			name = GER_Allenstein
@@ -78,11 +78,12 @@ apply_german_places = {
 		}
 	}
 
-	if = { #Westmark
+	if = { #Saar-Palatinate
 		limit = {
 			state = 42
 			is_german_speaking_country = yes
 	 	}
+		 set_state_name = GER_Saarpfalz
 		set_province_name = {
 			id = 11531
 			name = GER_Saarbruken
@@ -476,12 +477,12 @@ apply_german_places = {
 		}
 	}
 
-	if = { #Memel
+	if = { #Gumbinnen
 		limit = {
 			state = 188
 			is_german_speaking_country = yes
 	 	}
-		set_state_name = GER_Memel
+		set_state_name = GER_Gumbinnen
 		set_province_name = {
 			id = 3288
 			name = GER_Memel

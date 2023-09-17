@@ -1,11 +1,11 @@
 apply_polish_places = {
 
-	if = { #Ermland-Masuren
+	if = { #Allenstein
 		limit = {
 			state = 5
 			is_controlled_by = POL
 		}
-		set_state_name = POL_Warmia-Masuria
+		set_state_name = POL_Olsztyn
 		set_province_name = {
 			id = 6375
 			name = POL_Olsztyn
@@ -228,15 +228,15 @@ apply_polish_places = {
 		}
 	}
 
-	if = { #Memel
+	if = { #Gumbinnen
 		limit = {
 			state = 188
 			is_controlled_by = POL
 		}
-		set_state_name = Klajpeda
+		set_state_name = POL_Gabin
 		set_province_name = {
 			id = 3288
-			name = Klajpeda
+			name = POL_Klajpeda
 		}
 	}
 

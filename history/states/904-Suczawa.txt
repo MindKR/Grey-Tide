@@ -1,3 +1,4 @@
+
 state={
 	id=904
 	name="STATE_904"
@@ -7,12 +8,14 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		add_core_of = ROM
+
 	}
 
 	provinces={
-		6761 11689 
+		6584 6761 11689 
 	}
 	manpower=455000
 	buildings_max_level_factor=1.000
