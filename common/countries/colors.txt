@@ -321,11 +321,11 @@ GXC = {
 	color = rgb { 71 96 113 }
 	color_ui = rgb { 71 96 113 }
 }
-TMC = {
+TSH = {
 	color = rgb { 105 90 132 }
 	color_ui = rgb { 105 90 132 }
 }
-NMC = {
+NIX = {
 	color = rgb { 105 90 132 }
 	color_ui = rgb { 105 90 132 }
 }

@@ -28,11 +28,11 @@ if = {
 set_convoys = 15
 
 set_politics = {
-	ruling_party = authoritarian_socialist
-	last_election = "1936.1.1"
+	ruling_party = despot
+	last_election = "1949.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarian_socialist = 100
+	despot = 100
 }

@@ -1,0 +1,19 @@
+characters={
+	TSH_Ma_Bufang={
+		name=TSH_Ma_Bufang
+		portraits={
+			civilian={
+				large="GFX_portrait_xsm_ma_bufang"
+			}
+			army={
+				large="GFX_portrait_xsm_ma_bufang"
+				small="GFX_idea_generic_army_asia_3"
+			}
+		}
+		country_leader={
+			ideology=despot_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

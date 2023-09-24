@@ -1,7 +1,6 @@
 ﻿capital = 525
 
 oob = "KOR"
-set_cosmetic_tag = KOR_JAP
 
 # Starting tech
 set_technology = {

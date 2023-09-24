@@ -1,0 +1,16 @@
+characters={
+	NIX_Ma_Hongbin={
+		name=NIX_Ma_Hongbin
+		portraits={
+			army={ #Trust me these portraits match together
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+				small="GFX_idea_generic_army_asia_1"
+			}
+		}
+		country_leader={
+			ideology=despot_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -7,9 +7,12 @@ state={
 	}
 
 	history={
-		owner = NMC
-		add_core_of = NMC
+		owner = NIX
+		add_core_of = NIX
 		add_core_of = CHI
+		victory_points = {
+			8102 5
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

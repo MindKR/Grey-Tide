@@ -15,6 +15,9 @@ set_autonomy = { target = TUN autonomous_state = GT_Protectorate }
 set_autonomy = { target = DJI autonomous_state = GT_Colony }
 set_autonomy = { target = MAD autonomous_state = GT_Colony }
 
+WAF = { set_cosmetic_tag = WAF_FRA }
+EAF = { set_cosmetic_tag = WAF_FRA }
+
 country_event = { id = History_FRA.1 days = 1 }
 
 if = {
