@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despot_subtype
+			ideology = despotism_subtype
 			expire="1965.1.1.1"
 			id = -1
 		}
@@ -20,7 +20,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_socialist_subtype
+			ideology = authoritarian_socialism_subtype
 			traits = { staunch_stalinist }
 			expire = "1965.1.1.1"
 			id = -1
@@ -34,7 +34,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology=social_democrat_subtype
+			ideology=progressivism_subtype
 			expire="1941.1.1.12"
 			id=-1
 		}
@@ -48,8 +48,8 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = fascist_subtype
-			traits = { BBA_ALB_fascist_lawyer }
+			ideology = fascism_subtype
+			traits = { BBA_ALB_fascism_lawyer }
 			expire = "1956.1.1.12"
 			id = -1
 		}

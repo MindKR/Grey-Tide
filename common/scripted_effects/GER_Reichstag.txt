@@ -6,7 +6,7 @@ reichstag_gui_initial = {
 	# parliament_seat_array stores the list of seat numbers for each party
 
 	add_to_array = { reichstag_seat_array = Reichstag_socialist_seat } # SPD(L), Socialism
-	add_to_array = { reichstag_seat_array = Reichstag_social_democrat_seat } # SPD, Social Democracy
+	add_to_array = { reichstag_seat_array = Reichstag_progressivism_seat } # SPD, Social Democracy
 
 	add_to_array = { reichstag_seat_array = Reichstag_PP_seat } # PP / Pink / Polish Party / 19-20
 	add_to_array = { reichstag_seat_array = Reichstag_DP_seat } # DP / Red / Danish Party / 1
@@ -15,14 +15,14 @@ reichstag_gui_initial = {
 	add_to_array = { reichstag_seat_array = Reichstag_BDL_seat } # BDL / Green Agrarian League / 3-5
 	add_to_array = { reichstag_seat_array = Reichstag_BB_seat } # BB / Green / Bavarian Peasants' League / 1-2
 
-	add_to_array = { reichstag_seat_array = Reichstag_social_liberal_seat } # FVP / Yellow / Social Liberal
-	add_to_array = { reichstag_seat_array = Reichstag_conservative_seat } # DZP, Conservative
-	add_to_array = { reichstag_seat_array = Reichstag_market_liberal_seat } # NLP / Sky Blue / Market Liberal
+	add_to_array = { reichstag_seat_array = Reichstag_liberalism_seat } # FVP / Yellow / Social Liberal
+	add_to_array = { reichstag_seat_array = Reichstag_conservatism_seat } # DZP, Conservative
+	add_to_array = { reichstag_seat_array = Reichstag_liberal_conservatism_seat } # NLP / Sky Blue / Market Liberal
 
-	add_to_array = { reichstag_seat_array = Reichstag_authoritarian_democrat_seat } # DRP / Light Yellow / Authoritarian Democrat
+	add_to_array = { reichstag_seat_array = Reichstag_authoritarian_democracy_seat } # DRP / Light Yellow / Authoritarian Democrat
 
-	add_to_array = { reichstag_seat_array = Reichstag_despot_seat } # DkP / Blue / Despot
-	add_to_array = { reichstag_seat_array = Reichstag_fascist_seat } # National Populist
+	add_to_array = { reichstag_seat_array = Reichstag_despotism_seat } # DkP / Blue / Despot
+	add_to_array = { reichstag_seat_array = Reichstag_fascism_seat } # National Populist
 
 	add_to_array = { reichstag_seat_array = Reichstag_MP } # GMP, German Minority Party
 	add_to_array = { reichstag_seat_array = Reichstag_VC } # VC, Vacant Seat
@@ -963,15 +963,15 @@ Reichstag_update = {
 
 	# Social Democracy
 	if = {
-		limit = { NOT = { has_country_flag = banned_social_democrat } }
+		limit = { NOT = { has_country_flag = banned_progressivism } }
 
-		set_temp_variable = { Reichstag_social_democrat_temp = party_popularity_100@social_democrat }
-		round_temp_variable = Reichstag_social_democrat_temp
-		divide_temp_variable = { Reichstag_social_democrat_temp = 100 }
+		set_temp_variable = { Reichstag_progressivism_temp = party_popularity_100@progressivism }
+		round_temp_variable = Reichstag_progressivism_temp
+		divide_temp_variable = { Reichstag_progressivism_temp = 100 }
 
-		multiply_temp_variable = { Reichstag_social_democrat_temp = Reichstag_seats }
-		round_temp_variable = Reichstag_social_democrat_temp
-		set_variable = { Reichstag_social_democrat_updated = Reichstag_social_democrat_temp }
+		multiply_temp_variable = { Reichstag_progressivism_temp = Reichstag_seats }
+		round_temp_variable = Reichstag_progressivism_temp
+		set_variable = { Reichstag_progressivism_updated = Reichstag_progressivism_temp }
 	}
 
 	# Liberalism
@@ -989,15 +989,15 @@ Reichstag_update = {
 
 	# Conservatism
 	if = {
-		limit = { NOT = { has_country_flag = banned_conservative } }
+		limit = { NOT = { has_country_flag = banned_conservatism } }
 
-		set_temp_variable = { Reichstag_conservative_temp = party_popularity_100@conservative }
-		round_temp_variable = Reichstag_conservative_temp
-		divide_temp_variable = { Reichstag_conservative_temp = 100 }
+		set_temp_variable = { Reichstag_conservatism_temp = party_popularity_100@conservatism }
+		round_temp_variable = Reichstag_conservatism_temp
+		divide_temp_variable = { Reichstag_conservatism_temp = 100 }
 
-		multiply_temp_variable = { Reichstag_conservative_temp = Reichstag_seats }
-		round_temp_variable = Reichstag_conservative_temp
-		set_variable = { Reichstag_conservative_updated = Reichstag_conservative_temp }
+		multiply_temp_variable = { Reichstag_conservatism_temp = Reichstag_seats }
+		round_temp_variable = Reichstag_conservatism_temp
+		set_variable = { Reichstag_conservatism_updated = Reichstag_conservatism_temp }
 	}
 
 	# Socialism
@@ -1014,52 +1014,52 @@ Reichstag_update = {
 		set_variable = { Reichstag_libertarian_socialist_seat = Reichstag_libertarian_socialist_temp }
 
 		# Authoritarian Socialism
-		set_temp_variable = { Reichstag_authoritarian_socialist_temp = party_popularity_100@authoritarian_socialist }
-		round_temp_variable = Reichstag_authoritarian_socialist_temp
-		divide_temp_variable = { Reichstag_authoritarian_socialist_temp = 100 }
+		set_temp_variable = { Reichstag_authoritarian_socialism_temp = party_popularity_100@authoritarian_socialism }
+		round_temp_variable = Reichstag_authoritarian_socialism_temp
+		divide_temp_variable = { Reichstag_authoritarian_socialism_temp = 100 }
 
-		multiply_temp_variable = { Reichstag_authoritarian_socialist_temp = Reichstag_seats }
-		round_temp_variable = Reichstag_authoritarian_socialist_temp
-		set_temp_variable = { Reichstag_authoritarian_socialist_seat = Reichstag_authoritarian_socialist_temp }
+		multiply_temp_variable = { Reichstag_authoritarian_socialism_temp = Reichstag_seats }
+		round_temp_variable = Reichstag_authoritarian_socialism_temp
+		set_temp_variable = { Reichstag_authoritarian_socialism_seat = Reichstag_authoritarian_socialism_temp }
 
 		#Socialist Party
-		add_to_temp_variable = { Reichstag_authoritarian_socialist_temp = Reichstag_libertarian_socialist_seat }
-		set_variable = { Reichstag_socialist_updated = Reichstag_authoritarian_socialist_temp }
+		add_to_temp_variable = { Reichstag_authoritarian_socialism_temp = Reichstag_libertarian_socialist_seat }
+		set_variable = { Reichstag_socialist_updated = Reichstag_authoritarian_socialism_temp }
 	}
 
 	# Despotism
 	if = {
-		limit = { NOT = { has_country_flag = banned_despot } }
+		limit = { NOT = { has_country_flag = banned_despotism } }
 
-		set_temp_variable = { Reichstag_despot_temp = party_popularity_100@despot }
-		round_temp_variable = Reichstag_despot_temp
-		divide_temp_variable = { Reichstag_despot_temp = 100 }
+		set_temp_variable = { Reichstag_despotism_temp = party_popularity_100@despotism }
+		round_temp_variable = Reichstag_despotism_temp
+		divide_temp_variable = { Reichstag_despotism_temp = 100 }
 
-		multiply_temp_variable = { Reichstag_despot_temp = Reichstag_seats }
-		round_temp_variable = Reichstag_despot_temp
-		set_variable = { Reichstag_despot_updated = Reichstag_despot_temp }
+		multiply_temp_variable = { Reichstag_despotism_temp = Reichstag_seats }
+		round_temp_variable = Reichstag_despotism_temp
+		set_variable = { Reichstag_despotism_updated = Reichstag_despotism_temp }
 	}
 
 	# National Populism
 	if = {
-		limit = { NOT = { has_country_flag = banned_fascist } }
+		limit = { NOT = { has_country_flag = banned_fascism } }
 
-		set_temp_variable = { Reichstag_fascist_temp = party_popularity_100@fascist }
-		round_temp_variable = Reichstag_fascist_temp
-		divide_temp_variable = { Reichstag_fascist_temp = 100 }
+		set_temp_variable = { Reichstag_fascism_temp = party_popularity_100@fascism }
+		round_temp_variable = Reichstag_fascism_temp
+		divide_temp_variable = { Reichstag_fascism_temp = 100 }
 
-		multiply_temp_variable = { Reichstag_fascist_temp = Reichstag_seats }
-		round_temp_variable = Reichstag_fascist_temp
-		set_variable = { Reichstag_fascist_updated = Reichstag_fascist_temp }
+		multiply_temp_variable = { Reichstag_fascism_temp = Reichstag_seats }
+		round_temp_variable = Reichstag_fascism_temp
+		set_variable = { Reichstag_fascism_updated = Reichstag_fascism_temp }
 	}
 
 	# Minority Party
-	set_temp_variable = { Reichstag_MP_temp = Reichstag_social_democrat_updated }
+	set_temp_variable = { Reichstag_MP_temp = Reichstag_progressivism_updated }
 	add_to_temp_variable = { Reichstag_MP_temp = Reichstag_liberal_updated }
-	add_to_temp_variable = { Reichstag_MP_temp = Reichstag_conservative_updated }
+	add_to_temp_variable = { Reichstag_MP_temp = Reichstag_conservatism_updated }
 	add_to_temp_variable = { Reichstag_MP_temp = Reichstag_socialist_updated }
-	add_to_temp_variable = { Reichstag_MP_temp = Reichstag_despot_updated }
-	add_to_temp_variable = { Reichstag_MP_temp = Reichstag_fascist_updated }
+	add_to_temp_variable = { Reichstag_MP_temp = Reichstag_despotism_updated }
+	add_to_temp_variable = { Reichstag_MP_temp = Reichstag_fascism_updated }
 	subtract_from_temp_variable = { Reichstag_seats = Reichstag_MP_temp }
 	add_to_temp_variable = { var = Reichstag_seats value = 5 }
 	set_variable = { Reichstag_MP_updated = Reichstag_seats }
@@ -1068,12 +1068,12 @@ Reichstag_update = {
 }
 
 Reichstag_hold_federal_election = {
-	set_variable = { Reichstag_social_democrat_seat = Reichstag_social_democrat_updated }
+	set_variable = { Reichstag_progressivism_seat = Reichstag_progressivism_updated }
 	set_variable = { Reichstag_liberal_seat = Reichstag_liberal_updated }
-	set_variable = { Reichstag_conservative_seat = Reichstag_conservative_updated }
+	set_variable = { Reichstag_conservatism_seat = Reichstag_conservatism_updated }
 	set_variable = { Reichstag_socialist_seat = Reichstag_socialist_updated }
-	set_variable = { Reichstag_despot_seat = Reichstag_despot_updated }
-	set_variable = { Reichstag_fascist_seat = Reichstag_fascist_updated }
+	set_variable = { Reichstag_despotism_seat = Reichstag_despotism_updated }
+	set_variable = { Reichstag_fascism_seat = Reichstag_fascism_updated }
 	set_variable = { Reichstag_MP = Reichstag_MP_updated }
 	clear_array = reichstag_seat_array
 	clear_array = reichstag_member_array
@@ -1084,9 +1084,9 @@ Reichstag_hold_federal_election = {
 Reichstag_seat_modifiers = {
 
 	#Social Democracy
-	set_temp_variable = { Reichstag_social_democrat_updated_temp = Reichstag_social_democrat_updated }
-	subtract_from_temp_variable = { Reichstag_social_democrat_updated_temp = Reichstag_social_democrat_seat }
-	set_variable = { Reichstag_social_democrat_seat_modifiers = Reichstag_social_democrat_updated_temp }
+	set_temp_variable = { Reichstag_progressivism_updated_temp = Reichstag_progressivism_updated }
+	subtract_from_temp_variable = { Reichstag_progressivism_updated_temp = Reichstag_progressivism_seat }
+	set_variable = { Reichstag_progressivism_seat_modifiers = Reichstag_progressivism_updated_temp }
 
 	#Liberal
 	set_temp_variable = { Reichstag_liberal_updated_temp = Reichstag_liberal_updated }
@@ -1094,9 +1094,9 @@ Reichstag_seat_modifiers = {
 	set_variable = { Reichstag_liberal_seat_modifiers = Reichstag_liberal_updated_temp }
 
 	#Conservative
-	set_temp_variable = { Reichstag_conservative_updated_temp = Reichstag_conservative_updated }
-	subtract_from_temp_variable = { Reichstag_conservative_updated_temp = Reichstag_conservative_seat }
-	set_variable = { Reichstag_conservative_seat_modifiers = Reichstag_conservative_updated_temp }
+	set_temp_variable = { Reichstag_conservatism_updated_temp = Reichstag_conservatism_updated }
+	subtract_from_temp_variable = { Reichstag_conservatism_updated_temp = Reichstag_conservatism_seat }
+	set_variable = { Reichstag_conservatism_seat_modifiers = Reichstag_conservatism_updated_temp }
 
 	#Socialist
 	set_temp_variable = { Reichstag_socialist_updated_temp = Reichstag_socialist_updated }
@@ -1104,14 +1104,14 @@ Reichstag_seat_modifiers = {
 	set_variable = { Reichstag_socialist_seat_modifiers = Reichstag_socialist_updated_temp }
 
 	#Strong Autocrat
-	set_temp_variable = { Reichstag_despot_updated_temp = Reichstag_despot_updated }
-	subtract_from_temp_variable = { Reichstag_despot_updated_temp = Reichstag_despot_seat }
-	set_variable = { Reichstag_despot_seat_modifiers = Reichstag_despot_updated_temp }
+	set_temp_variable = { Reichstag_despotism_updated_temp = Reichstag_despotism_updated }
+	subtract_from_temp_variable = { Reichstag_despotism_updated_temp = Reichstag_despotism_seat }
+	set_variable = { Reichstag_despotism_seat_modifiers = Reichstag_despotism_updated_temp }
 
 	#National Populist
-	set_temp_variable = { Reichstag_fascist_updated_temp = Reichstag_fascist_updated }
-	subtract_from_temp_variable = { Reichstag_fascist_updated_temp = Reichstag_fascist_seat }
-	set_variable = { Reichstag_fascist_seat_modifiers = Reichstag_fascist_updated_temp }
+	set_temp_variable = { Reichstag_fascism_updated_temp = Reichstag_fascism_updated }
+	subtract_from_temp_variable = { Reichstag_fascism_updated_temp = Reichstag_fascism_seat }
+	set_variable = { Reichstag_fascism_seat_modifiers = Reichstag_fascism_updated_temp }
 
 	#MP
 	set_temp_variable = { Reichstag_MP_updated_temp = Reichstag_MP_updated }

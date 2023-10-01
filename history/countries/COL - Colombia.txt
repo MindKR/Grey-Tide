@@ -58,7 +58,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 99
-	authoritarian_socialist = 1
+	authoritarian_socialism = 1
 }
 
 recruit_character = COL_alfonso_lópez_pumarejo

@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			traits = { patriot_king }
 			expire="1965.1.1.1"
 			id=-1
@@ -22,7 +22,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			expire="1965.1.1.1"
 			id=-1
 			traits = { royal_legitimist }
@@ -37,7 +37,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -65,7 +65,7 @@ characters = {
 			legacy_id=-1
 		}
 		country_leader = {
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			traits = { polish_legionary }
 		}
 	}
@@ -92,7 +92,7 @@ characters = {
 			legacy_id=-1
 		}
 		country_leader = {
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			traits = { polish_legionary }
 			expire="1965.1.1.1"
 			id=-1
@@ -121,7 +121,7 @@ characters = {
 			legacy_id=-1
 		}
 		country_leader = {
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			traits = { patriotic_guerilla }
 			expire="1965.1.1.1"
 			id=-1
@@ -161,7 +161,7 @@ characters = {
 		}
 		
 		country_leader = {
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -203,7 +203,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=authoritarian_socialist_subtype
+			ideology=authoritarian_socialism_subtype
 			traits = { soviet_thaw }
 			expire="1965.1.1.1"
 			id=-1
@@ -218,7 +218,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=social_democrat_subtype
+			ideology=progressivism_subtype
 			traits = { morges_champion }
 			expire="1965.1.1.1"
 			id=-1
@@ -233,7 +233,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=social_democrat_subtype
+			ideology=progressivism_subtype
 			traits = { polish_peasant_champion }
 			expire="1965.1.1.1"
 			id=-1
@@ -300,7 +300,7 @@ characters = {
 			skill = 1
 		}
 		country_leader = {
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			traits = { he_who_bears_the_throne }
 			expire="1966.1.1.1"
 		}

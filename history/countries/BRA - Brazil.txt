@@ -72,14 +72,14 @@ if = {
 set_country_flag = monroe_doctrine
 
 set_politics = {
-	ruling_party = despot
+	ruling_party = despotism
 	last_election = "1934.7.17"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	despot = 100
+	despotism = 100
 }
 
 recruit_character = BRA_getulio_vargas

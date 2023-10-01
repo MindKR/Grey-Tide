@@ -6,7 +6,7 @@ RUS_DD_HISTORICAL = {
 	for_countries = { RUS }
 
 	can_use = {
-		NOT = { has_government = despot }
+		NOT = { has_government = despotism }
 	}
 
 	type = ship
@@ -41,7 +41,7 @@ RUS_CL_HISTORICAL = {
 	for_countries = { RUS }
 
 	can_use = {
-		NOT = { has_government = despot }
+		NOT = { has_government = despotism }
 	}
 
 	type = ship
@@ -66,7 +66,7 @@ RUS_CA_HISTORICAL = {
 	for_countries = { RUS }
 
 	can_use = {
-		NOT = { has_government = despot }
+		NOT = { has_government = despotism }
 	}
 
 	type = ship
@@ -89,7 +89,7 @@ RUS_MINELAYERS_HISTORICAL = {
 	for_countries = { RUS }
 
 	can_use = {
-		NOT = { has_government = despot }
+		NOT = { has_government = despotism }
 	}
 
 	type = ship
@@ -112,7 +112,7 @@ RUS_BB_HISTORICAL = {
 	for_countries = { RUS }
 
 	can_use = {
-		NOT = { has_government = despot }
+		NOT = { has_government = despotism }
 	}
 
 	type = ship
@@ -134,7 +134,7 @@ RUS_BC_HISTORICAL = {
 	for_countries = { RUS }
 
 	can_use = {
-		NOT = { has_government = despot }
+		NOT = { has_government = despotism }
 	}
 
 	type = ship
@@ -157,7 +157,7 @@ RUS_CV_HISTORICAL = {
 	for_countries = { RUS }
 
 	can_use = {
-		NOT = { has_government = despot }
+		NOT = { has_government = despotism }
 	}
 
 	type = ship
@@ -284,7 +284,7 @@ RUS_SS_STALINETS = {
 	for_countries = { RUS }
 
 	can_use = {
-		NOT = { has_government = despot }
+		NOT = { has_government = despotism }
 	}
 
 	type = ship
@@ -322,7 +322,7 @@ RUS_SS_LENINETS = {
 	for_countries = { RUS }
 
 	can_use = {
-		NOT = { has_government = despot }
+		NOT = { has_government = despotism }
 	}
 
 	type = ship
@@ -404,7 +404,7 @@ RUS_STATES = {
 	for_countries = { RUS }
 
 	can_use = {
-		NOT = { has_government = despot }
+		NOT = { has_government = despotism }
 	}
 
 	type = ship
@@ -426,7 +426,7 @@ RUS_CITIES = {
 	for_countries = { RUS }
 
 	can_use = {
-		NOT = { has_government = despot }
+		NOT = { has_government = despotism }
 	}
 
 	type = ship
@@ -447,7 +447,7 @@ RUS_LEADERS = {
 	for_countries = { RUS }
 
 	can_use = {
-		NOT = { has_government = despot }
+		NOT = { has_government = despotism }
 	}
 
 	type = ship
@@ -490,7 +490,7 @@ RUS_DD_IMPERIAL = {
 	for_countries = { RUS }
 
 	can_use = {
-		has_government = despot
+		has_government = despotism
 	}
 
 	type = ship
@@ -527,7 +527,7 @@ RUS_DE_IMPERIAL = {
 	for_countries = { RUS }
 
 	can_use = { 
-		has_government = despot
+		has_government = despotism
 	}
 
 	type = ship
@@ -553,7 +553,7 @@ RUS_CL_IMPERIAL = {
 	for_countries = { RUS }
 
 	can_use = { 
-		has_government = despot
+		has_government = despotism
 	}
 
 	type = ship
@@ -577,7 +577,7 @@ RUS_CA_IMPERIAL = {
 	for_countries = { RUS }
 
 	can_use = { 
-		has_government = despot
+		has_government = despotism
 	}
 
 	type = ship
@@ -601,7 +601,7 @@ RUS_MINELAYERS_IMPERIAL = {
 	for_countries = { RUS }
 
 	can_use = { 
-		has_government = despot
+		has_government = despotism
 	}
 
 	type = ship
@@ -623,7 +623,7 @@ RUS_MINESWEEPERS_IMPERIAL = {
 	for_countries = { RUS }
 
 	can_use = { 
-		has_government = despot
+		has_government = despotism
 	}
 
 	type = ship
@@ -646,7 +646,7 @@ RUS_BBBC_IMPERIAL = {
 	for_countries = { RUS }
 
 	can_use = { 
-		has_government = despot
+		has_government = despotism
 	}
 
 	type = ship
@@ -669,7 +669,7 @@ RUS_CV_IMPERIAL = {
 	for_countries = { RUS }
 
 	can_use = { 
-		has_government = despot
+		has_government = despotism
 	}
 
 	type = ship
@@ -690,7 +690,7 @@ RUS_SS_IMPERIAL = {
 	for_countries = { RUS }
 
 	can_use = { 
-		has_government = despot
+		has_government = despotism
 	}
 
 	type = ship
@@ -714,7 +714,7 @@ RUS_IMPERIAL_CITIES = {
 	for_countries = { RUS }
 
 	can_use = { 
-		has_government = despot
+		has_government = despotism
 	}
 
 	type = ship
@@ -733,7 +733,7 @@ RUS_IMPERIAL_GOVERNORATES = {
 	for_countries = { RUS }
 
 	can_use = { 
-		has_government = despot
+		has_government = despotism
 	}
 
 	type = ship

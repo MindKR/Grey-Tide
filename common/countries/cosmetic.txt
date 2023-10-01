@@ -153,6 +153,16 @@ BOT_GBR = {
 	color_ui = rgb { 185 25 60 }
 }
 
+NGA_GBR = {
+	color = rgb { 185 25 60 }
+	color_ui = rgb { 185 25 60 }
+}
+
+CMR_FRA = {
+	color = rgb { 10 65 185 }
+	color_ui = rgb { 10 65 185 }
+}
+
 SPR = {
 	color = rgb { 252 221 9 }
 	color_ui = rgb { 252 221 9 }

@@ -79,7 +79,7 @@ if = {
 }
 
 set_popularities = {
-	despot = 100
+	despotism = 100
 }
 
 

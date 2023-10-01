@@ -101,7 +101,7 @@ if = {
 
 "INS" = {
 	set_politics = {
-		ruling_party = conservative
+		ruling_party = conservatism
 		last_election = "1933.4.26"
 		election_frequency = 48
 		elections_allowed = no
@@ -114,17 +114,17 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = conservative
+	ruling_party = conservatism
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	social_democrat = 21
+	progressivism = 21
 	liberal = 16
-	conservative = 59
+	conservatism = 59
 	libertarian_socialist = 1
-	authoritarian_socialist = 3
+	authoritarian_socialism = 3
 }
 
 set_convoys = 150

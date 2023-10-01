@@ -13,15 +13,6 @@ if = {
 #### 3D MODELS ####
 ###################
 
-#Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
-#GRE_communism
-#GRE_democratic
-#GRE_fascism
-#GRE_neutrality
-set_cosmetic_tag = GRE_neutrality
-
-
-
 set_research_slots = 3
 
 set_technology = {
@@ -67,16 +58,16 @@ if = {
 }
 
 set_politics = {
-	ruling_party = despot
+	ruling_party = despotism
 	last_election = "1935.6.9"
 	election_frequency = 7
 	elections_allowed = no
 }
 set_popularities = {
-	conservative = 23
-	despot = 2
-	authoritarian_socialist = 3
-	despot = 72
+	conservatism = 23
+	despotism = 2
+	authoritarian_socialism = 3
+	despotism = 72
 }
 
 set_stability = 0.72

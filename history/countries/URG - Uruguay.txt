@@ -51,8 +51,8 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 57
-	conservative = 42
-	authoritarian_socialist = 1
+	conservatism = 42
+	authoritarian_socialism = 1
 }
 
 recruit_character = URG_gabriel_terra

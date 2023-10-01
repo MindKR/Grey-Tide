@@ -69,16 +69,16 @@ set_convoys = 200		# biggest merchant marine in the world
 set_stability = 0.7
 
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = progressivism
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	social_democrat = 47
+	progressivism = 47
 	liberal = 26
-	conservative = 26
-	authoritarian_socialist = 1
+	conservatism = 26
+	authoritarian_socialism = 1
 	
 }
 

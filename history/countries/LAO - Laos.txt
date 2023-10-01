@@ -105,7 +105,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Souphanouvong
 	expire = "1953.3.1"
-	ideology = authoritarian_socialist_subtype
+	ideology = authoritarian_socialism_subtype
 	traits = {
 		
 	}
@@ -116,7 +116,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Sisavang_Vong
 	expire = "1953.3.1"
-	ideology = despot_subtype
+	ideology = despotism_subtype
 	traits = {
 		
 	}
@@ -127,7 +127,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Kou_Voragong
 	expire = "1953.3.1"
-	ideology = conservative_subtype
+	ideology = conservatism_subtype
 	traits = {
 		
 	}

@@ -53,9 +53,9 @@ if = {
 
 set_convoys = 25
 set_popularities = {
-	social_democrat = 10
-	authoritarian_socialist = 30
-	conservative = 60
+	progressivism = 10
+	authoritarian_socialism = 30
+	conservatism = 60
 }
 
 recruit_character = INS_a_t_van_starkenborgh_stachouwer

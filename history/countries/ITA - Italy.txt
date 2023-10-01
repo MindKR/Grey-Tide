@@ -168,19 +168,16 @@ if = {
 set_convoys = 200
 
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = fascism
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	despot = 9
-	social_democrat = 45
-	liberal = 14
-	conservative = 26
-	libertarian_socialist = 5
+	fascism = 100
 }
 
+recruit_character = ITA_benito_mussolini
 recruit_character = ITA_palmiro_togliatti
 recruit_character = ITA_victor_emmanuel_iii
 recruit_character = ITA_ferruccio_parri

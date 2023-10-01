@@ -33,7 +33,7 @@ autonomy_state = {
 	}
 
 	allowed = {
-		has_government = fascist
+		has_government = fascism
 	}
 	
 	can_take_level = {

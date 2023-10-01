@@ -3,8 +3,8 @@ leader_traits = {
 	head_of_gov = {
 	}
 
-	social_democrat = {}
-	despot = {}
+	progressivism = {}
+	despotism = {}
 
 	# GER
 	vizekanzler = {}

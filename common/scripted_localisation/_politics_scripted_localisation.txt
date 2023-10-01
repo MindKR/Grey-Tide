@@ -1,0 +1,107 @@
+defined_text = {
+	name = GetSubIdeologyLoc
+	text = {
+		trigger = { has_government = progressivism }
+		localization_key = "[GetSubIdeologyLocProgressivism]"
+	}
+	text = {
+		trigger = { has_government = liberalism }
+		localization_key = "[GetSubIdeologyLocLiberalism]"
+	}
+	text = {
+		trigger = { has_government = liberal_conservatism }
+		localization_key = "[GetSubIdeologyLocLiberalConservatism]"
+	}
+	text = {
+		trigger = { has_government = conservatism }
+		localization_key = "[GetSubIdeologyLocConservatism]"
+	}
+	text = {
+		trigger = { has_government = authoritarian_democracy }
+		localization_key = "[GetSubIdeologyLocAuthoritarianDemocracy]"
+	}
+	text = {
+		trigger = { has_government = authoritarian_socialism }
+		localization_key = "[GetSubIdeologyLocAuthoritarianSocialism]"
+	}
+	text = {
+		trigger = { has_government = despotism }
+		localization_key = "[GetSubIdeologyLocDespotism]"
+	}
+	text = {
+		trigger = { has_government = fascism }
+		localization_key = "[GetSubIdeologyLocFascism]"
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocProgressivism
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_social_democrat_subtype }
+		localization_key = progressivism_social_democracy_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_left_wing_agrarianism_subtype }
+		localization_key = progressivism_left_wing_agrarianism_subtype
+	}
+	text = {
+		localization_key = progressivism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocLiberalism
+	text = {
+		localization_key = liberalism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocLiberalConservatism
+	text = {
+		trigger = { has_country_leader_ideology = liberal_conservatism_market_liberalism_subtype }
+		localization_key = liberal_conservatism_market_liberalism_subtype
+	}
+	text = {
+		localization_key = liberal_conservatism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocConservatism
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_agrarianism_subtype }
+		localization_key = conservatism_agrarianism_subtype
+	}
+	text = {
+		localization_key = conservatism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocAuthoritarianDemocracy
+	text = {
+		localization_key = authoritarian_democracy
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocAuthoritarianSocialism
+	text = {
+		localization_key = authoritarian_socialism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocDespotism
+	text = {
+		localization_key = despotism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocFascism
+	text = {
+		localization_key = fascism
+	}
+}

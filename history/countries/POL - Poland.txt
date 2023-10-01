@@ -87,7 +87,7 @@ add_ideas = {
 set_convoys = 10
 
 set_popularities = {
-	despot = 100
+	despotism = 100
 }
 
 recruit_character = POL_ignacy_moscicki

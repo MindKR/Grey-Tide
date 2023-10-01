@@ -282,13 +282,13 @@ if = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = authoritarian_socialist
+	ruling_party = authoritarian_socialism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarian_socialist = 100
+	authoritarian_socialism = 100
 }
 
 puppet = MON

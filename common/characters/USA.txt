@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=social_liberal_subtype
+			ideology=liberalism_subtype
 			traits={ }
 			expire="1990.1.1.1"
 			id=-1

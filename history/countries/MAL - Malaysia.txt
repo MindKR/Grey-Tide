@@ -99,8 +99,8 @@ if = {
 }
 
 set_popularities = {
-	conservative = 67
-	authoritarian_socialist = 33
+	conservatism = 67
+	authoritarian_socialism = 33
 }
 
 recruit_character = MAL_shenton_thomas

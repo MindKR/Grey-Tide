@@ -11,7 +11,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=conservative_subtype
+			ideology=conservatism_subtype
 			traits = {
 				british_bulldog
 			}
@@ -28,8 +28,8 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservative_subtype
-			traits={ conservative_grandee }
+			ideology=conservatism_subtype
+			traits={ conservatism_grandee }
 			expire="1938.1.1.1"
 			id=-1
 		}
@@ -47,7 +47,7 @@ characters={
 		}
 		
 		country_leader={
-			ideology=authoritarian_socialist_subtype
+			ideology=authoritarian_socialism_subtype
 			traits={ staunch_stalinist }
 			expire="1965.1.1.1"
 			id=-1
@@ -62,7 +62,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservative_subtype
+			ideology=conservatism_subtype
 			traits = { chamberlain_appeaser rearmer }
 			expire="1965.1.1.1"
 			id=-1

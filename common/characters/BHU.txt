@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -34,7 +34,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=authoritarian_socialist_subtype
+			ideology=authoritarian_socialism_subtype
 			traits={ appeaser compassionate_gentleman }
 			expire="1941.1.1.12"
 			id=-1

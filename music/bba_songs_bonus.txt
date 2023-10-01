@@ -13,7 +13,7 @@ music = {
 		}
 		modifier = {
 			factor = 0
-			has_government = fascist
+			has_government = fascism
 		}	
 		modifier = {
 			factor = 5
@@ -23,7 +23,7 @@ music = {
 		modifier = {
 			factor = 1.5
 			any_enemy_country = {
-				has_government = fascist
+				has_government = fascism
 			}
 		}
 	}

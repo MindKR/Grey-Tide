@@ -23,14 +23,14 @@ set_war_support = 0.1
 set_stability = 0.8
 
 set_politics = {
-	ruling_party = conservative
+	ruling_party = conservatism
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	social_democrat = 25
-	conservative = 47
+	progressivism = 25
+	conservatism = 47
 	liberal = 28
 }
 

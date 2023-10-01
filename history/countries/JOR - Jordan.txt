@@ -29,7 +29,7 @@ create_country_leader = {
 	name = "Hashim Kheir"
 	desc = ""
 	picture = GFX_portrait_Hashim_Kheir
-	ideology = conservative_subtype
+	ideology = conservatism_subtype
 	traits = {
 		#
 	}
@@ -39,7 +39,7 @@ create_country_leader = {
 	name = "Saeed Ahmadi"
 	desc = ""
 	picture = GFX_portrait_Saeed_Ahmadi
-	ideology = fascist_subtype
+	ideology = fascism_subtype
 	traits = {
 		#
 	}
@@ -49,7 +49,7 @@ create_country_leader = {
 	name = "Abdullah bin al-Hussein"
 	desc = ""
 	picture = GFX_portrait_Abdullah_bin_al_Hussein
-	ideology = despot_subtype
+	ideology = despotism_subtype
 	traits = {
 		#
 	}
@@ -59,7 +59,7 @@ create_country_leader = {
 	name = "Fu'ad Nassar"
 	desc = ""
 	picture = GFX_portrait_Fuad_Nassar
-	ideology = authoritarian_socialist_subtype
+	ideology = authoritarian_socialism_subtype
 	traits = {
 		#
 	}

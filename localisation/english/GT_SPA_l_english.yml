@@ -1,0 +1,10 @@
+﻿l_english:
+ SPA_despotism:0 "Kingdom of Spain"
+ SPA_despotism_DEF:0 "the Kingdom of Spain"
+ SPA_fascism:0 "Kingdom of Spain"
+ SPA_fascism_DEF:0 "the Kingdom of Spain"
+ SPA:0 "Spain"
+ SPA_DEF:0 "Spain"
+ SPA_ADJ:0 "Spainish"
+
+ SPA_fascism_party:0 "Movimiento Nacional"

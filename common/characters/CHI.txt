@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservative_subtype
+			ideology=conservatism_subtype
 			traits={ generallissimo }
 			expire="1965.1.1.1"
 			id=-1
@@ -22,7 +22,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=authoritarian_socialist_subtype
+			ideology=authoritarian_socialism_subtype
 			traits={ cornered_fox }
 			expire="1965.1.1.1"
 			id=-1
@@ -37,7 +37,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -51,7 +51,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=social_democrat_subtype
+			ideology=progressivism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}

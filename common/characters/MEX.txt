@@ -41,7 +41,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=authoritarian_socialist_subtype
+			ideology=authoritarian_socialism_subtype
 			traits={ devoted_trotskyist }
 			expire="1965.1.1.1"
 			id=-1
@@ -96,7 +96,7 @@ characters={
 			legacy_id=712
 		}
 		country_leader={
-			ideology=conservative_subtype
+			ideology=conservatism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -110,7 +110,7 @@ characters={
 				small="GFX_idea_MEX_plutarco_calles"
 			}
 			civilian={
-				large="GFX_portrait_MEX_calles_civil" #Can become country leader (Non-Aligned -> despot_subtype) (Fascism -> Fascism)
+				large="GFX_portrait_MEX_calles_civil" #Can become country leader (Non-Aligned -> despotism_subtype) (Fascism -> Fascism)
 			}
 		}
 	}
@@ -446,7 +446,7 @@ characters={
 				large="GFX_portrait_MEX_saturnino_cedillo" #Can become unit leader
 			}
 			civilian={
-				large="GFX_portrait_MEX_saturnino_cedillo" #Can become country leader (Fascism -> Fascism) (Non-Aligned -> despot_subtype)
+				large="GFX_portrait_MEX_saturnino_cedillo" #Can become country leader (Fascism -> Fascism) (Non-Aligned -> despotism_subtype)
 			}
 		}
 		advisor={
@@ -542,7 +542,7 @@ characters={
 			available = {
 				OR = {
 					has_socialist_government = yes
-					has_government = despot
+					has_government = despotism
 				}
 				has_global_flag = flag_mexico_invited_trotsky_to_government
 				NOT = {

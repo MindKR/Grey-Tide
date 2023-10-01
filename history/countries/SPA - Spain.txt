@@ -118,16 +118,6 @@ recruit_character = SPA_luis_hernando_de_larramendi
 recruit_character = SPA_martin_de_riquer
 recruit_character = SPA_mauricio_de_sivatte
 
-165 = {
-	add_dynamic_modifier = { modifier = autonomous_state }
-}
-171 = {
-	add_dynamic_modifier = { modifier = autonomous_state }
-}
-792 = {
-	add_dynamic_modifier = { modifier = autonomous_state }
-}
-
 set_research_slots = 3
 
 set_technology = {
@@ -186,10 +176,10 @@ if = {
 }
 
 set_politics = {
-	ruling_party = fascist
-	last_election = "1933.2.16"
+	ruling_party = fascism
+	last_election = "1936.2.16"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_convoys = 150

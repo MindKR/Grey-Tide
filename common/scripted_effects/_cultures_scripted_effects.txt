@@ -44,27 +44,22 @@ GT_startup_cultures = {
 
 	#Southern Germany
 	set_variable = { 50.nationality = 1.1 }
-	set_variable = { 52.nationality = 1.1 }
-	set_variable = { 53.nationality = 1.1 }
-	set_variable = { 54.nationality = 1.1 }
 	set_variable = { 62.nationality = 1.1 }
 	set_variable = { 151.nationality = 1.1 }
 	set_variable = { 882.nationality = 1.1 }
 	set_variable = { 884.nationality = 1.1 }
-	set_variable = { 957.nationality = 1.1 }
-	set_variable = { 958.nationality = 1.1 }
-	set_variable = { 959.nationality = 1.1 }
 
 	#German-Polish Culture
 	set_variable = { 5.nationality = 1.2 }
 
-	#Krain (Slovenia)
-	set_variable = { 68.nationality = 1.4 }
-	set_variable = { 102.nationality = 1.4 }
-	set_variable = { 736.nationality = 1.4 }
-	set_variable = { 876.nationality = 1.4 }
-	set_variable = { 877.nationality = 1.4 }
-	set_variable = { 878.nationality = 1.4 }
+	#Bavaria
+	set_variable = { 52.nationality = 1.4 }
+	set_variable = { 53.nationality = 1.4 }
+	set_variable = { 54.nationality = 1.4 }
+	set_variable = { 849.nationality = 1.4 }
+	set_variable = { 957.nationality = 1.4 }
+	set_variable = { 958.nationality = 1.4 }
+	set_variable = { 959.nationality = 1.4 }
 
 	#Austria
 	set_variable = { 4.nationality = 1.5 }
@@ -74,7 +69,6 @@ GT_startup_cultures = {
 	set_variable = { 838.nationality = 1.5 }
 	set_variable = { 839.nationality = 1.5 }
 	set_variable = { 847.nationality = 1.5 }
-	set_variable = { 849.nationality = 1.5 }
 	set_variable = { 855.nationality = 1.5 }
 
 
@@ -138,6 +132,13 @@ GT_startup_cultures = {
 
 
 	### 4: Yugoslavia ###
+	#Slovenia
+	set_variable = { 68.nationality = 4 }
+	set_variable = { 102.nationality = 4 }
+	set_variable = { 736.nationality = 4 }
+	set_variable = { 876.nationality = 4 }
+	set_variable = { 877.nationality = 4}
+	set_variable = { 878.nationality = 4 }
 
 	#Croatia
 	set_variable = { 103.nationality = 4.1 }

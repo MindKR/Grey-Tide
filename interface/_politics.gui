@@ -6,13 +6,25 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "party_name"
-			position = {x = 144 y = -7}
+			position = {x = 130 y = -7}
 			font = "hoi_16mbs"
 			text = "[This.GetRulingParty]"
 			fixedsize = yes
 			maxWidth = 160
 			maxHeight = 20
 			format = left
+		}
+
+		instantTextboxType = {
+			name = "ideology"
+			position = { x = 130 y = 10 }
+			font = "hoi_16mbs"
+			text = [GetSubIdeologyLoc]
+			alwaystransparent = yes
+			maxWidth = 270
+			maxHeight = 20
+			format = left
+			fixedsize = yes
 		}
 
 		iconType = {

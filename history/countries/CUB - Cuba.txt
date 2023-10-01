@@ -23,14 +23,14 @@ set_war_support = 0.1
 set_convoys = 20
 
 set_politics = {
-	ruling_party = conservative
+	ruling_party = conservatism
 	last_election = "1936.1.10"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
 	liberal = 34
-	conservative = 66
+	conservatism = 66
 }
 
 recruit_character = CUB_josé_agripino_barnet

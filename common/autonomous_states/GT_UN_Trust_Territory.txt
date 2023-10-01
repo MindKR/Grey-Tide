@@ -33,7 +33,7 @@ autonomy_state = {
 		OVERLORD = {
 			NOT = { 
 				has_socialist_government = yes
-				has_government = fascist
+				has_government = fascism
 			}
 		}
 		NOT = {
@@ -42,13 +42,10 @@ autonomy_state = {
 	}
 	
 	can_take_level = {
+		always = no
 	}
 
 	can_lose_level = {
-		if = {
-			limit = {
-
-			}
-		}
+		always = no
 	}
 }

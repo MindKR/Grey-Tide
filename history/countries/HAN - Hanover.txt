@@ -108,7 +108,7 @@ add_ideas = {
 #	desc = ""
 #	picture = "Portrait_Germany_Konrad_Adenauer.dds"
 #	expire = "1965.1.1"
-#	ideology = conservative_subtype
+#	ideology = conservatism_subtype
 #	traits = {
 #	}
 #}
@@ -119,7 +119,7 @@ add_ideas = {
 #	desc = "POLITICS_OTTO_WELS_DESC"
 #	picture = "Portrait_Germany_Adolf_Hitler.dds"
 #	expire = "1939.1.16"
-#	ideology = social_democrat_subtype
+#	ideology = progressivism_subtype
 #	traits = {
 #		exiled
 #		union_man
@@ -131,7 +131,7 @@ add_ideas = {
 #	desc = "POLITICS_ERNST_THALMANN_DESC"
 #	picture = "Portrait_Germany_Adolf_Hitler.dds"
 #	expire = "1956.1.1"
-#	ideology = authoritarian_socialist_subtype
+#	ideology = authoritarian_socialism_subtype
 #	traits = {
 #		assassination_survivor
 #		stalins_puppet

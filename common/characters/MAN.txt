@@ -13,7 +13,7 @@ characters={
 			id=-1
 		}
 		country_leader={
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			traits={ warrior_code }
 			expire="1960.1.1.1"
 			id=-1
@@ -99,7 +99,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservative_subtype
+			ideology=conservatism_subtype
 			traits={ national_integralist }
 			expire="1956.1.1.12"
 			id=-1

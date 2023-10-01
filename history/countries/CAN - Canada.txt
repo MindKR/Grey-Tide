@@ -114,56 +114,23 @@ set_convoys = 100
 set_stability = 0.75
 
 set_politics = {
-	ruling_party = liberal
-	last_election = "1935.10.14"
+	ruling_party = liberalism
+	last_election = "1945.6.11"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	social_democrat = 10
-	liberal = 47
-	conservative = 42
-	authoritarian_socialist = 1
+	liberalism = 52
+	liberal_conservatism = 30
+	progressivism = 15
+	conservatism = 3
 }
 
-recruit_character = CAN_mackenzie_king
-recruit_character = CAN_tim_buck
-recruit_character = CAN_thomas_victor_anderson
-recruit_character = CAN_charles_foulkes
-recruit_character = CAN_percival_john_montague
-recruit_character = CAN_bert_hoffmeister
-recruit_character = CAN_leonard_w_murray
-recruit_character = CAN_ht_bailliegrohman
-recruit_character = CAN_james_d_prentice
-recruit_character = CAN_harry_dewolf
-recruit_character = CAN_lloyd_samuel_breadner
-recruit_character = CAN_george_pearkes
-recruit_character = CAN_john_murchie
-recruit_character = CAN_harold_edwards
-recruit_character = CAN_frederick_m_w_harvey
-recruit_character = CAN_harry_crerar
-recruit_character = CAN_robert_leckie
-recruit_character = CAN_kenneth_stuart
-recruit_character = CAN_andrew_mcnaughton
-recruit_character = CAN_george_jones
-recruit_character = CAN_raymond_collishaw
-recruit_character = CAN_guy_simonds
-recruit_character = CAN_gino_verchiella
-recruit_character = CAN_alasdair_murray
-recruit_character = CAN_george_volkoff
-recruit_character = CAN_george_croil
-recruit_character = CAN_percy_nelles
-recruit_character = CAN_robert_manion
-recruit_character = CAN_ian_a_mackenzie
-recruit_character = CAN_c_d_howe
-recruit_character = CAN_newton_wesley_rowell
-recruit_character = CAN_chuck_crate
-recruit_character = CAN_james_ilsley
-recruit_character = CAN_william_kashtan
-recruit_character = CAN_leo_richer_lafleche
-recruit_character = CAN_r_b_bennett
-recruit_character = CAN_louis_st_laurent
+recruit_character = CAN_Louis_St_Laurent
+recruit_character = CAN_George_A_Drew
+recruit_character = CAN_Major_James_Coldwell
+recruit_character = CAN_Solon_Earl_Low
 
 ### VARIANTS ###
 # 1936 Start #

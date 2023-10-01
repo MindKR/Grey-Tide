@@ -143,7 +143,7 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 71
-	conservative = 29
+	conservatism = 29
 }
 
 recruit_character = ROM_gheorghe_tatarescu

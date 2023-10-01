@@ -8,6 +8,10 @@ GBR = {
 	color = rgb { 185 25 60 }
 	color_ui = rgb { 185 25 60 }
 }
+BCR = {
+	color = rgb { 185 25 60 }
+	color_ui = rgb { 185 25 60 }
+}
 SOV = {
 	color = rgb { 160 0 0 }
 	color_ui = rgb { 160 0 0 }
@@ -554,6 +558,10 @@ KUW = {
 HUB = {
 	color = rgb { 150 50 50 }
 	color_ui = rgb { 150 50 50 }
+}
+TGR = {
+	color = rgb { 168 27 27 }
+	color_ui = rgb { 168 27 27 }
 }
 ZZZ = {
 	color = rgb { 0 0 0 }

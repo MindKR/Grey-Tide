@@ -177,11 +177,13 @@ set_convoys = 800
 
 ### DIPLOMACY ###
 set_autonomy = { target = AST autonomous_state = GT_Dominion }
+set_autonomy = { target = BCR autonomous_state = GT_UN_Trust_Territory }
 set_autonomy = { target = BOT autonomous_state = GT_Protectorate }
 set_autonomy = { target = CAN autonomous_state = GT_Dominion }
 set_autonomy = { target = EGY autonomous_state = GT_veiled_protectorate }
 set_autonomy = { target = MAL autonomous_state = autonomy_integrated_puppet }
 set_autonomy = { target = NFL autonomous_state = GT_Dominion }
+set_autonomy = { target = NGA autonomous_state = GT_Colony }
 set_autonomy = { target = NZL autonomous_state = GT_Dominion }
 set_autonomy = { target = SAF autonomous_state = GT_Dominion }
 set_autonomy = { target = SUD autonomous_state = GT_Dominion }
@@ -194,11 +196,13 @@ set_autonomy = { target = ZIM autonomous_state = GT_Colony }
 
 create_faction = Commonwealth
 add_to_faction = AST
+add_to_faction = BCR
 add_to_faction = BOT
 add_to_faction = CAN
 add_to_faction = EGY
 add_to_faction = MAL
 add_to_faction = NFL
+add_to_faction = NGA
 add_to_faction = NZL
 add_to_faction = SAF
 add_to_faction = SUD
@@ -210,10 +214,12 @@ add_to_faction = ZAM
 add_to_faction = ZIM
 
 
+#BCR = { set_cosmetic_tag = BCR_GBR }
 BOT = { set_cosmetic_tag = BOT_GBR }
 CAN = { set_cosmetic_tag = CAN_GBR }
 EGY = { set_cosmetic_tag = EGY_GBR }
 NFL = { set_cosmetic_tag = NFL_GBR }
+NGA = { set_cosmetic_tag = NGA_GBR }
 KEN = { set_cosmetic_tag = KEN_GBR }
 KUW = { set_cosmetic_tag = KUW_GBR }
 SUD = { set_cosmetic_tag = SUD_GBR }
@@ -225,21 +231,21 @@ ZIM = { set_cosmetic_tag = ZIM_GBR }
 add_to_tech_sharing_group = commonwealth_research
 
 set_politics = {
-	ruling_party = conservative 
+	ruling_party = conservatism 
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = yes ##suspended through duration of war, which is handled via event
 }
 set_popularities = {
-	conservative = 60
-	social_democrat = 22
+	conservatism = 60
+	progressivism = 22
 	liberal = 17
-	authoritarian_socialist = 1
+	authoritarian_socialism = 1
 }
 
 "MAL" = {
 	set_politics = {
-		ruling_party = conservative
+		ruling_party = conservatism
 		last_election = "1935.9.15"
 		election_frequency = 72
 		elections_allowed = no

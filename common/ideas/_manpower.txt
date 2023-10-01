@@ -103,7 +103,7 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
 				OR = {
-					has_government = despot
+					has_government = despotism
 					has_socialist_government = yes
 					AND = {
 						has_war = yes
@@ -199,7 +199,7 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
 				OR = {
-					has_government = despot
+					has_government = despotism
 					has_socialist_government = yes
 					AND = {
 						has_war = yes

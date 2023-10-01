@@ -11,7 +11,7 @@ characters={
 			always = no
 		}
 		country_leader={
-			ideology=conservative_subtype
+			ideology=conservatism_subtype
 			desc = "KOR_seo_jaepil_desc"
 			expire = "1965.1.1"
 			id=-1
@@ -59,7 +59,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			expire = "1965.1.1"
 			id=-1
 		}
@@ -73,7 +73,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=authoritarian_socialist_subtype
+			ideology=authoritarian_socialism_subtype
 			expire = "1965.1.1"
 			id=-1
 		}
@@ -87,7 +87,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			expire = "1953.3.1"
 			id=-1
 		}

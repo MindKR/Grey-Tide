@@ -96,35 +96,35 @@ country_event = { #ideology opinion modifiers on government change
 				limit = {
 					OR = {
 						AND = {
-							has_government = social_democrat
+							has_government = progressivism
 							ROOT = {
 								OR = {
 									has_government = liberal
-									has_government = conservative
+									has_government = conservatism
 								}
 							}
 						}
 						AND = {
 							OR = {
 								has_government = liberal
-								has_government = conservative
+								has_government = conservatism
 							}
-							ROOT = { has_government = social_democrat }
+							ROOT = { has_government = progressivism }
 						}
 						AND = {
 							has_government = liberal
-							ROOT = { has_government = conservative }
+							ROOT = { has_government = conservatism }
 						}
 						AND = {
-							has_government = conservative
+							has_government = conservatism
 							ROOT = { has_government = liberal }
 						}
 						AND = {
 							has_government = libertarian_socialist
-							ROOT = { has_government = authoritarian_socialist }
+							ROOT = { has_government = authoritarian_socialism }
 						}
 						AND = {
-							has_government = authoritarian_socialist
+							has_government = authoritarian_socialism
 							ROOT = { has_government = libertarian_socialist }
 						}
 					}

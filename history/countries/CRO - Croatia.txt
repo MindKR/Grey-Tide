@@ -40,11 +40,11 @@ if = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = social_liberal
+	ruling_party = liberalismism
 	last_election = "1935.6.9"
 	election_frequency = 48
 	elections_allowed = no # none after offset 1
 }
 set_popularities = {
-	social_liberal = 100
+	liberalism = 100
 }

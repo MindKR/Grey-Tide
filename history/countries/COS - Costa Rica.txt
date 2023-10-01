@@ -40,7 +40,7 @@ set_politics = {
 
 set_popularities = {
 	liberal = 95
-	authoritarian_socialist = 5
+	authoritarian_socialism = 5
 }
 
 1936.2.9 = {
@@ -53,7 +53,7 @@ set_popularities = {
 
 	set_popularities = {
 		liberal = 95
-		authoritarian_socialist = 5
+		authoritarian_socialism = 5
 	}
 
 	recruit_character = COS_leon_cortes_castro

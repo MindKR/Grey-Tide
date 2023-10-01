@@ -174,20 +174,20 @@ set_war_support = 0.3
 add_command_power = 20
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = authoritarian_democracy
 	last_election = "1938.3.5"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 set_popularities = {
-	social_democrat = 0
-	social_liberal = 4
-	market_liberal = 9
-	conservative = 14
-	authoritarian_democrat = 73
-	authoritarian_socialist = 0
-	fascist = 0
+	progressivism = 0
+	liberalism = 4
+	liberal_conservatism = 9
+	conservatism = 14
+	authoritarian_democracy = 73
+	authoritarian_socialism = 0
+	fascism = 0
 }
 
 puppet = AUS
@@ -197,7 +197,7 @@ add_to_array = { Reichstag_buttons_array = 2 }
 add_to_array = { Reichstag_buttons_array = 3 }
 
 set_variable = { var = Reichstag_socialist_seat value = 12 } #KPD
-set_variable = { var = Reichstag_social_democrat_seat value = 77 } #SPD
+set_variable = { var = Reichstag_progressivism_seat value = 77 } #SPD
 
 set_variable = { var = Reichstag_PP_seat value = 19 }
 set_variable = { var = Reichstag_DP_seat value = 1 }
@@ -206,14 +206,14 @@ set_variable = { var = Reichstag_ELP_seat value = 9 }
 set_variable = { var = Reichstag_BDL_seat value = 4 }
 set_variable = { var = Reichstag_BB_seat value = 2 }
 
-set_variable = { var = Reichstag_social_liberal_seat value = 137 } #FVP
-set_variable = { var = Reichstag_conservative_seat value = 38 } #DZP
-set_variable = { var = Reichstag_market_liberal_seat value = 72 } #NLP
+set_variable = { var = Reichstag_liberalism_seat value = 137 } #FVP
+set_variable = { var = Reichstag_conservatism_seat value = 38 } #DZP
+set_variable = { var = Reichstag_liberal_conservatism_seat value = 72 } #NLP
 
-set_variable = { var = Reichstag_authoritarian_democrat_seat value = 4 } #DRP
+set_variable = { var = Reichstag_authoritarian_democracy_seat value = 4 } #DRP
 
-set_variable = { var = Reichstag_despot_seat value = 10 } #DkP
-set_variable = { var = Reichstag_fascist_seat value = 7 }
+set_variable = { var = Reichstag_despotism_seat value = 10 } #DkP
+set_variable = { var = Reichstag_fascism_seat value = 7 }
 
 set_variable = { var = Reichstag_MP value = 0 }
 
@@ -228,7 +228,7 @@ set_country_flag = Reichstag_NP
 
 # Cabinet
 recruit_character = GER_Otto_Ernst_Remer #Authoritarian Democrat
-recruit_character = GER_wilhelm_iii #despot
+recruit_character = GER_wilhelm_iii #despotism
 
 
 recruit_character = GER_albert_kesselring
@@ -307,7 +307,7 @@ recruit_character = GER_alexander_von_falkenhausen #Not visible unless recalled 
 add_ideas = {
 	wilhelm_iii
 	GER_unified_german_pride
-	GER_conservative_military
+	GER_conservatism_military
 	GER_exclusive_of_junkers
 
 	limited_exports

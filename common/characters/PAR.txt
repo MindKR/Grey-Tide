@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservative_subtype
+			ideology=conservatism_subtype
 			traits={ silent_workhorse quartermaster_general }
 			expire="1950.1.1.12"
 			id=-1
@@ -62,7 +62,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			traits={  }
 			expire="1950.1.1.12"
 			id=-1

@@ -1,67 +1,61 @@
 spriteTypes = {	
 
 	spriteType = {
-		name = "GFX_ideology_social_democrat_group"
-		texturefile = "gfx/interface/ideologies/social_democrat_group.png"
+		name = "GFX_ideology_progressivism_group"
+		texturefile = "gfx/interface/ideologies/progressivism_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_social_liberal_group"
-		texturefile = "gfx/interface/ideologies/liberal_group.png"
+		name = "GFX_ideology_liberalism_group"
+		texturefile = "gfx/interface/ideologies/liberalism_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_market_liberal_group"
-		texturefile = "gfx/interface/ideologies/liberal_group.png"
+		name = "GFX_ideology_liberal_conservatism_group"
+		texturefile = "gfx/interface/ideologies/liberalism_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_conservative_group"
-		texturefile = "gfx/interface/ideologies/conservative_group.png"
+		name = "GFX_ideology_conservatism_group"
+		texturefile = "gfx/interface/ideologies/conservatism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_libertarian_socialist_group"
 		texturefile = "gfx/interface/ideologies/libertarian_socialist_group.dds"
 	}
 	spriteType = {
-		name = "GFX_ideology_authoritarian_socialist_group"
-		texturefile = "gfx/interface/ideologies/authoritarian_socialist_group.dds"
+		name = "GFX_ideology_authoritarian_socialism_group"
+		texturefile = "gfx/interface/ideologies/authoritarian_socialism_group.dds"
 	}
 	spriteType = {
-		name = "GFX_ideology_despot_group"
-		texturefile = "gfx/interface/ideologies/despot_group.png"
+		name = "GFX_ideology_despotism_group"
+		texturefile = "gfx/interface/ideologies/despotism_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_fascist_group"
-		texturefile = "gfx/interface/ideologies/national_populist_group.png"
+		name = "GFX_ideology_fascism_group"
+		texturefile = "gfx/interface/ideologies/fascism_group.png"
 	}
 
 	#GER
 	spriteType = {
-		name = "GFX_ideology_GER_social_democrat_group"
-		texturefile = "gfx/interface/ideologies/GER/GER_social_democrat_group.png"
+		name = "GFX_ideology_GER_progressivism_group"
+		texturefile = "gfx/interface/ideologies/GER/GER_progressivism_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_GER_conservative_group"
-		texturefile = "gfx/interface/ideologies/GER/GER_conservative_group.png"
-	}
-
-	#AUH
-	spriteType = {
-		name = "GFX_ideology_AUH_social_democrat_group"
-		texturefile = "gfx/interface/ideologies/AUH/AUH_social_democrat_group.png"
+		name = "GFX_ideology_GER_conservatism_group"
+		texturefile = "gfx/interface/ideologies/GER/GER_conservatism_group.png"
 	}
 
 	#USA
 	spriteType = {
-		name = "GFX_ideology_USA_social_liberal_group"
-		texturefile = "gfx/interface/ideologies/USA/USA_social_liberal_group.png"
+		name = "GFX_ideology_USA_liberalism_group"
+		texturefile = "gfx/interface/ideologies/USA/USA_liberalism_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_USA_market_liberal_group"
-		texturefile = "gfx/interface/ideologies/USA/USA_market_liberal_group.png"
+		name = "GFX_ideology_USA_liberal_conservatism_group"
+		texturefile = "gfx/interface/ideologies/USA/USA_liberal_conservatism_group.png"
 	}
 
 	#SWE
 	spriteType = {
-		name = "GFX_ideology_SWE_social_democrat_group"
-		texturefile = "gfx/interface/ideologies/SWE/SWE_social_democrat_group.png"
+		name = "GFX_ideology_SWE_progressivism_group"
+		texturefile = "gfx/interface/ideologies/SWE/SWE_progressivism_group.png"
 	}
 }

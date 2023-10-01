@@ -64,7 +64,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			traits={ captain_of_industry }
 			expire="1947.1.1.12"
 			id=-1

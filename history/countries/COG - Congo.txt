@@ -26,7 +26,7 @@ create_country_leader = {
 	name = "François Tolenga"
 	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = despot_subtype
+	ideology = despotism_subtype
 	traits = {
 		compassionate_gentleman
 	}
@@ -36,7 +36,7 @@ create_country_leader = {
 	name = "Lumumba Lomendja"
 	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_socialist_subtype
+	ideology = authoritarian_socialism_subtype
 	traits = {
 		silent_workhorse
 	}
@@ -47,7 +47,7 @@ create_country_leader = {
 	name = "David Manera"
 	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = fascist_subtype
+	ideology = fascism_subtype
 	traits = {
 		
 	}

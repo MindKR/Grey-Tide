@@ -68,8 +68,8 @@ set_politics = {
 }
 set_popularities = {
 	liberal = 68
-	conservative = 14
-	authoritarian_socialist = 18
+	conservatism = 14
+	authoritarian_socialism = 18
 }
 
 recruit_character = CHL_arturo_alessandri

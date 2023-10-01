@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=social_democrat_subtype
+			ideology=progressivism_subtype
 			desc = "AUS_Ferdinand_II_desc"
 			traits={ unpopular_kaiser }
 			expire = "1965.1.1"
@@ -21,14 +21,14 @@ characters={
 			id=-1
 		}
 		country_leader={
-			ideology=conservative_subtype
+			ideology=conservatism_subtype
 			desc = "AUS_Ferdinand_II_desc"
 			traits={ unpopular_kaiser }
 			expire = "1965.1.1"
 			id=-1
 		}
 		country_leader={
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			desc = "AUS_Ferdinand_II_desc"
 			traits={ unpopular_kaiser }
 			expire = "1965.1.1"

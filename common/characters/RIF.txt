@@ -8,7 +8,7 @@
 			}
 		}
 		country_leader = {
-			ideology = despot_subtype
+			ideology = despotism_subtype
 			expire = "1963.2.6.1"
 			traits = { freedom_fighter }
 			id=-1

@@ -84,13 +84,13 @@ if = {
 
 set_convoys = 10
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = progressivism
 	last_election = "1935.5.3"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	social_democrat = 100
+	progressivism = 100
 }
 
 recruit_character = UKR_kost_levytsky

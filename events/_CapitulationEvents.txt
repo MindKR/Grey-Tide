@@ -17,12 +17,12 @@ news_event = {
 			NOT = {
 				OR = {
 					AND = {
-						ROOT = { has_government = social_democrat }
+						ROOT = { has_government = progressivism }
 						FROM.FROM = { 
 							OR = {
-								has_government = social_democrat
+								has_government = progressivism
 								has_government = liberal
-								has_government = conservative
+								has_government = conservatism
 							}
 						}
 					}
@@ -30,19 +30,19 @@ news_event = {
 						ROOT = { has_government = liberal }
 						FROM.FROM = { 
 							OR = {
-								has_government = social_democrat
+								has_government = progressivism
 								has_government = liberal
-								has_government = conservative
+								has_government = conservatism
 							}
 						}
 					}
 					AND = {
-						ROOT = { has_government = conservative }
+						ROOT = { has_government = conservatism }
 						FROM.FROM = { 
 							OR = {
-								has_government = social_democrat
+								has_government = progressivism
 								has_government = liberal
-								has_government = conservative
+								has_government = conservatism
 							}
 						}
 					}
@@ -50,23 +50,23 @@ news_event = {
 						ROOT = { has_government = libertarian_socialist }
 						OR = {
 							FROM.FROM = { has_government = libertarian_socialist }
-							FROM.FROM = { has_government = authoritarian_socialist }
+							FROM.FROM = { has_government = authoritarian_socialism }
 						}
 					}
 					AND = {
-						ROOT = { has_government = authoritarian_socialist }
+						ROOT = { has_government = authoritarian_socialism }
 						OR = {
 							FROM.FROM = { has_government = libertarian_socialist }
-							FROM.FROM = { has_government = authoritarian_socialist }
+							FROM.FROM = { has_government = authoritarian_socialism }
 						}
 					}
 					AND = {
-						ROOT = { has_government = despot }
-						FROM.FROM = { has_government = despot }
+						ROOT = { has_government = despotism }
+						FROM.FROM = { has_government = despotism }
 					}
 					AND = {
-						ROOT = { has_government = despot }
-						FROM.FROM = { has_government = despot }
+						ROOT = { has_government = despotism }
+						FROM.FROM = { has_government = despotism }
 					}
 				}
 			}
@@ -83,21 +83,21 @@ news_event = {
 		trigger = {
 			OR = {
 				AND = {
-					ROOT = { has_government = despot }
-					FROM.FROM = { has_government = despot }
+					ROOT = { has_government = despotism }
+					FROM.FROM = { has_government = despotism }
 				}
 				AND = {
 					ROOT = { has_government = libertarian_socialist }
 					OR = {
 						FROM.FROM = { has_government = libertarian_socialist }
-						FROM.FROM = { has_government = authoritarian_socialist }
+						FROM.FROM = { has_government = authoritarian_socialism }
 					}
 				}
 				AND = {
-					ROOT = { has_government = authoritarian_socialist }
+					ROOT = { has_government = authoritarian_socialism }
 					OR = {
 						FROM.FROM = { has_government = libertarian_socialist }
-						FROM.FROM = { has_government = authoritarian_socialist }
+						FROM.FROM = { has_government = authoritarian_socialism }
 					}
 				}
 			}
@@ -174,12 +174,12 @@ news_event = {
 			NOT = {
 				OR = {
 					AND = {
-						ROOT = { has_government = social_democrat }
+						ROOT = { has_government = progressivism }
 						FROM.FROM = { 
 							OR = {
-								has_government = social_democrat
+								has_government = progressivism
 								has_government = liberal
-								has_government = conservative
+								has_government = conservatism
 							}
 						}
 					}
@@ -187,19 +187,19 @@ news_event = {
 						ROOT = { has_government = liberal }
 						FROM.FROM = { 
 							OR = {
-								has_government = social_democrat
+								has_government = progressivism
 								has_government = liberal
-								has_government = conservative
+								has_government = conservatism
 							}
 						}
 					}
 					AND = {
-						ROOT = { has_government = conservative }
+						ROOT = { has_government = conservatism }
 						FROM.FROM = { 
 							OR = {
-								has_government = social_democrat
+								has_government = progressivism
 								has_government = liberal
-								has_government = conservative
+								has_government = conservatism
 							}
 						}
 					}
@@ -207,24 +207,24 @@ news_event = {
 						ROOT = { has_government = libertarian_socialist }
 						OR = {
 							FROM.FROM = { has_government = libertarian_socialist }
-							FROM.FROM = { has_government = authoritarian_socialist }
+							FROM.FROM = { has_government = authoritarian_socialism }
 						}
 					}
 					AND = {
-						ROOT = { has_government = authoritarian_socialist }
+						ROOT = { has_government = authoritarian_socialism }
 						OR = {
 							FROM.FROM = { has_government = libertarian_socialist }
-							FROM.FROM = { has_government = authoritarian_socialist }
+							FROM.FROM = { has_government = authoritarian_socialism }
 						}
 					}
 					AND = 
 					AND = {
-						ROOT = { has_government = despot }
-						FROM.FROM = { has_government = despot }
+						ROOT = { has_government = despotism }
+						FROM.FROM = { has_government = despotism }
 					}
 					AND = {
-						ROOT = { has_government = despot }
-						FROM.FROM = { has_government = despot }
+						ROOT = { has_government = despotism }
+						FROM.FROM = { has_government = despotism }
 					}
 				}
 			}

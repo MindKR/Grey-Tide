@@ -840,19 +840,19 @@ country_event = {
 			limit = {
 				has_democratic_government = yes
 				check_variable = {
-					var = ROOT.party_popularity@authoritarian_socialist
+					var = ROOT.party_popularity@authoritarian_socialism
 					value = ROOT.party_popularity@libertarian_socialist
 					compare = greater_than
 				}
 			}
-			start_civil_war = { ideology = authoritarian_socialist size = 0.35 }
+			start_civil_war = { ideology = authoritarian_socialism size = 0.35 }
 		}
 		if = {
 			limit = {
 				has_democratic_government = yes
 				check_variable = {
 					var = ROOT.party_popularity@libertarian_socialist
-					value = ROOT.party_popularity@authoritarian_socialist
+					value = ROOT.party_popularity@authoritarian_socialism
 					compare = greater_than
 				}
 			}
@@ -862,46 +862,46 @@ country_event = {
 			limit = {
 				has_democratic_government = yes
 				libertarian_socialist < 0.01
-				authoritarian_socialist < 0.01
+				authoritarian_socialism < 0.01
 			}
 			random_list = {
 				50 = { start_civil_war = { ideology = libertarian_socialist size = 0.35 } }
-				50 = { start_civil_war = { ideology = authoritarian_socialist size = 0.35 } }
+				50 = { start_civil_war = { ideology = authoritarian_socialism size = 0.35 } }
 			}
 		}
 		if = {
 			limit = { 
 				OR = {
-					has_government = despot
+					has_government = despotism
 					has_socialist_government = yes
 				} 
 				check_variable = {
-					var = ROOT.party_popularity@social_democrat
+					var = ROOT.party_popularity@progressivism
 					value = ROOT.party_popularity@liberal
 					compare = greater_than
 				}
 				check_variable = {
-					var = ROOT.party_popularity@social_democrat
-					value = ROOT.party_popularity@conservative
+					var = ROOT.party_popularity@progressivism
+					value = ROOT.party_popularity@conservatism
 					compare = greater_than
 				}
 			}
-			start_civil_war = { ideology = social_democrat size = 0.45 }
+			start_civil_war = { ideology = progressivism size = 0.45 }
 		}
 		if = {
 			limit = { 
 				OR = {
-					has_government = despot
+					has_government = despotism
 					has_socialist_government = yes
 				} 
 				check_variable = {
 					var = ROOT.party_popularity@liberal
-					value = ROOT.party_popularity@social_democrat
+					value = ROOT.party_popularity@progressivism
 					compare = greater_than
 				}
 				check_variable = {
 					var = ROOT.party_popularity@liberal
-					value = ROOT.party_popularity@conservative
+					value = ROOT.party_popularity@conservatism
 					compare = greater_than
 				}
 			}
@@ -910,36 +910,36 @@ country_event = {
 		if = {
 			limit = { 
 				OR = {
-					has_government = despot
+					has_government = despotism
 					has_socialist_government = yes
 				} 
 				check_variable = {
-					var = ROOT.party_popularity@conservative
-					value = ROOT.party_popularity@social_democrat
+					var = ROOT.party_popularity@conservatism
+					value = ROOT.party_popularity@progressivism
 					compare = greater_than
 				}
 				check_variable = {
-					var = ROOT.party_popularity@conservative
+					var = ROOT.party_popularity@conservatism
 					value = ROOT.party_popularity@liberal
 					compare = greater_than
 				}
 			}
-			start_civil_war = { ideology = conservative size = 0.45 }
+			start_civil_war = { ideology = conservatism size = 0.45 }
 		}
 		if = {
 			limit = { 
 				OR = {
-					has_government = despot
+					has_government = despotism
 					has_socialist_government = yes
 				} 
-				social_democrat < 0.01
+				progressivism < 0.01
 				liberal < 0.01
-				conservative < 0.01
+				conservatism < 0.01
 			}
 			random_list = {
-				1 = { start_civil_war = { ideology = social_democrat size = 0.45 } }
+				1 = { start_civil_war = { ideology = progressivism size = 0.45 } }
 				1 = { start_civil_war = { ideology = liberal size = 0.45 } }
-				1 = { start_civil_war = { ideology = conservative size = 0.45 } }
+				1 = { start_civil_war = { ideology = conservatism size = 0.45 } }
 			}
 		}
 		clr_country_flag = crisis_in_progress
@@ -1390,7 +1390,7 @@ country_event = {
 	id = mutiny_event.5
 	title = mutiny_event.5.t	
 	desc = mutiny_event.5.desc	#
-	picture = GFX_report_event_fascists_posing					# 
+	picture = GFX_report_event_fascisms_posing					# 
 		
 	is_triggered_only = yes
 	

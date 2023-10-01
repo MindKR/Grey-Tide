@@ -3,32 +3,36 @@
 is_same_ideology = {
 	OR = {
 		AND = {
-			has_government = social_democrat
-			ROOT = { has_government = social_democrat }
+			has_government = progressivism
+			ROOT = { has_government = progressivism }
 		}
 		AND = {
-			has_government = liberal
-			ROOT = { has_government = liberal }
+			has_government = liberalism
+			ROOT = { has_government = liberalism }
 		}
 		AND = {
-			has_government = conservative
-			ROOT = { has_government = conservative }
+			has_government = liberal_conservatism
+			ROOT = { has_government = liberal_conservatism }
 		}
 		AND = {
-			has_government = despot
-			ROOT = { has_government = despot }
+			has_government = conservatism
+			ROOT = { has_government = conservatism }
 		}
 		AND = {
-			has_government = libertarian_socialist
-			ROOT = { has_government = libertarian_socialist }
+			has_government = authoritarian_democracy
+			ROOT = { has_government = authoritarian_democracy }
 		}
 		AND = {
-			has_government = authoritarian_socialist
-			ROOT = { has_government = authoritarian_socialist }
+			has_government = authoritarian_socialism
+			ROOT = { has_government = authoritarian_socialism }
 		}
 		AND = {
-			has_government = fascist
-			ROOT = { has_government = fascist }
+			has_government = despotism
+			ROOT = { has_government = despotism }
+		}
+		AND = {
+			has_government = fascism
+			ROOT = { has_government = fascism }
 		}
 	}
 }
@@ -37,46 +41,50 @@ is_enemy_ideology = {
 	OR = {
 		AND = {
 			OR = {
-				has_government = social_democrat
-				has_government = liberal
-				has_government = conservative
+				has_government = progressivism
+				has_government = social_liberal
+				has_government = liberal_conservatism
+				has_government = conservatism
 			}
 			ROOT = {
 				OR = {
-					has_government = libertarian_socialist
-					has_government = authoritarian_socialist
-					has_government = despot
-					has_government = fascist
+					has_government = authoritarian_socialism
+					has_government = despotism
+					has_government = fascism
 				}
 			}
 		}
 		AND = {
-			OR = {
-				has_government = libertarian_socialist
-				has_government = authoritarian_socialist
-			}
+			has_government = authoritarian_socialism
 			ROOT = {
 				OR = {
-					has_government = social_democrat
-					has_government = liberal
-					has_government = conservative
-					has_government = despot
-					has_government = fascist
+					has_government = progressivism
+					has_government = social_liberal
+					has_government = liberal_conservatism
+					has_government = conservatism
+					has_government = despotism
+					has_government = fascism
 				}
 			}
 		}
 		AND = {
+			has_government = authoritarian_democracy
+			ROOT = {
+				has_government = authoritarian_socialism
+			}
+		}
+		AND = {
 			OR = {
-				has_government = despot
-				has_government = fascist
+				has_government = despotism
+				has_government = fascism
 			}
 			ROOT = {
 				OR = {
-					has_government = social_democrat
-					has_government = liberal
-					has_government = conservative
-					has_government = libertarian_socialist
-					has_government = authoritarian_socialist
+					has_government = progressivism
+					has_government = social_liberal
+					has_government = liberal_conservatism
+					has_government = conservatism
+					has_government = authoritarian_socialism
 				}
 			}
 		}
@@ -88,9 +96,10 @@ has_democratic_government = {
 	custom_trigger_tooltip = {
 		tooltip = GT_is_democratic
 		OR = {
-			has_government = social_democrat
-			has_government = liberal
-			has_government = conservative
+			has_government = progressivism
+			has_government = social_liberal
+			has_government = liberal_conservatism
+			has_government = conservatism
 		}
 	}
 }
@@ -98,10 +107,7 @@ has_democratic_government = {
 has_socialist_government = {
 	custom_trigger_tooltip = {
 		tooltip = GT_is_socialist
-		OR = {
-			has_government = libertarian_socialist
-			has_government = authoritarian_socialist
-		}
+		has_government = authoritarian_socialism
 	}
 }
 
@@ -109,280 +115,357 @@ has_authoritarian_government = {
 	custom_trigger_tooltip = {
 		tooltip = GT_is_authoritarian
 		OR = {
-			has_government = despot
-			has_government = fascist
+			has_government = authoritarian_democracy
+			has_government = authoritarian_socialism
+			has_government = despotism
+			has_government = fascism
 		}
 	}
 }
 
 # Plurality
-social_democrat_plurality = {
+progressivism_plurality = {
 
 	OR = {
-		social_democrat > 0.5
+		progressivism > 0.5
 		AND = {
 			check_variable = {
-				var = ROOT.party_popularity@social_democrat
-				value = ROOT.party_popularity@liberal
+				var = ROOT.party_popularity@progressivism
+				value = ROOT.party_popularity@liberalism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@social_democrat
-				value = ROOT.party_popularity@conservative
+				var = ROOT.party_popularity@progressivism
+				value = ROOT.party_popularity@liberal_conservatism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@social_democrat
-				value = ROOT.party_popularity@libertarian_socialist
+				var = ROOT.party_popularity@progressivism
+				value = ROOT.party_popularity@conservatism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@social_democrat
-				value = ROOT.party_popularity@authoritarian_socialist
+				var = ROOT.party_popularity@progressivism
+				value = ROOT.party_popularity@authoritarian_democracy
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@social_democrat
-				value = ROOT.party_popularity@despot
+				var = ROOT.party_popularity@progressivism
+				value = ROOT.party_popularity@authoritarian_socialism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@social_democrat
-				value = ROOT.party_popularity@fascist
+				var = ROOT.party_popularity@progressivism
+				value = ROOT.party_popularity@despotism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@progressivism
+				value = ROOT.party_popularity@fascism
 				compare = greater_than
 			}
 		}
 	}
 }
 
-liberal_plurality = {
-
+liberalism_plurality = {
 	OR = {
-		liberal > 0.5
+		social_liberal > 0.5
 		AND = {
 			check_variable = {
-				var = ROOT.party_popularity@liberal
-				value = ROOT.party_popularity@social_democrat
+				var = ROOT.party_popularity@liberalism
+				value = ROOT.party_popularity@progressivism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@liberal
-				value = ROOT.party_popularity@conservative
+				var = ROOT.party_popularity@liberalism
+				value = ROOT.party_popularity@liberal_conservatism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@liberal
-				value = ROOT.party_popularity@libertarian_socialist
+				var = ROOT.party_popularity@liberalism
+				value = ROOT.party_popularity@conservatism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@liberal
-				value = ROOT.party_popularity@authoritarian_socialist
+				var = ROOT.party_popularity@liberalism
+				value = ROOT.party_popularity@authoritarian_democracy
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@liberal
-				value = ROOT.party_popularity@despot
+				var = ROOT.party_popularity@liberalism
+				value = ROOT.party_popularity@authoritarian_socialism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@liberal
-				value = ROOT.party_popularity@fascist
+				var = ROOT.party_popularity@liberalism
+				value = ROOT.party_popularity@despotism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberalism
+				value = ROOT.party_popularity@fascism
 				compare = greater_than
 			}
 		}
 	}
 }
 
-conservative_plurality = {
-
+liberal_conservatism_plurality = {
 	OR = {
-		conservative > 0.5
+		conservatism > 0.5
 		AND = {
 			check_variable = {
-				var = ROOT.party_popularity@conservative
-				value = ROOT.party_popularity@social_democrat
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@progressivism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@conservative
-				value = ROOT.party_popularity@liberal
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@liberalism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@conservative
-				value = ROOT.party_popularity@libertarian_socialist
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@conservatism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@conservative
-				value = ROOT.party_popularity@authoritarian_socialist
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@authoritarian_democracy
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@conservative
-				value = ROOT.party_popularity@despot
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@authoritarian_socialism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@conservative
-				value = ROOT.party_popularity@fascist
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@despotism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@fascism
 				compare = greater_than
 			}
 		}
 	}
 }
 
-libertarian_socialist_plurality = {
-
+conservatism_plurality = {
 	OR = {
-		libertarian_socialist > 0.5
+		conservatism > 0.5
 		AND = {
 			check_variable = {
-				var = ROOT.party_popularity@libertarian_socialist
-				value = ROOT.party_popularity@social_democrat
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@progressivism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@libertarian_socialist
-				value = ROOT.party_popularity@liberal
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@liberalism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@libertarian_socialist
-				value = ROOT.party_popularity@conservative
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@liberal_conservatism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@libertarian_socialist
-				value = ROOT.party_popularity@authoritarian_socialist
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@authoritarian_democracy
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@libertarian_socialist
-				value = ROOT.party_popularity@despot
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@authoritarian_socialism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@libertarian_socialist
-				value = ROOT.party_popularity@fascist
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@despotism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@fascism
 				compare = greater_than
 			}
 		}
 	}
 }
 
-authoritarian_socialist_plurality = {
-
+authoritarian_democracy_plurality = {
 	OR = {
-		authoritarian_socialist > 0.5
+		authoritarian_democracy > 0.5
 		AND = {
 			check_variable = {
-				var = ROOT.party_popularity@authoritarian_socialist
-				value = ROOT.party_popularity@social_democrat
+				var = ROOT.party_popularity@authoritarian_democracy
+				value = ROOT.party_popularity@progressivism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@authoritarian_socialist
-				value = ROOT.party_popularity@liberal
+				var = ROOT.party_popularity@authoritarian_democracy
+				value = ROOT.party_popularity@liberalism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@authoritarian_socialist
-				value = ROOT.party_popularity@conservative
+				var = ROOT.party_popularity@authoritarian_democracy
+				value = ROOT.party_popularity@liberal_conservatism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@authoritarian_socialist
-				value = ROOT.party_popularity@libertarian_socialist
+				var = ROOT.party_popularity@authoritarian_democracy
+				value = ROOT.party_popularity@conservatism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@authoritarian_socialist
-				value = ROOT.party_popularity@despot
+				var = ROOT.party_popularity@authoritarian_democracy
+				value = ROOT.party_popularity@authoritarian_socialism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@authoritarian_socialist
-				value = ROOT.party_popularity@fascist
+				var = ROOT.party_popularity@authoritarian_democracy
+				value = ROOT.party_popularity@despotism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_democracy
+				value = ROOT.party_popularity@fascism
 				compare = greater_than
 			}
 		}
 	}
 }
 
-despot_plurality = {
+authoritarian_socialism_plurality = {
 
 	OR = {
-		despot > 0.5
+		authoritarian_socialism > 0.5
 		AND = {
 			check_variable = {
-				var = ROOT.party_popularity@despot
-				value = ROOT.party_popularity@social_democrat
+				var = ROOT.party_popularity@authoritarian_socialism
+				value = ROOT.party_popularity@progressivism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@despot
-				value = ROOT.party_popularity@liberal
+				var = ROOT.party_popularity@authoritarian_socialism
+				value = ROOT.party_popularity@liberalism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@despot
-				value = ROOT.party_popularity@conservative
+				var = ROOT.party_popularity@authoritarian_socialism
+				value = ROOT.party_popularity@liberal_conservatism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@despot
-				value = ROOT.party_popularity@libertarian_socialist
+				var = ROOT.party_popularity@authoritarian_socialism
+				value = ROOT.party_popularity@conservatism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@despot
-				value = ROOT.party_popularity@authoritarian_socialist
+				var = ROOT.party_popularity@authoritarian_socialism
+				value = ROOT.party_popularity@authoritarian_democracy
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@despot
-				value = ROOT.party_popularity@fascist
+				var = ROOT.party_popularity@authoritarian_socialism
+				value = ROOT.party_popularity@despotism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_socialism
+				value = ROOT.party_popularity@fascism
 				compare = greater_than
 			}
 		}
 	}
 }
 
-fascist_plurality = {
+despotism_plurality = {
 
 	OR = {
-		fascist > 0.5
+		despotism > 0.5
 		AND = {
 			check_variable = {
-				var = ROOT.party_popularity@fascist
-				value = ROOT.party_popularity@social_democrat
+				var = ROOT.party_popularity@despotism
+				value = ROOT.party_popularity@progressivism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@fascist
-				value = ROOT.party_popularity@liberal
+				var = ROOT.party_popularity@despotism
+				value = ROOT.party_popularity@liberalism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@fascist
-				value = ROOT.party_popularity@conservative
+				var = ROOT.party_popularity@despotism
+				value = ROOT.party_popularity@liberal_conservatism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@fascist
-				value = ROOT.party_popularity@libertarian_socialist
+				var = ROOT.party_popularity@despotism
+				value = ROOT.party_popularity@conservatism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@fascist
-				value = ROOT.party_popularity@authoritarian_socialist
+				var = ROOT.party_popularity@despotism
+				value = ROOT.party_popularity@authoritarian_democracy
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@fascist
-				value = ROOT.party_popularity@despot
+				var = ROOT.party_popularity@despotism
+				value = ROOT.party_popularity@authoritarian_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@despotism
+				value = ROOT.party_popularity@fascism
+				compare = greater_than
+			}
+		}
+	}
+}
+
+fascism_plurality = {
+
+	OR = {
+		fascism > 0.5
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@progressivism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@social_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@liberal_conservatism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@conservatism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@authoritarian_democracy
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@authoritarian_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@despotism
 				compare = greater_than
 			}
 		}

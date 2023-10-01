@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservative_subtype
+			ideology=conservatism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -61,7 +61,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=social_democrat_subtype
+			ideology=progressivism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -75,7 +75,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservative_subtype
+			ideology=conservatism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -147,7 +147,7 @@ characters={
 
 		advisor={
 			slot = political_advisor
-			idea_token = SAF_j_f_van_rensburg_fascist
+			idea_token = SAF_j_f_van_rensburg_fascism
 			allowed = {
 				original_tag = SAF
 			}
@@ -168,7 +168,7 @@ characters={
 				}
 			}
 			traits = {
-				fascist_demagogue 
+				fascism_demagogue 
 			}
 			do_effect = {
 				NOT = {

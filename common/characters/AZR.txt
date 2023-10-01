@@ -8,7 +8,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservative_subtype
+			ideology=conservatism_subtype
 			expire = "1953.3.1"
 			id=-1
 		}

@@ -1,4 +1,20 @@
 characters={
+	ITA_benito_mussolini = {
+		name = ITA_benito_mussolini
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ITA_benito_mussolini
+			}
+		}
+
+		country_leader = {
+			ideology = fascism_subtype
+			traits = { il_duce }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
 	ITA_victor_emmanuel_iii={
 		name=ITA_victor_emmanuel_iii
 		portraits={
@@ -7,7 +23,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -24,7 +40,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=social_democrat_subtype
+			ideology=progressivism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}		
@@ -932,7 +948,7 @@ characters={
 				}
 			}
 			traits  = {
-				fascist_demagogue 
+				fascism_demagogue 
 			}
 			do_effect  = {
 				not  = {

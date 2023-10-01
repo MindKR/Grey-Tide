@@ -14,7 +14,7 @@ if = {
 set_research_slots = 3
 
 recruit_character = LIT_antanas_smetona #
-recruit_character = LIT_karl_gero #despot
+recruit_character = LIT_karl_gero #despotism
 recruit_character = LIT_zigmas_angarietis #libertarian_socialist
 recruit_character = LIT_petras_schatz #Liberal
 recruit_character = LIT_kazys_skuchas
@@ -55,14 +55,14 @@ set_technology = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = conservative
+	ruling_party = conservatism
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no
 }
 set_popularities = {
-	social_democrat = 30
+	progressivism = 30
 	liberal = 15
 	libertarian_socialist = 15
-	conservative = 40
+	conservatism = 40
 }

@@ -93,7 +93,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Nikolay_Aleksandrovich_Skvortsov
 	expire = "1953.3.1"
-	ideology = authoritarian_socialist_subtype
+	ideology = authoritarian_socialism_subtype
 	traits = {
 		
 	}
@@ -104,7 +104,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Ilyas_Zhansugurov
 	expire = "1953.3.1"
-	ideology = conservative_subtype
+	ideology = conservatism_subtype
 	traits = {
 		
 	}

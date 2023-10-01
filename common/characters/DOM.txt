@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -48,7 +48,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			traits={ economist quartermaster_general }
 			expire="1944.1.1.12"
 			id=-1
@@ -62,7 +62,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}

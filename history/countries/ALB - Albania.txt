@@ -34,14 +34,14 @@ recruit_character = ALB_jocelyn_percy
 
 
 set_politics = {
-	ruling_party = despot
+	ruling_party = despotism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	despot = 100
+	despotism = 100
 }
 
 set_convoys = 5

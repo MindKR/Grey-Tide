@@ -268,7 +268,7 @@ leader_traits = {
 		}
 	}
 
-	conservative_grandee = {
+	conservatism_grandee = {
 		random = no
 		political_power_factor = 0.05
 		political_advisor_cost_factor = -0.1
@@ -607,7 +607,7 @@ leader_traits = {
 		}
 	}
 
-	conservative_nationalist = { #Antonio de Oliveira Salazar - Vanilla
+	conservatism_nationalist = { #Antonio de Oliveira Salazar - Vanilla
 		random = no
 		stability_factor = 0.1
 		production_speed_infrastructure_factor = 0.2
@@ -617,7 +617,7 @@ leader_traits = {
 		}
 	}
 
-	conservative_nationalist_lar = { #Antonio de Oliveira Salazar - LAR 
+	conservatism_nationalist_lar = { #Antonio de Oliveira Salazar - LAR 
 		random = no
 		stability_weekly = 0.005
 		production_speed_infrastructure_factor = 0.2

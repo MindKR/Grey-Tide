@@ -74,13 +74,13 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = despot
+	ruling_party = despotism
 	last_election = "1935.3.31"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	despot = 100
+	despotism = 100
 }
 
 recruit_character = HUN_iv_karoly

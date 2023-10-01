@@ -111,7 +111,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "ideology"
 				position = { x = 155 y = -70 }
-				font = "hoi_16mbs"
+				font = "invisiblefont"
 				text = "ideology"
 				maxWidth = 155
 				maxHeight = 25

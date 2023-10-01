@@ -74,14 +74,14 @@ if = {
 }
 
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = progressivism
 	last_election = "1935.11.27"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	social_democrat = 49
-	conservative = 36
+	progressivism = 49
+	conservatism = 36
 	liberal = 15
 }
 

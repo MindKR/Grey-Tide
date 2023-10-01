@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=social_democrat_subtype
+			ideology=progressivism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -51,7 +51,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=authoritarian_socialist_subtype
+			ideology=authoritarian_socialism_subtype
 			expire="1942.1.1.12"
 			id=-1
 		}
@@ -64,7 +64,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascist_subtype
+			ideology=fascism_subtype
 			traits={ captain_of_industry }
 			expire="1942.1.1.12"
 			id=-1

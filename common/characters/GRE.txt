@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -35,7 +35,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservative_subtype
+			ideology=conservatism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -237,9 +237,9 @@ characters={
 							}
 						}
 						custom_trigger_tooltip = {
-							tooltip = GRE_fascists_friendly_or_loyal
+							tooltip = GRE_fascisms_friendly_or_loyal
 							check_variable = {
-								var = GRE_fascist_loyalty
+								var = GRE_fascism_loyalty
 								value = 1.000
 								compare = greater_than_or_equals
 							}
@@ -797,9 +797,9 @@ characters={
 			}
 			available = {
 				custom_trigger_tooltip = {
-					tooltip = GRE_fascists_friendly_or_loyal
+					tooltip = GRE_fascisms_friendly_or_loyal
 					check_variable = {
-						var = GRE_fascist_loyalty
+						var = GRE_fascism_loyalty
 						value = 1.000
 						compare = greater_than_or_equals
 					}
@@ -1088,7 +1088,7 @@ characters={
 			available = {
 				OR = {
 					has_government = fascism 
-					has_completed_focus = GRE_recruit_the_fascists 
+					has_completed_focus = GRE_recruit_the_fascisms 
 				}
 			}
 			traits = {
@@ -1120,7 +1120,7 @@ characters={
 					has_democratic_government = yes 
 				}
 				traits = {
-					resolute_social_democrat 
+					resolute_progressivism 
 				}
 			}
 		}
@@ -1398,9 +1398,9 @@ characters={
 						}
 					}
 					custom_trigger_tooltip = {
-						tooltip = GRE_fascists_friendly_or_loyal
+						tooltip = GRE_fascisms_friendly_or_loyal
 						check_variable = {
-							var = GRE_fascist_loyalty
+							var = GRE_fascism_loyalty
 							value = 1.000
 							compare = greater_than_or_equals 
 						}

@@ -129,7 +129,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Norodom_Sihanouk
 	expire = "1953.3.1"
-	ideology = conservative_subtype
+	ideology = conservatism_subtype
 	traits = {
 		
 	}

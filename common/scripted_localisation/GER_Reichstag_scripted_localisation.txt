@@ -404,7 +404,7 @@ defined_text = {
 		trigger = {
 			check_variable = { v = 2 }
 		}
-		localization_key = Reichstag_social_democrat_seat_modifiers
+		localization_key = Reichstag_progressivism_seat_modifiers
 	}
 	text = {
 		trigger = {
@@ -428,13 +428,13 @@ defined_text = {
 		trigger = {
 			check_variable = { v = 6 }
 		}
-		localization_key = Reichstag_conservative_seat_modifiers
+		localization_key = Reichstag_conservatism_seat_modifiers
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 7 }
 		}
-		localization_key = Reichstag_despot_seat_modifiers
+		localization_key = Reichstag_despotism_seat_modifiers
 	}
 	text = {
 		trigger = {
@@ -451,33 +451,33 @@ defined_text = {
 	name = GetReichstagRulingPartyName
 	text = {
 		trigger = {
-			has_government = social_democrat
+			has_government = progressivism
 		}
 		localization_key = SPD_text
 	}
 	text = {
 		trigger = {
-			has_government = social_liberal
+			has_government = liberalismism
 			has_country_flag = Reichstag_FVP
 		}
 		localization_key = Reichstag_FVP
 	}
 	text = {
 		trigger = {
-			has_government = social_liberal
+			has_government = liberalismism
 			has_country_flag = Reichstag_DDP
 		}
 		localization_key = Reichstag_DDP
 	}
 	text = {
 		trigger = {
-			has_government = conservative
+			has_government = conservatism
 		}
 		localization_key = Reichstag_DZP
 	}
 	text = {
 		trigger = {
-			has_government = despot
+			has_government = despotism
 		}
 		localization_key = Reichstag_DkP
 	}

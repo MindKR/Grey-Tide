@@ -160,9 +160,9 @@ country_event = {
 								random_list = {
 									1 = {
 										set_popularities = {
-											social_democrat = 100
+											progressivism = 100
 										}
-										set_politics = { ruling_party = social_democrat elections_allowed = yes }
+										set_politics = { ruling_party = progressivism elections_allowed = yes }
 									}
 									1 = {
 										set_popularities = {
@@ -172,17 +172,17 @@ country_event = {
 									}
 									1 = {
 										set_popularities = {
-											conservative = 100
+											conservatism = 100
 										}
-										set_politics = { ruling_party = conservative elections_allowed = yes }
+										set_politics = { ruling_party = conservatism elections_allowed = yes }
 									}
 								}
 							}
 							allowed_party_national_populism = {
 								set_popularities = {
-									fascist = 100
+									fascism = 100
 								}
-								set_politics = { ruling_party = fascist elections_allowed = no }
+								set_politics = { ruling_party = fascism elections_allowed = no }
 							}
 							allowed_party_libertarian_socialism = {
 								set_popularities = {
@@ -192,15 +192,15 @@ country_event = {
 							}
 							allowed_party_authoritarian_socialism = {
 								set_popularities = {
-									authoritarian_socialist = 100
+									authoritarian_socialism = 100
 								}
-								set_politics = { ruling_party = authoritarian_socialist elections_allowed = no }
+								set_politics = { ruling_party = authoritarian_socialism elections_allowed = no }
 							}
 							allowed_party_despotism = {
 								set_popularities = {
-									despot = 100
+									despotism = 100
 								}
-								set_politics = { ruling_party = despot elections_allowed = no }
+								set_politics = { ruling_party = despotism elections_allowed = no }
 							}
 						}
 					}

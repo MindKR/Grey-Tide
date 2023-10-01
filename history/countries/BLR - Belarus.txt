@@ -81,15 +81,15 @@ if = {
 }
 
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = progressivism
 	last_election = "1928.3.8"
 	election_frequency = 72
 	elections_allowed = no
 }
 
 set_popularities = {
-	social_democrat = 72
-	conservative = 28
+	progressivism = 72
+	conservatism = 28
 }
 
 recruit_character = BLR_vasil_zacharka

@@ -17,7 +17,7 @@ characters={
 				has_dlc = "No Step Back"
 			}
 			available = {
-				has_completed_focus = LAT_military_despot 
+				has_completed_focus = LAT_military_despotism 
 			}
 			traits = {
 				married_to_latvia 
@@ -28,7 +28,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -69,7 +69,7 @@ characters={
 			}
 
 			country_leader={
-				ideology=fascist_subtype
+				ideology=fascism_subtype
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -95,7 +95,7 @@ characters={
 					
 				}
 				traits = {
-					fascist_demagogue 
+					fascism_demagogue 
 				}
 				ai_will_do = {
 					factor = 0
@@ -103,7 +103,7 @@ characters={
 			}
 
 			country_leader={
-				ideology=fascist_subtype
+				ideology=fascism_subtype
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -139,7 +139,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=conservative_subtype
+			ideology=conservatism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -157,7 +157,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=social_democrat_subtype
+			ideology=progressivism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -194,7 +194,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=authoritarian_socialist_subtype
+			ideology=authoritarian_socialism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -242,7 +242,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			expire="1965.1.1.1"
 			id=-1
 			traits = { latvian_militant }
@@ -707,7 +707,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=authoritarian_socialist_subtype
+			ideology=authoritarian_socialism_subtype
 			expire="1965.1.1.1"
 			id=-1
 			traits = { anti_bolshevik_leftist }

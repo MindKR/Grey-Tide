@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despot_subtype
+			ideology=despotism_subtype
 			traits={ strategist_of_desert }
 			expire = "1953.3.1"
 			desc = "POLITICS_OMAR_MUKHTAR_DESC"

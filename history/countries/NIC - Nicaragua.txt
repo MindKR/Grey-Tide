@@ -23,15 +23,15 @@ set_war_support = 0.1
 set_convoys = 10
 
 set_politics = {
-	ruling_party = despot
+	ruling_party = despotism
 	last_election = "1934.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	conservative = 20
-	authoritarian_socialist = 10
-	despot = 70
+	conservatism = 20
+	authoritarian_socialism = 10
+	despotism = 70
 }
 
 recruit_character = NIC_juan_bautista_sacasa

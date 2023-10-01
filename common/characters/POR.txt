@@ -1,5 +1,4 @@
 characters = {
-
 	POR_antonio_de_oliveira_salazar = {
 		name = POR_antonio_de_oliveira_salazar
 		portraits = {
@@ -8,9 +7,9 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=despot_subtype
-			traits = { conservative_nationalist_lar }
-			expire = "1965.1.1.1"
+			ideology=authoritarian_democracy_subtype
+			traits = { conservatism_nationalist_lar }
+			expire = "1970.7.27.1"
 			id = -1
 		}
 	}

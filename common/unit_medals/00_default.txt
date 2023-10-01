@@ -571,7 +571,7 @@ unit_medals = {
 		
 		available = { 
 			should_have_ethiopian_medals_trigger = yes 
-			has_government = fascist
+			has_government = fascism
 			has_country_leader = {
 				ruling_only = yes 
 				character = ETH_haile_selassie_gugsa
@@ -595,7 +595,7 @@ unit_medals = {
 		
 		available = { 
 			should_have_ethiopian_medals_trigger = yes 
-			has_government = fascist
+			has_government = fascism
 			has_country_leader = {
 				ruling_only = yes 
 				character = ETH_hailu_tekle_haymanot
@@ -619,7 +619,7 @@ unit_medals = {
 		
 		available = { 
 			should_have_ethiopian_medals_trigger = yes 
-			has_government = fascist
+			has_government = fascism
 			has_country_leader = {
 				ruling_only = yes 
 				character = ETH_abba_jofir
@@ -884,7 +884,7 @@ unit_medals = {
 	fascism_bravery = {
 		
 		available = { 
-			has_government = fascist
+			has_government = fascism
 			should_have_any_unique_medals_trigger = no
 		}
 		frame = 1
@@ -905,7 +905,7 @@ unit_medals = {
 	fascism_merit = {
 		
 		available = { 
-			has_government = fascist
+			has_government = fascism
 			should_have_any_unique_medals_trigger = no
 		}
 		frame = 2
@@ -926,7 +926,7 @@ unit_medals = {
 	fascism_order_brave = {
 		
 		available = { 
-			has_government = fascist
+			has_government = fascism
 			should_have_any_unique_medals_trigger = no
 		}
 		frame = 3
@@ -948,7 +948,7 @@ unit_medals = {
 	fascism_heroism = {
 		
 		available = { 
-			has_government = fascist
+			has_government = fascism
 			should_have_any_unique_medals_trigger = no
 		}
 		frame = 4

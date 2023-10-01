@@ -22,13 +22,13 @@ set_war_support = 0.1
 set_convoys = 5
 
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = progressivism
 	last_election = "1933.12.15"
 	election_frequency = 84
 	elections_allowed = yes
 }
 set_popularities = {
-	social_democrat = 100
+	progressivism = 100
 }
 
 recruit_character = ECU_federico_páez
