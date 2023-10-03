@@ -1,0 +1,27 @@
+
+state={
+	id=127
+	name="STATE_127"
+
+	history={
+		owner = GBR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			anti_air_building = 2
+			radar_station = 1
+
+		}
+		add_core_of = GBR
+
+	}
+
+	provinces={
+		11446 
+	}
+	manpower=3193383
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

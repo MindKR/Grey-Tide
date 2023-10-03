@@ -1,0 +1,28 @@
+
+state={
+	id=129
+	name="STATE_129"
+	resources={
+		steel=11.000
+	}
+
+	history={
+		owner = GBR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = GBR
+
+	}
+
+	provinces={
+		3353 9250 9322 
+	}
+	manpower=2212021
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

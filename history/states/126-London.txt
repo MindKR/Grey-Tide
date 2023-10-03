@@ -1,0 +1,31 @@
+
+state={
+	id=126
+	name="STATE_126"
+
+	history={
+		owner = GBR
+		victory_points = {
+			11333 50 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 3
+			anti_air_building = 5
+			radar_station = 1
+			air_base = 10
+
+		}
+		add_core_of = GBR
+
+	}
+
+	provinces={
+		11333 
+	}
+	manpower=9824296
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=983
+	name="STATE_983"
+
+	history={
+		owner = GBR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = GBR
+
+	}
+
+	provinces={
+		9285 11270 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}
