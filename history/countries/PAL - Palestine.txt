@@ -29,7 +29,7 @@ create_country_leader = {
 	name = "Ahmed Hilmi Pasha"
 	desc = ""
 	picture = GFX_portrait_Ahmed_Hilmi_Pasha
-	ideology = liberal_subtype
+	ideology = liberalism_subtype
 	traits = {
 		#
 	}

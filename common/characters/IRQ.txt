@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascist_subtype
+			ideology=fascism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}

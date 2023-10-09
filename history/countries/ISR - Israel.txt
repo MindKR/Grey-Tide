@@ -32,7 +32,7 @@ create_country_leader = {
 	name = "David Ben-Gurion"
 	desc = ""
 	picture = GFX_portrait_David_Ben_Gurion
-	ideology = liberal_subtype
+	ideology = liberalism_subtype
 	traits = {
 		#
 	}

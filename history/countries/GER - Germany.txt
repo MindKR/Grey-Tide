@@ -174,7 +174,7 @@ set_war_support = 0.3
 add_command_power = 20
 
 set_politics = {
-	ruling_party = authoritarian_democracy
+	ruling_party = paternalism
 	last_election = "1938.3.5"
 	election_frequency = 60
 	elections_allowed = no
@@ -185,7 +185,7 @@ set_popularities = {
 	liberalism = 4
 	liberal_conservatism = 9
 	conservatism = 14
-	authoritarian_democracy = 73
+	paternalism = 73
 	authoritarian_socialism = 0
 	fascism = 0
 }
@@ -210,7 +210,7 @@ set_variable = { var = Reichstag_liberalism_seat value = 137 } #FVP
 set_variable = { var = Reichstag_conservatism_seat value = 38 } #DZP
 set_variable = { var = Reichstag_liberal_conservatism_seat value = 72 } #NLP
 
-set_variable = { var = Reichstag_authoritarian_democracy_seat value = 4 } #DRP
+set_variable = { var = Reichstag_paternalism_seat value = 4 } #DRP
 
 set_variable = { var = Reichstag_despotism_seat value = 10 } #DkP
 set_variable = { var = Reichstag_fascism_seat value = 7 }

@@ -774,7 +774,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=liberal_subtype
+			ideology=liberalism_subtype
 			traits={ ethnarch }
 			expire="1965.1.1.1"
 			id=-1

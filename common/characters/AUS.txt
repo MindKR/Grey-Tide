@@ -14,7 +14,7 @@ characters={
 			id=-1
 		}
 		country_leader={
-			ideology=liberal_subtype
+			ideology=liberalism_subtype
 			desc = "AUS_Ferdinand_II_desc"
 			traits={ unpopular_kaiser }
 			expire = "1965.1.1"

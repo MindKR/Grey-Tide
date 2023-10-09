@@ -10,10 +10,10 @@ state={
 	history={
 		owner = GBR
 		victory_points = {
-			6384 30 
+			6384 20 
 		}
 		victory_points = {
-			6318 5 
+			6318 20 
 		}
 		buildings = {
 			infrastructure = 4
@@ -28,10 +28,11 @@ state={
 
 		}
 		add_core_of = GBR
+
 	}
 
 	provinces={
-		6318 6335 6384 
+		6318 6335 6384 8806 
 	}
 	manpower=5770454
 	buildings_max_level_factor=1.000

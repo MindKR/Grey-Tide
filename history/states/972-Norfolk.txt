@@ -4,11 +4,17 @@ state={
 
 	history={
 		owner = GBR
+		victory_points = {
+			322 5 
+		}
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 3
+			322 = {
+				naval_base = 3
 
+			}
 		}
 		add_core_of = GBR
 

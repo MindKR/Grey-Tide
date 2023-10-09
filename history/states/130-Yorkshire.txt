@@ -9,7 +9,10 @@ state={
 	history={
 		owner = GBR
 		victory_points = {
-			9379 10 
+			11382 20 
+		}
+		victory_points = {
+			9379 20
 		}
 		victory_points = {
 			11297 5 

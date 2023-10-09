@@ -94,56 +94,16 @@ if = {
 	}
 }
 
-#Ideas
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		ROM_king_carol_ii_hedonist
-	}
-	give_guarantee = CZE
-	give_guarantee = GRE
-	give_guarantee = TUR
-	give_guarantee = YUG
-}
-if = {
-	limit = {
-		AND = {  
-			NOT = { has_dlc = "Death or Dishonor" }
-			has_dlc = "Battle for the Bosporus"
-		}
-	}
-	give_guarantee = GRE
-	give_guarantee = TUR
-	give_guarantee = YUG
-}
-add_ideas = neutrality_idea
-
-#Kick off kings crazy life
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	ROM = {
-		#Pick from list of the sane events first
-		random_list = {
-			100 = { country_event = { id = DOD_romania.81 days = 2 random_days = 20 } }
-		}
-	}
-}
-
 set_convoys = 10
 
 set_politics = {
-	ruling_party = liberal
+	ruling_party = despotism
 	last_election = "1933.12.20"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	liberal = 71
-	conservatism = 29
+	despotism = 100
 }
 
 recruit_character = ROM_gheorghe_tatarescu

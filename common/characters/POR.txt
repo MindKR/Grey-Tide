@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=authoritarian_democracy_subtype
+			ideology=paternalism_subtype
 			traits = { conservatism_nationalist_lar }
 			expire = "1970.7.27.1"
 			id = -1
@@ -318,7 +318,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology=liberal_subtype
+				ideology=liberalism_subtype
 				traits = { }
 				expire = "1965.1.1.1"
 				id = -1
@@ -353,7 +353,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology=liberal_subtype
+				ideology=liberalism_subtype
 				expire = "1965.1.1.1"
 				id = -1
 			}

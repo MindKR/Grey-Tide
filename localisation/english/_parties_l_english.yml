@@ -35,19 +35,20 @@
  conservatism_agrarianism_subtype:0 "Agrarianism"
  conservatism_agrarianism_subtype_desc:0 "DESC"
 
+ paternalism:0 "Paternalist"
+ paternalism_noun:0 "Paternalism"
+ paternalism_desc:0 "Paternalism"
+
+ paternalism_subtype:0 "Authoritative"
+ paternalism_subtype_desc:0 "DESC"
+
+
  authoritarian_socialism:0 "Auth. Socialist"
  authoritarian_socialism_noun:0 "Auth. Socialism"
  authoritarian_socialism_desc:0 "Auth. Socialism"
 
  authoritarian_socialism_subtype:0 "Authoritative"
  authoritarian_socialism_subtype_desc:0 "DESC"
-
- authoritarian_democracy:0 "Auth. Democrat"
- authoritarian_democracy_noun:0 "Auth. Democracy"
- authoritarian_democracy_desc:0 "Auth. Democracy"
-
- authoritarian_democracy_subtype:0 "Authoritative"
- authoritarian_democracy_subtype_desc:0 "DESC"
 
  despotism:0 "Despot"
  despotism_noun:0 "Despotism"

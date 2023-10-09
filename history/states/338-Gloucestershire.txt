@@ -9,6 +9,9 @@ state={
 	history={
 		owner = GBR
 		victory_points = {
+			13312 10
+		}
+		victory_points = {
 			3369 5 
 		}
 		buildings = {
@@ -27,7 +30,7 @@ state={
 	}
 
 	provinces={
-		3369 
+		3369 13312 
 	}
 	manpower=1800615
 	buildings_max_level_factor=1.000

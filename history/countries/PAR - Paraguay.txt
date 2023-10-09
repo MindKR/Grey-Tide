@@ -38,7 +38,7 @@ set_popularities = {
 #	desc = "POLITICS_EUSEBIO_AYALA_DESC"
 #	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
 #	expire = "1965.1.1"
-#	ideology = liberal_subtype
+#	ideology = liberalism_subtype
 #	traits = {
 #		#
 #	}

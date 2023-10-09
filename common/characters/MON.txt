@@ -33,7 +33,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberal_subtype
+			ideology=liberalism_subtype
 			traits={ silent_workhorse dealbroker }
 			expire="1945.1.1.12"
 			id=-1

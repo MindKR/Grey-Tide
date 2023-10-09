@@ -17,7 +17,7 @@ defined_text = {
 		localization_key = "[GetSubIdeologyLocConservatism]"
 	}
 	text = {
-		trigger = { has_government = authoritarian_democracy }
+		trigger = { has_government = paternalism }
 		localization_key = "[GetSubIdeologyLocAuthoritarianDemocracy]"
 	}
 	text = {
@@ -81,7 +81,7 @@ defined_text = {
 defined_text = {
 	name = GetSubIdeologyLocAuthoritarianDemocracy
 	text = {
-		localization_key = authoritarian_democracy
+		localization_key = paternalism
 	}
 }
 

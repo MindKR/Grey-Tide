@@ -69,7 +69,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberal_subtype
+			ideology=liberalism_subtype
 			traits={ war_industrialist reluctant_interventionist }
 			expire="1942.1.1.12"
 			id=-1

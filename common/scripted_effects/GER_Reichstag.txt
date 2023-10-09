@@ -19,7 +19,7 @@ reichstag_gui_initial = {
 	add_to_array = { reichstag_seat_array = Reichstag_conservatism_seat } # DZP, Conservative
 	add_to_array = { reichstag_seat_array = Reichstag_liberal_conservatism_seat } # NLP / Sky Blue / Market Liberal
 
-	add_to_array = { reichstag_seat_array = Reichstag_authoritarian_democracy_seat } # DRP / Light Yellow / Authoritarian Democrat
+	add_to_array = { reichstag_seat_array = Reichstag_paternalism_seat } # DRP / Light Yellow / Authoritarian Democrat
 
 	add_to_array = { reichstag_seat_array = Reichstag_despotism_seat } # DkP / Blue / Despot
 	add_to_array = { reichstag_seat_array = Reichstag_fascism_seat } # National Populist

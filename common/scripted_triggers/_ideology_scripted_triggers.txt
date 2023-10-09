@@ -19,8 +19,8 @@ is_same_ideology = {
 			ROOT = { has_government = conservatism }
 		}
 		AND = {
-			has_government = authoritarian_democracy
-			ROOT = { has_government = authoritarian_democracy }
+			has_government = paternalism
+			ROOT = { has_government = paternalism }
 		}
 		AND = {
 			has_government = authoritarian_socialism
@@ -68,7 +68,7 @@ is_enemy_ideology = {
 			}
 		}
 		AND = {
-			has_government = authoritarian_democracy
+			has_government = paternalism
 			ROOT = {
 				has_government = authoritarian_socialism
 			}
@@ -115,7 +115,7 @@ has_authoritarian_government = {
 	custom_trigger_tooltip = {
 		tooltip = GT_is_authoritarian
 		OR = {
-			has_government = authoritarian_democracy
+			has_government = paternalism
 			has_government = authoritarian_socialism
 			has_government = despotism
 			has_government = fascism
@@ -146,7 +146,7 @@ progressivism_plurality = {
 			}
 			check_variable = {
 				var = ROOT.party_popularity@progressivism
-				value = ROOT.party_popularity@authoritarian_democracy
+				value = ROOT.party_popularity@paternalism
 				compare = greater_than
 			}
 			check_variable = {
@@ -189,7 +189,7 @@ liberalism_plurality = {
 			}
 			check_variable = {
 				var = ROOT.party_popularity@liberalism
-				value = ROOT.party_popularity@authoritarian_democracy
+				value = ROOT.party_popularity@paternalism
 				compare = greater_than
 			}
 			check_variable = {
@@ -232,7 +232,7 @@ liberal_conservatism_plurality = {
 			}
 			check_variable = {
 				var = ROOT.party_popularity@conservatism
-				value = ROOT.party_popularity@authoritarian_democracy
+				value = ROOT.party_popularity@paternalism
 				compare = greater_than
 			}
 			check_variable = {
@@ -275,7 +275,7 @@ conservatism_plurality = {
 			}
 			check_variable = {
 				var = ROOT.party_popularity@conservatism
-				value = ROOT.party_popularity@authoritarian_democracy
+				value = ROOT.party_popularity@paternalism
 				compare = greater_than
 			}
 			check_variable = {
@@ -297,42 +297,42 @@ conservatism_plurality = {
 	}
 }
 
-authoritarian_democracy_plurality = {
+paternalism_plurality = {
 	OR = {
-		authoritarian_democracy > 0.5
+		paternalism > 0.5
 		AND = {
 			check_variable = {
-				var = ROOT.party_popularity@authoritarian_democracy
+				var = ROOT.party_popularity@paternalism
 				value = ROOT.party_popularity@progressivism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@authoritarian_democracy
+				var = ROOT.party_popularity@paternalism
 				value = ROOT.party_popularity@liberalism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@authoritarian_democracy
+				var = ROOT.party_popularity@paternalism
 				value = ROOT.party_popularity@liberal_conservatism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@authoritarian_democracy
+				var = ROOT.party_popularity@paternalism
 				value = ROOT.party_popularity@conservatism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@authoritarian_democracy
+				var = ROOT.party_popularity@paternalism
 				value = ROOT.party_popularity@authoritarian_socialism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@authoritarian_democracy
+				var = ROOT.party_popularity@paternalism
 				value = ROOT.party_popularity@despotism
 				compare = greater_than
 			}
 			check_variable = {
-				var = ROOT.party_popularity@authoritarian_democracy
+				var = ROOT.party_popularity@paternalism
 				value = ROOT.party_popularity@fascism
 				compare = greater_than
 			}
@@ -367,7 +367,7 @@ authoritarian_socialism_plurality = {
 			}
 			check_variable = {
 				var = ROOT.party_popularity@authoritarian_socialism
-				value = ROOT.party_popularity@authoritarian_democracy
+				value = ROOT.party_popularity@paternalism
 				compare = greater_than
 			}
 			check_variable = {
@@ -411,7 +411,7 @@ despotism_plurality = {
 			}
 			check_variable = {
 				var = ROOT.party_popularity@despotism
-				value = ROOT.party_popularity@authoritarian_democracy
+				value = ROOT.party_popularity@paternalism
 				compare = greater_than
 			}
 			check_variable = {
@@ -455,7 +455,7 @@ fascism_plurality = {
 			}
 			check_variable = {
 				var = ROOT.party_popularity@fascism
-				value = ROOT.party_popularity@authoritarian_democracy
+				value = ROOT.party_popularity@paternalism
 				compare = greater_than
 			}
 			check_variable = {
