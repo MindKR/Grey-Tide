@@ -31,17 +31,14 @@
  GER_authoritarian_socialism_party_long:0 ""
  GER_paternalism_party:0 "Socialist Reich Party"
 
- wilhelm_iii:0 "빌헬름 3세"
- GER_conservative_military:0 "보수적인 군부"
- GER_conservative_military_desc:0 "시대는 더 발전된 무기를 추구하는 데에 반해, 독일 군부는 구교리를 추종하며 신형 무기들의 도입이 느립니다. 또한 독일이 하나로 통일된 이래 계속된 평화는 군의 전투 경험 부재로 인한 장기적인 전투 수행 능력의 약화를 불러일으켰습니다. 우리는 낡은 군대를 개혁해나가야 합니다."
-
- GER_wilhelm_iii:0 "빌헬름 3세"
+ wilhelm_iii:0 "Wilhelm III"
+ GER_wilhelm_iii:0 "Wilhelm III"
+ GER_Ferdinand_Schorner:0 "Ferdinand Schörner"
  GER_Otto_Ernst_Remer:0 "Otto Ernst Remer"
 
  GER_thorny_rose:0 "가시 돋친 장미"
  GER_thorny_rose_desc:0 "장미는 겉으로 보기엔 아름다우나, 자세히 들여다보면 가시가 돋쳐있습니다. German Empire의 현주소는 바로 장미와도 같습니다. 한때 중앙유럽의 강력한 패권국가였던 German Empire은, 오늘날 내부로부터 망가졌으며 과거의 영광만이 국가를 연명시키고 있습니다.\n\n대공황의 타격은 돌이킬 수 없을 정도로 컸으며, 극단주의와의 전쟁이 시작되었습니다. 정권을 잡은 사회민주당은 허상의 제국을 탈바꿈시키기 위해 하루하루 고군분투 중입니다."
- GER_berlinprojekt:0 "베를린프로옉트"
- GER_berlinprojekt_desc:0 "1930년 말의 대베를린법(Groß-Berlin-Gesetz)으로 베를린의 행정구역은 크게 확장되었습니다. 대베를린 중심의 베를린시를 제외한 다른 구역들은 개발도에서 차이가 나고 있으며, 대공황 이후 실업자 구제를 위한 정책의 일부로 대규모 건설 작업을 위한 많은 노동자와 자본이 투입되었습니다."
+ GER_after_the_sunset:0 "석양이 진 후"
  GER_steal_the_sunset:0 "석양을 훔쳐라"
  GER_steal_the_sunset_desc:0 "여전히 민주당이 정권을 휘어잡던 1920년대 말, 영국과의 경쟁이 한계에 봉착하자 내각은 영국과의 관계 정상화를 결정했습니다. 하지만 이로 인해 철강부터 조선업까지 호황을 맞이하던 독일의 산업은 붕괴하고, 대공황을 초래했습니다.\n\n대공황 이후로 반영 정책에 그 기반을 두었던 젊은 층은 민주당에 실망해 대거 사회민주당의 지지자로 변모했습니다. 하지만 그렇지 않은 사람들도 있었는데, 이들은 민주당과 사회민주당 사이에서 방황하고 있습니다.\n\n민주당은 현재 지고 있는 태양입니다. 이 집단을 사회민주당의 지지층으로 흡수시키는 것은 민주당의 몰락에 쐐기를 박을 것이며, 그 목표에 접근하기 위해서 우선 경제를 안정시켜야 합니다. 그 이후엔, 필연적으로 사회민주당의 이념이 민심에 따라 변화해야할 것입니다."
  standstill:0 "현상 유지"

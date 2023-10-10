@@ -1,16 +1,16 @@
-Wilhelm_II_dies = {
-	custom_effect_tooltip = Wilhelm_II_dies_tt
+Wilhelm_III_is_dead = {
+	custom_effect_tooltip = Wilhelm_III_is_dead_tt
 	hidden_effect = {
 		if = {
 			limit = {
-				has_idea = wilhelm_ii
+				has_idea = wilhelm_iii
 			}
-			add_ideas = wilhelm_iii
-			remove_ideas = wilhelm_ii
+			add_ideas = wilhelm_iv
+			remove_ideas = wilhelm_iii
 		}
 	}
 	hidden_effect = {
-		GER_wilhelm_iii = {
+		GER_wilhelm_iv = {
 			add_country_leader_role = {
 			country_leader = {
 				expire = "1965.1.1"

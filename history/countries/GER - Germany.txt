@@ -1,7 +1,7 @@
 ﻿capital = 835
 
-country_event = { id = olympics.1 days = 217 }
-country_event = { id = germany.1 days = 2019 } #Death of Wilhelm II
+#country_event = { id = olympics.1 days = 217 }
+country_event = { id = GER_death.1 days = 930 } #Death of Wilhelm III
 
 if = {
 	limit = {
@@ -227,6 +227,7 @@ set_country_flag = Reichstag_NP
 
 
 # Cabinet
+recruit_character = GER_Ferdinand_Schorner #Authoritarian Democrat
 recruit_character = GER_Otto_Ernst_Remer #Authoritarian Democrat
 recruit_character = GER_wilhelm_iii #despotism
 

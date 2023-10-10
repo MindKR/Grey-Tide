@@ -32,7 +32,6 @@ NDefines.NAI.STR_UNIT_NORMAL = 0.4						-- Strength (equipment) % for unit to be
 
 
 NDefines.NGraphics.CAPITAL_ICON_CUTOFF = 1100
-NDefines.NGraphics.VICTORY_POINT_MAP_ICON_AFTER = {0, 20} -- After this amount of VP the map icon becomes bigger dot.
+NDefines.NGraphics.VICTORY_POINT_MAP_ICON_AFTER = {0, 9, 20} -- After this amount of VP the map icon becomes bigger dot.
 NDefines.NGraphics.VICTORY_POINT_MAP_ICON_TEXT_CUTOFF = {150, 250, 500} -- At what camera distance the VP name text disappears.
-NDefines.NGraphics.VICTORY_POINTS_DISTANCE_CUTOFF = {250, 500, 1000} -- At what distance VPs are hidden
 NDefines.NGraphics.MAX_NUMBER_OF_TEXTURES = 10000 -- increase if you have more than this textures

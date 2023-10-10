@@ -9,7 +9,7 @@ add_namespace = GER_death
 ### EVENT ###
 ############
 
-# Wilhelm II dies
+# Wilhelm III is dead
 country_event = {
 	id = GER_death.1
 	title = GER_death.1.t
@@ -22,14 +22,14 @@ country_event = {
 	
 	trigger = {
 		OR = {
-			has_idea = wilhelm_ii
-			has_country_leader = { character = GER_wilhelm_ii }
+			has_idea = wilhelm_iii
+			has_country_leader = { character = GER_wilhelm_iii }
 		}
 	}
 
 	option = {
 		name = GER_death.a
-		Wilhelm_II_dies = yes
+		Wilhelm_III_is_dead = yes
 	}
 }
 

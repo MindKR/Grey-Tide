@@ -1,15 +1,24 @@
 characters={
-	GER_Otto_Ernst_Remer={
-		name=GER_Otto_Ernst_Remer
+	GER_Ferdinand_Schorner={
+		name=GER_Ferdinand_Schorner
 		portraits={
 			civilian={
-				large="gfx/leaders/GER/Portrait_GER_Otto_Ernst_Remer.png"
+				large="gfx/leaders/GER/Portrait_GER_Ferdinand_Schorner.png"
 			}
 		}
 		country_leader={
 			ideology=paternalism_subtype
 			expire="1965.1.1.1"
 			id=-1
+		}
+	}
+
+	GER_Otto_Ernst_Remer={
+		name=GER_Otto_Ernst_Remer
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_GER_Otto_Ernst_Remer.png"
+			}
 		}
 	}
 
