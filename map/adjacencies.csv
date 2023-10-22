@@ -1,4 +1,5 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+9458;13315;sea;2977;-1;-1;-1;-1;;Portsmouth-IsleofWight
 8430;8354;sea;2781;-1;-1;-1;-1;;Kaesung-Ganghwa
 5095;8354;sea;2781;-1;-1;-1;-1;;Incheon-Ganghwa
 12251;10321;sea;8313;-1;-1;-1;-1;;Andaman

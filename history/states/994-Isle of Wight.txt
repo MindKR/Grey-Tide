@@ -1,30 +1,21 @@
 state={
-	id=993
-	name="STATE_993"
+	id=994
+	name="STATE_994"
 
 	history={
 		owner = GBR
-		victory_points = {
-			3311 1 
-		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			3311 = {
-				naval_base = 1
-
-			}
-
 		}
 		add_core_of = GBR
 
 	}
 
 	provinces={
-		3311 
+		13315 
 	}
-	manpower=58600
+	manpower=98206
 	buildings_max_level_factor=1.000
 	state_category=one
-	local_supplies=2.000
+	local_supplies=0.000
 }

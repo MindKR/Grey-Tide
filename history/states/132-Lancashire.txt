@@ -34,8 +34,8 @@ state={
 	provinces={
 		6318 6335 6384 8806 
 	}
-	manpower=5770454
+	manpower=4740902
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=ten
 	local_supplies=0.000
 }

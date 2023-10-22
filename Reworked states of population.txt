@@ -18,10 +18,20 @@
 65	GER	Sachsen
 66	GER	Lower Silesia
 67	GER Upper Silesia
+123	GBR	Cornwall
+125	GBR	Huntingdonshire
+126	GBR	London
+127	GBR	Sussex
+128	GBR	Staffordshire
+129	GBR	Lincolnshire
+130	GBR	Yorkshire
+131	GBR	Cumberland
+132	GBR	Lancashire
 152	GER	Upper Austria
 153	GER	Tyrol
 188	GER	Gumbinnen
 282	JAP	Tokyo
+338	GBR	Gloucestershire and Bristol
 525	KOR	Gyeonggi
 527	KOR	South Pyongan
 763	GER	Konigsberg
@@ -52,3 +62,37 @@
 957	GER Upper Palatinate
 958	GER	Lower Franconia
 959	GER	Upper Franconia
+961	GBR	Essex
+962	GBR	Kent
+963	GBR	Hampshire
+964	GBR	Surrey
+965	GBR	Devon
+966	GBR	Somerset
+967 GBR Dorset
+968 GBR Wiltshire
+969	GBR	Berkshire
+970	GBR	Oxfordshire
+971	GBR	Suffolk
+972	GBR	Norfolk
+973	GBR	Herefordshire
+974	GBR	Shropshire
+975	GBR	Worcestershire
+976	GBR	Warwickshire
+977	GBR	Cheshire
+978	GBR	Derbyshire
+979	GBR	Nottinghamshire
+980	GBR	Leicestershire
+981	GBR	Rutland
+982	GBR	Westmorland
+983	GBR	Durham
+984	GBR	Northumberland
+985	GBR	Middlesex
+986	GBR	Buckinghamshire
+987	GBR	Hertfordshire
+988	GBR	Soke of Peterborough
+989	GBR	Northamptonshire
+990	GBR	Bedfordshire
+991	GBR	Cambridgeshire
+992	GBR	Isle of Ely
+993	GBR	Isle of Man
+994	GBR	Isle of Wight
