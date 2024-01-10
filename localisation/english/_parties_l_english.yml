@@ -1,67 +1,67 @@
 ﻿l_english:
- Minority_Party:0 "Minority Party"
+ Minority_Party:0 "소수 정당"
 
- progressivism:0 "Progressive"
- progressivism_noun:0 "Progressivism"
- progressivism_desc:0 "Progressivism"
+ progressivism:0 "진보주의"
+ progressivism_noun:0 "진보주의"
+ progressivism_desc:0 "진보주의"
 
- progressivism_subtype:0 "Progressivism"
+ progressivism_subtype:0 "진보주의"
  progressivism_subtype_desc:0 "DESC"
- progressivism_social_democracy_subtype:0 "Social Democracy"
+ progressivism_social_democracy_subtype:0 "사회민주주의"
  progressivism_social_democracy_desc:0 "DESC"
- progressivism_left_wing_agrarianism_subtype:0 "Left-wing Agrarianism"
+ progressivism_left_wing_agrarianism_subtype:0 "좌익 농본주의"
  progressivism_left_wing_agrarianism_subtype_desc:0 "DESC"
 
- liberalism:0 "Liberal"
- liberalism_noun:0 "Liberalism"
- liberalism_desc:0 "Liberalism"
+ liberalism:0 "자유주의"
+ liberalism_noun:0 "자유주의"
+ liberalism_desc:0 "자유주의"
 
- liberalism_subtype:0 "Liberal"
+ liberalism_subtype:0 "자유주의"
  liberalism_subtype_desc:0 "DESC"
 
- liberal_conservatism:0 "Liberal Conservative"
- liberal_conservatism_noun:0 "Liberal Conservatism"
- liberal_conservatism_desc:0 "Liberal Conservatism"
+ liberal_conservatism:0 "자유보수주의"
+ liberal_conservatism_noun:0 "자유보수주의"
+ liberal_conservatism_desc:0 "자유보수주의"
 
- liberal_conservatism_subtype:0 "Liberal Conservatism"
+ liberal_conservatism_subtype:0 "자유보수주의"
  liberal_conservatism_subtype_desc:0 "DESC"
 
- conservatism:0 "Conservative"
- conservatism_noun:0 "Conservatism"
- conservatism_desc:0 "Conservatism"
+ conservatism:0 "보수주의"
+ conservatism_noun:0 "보수주의"
+ conservatism_desc:0 "보수주의"
 
- conservatism_subtype:0 "Conservatism"
+ conservatism_subtype:0 "보수주의"
  conservatism_subtype_desc:0 "DESC"
- conservatism_agrarianism_subtype:0 "Agrarianism"
+ conservatism_agrarianism_subtype:0 "농본주의"
  conservatism_agrarianism_subtype_desc:0 "DESC"
 
- paternalism:0 "Paternalist"
- paternalism_noun:0 "Paternalism"
- paternalism_desc:0 "Paternalism"
+ paternalism:0 "가부장주의"
+ paternalism_noun:0 "가부장주의"
+ paternalism_desc:0 "가부장주의"
 
- paternalism_subtype:0 "Authoritative"
+ paternalism_subtype:0 "권위적"
  paternalism_subtype_desc:0 "DESC"
 
 
- authoritarian_socialism:0 "Auth. Socialist"
- authoritarian_socialism_noun:0 "Auth. Socialism"
- authoritarian_socialism_desc:0 "Auth. Socialism"
+ authoritarian_socialism:0 "권위사회주의"
+ authoritarian_socialism_noun:0 "권위사회주의"
+ authoritarian_socialism_desc:0 "권위사회주의"
 
- authoritarian_socialism_subtype:0 "Authoritative"
+ authoritarian_socialism_subtype:0 "권위적"
  authoritarian_socialism_subtype_desc:0 "DESC"
 
- despotism:0 "Despot"
- despotism_noun:0 "Despotism"
- despotism_desc:0 "Despotism"
+ despotism:0 "전제주의"
+ despotism_noun:0 "전제주의"
+ despotism_desc:0 "전제주의"
 
- despotism_subtype:0 "Authoritative"
+ despotism_subtype:0 "권위적"
  despotism_subtype_desc:0 "DESC"
 
- fascism:0 "Fascist"
- fascist_noun:0 "Fascism"
- fascist_desc:0 "Fascism"
+ fascism:0 "파시즘"
+ fascist_noun:0 "파시즘"
+ fascist_desc:0 "파시즘"
 
- fascism_subtype:0 "Fascism"
+ fascism_subtype:0 "파시즘"
  fascism_subtype_desc:0 "DESC"
 
 

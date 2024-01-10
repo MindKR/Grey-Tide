@@ -8,7 +8,7 @@ state={
 		add_core_of = TSH
 		add_core_of = CHI
 		victory_points = {
-			7940 10 
+			12732 10 
 		}
 		buildings = {
 			infrastructure = 1

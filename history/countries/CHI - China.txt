@@ -83,7 +83,7 @@ if = {
 	add_ideas = KMT_Warlord
 }
 
-create_faction = National_Government
+create_faction = ROC
 add_to_faction = TSH
 add_to_faction = NIX
 add_to_faction = XKC

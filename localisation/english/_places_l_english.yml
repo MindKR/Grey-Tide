@@ -3,23 +3,23 @@
  places_toggle_desc:0 "[places_toggle_desc_loc]"
 
  #Endonyms by Countries
- Endonym-C:0 "Endonyms (Countries)"
- places_toggle_Endonym-C:0 "§YEndonym/Exonym§!\nCurrent: §GEndonyms/Countries§!"
- places_toggle_Endonym-C_mp:0 "§YEndonym/Exonym§!\nCurrent: §REndonyms/Countries§!"
- places_toggle_Endonym-C_desc:0 "The Place name changes depending on the ruling country."
+ Endonym-C:0 "타칭 지명 (국가)"
+ places_toggle_Endonym-C:0 "§Y유동 지명/고정 지명§!\n현재: §G타칭 지명/국가§!"
+ places_toggle_Endonym-C_mp:0 "§Y유동 지명/고정 지명§!\n현재: §G타칭 지명/국가§!"
+ places_toggle_Endonym-C_desc:0 "지명이 통치국에 따라 변경됩니다."
 
  #Endonyms by States
- Endonym-S:0 "Endonyms (States)"
- places_toggle_Endonym-S:0 "§YEndonym/Exonym§!\nCurrent: §GEndonyms/States§!"
- places_toggle_Endonym-S_mp:0 "§YEndonym/Exonym§!\nCurrent: §REndonyms/States§!"
- places_toggle_Endonym-S_desc:0 "The Place name changes depending on the culture of the state."
+ Endonym-S:0 "타칭 지명 (주)"
+ places_toggle_Endonym-S:0 "§Y유동 지명/고정 지명§!\n현재: §G타칭 지명/주§!"
+ places_toggle_Endonym-S_mp:0 "§Y유동 지명/고정 지명§!\n현재: §R타칭 지명/주§!"
+ places_toggle_Endonym-S_desc:0 "지명이 주의 문화에 따라 변경됩니다."
 
- #Exonyms - Defualt
- Exonym:0 "Exonyms"
- places_toggle_Exonym:0 "§YEndonym/Exonym§!\nCurrent: §GExonym/Default§!"
- places_toggle_Exonym_desc:0 "The Place name is unchanging."
+ #English Exonyms - Defualt
+ Exonym:0 "고정 지명"
+ places_toggle_Exonym:0 "§Y유동 지명/고정 지명§!\n현재: §G고정 지명/기본§!"
+ places_toggle_Exonym_desc:0 "지명이 변경되지 않습니다."
 
- original_appellation_tt:0 "Cities will be returned to §Ythe Original Appellation§!."
+ original_appellation_tt:0 "도시의 명칭이 §Y환원§!될 것입니다."
 
 #Endonyms and exonyms are classified according to korean pronunciation.
 #ex) GER_Metz -> 메츠 / FRA_Metz -> 메스
@@ -50,104 +50,104 @@
  Chinese:0 "CHI"
 
 #1, Corsica
- FRA_Corse:0 "Corse"
- ITA_Corsica:0 "Corsica"
- FRA_Ajaccio:0 "Ajaccio"
- ITA_Aiaccio:0 "Aiaccio"
+ FRA_Corse:0 "코르스"
+ ITA_Corsica:0 "코르시카"
+ FRA_Ajaccio:0 "아작시오"
+ ITA_Aiaccio:0 "아이아초"
 
 
 #4, Lower Austria
- GER_Niederosterreich:0 "Niederösterreich"
+ GER_Niederosterreich:0 "니더외스터라이히"
 
 
 #5, Allenstein
- GER_Allenstein:0 "Allenstein"
- POL_Olsztyn:0 "Olsztyn"
+ GER_Allenstein:0 "알렌슈타인"
+ POL_Olsztyn:0 "올슈틴"
 
 
 #9, Čechy
- CZE_Cechy:0 "Cechy"
- GER_Bohmen:0 "Bohmen"
+ CZE_Cechy:0 "체히"
+ GER_Bohmen:0 "뵈멘"
 
- CZE_Plzen:0 "Plzen"
- GER_Pilsen:0 "Pilsen"
- CZE_Praha:0 "Praha"
- GER_Prag:0 "Prag"
+ CZE_Plzen:0 "플젠"
+ GER_Pilsen:0 "필젠"
+ CZE_Praha:0 "프라하"
+ GER_Prag:0 "프라크"
 
 
 #18, Champagne
- FRA_Verdun:0 "Verdun"
- GER_Wirten:0 "Wirten"
+ FRA_Verdun:0 "베르됭"
+ GER_Wirten:0 "비르텐"
 
 
 #28, Elsaß-Lothringen
- FRA_Alsace-Lorraine:0 "Alsace-Lorraine"
- FRA_Mulhouse:0 "Mulhouse"
- FRA_Strasbourg:0 "Strasbourg"
- FRA_Metz:0 "Metz"
+ FRA_Alsace-Lorraine:0 "알자스로렌"
+ FRA_Mulhouse:0 "뮐루즈"
+ FRA_Strasbourg:0 "스트라스부르"
+ FRA_Metz:0 "메스"
 
- GER_Elsass-Lothringen:0 "Elsass-Lothringen"
- GER_Mulhausen:0 "Mulhausen"
- GER_Strassburg:0 "Straßburg"
- GER_Metz:0 "Metz"
+ GER_Elsass-Lothringen:0 "엘자스로트링겐"
+ GER_Mulhausen:0 "뮐하우젠"
+ GER_Strassburg:0 "슈트라스부르크"
+ GER_Metz:0 "메츠"
 
 
 #39, Südtirol
- GER_Sudtirol:0 "Sudtirol"
- GER_Bozen:0 "Bozen"
- ITA_Bolzano:0 "Bolzano"
+ GER_Sudtirol:0 "쥐트티롤"
+ GER_Bozen:0 "보첸"
+ ITA_Bolzano:0 "볼차노"
 
 
 #42, Saar-Palatinate
- GER_Saarpfalz:0 "Saarpfalz"
- FRA_Sarre-Palatinat:0 "Sarre-Palatinat"
+ GER_Saarpfalz:0 "자르팔츠"
+ FRA_Sarre-Palatinat:0 "사흐팔레티나"
 
- GER_Saarbruken:0 "Saarbrücken"
- FRA_Sarrebruck:0 "Sarrebruck"
+ GER_Saarbruken:0 "자르브뤼켄"
+ FRA_Sarrebruck:0 "사흐부흐크"
 
 
 #49, Ankara
- TUR_Ankara:0 "Ankara"
- GRE_Ancyra:0 "Ancyra"
- TUR_Eskisehir:0 "Eskisehir"
- GRE_Dorylaion:0 "Dorylaion"
+ TUR_Ankara:0 "앙카라"
+ GRE_Ancyra:0 "앙기라"
+ TUR_Eskisehir:0 "에스키셰히르"
+ GRE_Dorylaion:0 "도릴레온"
 
 
 #51, Rhineland
- GER_Rheinland:0 "Rheinland"
- GER_Koln:0 "Köln"
- GER_Trier:0 "Trier"
+ GER_Rheinland:0 "라인란트"
+ GER_Koln:0 "쾰른"
+ GER_Trier:0 "트리어"
 
- FRA_Rhenanie:0 "Rhénanie"
- FRA_Cologne:0 "Cologne"
- FRA_Treves:0 "Trèves"
+ FRA_Rhenanie:0 "뤼네니"
+ FRA_Cologne:0 "쿨로니"
+ FRA_Treves:0 "트레브"
 
- ITA_Renania:0 "Renania"
- ITA_Colonia:0 "Colonia"
- ITA_Treviri:0 "Treviri"
+ ITA_Renania:0 "레나니아"
+ ITA_Colonia:0 "콜로니아"
+ ITA_Treviri:0 "트레비리"
 
 
 #52, Upper Bavaria
- GER_Oberbayern:0 "Oberbayern"
+ GER_Oberbayern:0 "오버바이에른"
 
 
 #53, Lower Bavaria
- GER_Niederbayern:0 "Niederbayern"
+ GER_Niederbayern:0 "니더바이에른"
 
 
 #54, Middle Franconia
- GER_Mittelfranken:0 "Mittelfranken"
- GER_Nurnberg:0 "Nürnberg"
+ GER_Mittelfranken:0 "미텔프랑켄"
+ GER_Nurnberg:0 "뉘른베르크"
 
 
 #55, Hesse
- GER_Hessen:0 "Hessen"
- GER_Kassel:0 "Kassel"
- GER_Frankfurt:0 "Frankfurt"
- GER_Mainz:0 "Mainz"
+ GER_Hessen:0 "헤센"
+ GER_Kassel:0 "카셀"
+ GER_Frankfurt:0 "프랑크푸르트"
+ GER_Mainz:0 "마인츠"
 
- FRA_Hesse:0 "Hesse"
- FRA_Cassel:0 "Cassel"
+ FRA_Hesse:0 "헤스"
+ FRA_Cassel:0 "카셀"
  FRA_Francfort:0 "Francfort"
  FRA_Mayence:0 "Mayence"
 
